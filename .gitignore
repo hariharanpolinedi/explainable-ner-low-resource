@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.obj
+*.o
+*.a
+*.lib
+*.pyd
+
+# Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Preemptively ignore large checkpoints while preserving skeleton
+checkpoints/*
+!checkpoints/.gitkeep
+!checkpoints/**/.gitkeep
+
+# Preemptively ignore raw large binaries or model weight files
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+*.h5
+*.tflite
+*.ckpt
+
+# Temporary / OS / Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/

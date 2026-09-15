@@ -1,0 +1,12 @@
+project:
+  name: "explainable-ner-lowres"
+  languages:
+    - "konkani"
+    - "assamese"
+    - "sinhala"
+
+seed: 42
+
+logging:
+  backend: "csv"
+  log_dir: "reports/experiment_logs/"

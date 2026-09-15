@@ -31,10 +31,29 @@ class LoggingConfig:
 
 
 @dataclass(frozen=True)
+class LanguageSourceConfig:
+    wiki_code: str
+    script_name: str
+    script_range: list[list[int]]
+    news_feeds: list[str]
+    other_sources: list[str]
+
+
+@dataclass(frozen=True)
+class DataCollectionConfig:
+    min_sentence_length: int
+    script_purity_threshold: float
+    dedup_method: str
+    max_articles_per_wiki: int
+    sources: dict[str, LanguageSourceConfig]
+
+
+@dataclass(frozen=True)
 class BaseConfig:
     project: ProjectConfig
     seed: int
     logging: LoggingConfig
+    data_collection: DataCollectionConfig | None = None
 
 
 def _apply_override(data: dict[str, Any], key_path: str, raw_value: str) -> None:
@@ -109,16 +128,33 @@ def _validate_and_instantiate(cls: type[T], data: Any, path: str = "") -> T:
     for name, fld in cls_fields.items():
         subpath = f"{path}.{name}" if path else name
         if name not in data:
-            raise ValueError(f"Missing required configuration key '{subpath}' for {cls.__name__}")
+            from dataclasses import MISSING
+            if fld.default is not MISSING:
+                init_kwargs[name] = fld.default
+                continue
+            elif fld.default_factory is not MISSING:
+                init_kwargs[name] = fld.default_factory()
+                continue
+            else:
+                raise ValueError(f"Missing required configuration key '{subpath}' for {cls.__name__}")
 
         raw_val = data[name]
         fld_type = type_hints.get(name, fld.type)
 
+        # Unwrap Union / Optional
+        origin = get_origin(fld_type)
+        if origin is not None:
+            import types
+            args = get_args(fld_type)
+            if (origin is types.UnionType or str(origin) == "typing.Union") and type(None) in args:
+                non_none_args = [a for a in args if a is not type(None)]
+                if len(non_none_args) == 1:
+                    fld_type = non_none_args[0]
+                    origin = get_origin(fld_type)
+
         if is_dataclass(fld_type):
             init_kwargs[name] = _validate_and_instantiate(fld_type, raw_val, subpath)
         else:
-            # Basic collection or primitive check
-            origin = get_origin(fld_type)
             if origin is list and isinstance(raw_val, list):
                 item_types = get_args(fld_type)
                 if item_types and is_dataclass(item_types[0]):
@@ -126,6 +162,16 @@ def _validate_and_instantiate(cls: type[T], data: Any, path: str = "") -> T:
                         _validate_and_instantiate(item_types[0], item, f"{subpath}[{i}]")
                         for i, item in enumerate(raw_val)
                     ]
+                else:
+                    init_kwargs[name] = raw_val
+            elif origin is dict and isinstance(raw_val, dict):
+                item_types = get_args(fld_type)
+                if len(item_types) == 2 and is_dataclass(item_types[1]):
+                    val_cls = item_types[1]
+                    init_kwargs[name] = {
+                        k: _validate_and_instantiate(val_cls, v, f"{subpath}.{k}")
+                        for k, v in raw_val.items()
+                    }
                 else:
                     init_kwargs[name] = raw_val
             else:

@@ -10,3 +10,40 @@ seed: 42
 logging:
   backend: "csv"
   log_dir: "reports/experiment_logs/"
+
+data_collection:
+  min_sentence_length: 3
+  script_purity_threshold: 0.90
+  dedup_method: "sha256"
+  max_articles_per_wiki: 5000
+  sources:
+    konkani:
+      wiki_code: "gom"
+      script_name: "devanagari"
+      script_range:
+        - [2304, 2431]
+      news_feeds:
+        - "https://www.heraldgoa.in"
+        - "https://www.bhaangarbhuin.com"
+      other_sources:
+        - "https://raw.githubusercontent.com/indicnlp/indicnlp-corpus/master/konkani"
+    assamese:
+      wiki_code: "as"
+      script_name: "bengali_assamese"
+      script_range:
+        - [2432, 2559]
+      news_feeds:
+        - "https://asomiya.pratidintime.com"
+        - "https://www.niyomiyabarta.com"
+      other_sources:
+        - "https://raw.githubusercontent.com/indicnlp/indicnlp-corpus/master/assamese"
+    sinhala:
+      wiki_code: "si"
+      script_name: "sinhala"
+      script_range:
+        - [3456, 3583]
+      news_feeds:
+        - "https://sinhala.adaderana.lk"
+        - "https://www.dinamina.lk"
+      other_sources:
+        - "https://raw.githubusercontent.com/indicnlp/indicnlp-corpus/master/sinhala"

@@ -159,6 +159,11 @@ multilingual:
   sampling_strategy: "uniform"
   num_languages: 3
 
+finetune:
+  learning_rate: 0.0002
+  unfreeze_epoch: 4
+  schedule: "phased"
+
 training:
   batch_size: 32
   learning_rate: 0.001

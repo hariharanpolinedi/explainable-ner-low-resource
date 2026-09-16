@@ -201,7 +201,26 @@ Every project phase must append a dated compliance entry to this ledger verifyin
 - **Audit Details**:
   - Zero pretrained components: All model weights, language embeddings, linear projections, and CRF transitions were randomly initialized and trained purely from scratch on this project's own pooled datasets. No pretrained multilingual model (e.g. mBERT, XLM-R, IndicBERT) or external checkpoint was ever imported or used.
   - Multi-task learning from scratch: Data pooling and language conditioning represent standard from-scratch multi-task learning, strictly free of external pretraining.
-  - Architecture restriction compliance: Per-language fine-tuning was strictly NOT implemented (reserved exclusively for Phase 9). Explainability/attribution pipeline was strictly NOT implemented (reserved for Phase 13).
-  - Hardware & execution tracking: All 4 matrix configurations executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) with runs logged to `reports/experiment_logs/experiments.csv`.
+---
+
+## Phase 9: Per-Language Fine-Tuning with Layer-Unfreezing Schedule
+- **Date**: 2026-09-16
+- **Status**: COMPLIANT
+- **Components Introduced**:
+  - Layer-wise unfreezing scheduler: `training/layer_unfreeze_schedule.py` (`LayerUnfreezeScheduler` managing lower-layer parameter locking during early epochs and progressive unfreezing).
+  - Per-language fine-tuning & control pipeline: `training/finetune_per_language.py` (`train_finetune_experiment` supporting fine-tuning from `checkpoints/joint_best.pt` and from-scratch control training).
+  - Experiment orchestrator: `training/run_phase9_experiments.py` (executing fine-tuned vs control comparisons and schedule sensitivity across Konkani, Assamese, and Sinhala).
+  - Fine-tuned best checkpoints: `checkpoints/finetuned_{konkani,assamese,sinhala}.pt`.
+  - From-scratch control checkpoints: `checkpoints/fromscratch_control_{konkani,assamese,sinhala}.pt`.
+  - Analytical reports: `reports/phase9_finetune_results.md` and `reports/phase9_test_results.md`.
+  - Verification test suite: `utils/test_phase9.py`.
+  - Config extensions: `finetune:` section in `configs/base_config.yaml` and `FinetuneConfig` in `utils/config_loader.py`.
+- **Pretrained Artifacts Used**: NONE (Explicit Compliance Clarification)
+- **Audit Details**:
+  - Internal checkpoint warm-start compliance: Initializing per-language fine-tuning from `checkpoints/joint_best.pt` is strictly permitted and 100% compliant with the project-wide constraint. The Phase 8 joint model was built from scratch and trained exclusively on this project's own gold and silver data across Phases 1–8. It is not an external or third-party pretrained checkpoint.
+  - Zero external models/weights: No external pretrained transformer, embedding, or tokenizer weights were loaded or referenced.
+  - Freezing mechanics hygiene: Verified numerically that frozen lower-layer weights (`word_embedding`, `char_cnn`, `encoder`) underwent strictly zero updates during scheduled frozen epochs.
+  - Architecture restriction compliance: Neither pseudo-labeling / self-training (reserved for Phase 10) nor rule-based/morphological data augmentation (reserved for Phase 11) nor attribution pipelines (reserved for Phase 13) were implemented in this phase.
+  - Hardware & execution tracking: All fine-tuning, control, and sensitivity runs executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) with runs logged to `reports/experiment_logs/experiments.csv`.
 
 

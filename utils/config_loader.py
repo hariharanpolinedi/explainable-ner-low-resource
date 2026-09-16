@@ -128,6 +128,13 @@ class MultilingualConfig:
 
 
 @dataclass(frozen=True)
+class FinetuneConfig:
+    learning_rate: float
+    unfreeze_epoch: int
+    schedule: str
+
+
+@dataclass(frozen=True)
 class BaseConfig:
     project: ProjectConfig
     seed: int
@@ -140,6 +147,7 @@ class BaseConfig:
     char_cnn: CharCNNConfig | None = None
     attention: AttentionConfig | None = None
     multilingual: MultilingualConfig | None = None
+    finetune: FinetuneConfig | None = None
     training: TrainingConfig | None = None
 
 

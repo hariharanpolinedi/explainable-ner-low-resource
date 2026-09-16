@@ -44,3 +44,25 @@ Every project phase must append a dated compliance entry to this ledger verifyin
   - Text filtering was performed strictly using deterministic character-level Unicode block checks and hash algorithms—zero pretrained tokenizers, neural models, embeddings, or external NLP checkpoints were used.
   - All gazetteer entities were compiled from open encyclopedic infoboxes and administrative geographic lists without invoking pretrained NER or geocoding tools.
   - Pinned dependency `pyarrow==21.0.0` added solely for reading open Wikimedia parquet tables (pure data format library; contains no machine learning models or weights).
+
+---
+
+## Phase 2: Script-Aware Preprocessing & Tokenization Pipeline
+- **Date**: 2026-09-16
+- **Status**: COMPLIANT
+- **Components Introduced**:
+  - Script-aware normalization: `preprocessing/normalize.py` enforcing Unicode canonical NFC and sanitizing orphaned joiners while preserving conjunct integrity.
+  - Rule-based sentence segmentation: `preprocessing/sentence_segmenter.py` with script-specific delimiters and abbreviation protection.
+  - Script-aware word and grapheme-cluster character tokenizer: `preprocessing/tokenizer.py` leveraging Unicode extended grapheme clusters (`\X`) to bind Indic conjuncts atomically.
+  - From-scratch vocabulary construction pipeline: `preprocessing/vocab_builder.py` outputting `data/processed/{lang}/sentences.txt`, `word_vocab.json`, and `char_vocab.json`.
+  - From-scratch Byte-Pair Encoding ablation module: `preprocessing/bpe_from_scratch.py` fitted strictly on this project's own corpora (for Phase 12 comparison).
+  - Manual spot-check review artifact: `preprocessing/manual_spotcheck.ipynb`.
+  - Orthographic standardization decision document: `reports/phase2_script_decision.md` standardizing Konkani on Devanagari.
+  - Vocabulary statistics report: `reports/phase2_vocab_stats.md`.
+  - Verification test suite: `utils/test_phase2.py` with results in `reports/phase2_test_results.md`.
+  - Extended configuration schema: `preprocessing:` section in `configs/base_config.yaml`.
+- **Pretrained Artifacts Used**: NONE
+- **Audit Details**:
+  - All tokenizers and vocabularies were trained and fitted strictly from scratch on the project's own Phase 1 corpora.
+  - No pretrained tokenizer, SentencePiece model, BPE vocabulary, or word embedding file was loaded or imported from any external repository or library defaults.
+  - Pinned dependency `regex==2026.7.19` added solely for standard Unicode extended grapheme cluster segmentation (`\X`); verified to contain zero pretrained weights, neural models, or vocabulary data.

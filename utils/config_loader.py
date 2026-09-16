@@ -49,11 +49,21 @@ class DataCollectionConfig:
 
 
 @dataclass(frozen=True)
+class PreprocessingConfig:
+    unicode_normalization: str
+    min_word_freq: int
+    max_vocab_size: int
+    char_min_freq: int
+    abbreviations: dict[str, list[str]]
+
+
+@dataclass(frozen=True)
 class BaseConfig:
     project: ProjectConfig
     seed: int
     logging: LoggingConfig
     data_collection: DataCollectionConfig | None = None
+    preprocessing: PreprocessingConfig | None = None
 
 
 def _apply_override(data: dict[str, Any], key_path: str, raw_value: str) -> None:

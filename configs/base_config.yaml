@@ -47,3 +47,34 @@ data_collection:
         - "https://www.dinamina.lk"
       other_sources:
         - "https://raw.githubusercontent.com/indicnlp/indicnlp-corpus/master/sinhala"
+
+preprocessing:
+  unicode_normalization: "NFC"
+  min_word_freq: 2
+  max_vocab_size: 30000
+  char_min_freq: 1
+  abbreviations:
+    konkani:
+      - "डॉ."
+      - "प्रा."
+      - "श्री."
+      - "श्रीमती."
+      - "पं."
+      - "इ."
+      - "उदा."
+    assamese:
+      - "ড°"
+      - "ডাঃ"
+      - "শ্ৰী"
+      - "শ্ৰীমতী"
+      - "প্ৰাঃ"
+      - "ইত্যাদি"
+      - "উদাঃ"
+    sinhala:
+      - "ඩොක්ටර්"
+      - "මහාචාර්ය"
+      - "ගරු"
+      - "පූජ්‍ය"
+      - "පෙ.ව."
+      - "ප.ව."
+      - "ආදී"

@@ -69,13 +69,16 @@ class BiLSTMEncoder(nn.Module if nn else object):
         self,
         embeddings: torch.Tensor,
         mask: torch.Tensor | None = None,
+        return_hidden: bool = False,
     ) -> torch.Tensor:
         """
         Args:
             embeddings: FloatTensor of shape (batch_size, seq_len, input_dim)
             mask: BoolTensor of shape (batch_size, seq_len) with True for valid tokens
+            return_hidden: If True, returns contextual states of shape (batch_size, seq_len, 2*hidden_dim)
+                           prior to emission projection.
         Returns:
-            Emission logits of shape (batch_size, seq_len, num_tags)
+            Emission logits of shape (batch_size, seq_len, num_tags) or hidden states
         """
         if mask is not None:
             lengths = mask.sum(dim=1).cpu()
@@ -97,5 +100,7 @@ class BiLSTMEncoder(nn.Module if nn else object):
             out, _ = self.lstm(embeddings)
 
         out = self.output_dropout(out)
+        if return_hidden:
+            return out
         emissions = self.fc(out)
         return emissions

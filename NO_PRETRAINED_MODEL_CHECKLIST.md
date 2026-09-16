@@ -158,4 +158,27 @@ Every project phase must append a dated compliance entry to this ledger verifyin
   - Architecture restriction compliance: Self-attention and attention attribution mechanisms were strictly NOT implemented (reserved exclusively for Phase 7).
   - Hardware & execution tracking: All training and sensitivity runs executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) with runs logged to `reports/experiment_logs/experiments.csv`.
 
+---
+
+## Phase 7: Multi-Head Self-Attention Integration with Weight Instrumentation
+- **Date**: 2026-09-16
+- **Status**: COMPLIANT
+- **Components Introduced**:
+  - From-scratch Multi-Head Self-Attention module: `model/self_attention.py` (`MultiHeadSelfAttentionLayer` and `MultiHeadSelfAttentionBlock` implementing scaled dot-product attention via raw tensor operations with linear Q/K/V projections, numerical padding mask enforcement, residual connection, and LayerNorm).
+  - Attention-instrumented NER model: `model/ner_model_v3_attention.py` (`NERAttentionModel` wiring word embedding + char-CNN -> BiLSTM -> self-attention block -> Linear-Chain CRF, persisting full per-head attention weight tensors on `model.last_attention_weights`).
+  - Self-attention training pipeline: `training/train_attention_model.py` (with linear learning rate warmup and early stopping on gold-dev entity F1).
+  - Experiment orchestration runner: `training/run_phase7_experiments.py` (executing primary attention runs, 4 vs 8 head ablation, 1 vs 2 block ablation, and span length stratification).
+  - Span-length-stratified evaluation module: `evaluation/span_length_analysis.py` (evaluating single-token vs multi-token entity F1).
+  - Attention non-degeneracy sanity prototype: `explainability/attention_extractor_prototype.py` (programmatically confirming attention weights are neither uniform nor self-only across sampled entities).
+  - Best attention checkpoints: `checkpoints/attention_{konkani,assamese,sinhala}.pt`.
+  - Analytical reports: `reports/phase7_attention_results.md`, `reports/phase7_span_length_analysis.md`, `reports/phase7_attention_sanity_examples.md`.
+  - Comprehensive verification test suite: `utils/test_phase7.py` and test report `reports/phase7_test_results.md`.
+  - Config schema extension: `attention:` hyperparameter block in `configs/base_config.yaml` and `AttentionConfig` in `utils/config_loader.py`.
+- **Pretrained Artifacts Used**: NONE
+- **Audit Details**:
+  - Zero pretrained transformer models or weights: All attention projections ($W_Q, W_K, W_V, W_O$) and LayerNorm parameters were initialized completely from scratch via Xavier uniform and learned purely from the NER objective. No HuggingFace Transformers, PyTorch pretrained models, BERT, RoBERTa, or external attention checkpoints were loaded or instantiated.
+  - Padding mask hygiene: Attention scores to padding tokens are strictly masked out numerically ($A_{i, \text{pad}} = 0.00000000$), preserving exact padding invariance (difference $< 10^{-6}$).
+  - Architecture restriction compliance: Explainability attribution methods (Integrated Gradients, attention rollout, faithfulness tests) were strictly NOT implemented (reserved exclusively for Phase 13). Multilingual joint warm-start training was NOT implemented (reserved for Phase 8).
+  - Hardware & execution tracking: All training, ablation, and sanity evaluations executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) with runs logged to `reports/experiment_logs/experiments.csv`.
+
 

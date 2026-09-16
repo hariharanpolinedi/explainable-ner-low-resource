@@ -147,6 +147,12 @@ char_cnn:
   char_dropout: 0.3
   concat_dropout: 0.3
 
+attention:
+  num_heads: 4
+  num_attention_blocks: 1
+  attention_dropout: 0.1
+  warmup_steps: 100
+
 training:
   batch_size: 32
   learning_rate: 0.001

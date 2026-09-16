@@ -112,6 +112,14 @@ class CharCNNConfig:
 
 
 @dataclass(frozen=True)
+class AttentionConfig:
+    num_heads: int
+    num_attention_blocks: int
+    attention_dropout: float
+    warmup_steps: int
+
+
+@dataclass(frozen=True)
 class BaseConfig:
     project: ProjectConfig
     seed: int
@@ -122,6 +130,7 @@ class BaseConfig:
     weak_supervision: WeakSupervisionConfig | None = None
     model: ModelConfig | None = None
     char_cnn: CharCNNConfig | None = None
+    attention: AttentionConfig | None = None
     training: TrainingConfig | None = None
 
 

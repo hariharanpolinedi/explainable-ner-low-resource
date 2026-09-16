@@ -164,6 +164,16 @@ finetune:
   unfreeze_epoch: 4
   schedule: "phased"
 
+self_training:
+  initial_threshold: 0.90
+  threshold_step: 0.02
+  max_rounds: 4
+  volume_cap_multiplier: 3.0
+  learning_rate: 0.0001
+  batch_size: 32
+  max_epochs_per_round: 15
+  patience: 4
+
 training:
   batch_size: 32
   learning_rate: 0.001

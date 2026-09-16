@@ -135,6 +135,18 @@ class FinetuneConfig:
 
 
 @dataclass(frozen=True)
+class SelfTrainingConfig:
+    initial_threshold: float
+    threshold_step: float
+    max_rounds: int
+    volume_cap_multiplier: float
+    learning_rate: float
+    batch_size: int = 32
+    max_epochs_per_round: int = 15
+    patience: int = 4
+
+
+@dataclass(frozen=True)
 class BaseConfig:
     project: ProjectConfig
     seed: int
@@ -148,6 +160,7 @@ class BaseConfig:
     attention: AttentionConfig | None = None
     multilingual: MultilingualConfig | None = None
     finetune: FinetuneConfig | None = None
+    self_training: SelfTrainingConfig | None = None
     training: TrainingConfig | None = None
 
 

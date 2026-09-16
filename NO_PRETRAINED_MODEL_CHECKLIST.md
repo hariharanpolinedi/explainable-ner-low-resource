@@ -223,4 +223,28 @@ Every project phase must append a dated compliance entry to this ledger verifyin
   - Architecture restriction compliance: Neither pseudo-labeling / self-training (reserved for Phase 10) nor rule-based/morphological data augmentation (reserved for Phase 11) nor attribution pipelines (reserved for Phase 13) were implemented in this phase.
   - Hardware & execution tracking: All fine-tuning, control, and sensitivity runs executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) with runs logged to `reports/experiment_logs/experiments.csv`.
 
+---
+
+## Phase 10: Iterative Self-Training / Pseudo-Labeling with Confidence Tightening
+- **Date**: 2026-09-16
+- **Status**: COMPLIANT
+- **Components Introduced**:
+  - Test-set isolation guard: `evaluation/test_set_isolation_guard.py` (strictly asserting zero overlap between pseudo-labeling candidates and `data/gold/{lang}/test.conll` across all 3 languages, with immediate `CriticalLeakageError` abort on contamination).
+  - Confidence-based inference pipeline: `training/confidence_filter.py` (calculating exact CRF normalized sequence confidence $\exp((s(x, y^*) - \log Z(x))/T)$ on candidate unlabeled sentences and filtering items $\ge \text{threshold}$).
+  - Self-training multi-round loop: `training/self_training_loop.py` (executing iterative rounds with tightening thresholds 0.90 -> 0.92, retraining with AdamW $\text{lr}=10^{-4}$ on gold+silver+cumulative_pseudo, automated checkpoint rollback upon regression, and stopping rule evaluation on 2-round improvement $<0.5$ F1 points).
+  - Self-training curve tracking & visualization: `evaluation/plot_selftraining_curve.py` (generating `reports/phase10_selftraining_curve.png` and `reports/phase10_selftraining_curve.md`).
+  - Pseudo-labeled datasets: `data/pseudo/{konkani,assamese,sinhala}/round_{1,2}.conll`.
+  - Checkpoints: `checkpoints/selftrained_{konkani,assamese,sinhala}_best.pt` and per-round checkpoints `checkpoints/selftrained_{lang}_round{n}.pt`.
+  - Comprehensive reports: `reports/phase10_selftraining_curve.md`, `reports/phase10_test_set_isolation_confirmation.md`, and `reports/phase10_test_results.md`.
+  - Verification test suite: `utils/test_phase10.py`.
+  - Config extensions: `self_training:` block in `configs/base_config.yaml` and `SelfTrainingConfig` in `utils/config_loader.py`.
+- **Pretrained Artifacts Used**: NONE
+- **Audit Details**:
+  - Internal pseudo-labeling compliance: Pseudo-labels were generated exclusively by this project's own Phase 9 fine-tuned models (`checkpoints/finetuned_{lang}.pt`) on this project's own unlabeled pool (`data/processed/{lang}/sentences.txt`). No third-party or external pretrained NER tagger, POS tagger, LLM, or teacher model was ever utilized or imported.
+  - Zero test-set leakage: Formally and cryptographically verified that `data/gold/{lang}/test.conll` remained strictly isolated, unread, and 100% disjoint from all candidate and pseudo-labeled pools (`test_overlap_count = 0`).
+  - Checkpoint integrity & rollback: Any round that regressed on dev-F1 was immediately rolled back to the previous best checkpoint; no regressed model was ever carried forward or promoted to `checkpoints/selftrained_{lang}_best.pt`.
+  - Volume cap adherence: Cumulative pseudo-data volume was strictly capped below $3\times$ combined gold+silver volume ($< 23,400$ sentences).
+  - Scope constraint compliance: Data augmentation (reserved for Phase 11) and attention attribution explainability (reserved for Phase 13) were strictly NOT implemented in this phase.
+  - Hardware & execution tracking: All confidence inference passes and retraining rounds executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) with runs logged to `reports/experiment_logs/experiments.csv`.
+
 

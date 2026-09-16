@@ -103,6 +103,15 @@ class TrainingConfig:
 
 
 @dataclass(frozen=True)
+class CharCNNConfig:
+    char_embedding_dim: int
+    filter_widths: list[int]
+    filters_per_width: int
+    char_dropout: float
+    concat_dropout: float
+
+
+@dataclass(frozen=True)
 class BaseConfig:
     project: ProjectConfig
     seed: int
@@ -112,6 +121,7 @@ class BaseConfig:
     annotation: AnnotationConfig | None = None
     weak_supervision: WeakSupervisionConfig | None = None
     model: ModelConfig | None = None
+    char_cnn: CharCNNConfig | None = None
     training: TrainingConfig | None = None
 
 

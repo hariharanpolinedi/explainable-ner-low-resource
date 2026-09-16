@@ -133,9 +133,19 @@ weak_supervision:
 model:
   word_embedding_dim: 100
   bilstm_hidden_dim: 128
-  bilstm_layers: 1
+  bilstm_layers: 2
   dropout: 0.3
   use_crf: true
+
+char_cnn:
+  char_embedding_dim: 50
+  filter_widths:
+    - 3
+    - 4
+    - 5
+  filters_per_width: 30
+  char_dropout: 0.3
+  concat_dropout: 0.3
 
 training:
   batch_size: 32

@@ -136,4 +136,26 @@ Every project phase must append a dated compliance entry to this ledger verifyin
   - Architecture restriction compliance: Neither character-CNN nor self-attention mechanisms were introduced (reserved strictly for Phase 6 and Phase 7 respectively).
   - Hardware & execution tracking: Training executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) with exact run metrics, config hashes, and hardware devices logged to `reports/experiment_logs/experiments.csv`.
 
+---
+
+## Phase 6: Character-Level CNN Encoder Integration & OOV Analysis
+- **Date**: 2026-09-16
+- **Status**: COMPLIANT
+- **Components Introduced**:
+  - From-scratch character-level CNN word encoder: `model/char_cnn.py` (`CharCNNWordEncoder` with 50d randomly initialized character/grapheme embeddings over Phase 2 `char_vocab.json`, 1D convolutions with filter banks [3,4,5] or [2,3,4], max-over-time pooling, and concatenated 90d representation).
+  - Integrated Word+Char-CNN BiLSTM-CRF model: `model/ner_model_v2_charcnn.py` (`NERCharCNNModel` concatenating 100d word embedding with 90d char-CNN vector -> 190d combined representation with 0.3 dropout -> BiLSTM -> LinearChainCRF).
+  - Joint token and grapheme-character data loader: `training/train_charcnn.py` (`NERCharCoNLLDataset` and `collate_fn_charcnn` with script-aware grapheme clustering).
+  - Comparative OOV vs In-Vocab evaluation module: `evaluation/oov_analysis.py` (splitting gold-dev entities and tokens into IV and OOV subsets to measure subword generalization signature).
+  - Experiment orchestration runner: `training/run_phase6_experiments.py` (executing primary Char-CNN training and filter-width sensitivity experiments).
+  - Best Char-CNN model checkpoints: `checkpoints/charcnn_{konkani,assamese,sinhala}.pt`.
+  - Analytical reports: `reports/phase6_charcnn_results.md` (overall and OOV-split metrics vs Phase 5) and `reports/phase6_filter_width_experiment.md` (narrow filter bank analysis).
+  - Comprehensive verification test suite: `utils/test_phase6.py` and test report `reports/phase6_test_results.md`.
+  - Config schema extension: `char_cnn:` hyperparameter block in `configs/base_config.yaml` and `CharCNNConfig` in `utils/config_loader.py`.
+- **Pretrained Artifacts Used**: NONE
+- **Audit Details**:
+  - Zero pretrained character/subword models: Character embeddings were randomly initialized (`nn.init.uniform_(-0.1, 0.1)`) with padding index zeroed, learned purely from the NER objective. No character language models (e.g. ELMo, CharacterBERT, FLair), no byte-pair models from outside, and no external vectors were loaded.
+  - Zero pretrained tokenizers: Grapheme clusters segmented purely using Phase 2's script-aware Unicode regex engine (`\X`) and Phase 2's `char_vocab.json`.
+  - Architecture restriction compliance: Self-attention and attention attribution mechanisms were strictly NOT implemented (reserved exclusively for Phase 7).
+  - Hardware & execution tracking: All training and sensitivity runs executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) with runs logged to `reports/experiment_logs/experiments.csv`.
+
 

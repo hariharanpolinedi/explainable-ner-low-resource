@@ -130,3 +130,20 @@ weak_supervision:
       - "සහ"
       - "නැත"
 
+model:
+  word_embedding_dim: 100
+  bilstm_hidden_dim: 128
+  bilstm_layers: 1
+  dropout: 0.3
+  use_crf: true
+
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  max_epochs: 30
+  early_stopping_patience: 5
+  use_silver_data: true
+  device: "auto"
+  use_class_weights: false
+
+

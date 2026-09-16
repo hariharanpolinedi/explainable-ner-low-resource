@@ -112,4 +112,28 @@ Every project phase must append a dated compliance entry to this ledger verifyin
   - Labeling functions audit: All labeling mechanisms were strictly dictionary lookups, regex patterns, or from-scratch statistical voting calibrated on gold-dev.
   - Zero pretrained embeddings or checkpoint weights were loaded or referenced.
 
+---
+
+## Phase 5: Baseline Model — Word-Level BiLSTM-CRF
+- **Date**: 2026-09-16
+- **Status**: COMPLIANT
+- **Components Introduced**:
+  - Randomly initialized word embedding layer: `model/word_embedding.py` (`nn.Embedding(vocab_size, 100, padding_idx=0)` with dropout 0.3, initialized from uniform scratch distribution).
+  - Bidirectional LSTM encoder: `model/bilstm_encoder.py` (1-layer and 2-layer BiLSTM, hidden dimension 128 per direction, input/output dropout 0.3, linear projection to 9 emission tags).
+  - From-scratch Linear-Chain CRF: `model/crf_layer.py` (exact negative log-likelihood loss via forward-backward partition algorithm and Viterbi decoding in float32; pure PyTorch implementation with zero bundled weights or vocabulary).
+  - Unified baseline model assembly: `model/ner_model_v1_baseline.py` (word embeddings -> BiLSTM encoder -> linear-chain CRF).
+  - Baseline training pipeline: `training/train_baseline.py` (CoNLL dataset loader, Adam optimizer, lr=1e-3, batch size 32, max epochs 30, early stopping patience 5 on gold-dev entity-level F1).
+  - Experiment orchestration runner: `training/run_experiments.py` (executing Experiment A: Gold-Only vs Gold+Silver, and Experiment B: 1-Layer vs 2-Layer BiLSTM across Konkani, Assamese, and Sinhala).
+  - Entity-level evaluation module: `evaluation/seqeval_metrics.py` (strict entity span-level precision, recall, F1 via seqeval, alongside secondary token accuracy).
+  - Best baseline checkpoints: `checkpoints/baseline_{konkani,assamese,sinhala}.pt`.
+  - Comprehensive verification test suite: `utils/test_phase5.py` and test report `reports/phase5_test_results.md`.
+  - Empirical baseline results report: `reports/phase5_baseline_results.md`.
+  - Config schema extension: `model:` and `training:` configuration blocks in `configs/base_config.yaml`.
+- **Pretrained Artifacts Used**: NONE
+- **Audit Details**:
+  - Zero pretrained embeddings: No Word2Vec, GloVe, FastText, or external vector tables were loaded or referenced under any circumstances. All word embeddings were instantiated randomly via `nn.Embedding` and learned purely from the NER training objective.
+  - Zero pretrained tokenizers/models: Tokenizer uses purely Phase 2's from-scratch frequency vocabulary (`data/processed/{lang}/word_vocab.json`).
+  - Architecture restriction compliance: Neither character-CNN nor self-attention mechanisms were introduced (reserved strictly for Phase 6 and Phase 7 respectively).
+  - Hardware & execution tracking: Training executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) with exact run metrics, config hashes, and hardware devices logged to `reports/experiment_logs/experiments.csv`.
+
 

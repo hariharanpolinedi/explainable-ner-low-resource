@@ -83,6 +83,26 @@ class WeakSupervisionConfig:
 
 
 @dataclass(frozen=True)
+class ModelConfig:
+    word_embedding_dim: int
+    bilstm_hidden_dim: int
+    bilstm_layers: int
+    dropout: float
+    use_crf: bool
+
+
+@dataclass(frozen=True)
+class TrainingConfig:
+    batch_size: int
+    learning_rate: float
+    max_epochs: int
+    early_stopping_patience: int
+    use_silver_data: bool
+    device: str
+    use_class_weights: bool
+
+
+@dataclass(frozen=True)
 class BaseConfig:
     project: ProjectConfig
     seed: int
@@ -91,6 +111,9 @@ class BaseConfig:
     preprocessing: PreprocessingConfig | None = None
     annotation: AnnotationConfig | None = None
     weak_supervision: WeakSupervisionConfig | None = None
+    model: ModelConfig | None = None
+    training: TrainingConfig | None = None
+
 
 
 

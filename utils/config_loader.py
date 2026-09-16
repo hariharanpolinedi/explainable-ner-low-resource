@@ -147,6 +147,18 @@ class SelfTrainingConfig:
 
 
 @dataclass(frozen=True)
+class AugmentationConfig:
+    multiplier: int
+    check_agreement: bool
+    loss_variant: str
+    focal_gamma: float
+    learning_rate: float
+    batch_size: int = 32
+    max_epochs: int = 10
+    patience: int = 3
+
+
+@dataclass(frozen=True)
 class BaseConfig:
     project: ProjectConfig
     seed: int
@@ -161,6 +173,7 @@ class BaseConfig:
     multilingual: MultilingualConfig | None = None
     finetune: FinetuneConfig | None = None
     self_training: SelfTrainingConfig | None = None
+    augmentation: AugmentationConfig | None = None
     training: TrainingConfig | None = None
 
 

@@ -244,7 +244,28 @@ Every project phase must append a dated compliance entry to this ledger verifyin
   - Zero test-set leakage: Formally and cryptographically verified that `data/gold/{lang}/test.conll` remained strictly isolated, unread, and 100% disjoint from all candidate and pseudo-labeled pools (`test_overlap_count = 0`).
   - Checkpoint integrity & rollback: Any round that regressed on dev-F1 was immediately rolled back to the previous best checkpoint; no regressed model was ever carried forward or promoted to `checkpoints/selftrained_{lang}_best.pt`.
   - Volume cap adherence: Cumulative pseudo-data volume was strictly capped below $3\times$ combined gold+silver volume ($< 23,400$ sentences).
-  - Scope constraint compliance: Data augmentation (reserved for Phase 11) and attention attribution explainability (reserved for Phase 13) were strictly NOT implemented in this phase.
   - Hardware & execution tracking: All confidence inference passes and retraining rounds executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) with runs logged to `reports/experiment_logs/experiments.csv`.
+
+---
+
+## Phase 11: Data Augmentation & Class-Imbalance Handling
+- **Date**: 2026-09-17
+- **Status**: COMPLIANT
+- **Components Introduced**:
+  - Entity-substitution augmentation module: `training/entity_substitution.py` (`EntitySubstitutionAugmenter` swapping entity spans with same-category entries from Phase 1 gazetteers, applying language agreement heuristics, and maintaining strict BIO tag validity).
+  - Synonym-swap augmentation module: `training/synonym_swap.py` (`SynonymSwapAugmenter` substituting non-entity 'O' tokens using hand-curated and rule-derived thesauri from Phase 1/2 corpus statistics).
+  - Class-imbalance loss module: `training/class_weighted_loss.py` (`ClassWeightedCRFLoss` and `FocalCRFLoss` with modulating factor $(1-p_t)^\gamma$).
+  - Augmentation orchestration pipeline: `training/augmentation.py` (generating `data/augmented/{lang}/` datasets, performing naturalness spot-checks on 20 sentences per language, and executing isolated experiments).
+  - Synthetic datasets: `data/augmented/{konkani,assamese,sinhala}/{entity_sub,synonym_swap,combined_augmented}.conll`.
+  - Checkpoints: `checkpoints/augmented_assamese.pt`, `checkpoints/augmented_sinhala.pt`, and explicit retention note for `checkpoints/selftrained_konkani_best.pt`.
+  - Comprehensive reports: `reports/phase11_augmentation_results.md`, `reports/phase11_naturalness_spotcheck.md`, and `reports/phase11_test_results.md`.
+  - Verification test suite: `utils/test_phase11.py`.
+  - Config extensions: `augmentation:` block in `configs/base_config.yaml` and `AugmentationConfig` in `utils/config_loader.py`.
+- **Pretrained Artifacts Used**: NONE
+- **Audit Details**:
+  - Zero pretrained generation / paraphrasing tools: Augmentation was strictly template-based (swapping entities with in-project gazetteers and non-entity words with hand-curated vocabulary equivalence sets). No LLMs, pretrained word2vec/fasttext similarity, back-translation models, or generative paraphrase tools were used.
+  - Zero test-set leakage: Augmentation was applied strictly to gold-train, silver-train, and pseudo-labeled pools. The gold test sets (`data/gold/{lang}/test.conll`) remained 100% untouched and unread throughout.
+  - Scope constraint compliance: Hyperparameter search and ablation matrices (reserved for Phase 12) and attribution-based explainability (reserved for Phase 13) were strictly NOT implemented in this phase.
+  - Hardware & execution tracking: All isolated experiment training runs executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) with runs logged to `reports/experiment_logs/experiments.csv`.
 
 

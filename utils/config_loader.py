@@ -120,6 +120,14 @@ class AttentionConfig:
 
 
 @dataclass(frozen=True)
+class MultilingualConfig:
+    lang_embedding_dim: int
+    crf_config: str
+    sampling_strategy: str
+    num_languages: int
+
+
+@dataclass(frozen=True)
 class BaseConfig:
     project: ProjectConfig
     seed: int
@@ -131,6 +139,7 @@ class BaseConfig:
     model: ModelConfig | None = None
     char_cnn: CharCNNConfig | None = None
     attention: AttentionConfig | None = None
+    multilingual: MultilingualConfig | None = None
     training: TrainingConfig | None = None
 
 

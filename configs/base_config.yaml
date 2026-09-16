@@ -153,6 +153,12 @@ attention:
   attention_dropout: 0.1
   warmup_steps: 100
 
+multilingual:
+  lang_embedding_dim: 16
+  crf_config: "shared"
+  sampling_strategy: "uniform"
+  num_languages: 3
+
 training:
   batch_size: 32
   learning_rate: 0.001

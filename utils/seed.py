@@ -67,7 +67,7 @@ def set_global_seed(seed: int = 42) -> dict[str, bool]:
 
         tf.random.set_seed(seed)
         status["tensorflow"] = True
-    except ImportError:
+    except (ImportError, Exception):
         pass
 
     return status

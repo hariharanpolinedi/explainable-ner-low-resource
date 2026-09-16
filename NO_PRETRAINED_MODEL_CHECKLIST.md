@@ -181,4 +181,27 @@ Every project phase must append a dated compliance entry to this ledger verifyin
   - Architecture restriction compliance: Explainability attribution methods (Integrated Gradients, attention rollout, faithfulness tests) were strictly NOT implemented (reserved exclusively for Phase 13). Multilingual joint warm-start training was NOT implemented (reserved for Phase 8).
   - Hardware & execution tracking: All training, ablation, and sanity evaluations executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) with runs logged to `reports/experiment_logs/experiments.csv`.
 
+---
+
+## Phase 8: Multilingual Joint Warm-Start Training & Ablation Matrix
+- **Date**: 2026-09-16
+- **Status**: COMPLIANT
+- **Components Introduced**:
+  - From-scratch language conditioning module: `model/language_conditioning.py` (`LanguageEmbedding` mapping integer language IDs to 16-dimensional dense learned vectors, initialized from scratch via standard normal distribution).
+  - Multilingual NER model assembly: `model/ner_model_v4_multilingual.py` (`NERMultilingualModel` concatenating word + char-CNN + language embedding -> BiLSTM -> Multi-Head Self-Attention -> configurable CRF head, supporting both shared and per-language CRF heads).
+  - Multilingual data pooling & batch sampling: `training/multilingual_dataset.py` (`MultilingualNERDataset` combining 23,400 gold+silver sentences tagged by language ID, and `MultilingualBatchSampler` supporting uniform and proportional sampling strategies).
+  - Multilingual training loop: `training/train_joint_warmstart.py` (trained from fresh random initialization, early stopping on macro gold-dev entity F1).
+  - Multilingual comparative evaluation pipeline: `evaluation/compare_joint_vs_monolingual.py` (evaluating joint models on each language's own gold-dev separately against Phase-7 monolingual baselines).
+  - 2x2 matrix experiment orchestrator: `training/run_phase8_experiments.py` (executing all 4 configurations: shared-uniform, shared-proportional, per_language-uniform, per_language-proportional).
+  - Retained checkpoints: `checkpoints/joint_best.pt` (winning configuration: `shared_uniform`), plus all matrix checkpoints `checkpoints/joint_{shared,per_language}_{uniform,proportional}.pt`.
+  - Comprehensive reports: `reports/phase8_joint_vs_monolingual.md` (full 2x2 matrix results, cross-lingual transfer analysis) and `reports/phase8_test_results.md`.
+  - Verification test suite: `utils/test_phase8.py`.
+  - Config extensions: `multilingual:` block in `configs/base_config.yaml` and `MultilingualConfig` in `utils/config_loader.py`.
+- **Pretrained Artifacts Used**: NONE
+- **Audit Details**:
+  - Zero pretrained components: All model weights, language embeddings, linear projections, and CRF transitions were randomly initialized and trained purely from scratch on this project's own pooled datasets. No pretrained multilingual model (e.g. mBERT, XLM-R, IndicBERT) or external checkpoint was ever imported or used.
+  - Multi-task learning from scratch: Data pooling and language conditioning represent standard from-scratch multi-task learning, strictly free of external pretraining.
+  - Architecture restriction compliance: Per-language fine-tuning was strictly NOT implemented (reserved exclusively for Phase 9). Explainability/attribution pipeline was strictly NOT implemented (reserved for Phase 13).
+  - Hardware & execution tracking: All 4 matrix configurations executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) with runs logged to `reports/experiment_logs/experiments.csv`.
+
 

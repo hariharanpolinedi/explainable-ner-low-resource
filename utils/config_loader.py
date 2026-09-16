@@ -74,6 +74,15 @@ class AnnotationConfig:
 
 
 @dataclass(frozen=True)
+class WeakSupervisionConfig:
+    gazetteer_match_mode: str
+    aggregation_method: str
+    min_precision_threshold: float
+    target_volume_multiplier: int
+    stoplist: dict[str, list[str]]
+
+
+@dataclass(frozen=True)
 class BaseConfig:
     project: ProjectConfig
     seed: int
@@ -81,6 +90,8 @@ class BaseConfig:
     data_collection: DataCollectionConfig | None = None
     preprocessing: PreprocessingConfig | None = None
     annotation: AnnotationConfig | None = None
+    weak_supervision: WeakSupervisionConfig | None = None
+
 
 
 def _apply_override(data: dict[str, Any], key_path: str, raw_value: str) -> None:
@@ -264,8 +275,7 @@ if __name__ == "__main__":
     cfg_file, cli_overrides = parse_cli_args(sys.argv[1:])
     try:
         config = load_config(cfg_file, overrides=cli_overrides)
-        print(f"Successfully loaded configuration from {cfg_file}:")
-        print(config)
+        print(f"Successfully loaded configuration from {cfg_file} (Project: {config.project.name}, Seed: {config.seed})")
     except Exception as exc:
         print(f"Configuration Error: {exc}", file=sys.stderr)
         sys.exit(1)

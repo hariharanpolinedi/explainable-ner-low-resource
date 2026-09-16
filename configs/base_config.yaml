@@ -97,3 +97,36 @@ annotation:
     - "I-ORG"
     - "B-MISC"
     - "I-MISC"
+
+weak_supervision:
+  gazetteer_match_mode: "exact"
+  aggregation_method: "weighted_majority_vote"
+  min_precision_threshold: 0.70
+  target_volume_multiplier: 12
+  stoplist:
+    konkani:
+      - "हो"
+      - "तो"
+      - "आहे"
+      - "एक"
+      - "दोन"
+      - "आनी"
+      - "पुण"
+      - "ना"
+    assamese:
+      - "এই"
+      - "সেই"
+      - "হয়"
+      - "এক"
+      - "দুটা"
+      - "আৰু"
+      - "নহয়"
+    sinhala:
+      - "මේ"
+      - "එය"
+      - "වේ"
+      - "එක"
+      - "දෙක"
+      - "සහ"
+      - "නැත"
+

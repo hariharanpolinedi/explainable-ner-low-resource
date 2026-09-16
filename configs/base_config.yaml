@@ -78,3 +78,22 @@ preprocessing:
       - "පෙ.ව."
       - "ප.ව."
       - "ආදී"
+
+annotation:
+  target_sentence_count: 1000
+  split_ratios:
+    train: 0.60
+    dev: 0.20
+    test: 0.20
+  kappa_threshold: 0.75
+  overlap_sample_size: 100
+  tagset:
+    - "O"
+    - "B-PER"
+    - "I-PER"
+    - "B-LOC"
+    - "I-LOC"
+    - "B-ORG"
+    - "I-ORG"
+    - "B-MISC"
+    - "I-MISC"

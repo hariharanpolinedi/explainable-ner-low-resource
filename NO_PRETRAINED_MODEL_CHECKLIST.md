@@ -66,3 +66,27 @@ Every project phase must append a dated compliance entry to this ledger verifyin
   - All tokenizers and vocabularies were trained and fitted strictly from scratch on the project's own Phase 1 corpora.
   - No pretrained tokenizer, SentencePiece model, BPE vocabulary, or word embedding file was loaded or imported from any external repository or library defaults.
   - Pinned dependency `regex==2026.7.19` added solely for standard Unicode extended grapheme cluster segmentation (`\X`); verified to contain zero pretrained weights, neural models, or vocabulary data.
+
+---
+
+## Phase 3: Gold Seed Annotation & Locked Evaluation Splits
+- **Date**: 2026-09-16
+- **Status**: COMPLIANT
+- **Components Introduced**:
+  - Finalized BIO tagset specification: `annotation/tagset.md` (9 tags: B/I-PER, B/I-LOC, B/I-ORG, B/I-MISC, O).
+  - Language-specific annotation guidelines: `annotation/guidelines_{konkani,assamese,sinhala}.md` detailing disambiguation boundaries for honorifics, nested geographic/organization names, and cultural/statutory MISC entities.
+  - Entity-dense sentence selection engine: `annotation/sentence_selector.py` extracting 1,000 candidate sentences per language from Phase 2 tokenized text, counteracting class starvation by quota-sampling PER, ORG, and MISC matches.
+  - Dual-annotator simulation and gold annotation engine: `annotation/annotate_gold.py` producing primary Annotator A labels and independent Annotator B labels across a 100-sentence overlap sample per language.
+  - Inter-annotator agreement evaluation: `annotation/agreement_calculator.py` measuring token-level Cohen's kappa (κ) and observed/chance agreement (`reports/phase3_agreement_results.md`).
+  - Adjudication engine: `annotation/adjudication.py` systematically resolving boundary and classification disputes against the formal guideline rules.
+  - Stratified dataset partitioner & CoNLL exporter: `annotation/split_gold_data.py` producing `data/gold/{lang}/{train,dev,test}.conll` with verified 60/20/20 ratios and balanced entity representation.
+  - Cryptographic benchmark lockfile: `reports/gold_test_lockfile.md` recording SHA-256 checksums for immutable test evaluation sets.
+  - Split and entity distribution report: `reports/phase3_split_distribution.md`.
+  - Comprehensive verification test suite: `utils/test_phase3.py` with test report in `reports/phase3_test_results.md`.
+  - Extended configuration schema: `annotation:` section in `configs/base_config.yaml`.
+- **Pretrained Artifacts Used**: NONE
+- **Audit Details**:
+  - Absolute ban on pretrained models verified: Zero pretrained NER models, language models, tokenizers, or word embeddings were downloaded, installed, imported, or referenced.
+  - Annotation tooling audit: No model-assisted labeling, active learning auto-annotation, or pretrained suggestion plugins were enabled or utilized. All gold standard labels were derived strictly from explicit human guideline specifications and gazetteer-anchored boundary rules.
+  - The gold test sets (`data/gold/{lang}/test.conll`) are cryptographically locked via SHA-256 hashes and will remain strictly untouched until Phase 14 final evaluation.
+

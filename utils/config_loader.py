@@ -58,12 +58,29 @@ class PreprocessingConfig:
 
 
 @dataclass(frozen=True)
+class SplitRatiosConfig:
+    train: float
+    dev: float
+    test: float
+
+
+@dataclass(frozen=True)
+class AnnotationConfig:
+    target_sentence_count: int
+    split_ratios: SplitRatiosConfig
+    kappa_threshold: float
+    overlap_sample_size: int
+    tagset: list[str]
+
+
+@dataclass(frozen=True)
 class BaseConfig:
     project: ProjectConfig
     seed: int
     logging: LoggingConfig
     data_collection: DataCollectionConfig | None = None
     preprocessing: PreprocessingConfig | None = None
+    annotation: AnnotationConfig | None = None
 
 
 def _apply_override(data: dict[str, Any], key_path: str, raw_value: str) -> None:

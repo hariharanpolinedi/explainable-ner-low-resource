@@ -177,6 +177,14 @@ class AblationConfig:
 
 
 @dataclass(frozen=True)
+class ExplainabilityConfig:
+    erasure_top_k: list[int]
+    faithfulness_sample_size: int
+    significance_threshold: float
+    gallery_samples_per_type: int = 5
+
+
+@dataclass(frozen=True)
 class BaseConfig:
     project: ProjectConfig
     seed: int
@@ -195,6 +203,8 @@ class BaseConfig:
     training: TrainingConfig | None = None
     search: SearchConfig | None = None
     ablation: AblationConfig | None = None
+    explainability: ExplainabilityConfig | None = None
+
 
 
 

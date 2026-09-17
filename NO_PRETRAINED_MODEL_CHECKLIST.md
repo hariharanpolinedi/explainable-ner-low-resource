@@ -284,5 +284,28 @@ Every project phase must append a dated compliance entry to this ledger verifyin
   - Scope constraint compliance: Explainability and attention attribution pipelines (reserved for Phase 13) were strictly NOT implemented in this phase.
   - Hardware & execution tracking: All search trials and ablation trainings executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) with runs logged to `reports/experiment_logs/experiments.csv`.
 
+---
+
+## Phase 13: Explainability Pipeline (Gradient × Attention, Erasure Faithfulness Test) and Method Selection
+- **Date**: 2026-09-17
+- **Status**: COMPLIANT
+- **Components Introduced**:
+  - Attention extraction module: `explainability/attention_extractor.py` (retrieving per-head, per-token attention weight matrices from frozen models without modification).
+  - Gradient × attention attribution pipeline: `explainability/gradient_attention_attribution.py` (computing backward gradients of entity emission scores w.r.t attention weights, calculating element-wise product Grad × Attn with magnitude normalization).
+  - Attention rollout stub: `explainability/attention_rollout.py` (reproducible stub for multi-layer rollout, clearly marked not-invoked due to 1-block architecture resolution).
+  - Quantitative erasure faithfulness test: `explainability/erasure_faithfulness_test.py` (measuring top-k vs random-k confidence drop across >=100 predictions per language on gold-dev).
+  - Head-wise specialization analyzer: `explainability/head_wise_analysis.py` (analyzing functional differentiation across attention heads 0–3).
+  - Attribution heatmap visualizer: `explainability/heatmap_visualizer.py` (generating 36 HTML visual cards and index gallery in `reports/phase13_heatmap_gallery/`).
+  - Automated test suite: `utils/test_phase13.py` (5 automated validation checks passing).
+  - Config additions: `explainability:` block in `configs/base_config.yaml` and `ExplainabilityConfig` dataclass in `utils/config_loader.py`.
+  - Comprehensive research reports: `reports/phase13_faithfulness_results.md`, `reports/phase13_head_wise_analysis.md`, `reports/phase13_test_results.md`, and `reports/phase13_heatmap_gallery/README.md`.
+- **Pretrained Artifacts Used**: NONE
+- **Audit Details**:
+  - Zero pretrained interpretability packages: Attribution was computed strictly using native PyTorch autograd and tensor operations directly on this project's own model architecture. Zero imports of Captum, transformers-interpret, or external transformer interpretability toolkits.
+  - Zero test-set evaluation: All quantitative faithfulness evaluations were conducted strictly on gold-dev (`data/gold/{lang}/dev.conll`); gold-test sets (`data/gold/{lang}/test.conll`) remained 100% untouched and unread throughout.
+  - Model immutability: All Phase-12 final checkpoints remained 100% frozen with zero backpropagation into model parameters or weight updates.
+  - Hardware & execution tracking: All gradient attribution and erasure inference passes executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`).
+
+
 
 

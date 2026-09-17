@@ -232,5 +232,15 @@ ablation:
     - "no_augmentation"
     - "tokenization_bpe"
 
+explainability:
+  erasure_top_k:
+    - 1
+    - 2
+    - 3
+  faithfulness_sample_size: 100
+  significance_threshold: 0.05
+  gallery_samples_per_type: 5
+
+
 
 

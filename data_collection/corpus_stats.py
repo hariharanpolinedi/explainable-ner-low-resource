@@ -115,23 +115,31 @@ def generate_markdown_report(stats: dict[str, dict[str, Any]], output_path: Path
     for lang in ["konkani", "assamese", "sinhala"]:
         l_stat = stats.get(lang, {})
         base = pre_filter_baselines.get(lang, {})
+        tot_sents = l_stat.get('total_sentences', 0)
+        status = f"MET (>{tot_sents//1000}k / 50k floor)" if tot_sents >= 50000 else f"SHORTFALL (~{tot_sents//1000}k / 50k floor)"
         md.append(
             f"| **{lang.capitalize()}** | {base.get('raw_lines', 0):,} | "
-            f"{l_stat.get('total_sentences', 0):,} | {l_stat.get('total_tokens', 0):,} | "
-            f"{l_stat.get('vocab_size', 0):,} | **{base.get('status', 'N/A')}** |"
+            f"{tot_sents:,} | {l_stat.get('total_tokens', 0):,} | "
+            f"{l_stat.get('vocab_size', 0):,} | **{status}** |"
         )
 
     kok_stat = stats.get("konkani", {})
     as_stat = stats.get("assamese", {})
     si_stat = stats.get("sinhala", {})
 
+    kok_sents = kok_stat.get('total_sentences', 0)
+    kok_status_note = (
+        f"- **Konkani (`gom`)**: MET floor with **{kok_sents:,}** high-quality, script-pure sentences ({kok_stat.get('total_tokens', 0):,} tokens). Successfully bridged the original shortfall via public press collection (Bhaangarbhuin Devanagari news corpus)."
+        if kok_sents >= 50000 else
+        f"- **Konkani (`gom`)**: Reached **{kok_sents:,}** sentences ({kok_stat.get('total_tokens', 0):,} tokens). The shortfall relative to the 50k floor is due to the inherent digital scarcity of Goan Devanagari Konkani."
+    )
+
     md.extend([
         "",
         "### Data Floor Analysis & Mitigation Strategy",
         f"- **Assamese (`as`)**: MET floor with **{as_stat.get('total_sentences', 0):,}** high-quality, script-pure sentences ({as_stat.get('total_tokens', 0):,} tokens).",
         f"- **Sinhala (`si`)**: MET floor with **{si_stat.get('total_sentences', 0):,}** high-quality, script-pure sentences ({si_stat.get('total_tokens', 0):,} tokens).",
-        f"- **Konkani (`gom`)**: Reached **{kok_stat.get('total_sentences', 0):,}** sentences ({kok_stat.get('total_tokens', 0):,} tokens). The shortfall relative to the 50k floor is due to the inherent digital scarcity of Goan Devanagari Konkani (the entire gom.wikipedia has only 3,644 articles).",
-        "  - **Mitigation Plan**: For Konkani, Phase 4 (Weak Supervision) will rely more heavily on gazetteer expansion, morpho-syntactic rule-based labeling functions, and iterative pseudo-labeling / self-training (Phase 10) to bootstrap sufficient training density.",
+        kok_status_note,
         "",
         "---",
         "",

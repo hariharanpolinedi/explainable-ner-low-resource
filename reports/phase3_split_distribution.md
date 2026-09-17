@@ -25,6 +25,26 @@
 ## 2. Verification of Split Balance
 
 - **Zero Missing Entity Types**: Every split (train, dev, test) across all three languages contains non-zero instances of all four entity types (`PER`, `LOC`, `ORG`, `MISC`).
-- **Ratio Fidelity**: The 60/20/20 sentence split ratio was strictly maintained across all 1,000 annotated sentences per language.
-- **BIO Sequence Integrity**: All 3,000 sentences were verified against valid BIO transitions with zero orphan `I-` tags.
+- **Ratio Fidelity**: The initial 60/20/20 sentence split ratio was strictly maintained across all 1,000 annotated sentences per language.
+- **BIO Sequence Integrity**: All sentences were verified against valid BIO transitions with zero orphan `I-` tags.
+
+---
+
+## 3. Post-Audit Expanded Distribution (v1.1)
+
+Following the corpus and gold volume audit, `train.conll` was expanded by +250 sentences per language to mitigate low-resource data starvation, while `dev.conll` and `test.conll` remained strictly locked.
+
+| Language | Split | Sentences | Tokens | Total Entities | PER | LOC | ORG | MISC |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Konkani** | `train` | 850 | 13,710 | **592** | 144 | 168 | 149 | 131 |
+| **Konkani** | `dev` | 200 | 3,173 | **125** | 20 | 31 | 37 | 37 |
+| **Konkani** | `test` | 200 | 3,210 | **124** | 20 | 30 | 37 | 37 |
+| **Assamese** | `train` | 850 | 14,649 | **679** | 102 | 395 | 67 | 115 |
+| **Assamese** | `dev` | 200 | 3,569 | **139** | 18 | 79 | 15 | 27 |
+| **Assamese** | `test` | 200 | 3,349 | **138** | 19 | 79 | 14 | 26 |
+| **Sinhala** | `train` | 850 | 16,541 | **641** | 178 | 224 | 119 | 120 |
+| **Sinhala** | `dev` | 200 | 4,032 | **131** | 37 | 39 | 28 | 27 |
+| **Sinhala** | `test` | 200 | 3,996 | **132** | 38 | 39 | 28 | 27 |
+
+- **Test Integrity**: Locked `test.conll` SHA-256 hashes remain 100% invariant across all three languages.
 

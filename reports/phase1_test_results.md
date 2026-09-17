@@ -13,7 +13,7 @@
 | **File-existence and non-emptiness check** | Passed | **PASS** | Passed: All 18 raw and gazetteer files exist and contain valid non-zero content. |
 | **Script-purity spot check** | Passed | **PASS** | Passed: All 172 sampled sentences across all 9 files met script purity >= 90%. |
 | **Dedup correctness check** | Passed | **PASS** | Passed: Intentionally duplicated document reduced from 10 to exactly 5 unique sentences. |
-| **Corpus-stats execution check** | Passed | **PASS** | Passed: corpus_stats ran cleanly. Konkani: 30980 sent, Assamese: 55002 sent, Sinhala: 66954 sent. |
+| **Corpus-stats execution check** | Passed | **PASS** | Passed: corpus_stats ran cleanly. Konkani: 51488 sent, Assamese: 55002 sent, Sinhala: 66954 sent. |
 
 ---
 

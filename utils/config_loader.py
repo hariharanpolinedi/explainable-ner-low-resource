@@ -185,6 +185,16 @@ class ExplainabilityConfig:
 
 
 @dataclass(frozen=True)
+class DeploymentConfig:
+    host: str = "127.0.0.1"
+    port: int = 8000
+    batch_size: int = 1
+    device_fallback: bool = True
+    bundle_version: str = "v1"
+    bundles_dir: str = "deployment/bundles"
+
+
+@dataclass(frozen=True)
 class BaseConfig:
     project: ProjectConfig
     seed: int
@@ -204,6 +214,7 @@ class BaseConfig:
     search: SearchConfig | None = None
     ablation: AblationConfig | None = None
     explainability: ExplainabilityConfig | None = None
+    deployment: DeploymentConfig | None = None
 
 
 

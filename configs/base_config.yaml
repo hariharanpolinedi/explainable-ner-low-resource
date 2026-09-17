@@ -241,6 +241,14 @@ explainability:
   significance_threshold: 0.05
   gallery_samples_per_type: 5
 
+deployment:
+  host: "127.0.0.1"
+  port: 8000
+  batch_size: 1
+  device_fallback: true
+  bundle_version: "v1"
+  bundles_dir: "deployment/bundles"
+
 
 
 

@@ -322,3 +322,23 @@ Every project phase must append a dated compliance entry to this ledger verifyin
   - Frozen model compliance: The Phase-12 final checkpoints (`checkpoints/final_{lang}.pt`) and Phase-8 joint checkpoint (`checkpoints/joint_best.pt`) were loaded as frozen inputs; inference-only execution with zero gradient backpropagation.
   - Cryptographic test-set integrity: Verified byte-for-byte that all three gold-test splits matched their locked SHA-256 checksums from Phase 3 prior to inference.
   - Hardware & execution tracking: All test inferences were executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) with the single official run logged to `reports/experiment_logs/experiments.csv`.
+
+---
+
+## Phase 15: Deployment: Inference API, Streamlit Explanation Demo & Versioned Bundles
+- **Date**: 2026-09-17
+- **Status**: COMPLIANT
+- **Components Introduced**:
+  - Standalone inference engine: `deployment/inference.py` (`NERPredictor` with in-memory caching, device auto-selection with CPU fallback, exact Phase-2 normalization and script tokenization, CRF Viterbi decoding, and Gradient × Attention token attribution computation).
+  - Production REST API: `deployment/api.py` (FastAPI service exposing `/predict`, `/health`, and `/` endpoints with Pydantic request/response schemas, CORS support, and validation error handling).
+  - Interactive web UI: `deployment/app.py` (Streamlit application with multi-script selector, preset gazetteer samples, color-coded entity badges, and interactive HTML attribution heatmaps rendered via `explainability/heatmap_visualizer.py`).
+  - Artifact bundling pipeline: `deployment/bundle_artifacts.py` (generating self-contained `deployment/bundles/{lang}/v1/` packages with cryptographic SHA-256 verification and embedding-layer dimension compatibility checks).
+  - Automated deployment test suite: `utils/test_phase15.py` (5 automated validation suites passing).
+  - Verification & smoke-test reports: `reports/phase15_demo_smoketest.md` (33 sentences evaluated across Konkani, Assamese, and Sinhala with 0 crashes) and `reports/phase15_test_results.md`.
+  - Config extensions: `deployment:` section in `configs/base_config.yaml` and `DeploymentConfig` dataclass in `utils/config_loader.py`.
+- **Pretrained Artifacts Used**: NONE
+- **Audit Details**:
+  - Deployed tokenizer & vocab integrity: The deployed tokenization pipeline strictly reuses `preprocessing/normalize.py` (`normalize_text`) and `preprocessing/tokenizer.py` (`ScriptTokenizer`); zero third-party tokenizers (e.g. HuggingFace tokenizers, sentencepiece, spaCy, NLTK) or pretrained tokenization models were introduced.
+  - Frozen model serving: Deployed checkpoints are strictly the frozen Phase-12 final models (`checkpoints/final_{lang}.pt`) evaluated in Phase 14; zero retraining, parameter tuning, or checkpoint modification was performed.
+  - Attribution tool purity: Attribution explanations are computed entirely through native PyTorch autograd via this project's own `GradientAttentionAttributor`; zero external interpretability toolkits (e.g. Captum, transformers-interpret) were utilized.
+  - Device fallback verified: Both GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) and explicit CPU-only execution paths were verified functional.

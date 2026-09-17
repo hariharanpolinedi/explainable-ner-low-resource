@@ -268,9 +268,10 @@ def run_silver_pipeline(config_path: str = "configs/base_config.yaml") -> dict[s
 
         stoplist = cfg.weak_supervision.stoplist.get(lang, []) if cfg.weak_supervision else []
         gaz_matcher = GazetteerMatcher(lang, gaz_dir, stoplist=stoplist)
-        rule_tagger = RuleTagger(lang)
         from weak_supervision.org_rule_taggers import DedicatedORGRuleTagger
+        from weak_supervision.loc_rule_taggers import DedicatedLOCRuleTagger
         org_rule_tagger = DedicatedORGRuleTagger(lang)
+        loc_rule_tagger = DedicatedLOCRuleTagger(lang)
         wiki_labeler = WikipediaDistantLabeler(lang)
 
         aggregator = LabelAggregator(
@@ -279,6 +280,7 @@ def run_silver_pipeline(config_path: str = "configs/base_config.yaml") -> dict[s
             rule_tagger=rule_tagger,
             wiki_labeler=wiki_labeler,
             org_rule_tagger=org_rule_tagger,
+            loc_rule_tagger=loc_rule_tagger,
             min_precision_threshold=min_prec,
         )
 
@@ -320,11 +322,13 @@ def run_silver_pipeline(config_path: str = "configs/base_config.yaml") -> dict[s
         # Build quick match terms
         per_terms = set(line.strip() for line in open(gaz_dir / lang / "persons.txt", encoding="utf-8") if line.strip())
         org_terms = set(line.strip() for line in open(gaz_dir / lang / "orgs.txt", encoding="utf-8") if line.strip())
+        loc_terms = set(line.strip() for line in open(gaz_dir / lang / "places.txt", encoding="utf-8") if line.strip())
         from weak_supervision.gazetteer_matcher import CULTURAL_MISC
         misc_terms = set(CULTURAL_MISC.get(lang, []))
 
         per_cands = []
         org_cands = []
+        loc_cands = []
         misc_cands = []
         other_cands = []
 
@@ -332,9 +336,12 @@ def run_silver_pipeline(config_path: str = "configs/base_config.yaml") -> dict[s
             s_text = " ".join(toks)
             has_per = any(p in s_text for p in per_terms)
             has_org = any(o in s_text for o in org_terms)
+            has_loc = any(l in s_text for l in loc_terms)
             has_misc = any(m in s_text for m in misc_terms)
 
-            if has_per:
+            if has_loc:
+                loc_cands.append(toks)
+            elif has_per:
                 per_cands.append(toks)
             elif has_org:
                 org_cands.append(toks)
@@ -358,6 +365,7 @@ def run_silver_pipeline(config_path: str = "configs/base_config.yaml") -> dict[s
                         break
 
         # Add quota of entity-dense sentences
+        add_sentences(loc_cands, 1200)
         add_sentences(per_cands, 800)
         add_sentences(org_cands, 1200)
         add_sentences(misc_cands, 1000)

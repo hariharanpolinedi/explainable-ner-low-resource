@@ -141,3 +141,31 @@ def evaluate_predictions(
         },
         "by_type": metrics_per_type,
     }
+
+
+def split_gold_train(
+    gold_train_data: list[tuple[list[str], list[str]]],
+    tuning_ratio: float = 0.70,
+    seed: int = 42,
+) -> tuple[list[tuple[list[str], list[str]]], list[tuple[list[str], list[str]]]]:
+    """
+    Split gold-train data into tuning portion and genuinely separate verification portion.
+    Guarantees zero overlap between tuning and verification sets.
+    """
+    import random
+    n = len(gold_train_data)
+    indices = list(range(n))
+    rng = random.Random(seed)
+    rng.shuffle(indices)
+
+    split_point = int(n * tuning_ratio)
+    tuning_idx = set(indices[:split_point])
+    verif_idx = set(indices[split_point:])
+
+    # Assert non-overlapping invariant
+    assert not (tuning_idx & verif_idx), "Tuning and verification index sets must not overlap!"
+
+    tuning_data = [gold_train_data[i] for i in indices[:split_point]]
+    verif_data = [gold_train_data[i] for i in indices[split_point:]]
+    return tuning_data, verif_data
+

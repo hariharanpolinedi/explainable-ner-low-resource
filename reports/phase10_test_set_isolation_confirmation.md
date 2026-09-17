@@ -10,9 +10,9 @@
 
 | Language | Unlabeled Candidate Pool | Gold-Test Sentences | Test-Set Overlap | Isolation Status |
 | :--- | :---: | :---: | :---: | :---: |
-| **Assamese** | 131,974 | 200 | 0 | **PASS (0 Overlap)** |
-| **Konkani** | 92,549 | 200 | 0 | **PASS (0 Overlap)** |
-| **Sinhala** | 168,140 | 200 | 0 | **PASS (0 Overlap)** |
+| **Assamese** | 132,022 | 200 | 0 | **PASS (0 Overlap)** |
+| **Konkani** | 92,641 | 200 | 0 | **PASS (0 Overlap)** |
+| **Sinhala** | 168,174 | 200 | 0 | **PASS (0 Overlap)** |
 
 ## 2. Leakage Guard Mechanism
 

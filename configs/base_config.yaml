@@ -166,6 +166,12 @@ finetune:
 
 self_training:
   initial_threshold: 0.90
+  per_type_thresholds:
+    PER: 0.90
+    LOC: 0.90
+    ORG: 0.75
+    MISC: 0.85
+    O: 0.90
   threshold_step: 0.02
   max_rounds: 4
   volume_cap_multiplier: 3.0
@@ -177,6 +183,9 @@ self_training:
 augmentation:
   multiplier: 1
   check_agreement: true
+  org_oversample_ratio: 3.0
+  include_multi_entity_lists: true
+  num_multi_entity_lists: 200
   loss_variant: "standard"
   focal_gamma: 2.0
   learning_rate: 0.0001

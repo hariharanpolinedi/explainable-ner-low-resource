@@ -224,7 +224,7 @@ def filter_unlabeled_pool(
     candidate_tokens: list[list[str]],
     checkpoint_path: Path | str,
     proc_dir: Path | str,
-    threshold: float,
+    threshold: float | dict[str, float],
     device: torch.device,
     batch_size: int = 64,
     volume_cap: int | None = None,
@@ -238,7 +238,7 @@ def filter_unlabeled_pool(
         candidate_tokens: List of tokenized candidate sentences
         checkpoint_path: Model checkpoint to load
         proc_dir: Processed directory containing vocabularies
-        threshold: Confidence cutoff (e.g., 0.90)
+        threshold: Confidence cutoff as single float or per-type dict (e.g. {'PER': 0.9, 'ORG': 0.75})
         device: Torch device (CUDA/CPU)
         batch_size: Inference batch size
         volume_cap: Maximum number of pseudo sentences to retain
@@ -289,9 +289,25 @@ def filter_unlabeled_pool(
 
             for i in range(len(tokens_batch)):
                 c = confs_list[i]
-                if c >= threshold:
-                    slen = seq_lens[i]
-                    p_tags = [ID_TO_TAG[tid] for tid in paths[i][:slen]]
+                slen = seq_lens[i]
+                p_tags = [ID_TO_TAG[tid] for tid in paths[i][:slen]]
+
+                if isinstance(threshold, dict):
+                    # Priority given to ORG threshold to boost ORG retention
+                    if any(t in ("B-ORG", "I-ORG") for t in p_tags):
+                        effective_thresh = threshold.get("ORG", 0.75)
+                    elif any(t in ("B-PER", "I-PER") for t in p_tags):
+                        effective_thresh = threshold.get("PER", 0.90)
+                    elif any(t in ("B-LOC", "I-LOC") for t in p_tags):
+                        effective_thresh = threshold.get("LOC", 0.90)
+                    elif any(t in ("B-MISC", "I-MISC") for t in p_tags):
+                        effective_thresh = threshold.get("MISC", 0.85)
+                    else:
+                        effective_thresh = threshold.get("O", 0.90)
+                else:
+                    effective_thresh = float(threshold)
+
+                if c >= effective_thresh:
                     toks = tokens_batch[i]
                     has_entity = any(t != "O" for t in p_tags)
 
@@ -312,6 +328,14 @@ def filter_unlabeled_pool(
         retained = retained[:volume_cap]
         capped = True
 
+    # Count per-type entity annotations in retained pseudo-data
+    from weak_supervision.estimate_silver_precision import extract_entities_from_bio
+    per_type_counts = {"PER": 0, "LOC": 0, "ORG": 0, "MISC": 0}
+    for item in retained:
+        for etype, _, _ in extract_entities_from_bio(item["tags"]):
+            if etype in per_type_counts:
+                per_type_counts[etype] += 1
+
     # Save to CoNLL if path provided
     if output_conll_path:
         out_p = Path(output_conll_path)
@@ -323,22 +347,19 @@ def filter_unlabeled_pool(
                 f.write("\n")
 
     elapsed = time.time() - t0
-    avg_conf = (
-        sum(x["confidence"] for x in retained) / len(retained) if retained else 0.0
-    )
-    entity_sents = sum(1 for x in retained if x["has_entity"])
+    avg_conf = sum(x["confidence"] for x in retained) / len(retained) if retained else 0.0
+    entity_bearing = sum(1 for x in retained if x["has_entity"])
 
     return {
         "language": lang,
-        "threshold": threshold,
         "total_evaluated": total_evaluated,
         "total_above_threshold": len(high_conf_candidates),
         "retained_count": len(retained),
-        "volume_cap_applied": capped,
-        "volume_cap": volume_cap,
+        "volume_capped": capped,
         "average_confidence": round(avg_conf, 4),
-        "entity_bearing_sentences": entity_sents,
-        "entity_bearing_ratio": round(entity_sents / max(len(retained), 1), 4),
+        "entity_bearing_count": entity_bearing,
+        "entity_bearing_ratio": round(entity_bearing / len(retained), 4) if retained else 0.0,
+        "per_type_entity_counts": per_type_counts,
         "elapsed_seconds": round(elapsed, 2),
         "output_path": str(output_conll_path) if output_conll_path else None,
         "retained_samples": retained,

@@ -319,8 +319,14 @@ def run_self_training_for_language(
 
     # Multi-Round Self-Training Loop
     for r in range(1, max_rounds + 1):
-        round_threshold = initial_threshold + (r - 1) * threshold_step
-        print(f"\n--- [Round {r}/{max_rounds}] Threshold: {round_threshold:.2f} ---")
+        round_thresholds = {
+            "PER": round(min(0.96, initial_threshold + (r - 1) * threshold_step), 4),
+            "LOC": round(min(0.96, initial_threshold + (r - 1) * threshold_step), 4),
+            "ORG": round(min(0.90, (initial_threshold - 0.15) + (r - 1) * threshold_step), 4),  # 0.75 base
+            "MISC": round(min(0.94, (initial_threshold - 0.05) + (r - 1) * threshold_step), 4),
+            "O": round(min(0.96, initial_threshold + (r - 1) * threshold_step), 4),
+        }
+        print(f"\n--- [Round {r}/{max_rounds}] Per-Type Thresholds: {round_thresholds} ---")
 
         # Step A: Assemble Candidate Pool (Disjoint from Gold, Silver, and Prior Pseudo)
         current_excluded = used_sents | all_pseudo_sents_set
@@ -351,7 +357,7 @@ def run_self_training_for_language(
             candidate_tokens=candidate_tokens,
             checkpoint_path=current_best_checkpoint_path,
             proc_dir=proc_dir,
-            threshold=round_threshold,
+            threshold=round_thresholds,
             device=device,
             batch_size=128,
             volume_cap=round_cap,
@@ -359,14 +365,15 @@ def run_self_training_for_language(
         )
 
         num_added = filter_res["retained_count"]
+        ent_counts = filter_res.get("per_type_entity_counts", {})
         print(
-            f"[{lang.upper()}] Filtered: {filter_res['total_above_threshold']:,} above {round_threshold:.2f}. "
+            f"[{lang.upper()}] Filtered: {filter_res['total_above_threshold']:,} above per-type thresholds. "
             f"Retained (Capped): {num_added:,} sentences (Avg Conf: {filter_res['average_confidence']:.4f}, "
-            f"Entity ratio: {filter_res['entity_bearing_ratio']*100:.1f}%)"
+            f"Entity ratio: {filter_res['entity_bearing_ratio']*100:.1f}%, Entities: {ent_counts})"
         )
 
         if num_added == 0:
-            print(f"[{lang.upper()}] Zero sentences met threshold {round_threshold:.2f}. Ending loop.")
+            print(f"[{lang.upper()}] Zero sentences met threshold {round_thresholds}. Ending loop.")
             stopping_reason = "THRESHOLD_EXHAUSTED"
             break
 

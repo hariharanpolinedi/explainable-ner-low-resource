@@ -13,14 +13,17 @@
 | **Konkani** | `gazetteer` | **ACTIVE** | 100.00% | 100.00% | 100.00% | 125 | 0 | 0 |
 | **Konkani** | `rule` | *DROPPED (Low P)* | 18.60% | 6.40% | 9.52% | 8 | 35 | 117 |
 | **Konkani** | `wikipedia` | **ACTIVE** | 100.00% | 82.40% | 90.35% | 103 | 0 | 22 |
+| **Konkani** | `org_rule` | *DROPPED (Low P)* | 20.69% | 4.80% | 7.79% | 6 | 23 | 119 |
 | **Konkani** | **`Aggregated Pipeline`** | **ACCEPTED** | **100.00%** | **100.00%** | **100.00%** | **125** | **0** | **0** |
-| **Assamese** | `gazetteer` | **ACTIVE** | 100.00% | 100.00% | 100.00% | 139 | 0 | 0 |
+| **Assamese** | `gazetteer` | **ACTIVE** | 99.28% | 99.28% | 99.28% | 138 | 1 | 1 |
 | **Assamese** | `rule` | *DROPPED (Low P)* | 26.00% | 9.35% | 13.76% | 13 | 37 | 126 |
 | **Assamese** | `wikipedia` | **ACTIVE** | 100.00% | 87.77% | 93.49% | 122 | 0 | 17 |
+| **Assamese** | `org_rule` | *DROPPED (Low P)* | 17.39% | 2.88% | 4.94% | 4 | 19 | 135 |
 | **Assamese** | **`Aggregated Pipeline`** | **ACCEPTED** | **100.00%** | **100.00%** | **100.00%** | **139** | **0** | **0** |
 | **Sinhala** | `gazetteer` | **ACTIVE** | 99.24% | 99.24% | 99.24% | 130 | 1 | 1 |
 | **Sinhala** | `rule` | *DROPPED (Low P)* | 26.32% | 7.63% | 11.83% | 10 | 28 | 121 |
 | **Sinhala** | `wikipedia` | **ACTIVE** | 96.04% | 74.05% | 83.62% | 97 | 4 | 34 |
+| **Sinhala** | `org_rule` | *DROPPED (Low P)* | 16.13% | 3.82% | 6.17% | 5 | 26 | 126 |
 | **Sinhala** | **`Aggregated Pipeline`** | **ACCEPTED** | **96.30%** | **99.24%** | **97.74%** | **130** | **5** | **1** |
 
 ---

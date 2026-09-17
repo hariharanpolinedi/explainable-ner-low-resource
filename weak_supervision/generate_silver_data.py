@@ -269,6 +269,8 @@ def run_silver_pipeline(config_path: str = "configs/base_config.yaml") -> dict[s
         stoplist = cfg.weak_supervision.stoplist.get(lang, []) if cfg.weak_supervision else []
         gaz_matcher = GazetteerMatcher(lang, gaz_dir, stoplist=stoplist)
         rule_tagger = RuleTagger(lang)
+        from weak_supervision.org_rule_taggers import DedicatedORGRuleTagger
+        org_rule_tagger = DedicatedORGRuleTagger(lang)
         wiki_labeler = WikipediaDistantLabeler(lang)
 
         aggregator = LabelAggregator(
@@ -276,6 +278,7 @@ def run_silver_pipeline(config_path: str = "configs/base_config.yaml") -> dict[s
             gaz_matcher=gaz_matcher,
             rule_tagger=rule_tagger,
             wiki_labeler=wiki_labeler,
+            org_rule_tagger=org_rule_tagger,
             min_precision_threshold=min_prec,
         )
 

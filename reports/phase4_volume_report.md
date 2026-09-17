@@ -10,9 +10,9 @@
 
 | Language | Gold-Train Sents | Silver Sents | Multiplier | Total Silver Tokens | Total Silver Entities | Entity Density | Status |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Konkani** | 600 | 7,200 | **12x** | 91,982 | 464 | 0.06 ents/sent | **PASS (10-20x Target Met)** |
-| **Assamese** | 600 | 7,200 | **12x** | 115,487 | 2,790 | 0.39 ents/sent | **PASS (10-20x Target Met)** |
-| **Sinhala** | 600 | 7,200 | **12x** | 118,736 | 910 | 0.13 ents/sent | **PASS (10-20x Target Met)** |
+| **Konkani** | 600 | 7,200 | **12x** | 90,773 | 514 | 0.07 ents/sent | **PASS (10-20x Target Met)** |
+| **Assamese** | 600 | 7,200 | **12x** | 113,715 | 2,767 | 0.38 ents/sent | **PASS (10-20x Target Met)** |
+| **Sinhala** | 600 | 7,200 | **12x** | 117,119 | 1,074 | 0.15 ents/sent | **PASS (10-20x Target Met)** |
 
 ---
 
@@ -20,9 +20,9 @@
 
 | Language | PER | LOC | ORG | MISC | Total Entities |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Konkani** | 0 | 214 | 62 | 188 | **464** |
-| **Assamese** | 361 | 1,435 | 291 | 703 | **2,790** |
-| **Sinhala** | 157 | 182 | 174 | 397 | **910** |
+| **Konkani** | 10 | 227 | 78 | 199 | **514** |
+| **Assamese** | 357 | 1,477 | 249 | 684 | **2,767** |
+| **Sinhala** | 183 | 220 | 227 | 444 | **1,074** |
 
 ---
 

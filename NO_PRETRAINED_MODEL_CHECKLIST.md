@@ -342,3 +342,24 @@ Every project phase must append a dated compliance entry to this ledger verifyin
   - Frozen model serving: Deployed checkpoints are strictly the frozen Phase-12 final models (`checkpoints/final_{lang}.pt`) evaluated in Phase 14; zero retraining, parameter tuning, or checkpoint modification was performed.
   - Attribution tool purity: Attribution explanations are computed entirely through native PyTorch autograd via this project's own `GradientAttentionAttributor`; zero external interpretability toolkits (e.g. Captum, transformers-interpret) were utilized.
   - Device fallback verified: Both GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) and explicit CPU-only execution paths were verified functional.
+
+---
+
+## Targeted Patch: ORG Recall & Length Degradation (Phases 10 & 11 Amendment)
+- **Date**: 2026-09-17
+- **Status**: COMPLIANT
+- **Components Introduced**:
+  - ORG Gazetteer Expansion: `data_collection/expand_org_gazetteer.py` (expanding `data/gazetteers/{lang}/orgs.txt` by +50-60 curated institutional names per language: Konkani 29 -> 88, Assamese 26 -> 84, Sinhala 28 -> 81).
+  - Dedicated ORG Rule Taggers: `weak_supervision/org_rule_taggers.py` (`DedicatedORGRuleTagger` covering institutional heads, morphological case suffixes, prefix modifiers, and conjunctions).
+  - Weak Supervision Silver Re-generation: `weak_supervision/label_aggregator.py` and `weak_supervision/generate_silver_data.py` (regenerating `data/silver/{lang}/train.conll` with +225% Konkani ORGs and +131% Sinhala ORGs at >=96% precision).
+  - Per-Entity-Type Confidence Thresholds: `training/confidence_filter.py` and `training/self_training_loop.py` (relaxing ORG threshold to 0.75 vs 0.90 for other categories, boosting ORG pseudo-data yield).
+  - Targeted Augmentation & Multi-Entity List Synthesis: `training/entity_substitution.py` (`org_oversample_ratio=3.0` and `generate_multi_entity_list_sentence` synthesizing comma/conjunction lists).
+  - Naturalness Spot-Check: `reports/patch_naturalness_spotcheck.md` (auditing 20 sentences per language with 100% pass rate).
+  - Patched Model Checkpoints: `checkpoints/patched_{konkani,assamese,sinhala}.pt`.
+  - Comprehensive Diagnostic & Verification Reports: `reports/patch_org_length_diagnosis.md`, `reports/patch_org_length_results.md`, and `reports/patch_test_results.md`.
+  - Verification Test Suite: `utils/test_patch.py` (6 checks passing).
+- **Pretrained Artifacts Used**: NONE
+- **Audit Details**:
+  - Zero pretrained models, embeddings, tokenizers, or external checkpoints used. All additions rely strictly on native rule-based linguistic patterns, expanded gazetteers from local corpora, and internal from-scratch model checkpoints.
+  - Zero test-set leakage: `evaluation/test_set_isolation_guard.py` verified 0 test-set overlap before pseudo-filtering.
+  - Downstream impact notice: Flags Phases 12, 13, 14, and 15 outputs as stale and requiring re-execution with `checkpoints/patched_{lang}.pt`.

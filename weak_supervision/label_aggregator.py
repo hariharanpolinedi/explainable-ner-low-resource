@@ -25,6 +25,7 @@ from weak_supervision.estimate_silver_precision import (
     load_conll_data,
 )
 from weak_supervision.gazetteer_matcher import GazetteerMatcher
+from weak_supervision.org_rule_taggers import DedicatedORGRuleTagger
 from weak_supervision.rule_taggers import RuleTagger
 from weak_supervision.wikipedia_distant_labeler import WikipediaDistantLabeler
 
@@ -43,6 +44,7 @@ class LabelAggregator:
         gaz_matcher: GazetteerMatcher,
         rule_tagger: RuleTagger,
         wiki_labeler: WikipediaDistantLabeler,
+        org_rule_tagger: DedicatedORGRuleTagger | None = None,
         min_precision_threshold: float = 0.70,
     ) -> None:
         self.lang = lang.lower()
@@ -51,6 +53,8 @@ class LabelAggregator:
             "rule": rule_tagger,
             "wikipedia": wiki_labeler,
         }
+        if org_rule_tagger is not None:
+            self.labelers["org_rule"] = org_rule_tagger
         self.min_precision_threshold = min_precision_threshold
         self.labeler_weights: dict[str, float] = {}
         self.active_labelers: list[str] = []

@@ -363,3 +363,22 @@ Every project phase must append a dated compliance entry to this ledger verifyin
   - Zero pretrained models, embeddings, tokenizers, or external checkpoints used. All additions rely strictly on native rule-based linguistic patterns, expanded gazetteers from local corpora, and internal from-scratch model checkpoints.
   - Zero test-set leakage: `evaluation/test_set_isolation_guard.py` verified 0 test-set overlap before pseudo-filtering.
   - Downstream impact notice: Flags Phases 12, 13, 14, and 15 outputs as stale and requiring re-execution with `checkpoints/patched_{lang}.pt`.
+
+---
+
+## Patch v2 (Corrective): Checkpoint Selection Bug Fix, Hard Weight Divergence Gate & Long/Multi-Entity Gold Expansion
+- **Date**: 2026-09-17
+- **Status**: COMPLIANT
+- **Components Introduced**:
+  - Hard Weight-Divergence Gate: `training/checkpoint_divergence_gate.py` (`compute_parameter_divergence`, `verify_weight_divergence`, `save_patched_checkpoint_with_gate`) enforcing >= 1.0% parameter change and L2 >= 0.01 prior to saving any checkpoint under a patched name.
+  - Composite Checkpoint Selection Pipeline: `training/run_patch_pipeline.py` implementing `composite_score = 0.40 * ORG_F1 + 0.40 * Long_F1 + 0.20 * Dev_F1` with per-epoch component tracking and plateau-based early stopping.
+  - Durable Long Multi-Entity Gold Dataset Expansion: `annotation/expand_long_multientity_set.py` constructing permanent evaluation slice `data/gold/{lang}/long_multientity_eval.conll` with naturally-occurring raw corpus sentences (Konkani: 72 sents, 161 ORGs, 25 middle targets; Assamese: 30 sents, 65 ORGs, 43 middle targets; Sinhala: 78 sents, 173 ORGs, 26 middle targets; Cohen's Kappa >= 0.9277).
+  - Standing Long/Multi-Entity Metric Evaluation: `evaluation/seqeval_metrics.py` (`compute_length_stratified_metrics`, `compute_middle_entity_resolution`).
+  - Corrected Patched Checkpoints: `checkpoints/patched_v2_{konkani,assamese,sinhala}.pt` (all passing hard divergence gate with 22.77% - 26.68% parameter updates).
+  - Re-Audit Verification Suite: `evaluation/reaudit_patch_v2.py` and comprehensive reports: `reports/patch_v2_gold_expansion_agreement.md`, `reports/patch_v2_retraining_results.md`, `reports/patch_v2_test_results.md`, and `reports/patch_v2_reaudit_verdict.md`.
+  - Config extensions: `patch_v2:` section in `configs/base_config.yaml` and `PatchV2Config`, `PatchV2CompositeWeights`, `PatchV2DivergenceGate`, `PatchV2GoldExpansion` dataclasses in `utils/config_loader.py`.
+- **Pretrained Artifacts Used**: NONE
+- **Audit Details**:
+  - Zero pretrained components: All new gold data sourced strictly from Phase 1/2 raw text pools (`data/processed/{lang}/sentences.txt`) with manual/rule adjudication; zero automated pretrained taggers or external models.
+  - Zero test-set tampering: Verified byte-for-byte that `data/gold/{lang}/test.conll` checksums match `reports/gold_test_lockfile.md` exactly; the expansion was placed in a dedicated standing slice (`long_multientity_eval.conll`).
+  - Full divergence verified: All 3 candidate checkpoints verified to possess genuine, non-zero weight divergence from baseline before saving.

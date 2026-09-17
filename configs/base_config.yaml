@@ -258,6 +258,19 @@ deployment:
   bundle_version: "v1"
   bundles_dir: "deployment/bundles"
 
+patch_v2:
+  composite_score_weights:
+    org_f1: 0.40
+    long_bucket_f1: 0.40
+    overall_f1: 0.20
+  divergence_gate:
+    min_pct_changed: 1.0
+    min_l2_diff: 0.01
+  gold_expansion:
+    target_org_instances: 20
+    target_middle_instances: 20
+    eval_slice_path: "data/gold/{lang}/long_multientity_eval.conll"
+
 
 
 

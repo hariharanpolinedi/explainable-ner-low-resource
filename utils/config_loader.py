@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import argparse
 import sys
-from dataclasses import dataclass, fields, is_dataclass
+from dataclasses import dataclass, field, fields, is_dataclass
 from pathlib import Path
 from typing import Any, TypeVar, get_args, get_origin, get_type_hints
 
@@ -144,6 +144,7 @@ class SelfTrainingConfig:
     batch_size: int = 32
     max_epochs_per_round: int = 15
     patience: int = 4
+    per_type_thresholds: dict[str, float] | None = None
 
 
 @dataclass(frozen=True)
@@ -156,6 +157,9 @@ class AugmentationConfig:
     batch_size: int = 32
     max_epochs: int = 10
     patience: int = 3
+    org_oversample_ratio: float | None = None
+    include_multi_entity_lists: bool | None = None
+    num_multi_entity_lists: int | None = None
 
 
 @dataclass(frozen=True)
@@ -195,6 +199,33 @@ class DeploymentConfig:
 
 
 @dataclass(frozen=True)
+class PatchV2CompositeWeights:
+    org_f1: float = 0.40
+    long_bucket_f1: float = 0.40
+    overall_f1: float = 0.20
+
+
+@dataclass(frozen=True)
+class PatchV2DivergenceGate:
+    min_pct_changed: float = 1.0
+    min_l2_diff: float = 0.01
+
+
+@dataclass(frozen=True)
+class PatchV2GoldExpansion:
+    target_org_instances: int = 20
+    target_middle_instances: int = 20
+    eval_slice_path: str = "data/gold/{lang}/long_multientity_eval.conll"
+
+
+@dataclass(frozen=True)
+class PatchV2Config:
+    composite_score_weights: PatchV2CompositeWeights = field(default_factory=PatchV2CompositeWeights)
+    divergence_gate: PatchV2DivergenceGate = field(default_factory=PatchV2DivergenceGate)
+    gold_expansion: PatchV2GoldExpansion = field(default_factory=PatchV2GoldExpansion)
+
+
+@dataclass(frozen=True)
 class BaseConfig:
     project: ProjectConfig
     seed: int
@@ -215,6 +246,7 @@ class BaseConfig:
     ablation: AblationConfig | None = None
     explainability: ExplainabilityConfig | None = None
     deployment: DeploymentConfig | None = None
+    patch_v2: PatchV2Config | None = None
 
 
 

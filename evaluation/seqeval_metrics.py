@@ -141,3 +141,108 @@ def compute_seqeval_metrics(
         "token_accuracy": round(token_accuracy, 4),
         "total_tokens": total_tokens,
     }
+
+
+def compute_length_stratified_metrics(
+    tokens_list: list[list[str]],
+    gold_sequences: list[list[str]],
+    pred_sequences: list[list[str]],
+    short_thresh: int = 15,
+    long_thresh: int = 30,
+) -> dict[str, Any]:
+    """
+    Partition sentences into Short (<15), Medium (15-30), and Long (30+) buckets
+    and compute standard seqeval metrics for each bucket.
+    """
+    buckets: dict[str, dict[str, list[list[str]]]] = {
+        "short": {"tokens": [], "gold": [], "pred": []},
+        "medium": {"tokens": [], "gold": [], "pred": []},
+        "long": {"tokens": [], "gold": [], "pred": []},
+    }
+
+    for toks, g_seq, p_seq in zip(tokens_list, gold_sequences, pred_sequences):
+        length = len(toks)
+        if length < short_thresh:
+            bname = "short"
+        elif length < long_thresh:
+            bname = "medium"
+        else:
+            bname = "long"
+
+        buckets[bname]["tokens"].append(toks)
+        buckets[bname]["gold"].append(g_seq)
+        buckets[bname]["pred"].append(p_seq)
+
+    results: dict[str, Any] = {}
+    for bname, data in buckets.items():
+        if not data["gold"]:
+            results[bname] = {
+                "sentence_count": 0,
+                "overall": {"entity_f1": 0.0, "entity_precision": 0.0, "entity_recall": 0.0},
+                "by_type": {},
+            }
+            continue
+
+        m = compute_seqeval_metrics(data["gold"], data["pred"])
+        m["sentence_count"] = len(data["gold"])
+        results[bname] = m
+
+    return results
+
+
+def compute_middle_entity_resolution(
+    tokens_list: list[list[str]],
+    gold_sequences: list[list[str]],
+    pred_sequences: list[list[str]],
+    delimiters: set[str] | None = None,
+) -> dict[str, Any]:
+    """
+    Compute resolution of middle entities in comma/conjunction lists.
+    """
+    if delimiters is None:
+        delimiters = {",", "आनी", "आणि", "वा", "আৰু", "বা", "සහ", "හා"}
+
+    total_middle = 0
+    middle_tp = 0
+    middle_fp = 0
+    middle_fn = 0
+
+    for toks, g_seq, p_seq in zip(tokens_list, gold_sequences, pred_sequences):
+        g_ents = sorted(list(extract_entities(g_seq)), key=lambda x: x[1])
+        p_ents = set(extract_entities(p_seq))
+
+        if len(g_ents) < 3:
+            continue
+
+        # Find clustered entity lists
+        clusters: list[list[tuple[str, int, int]]] = []
+        curr = [g_ents[0]]
+        for i in range(1, len(g_ents)):
+            prev_end = g_ents[i - 1][2]
+            curr_start = g_ents[i][1]
+            intervening = toks[prev_end:curr_start]
+            has_delim = any(t in delimiters or "," in t for t in intervening) or len(intervening) <= 3
+            if (curr_start - prev_end) <= 6 and has_delim:
+                curr.append(g_ents[i])
+            else:
+                if len(curr) >= 3:
+                    clusters.append(curr)
+                curr = [g_ents[i]]
+        if len(curr) >= 3:
+            clusters.append(curr)
+
+        for cluster in clusters:
+            for ent in cluster[1:-1]:
+                total_middle += 1
+                if ent in p_ents:
+                    middle_tp += 1
+                else:
+                    middle_fn += 1
+
+    recall = (middle_tp / total_middle * 100.0) if total_middle > 0 else 100.0
+    return {
+        "total_middle_entities": total_middle,
+        "middle_tp": middle_tp,
+        "middle_fn": middle_fn,
+        "middle_recall": round(recall, 2),
+    }

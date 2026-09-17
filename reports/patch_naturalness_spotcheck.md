@@ -34,19 +34,19 @@
 
 **Sample 3 [Targeted Augmentation / List]**:
 - **Sentence**: `১৯৭৭ : পদ্মনাথ গোহাঞিবৰুৱা , অইল ইণ্ডিয়া লিমিটেড`
-- **Entities**: PER: পদ্মনাথ গোহাঞিবৰুৱা, ORG: অইল ইণ্ডিয়া লিমিটেড
+- **Entities**: ORG: অইল ইণ্ডিয়া লিমিটেড, PER: পদ্মনাথ গোহাঞিবৰুৱা
 - **BIO Integrity**: Valid
 - **Audit Assessment**: Preserves syntactic structure, delimiter consistency, and BIO validity
 
 **Sample 4 [Targeted Augmentation / List]**:
 - **Sentence**: `নেওগ , মহেশ্বৰ ( ১৯৭৪ ) ; প্ৰাচ্য - শাসনাৱলী ; বৰাক প্ৰকাশন পৰিষদ , মানাহ ।`
-- **Entities**: LOC: বৰাক, LOC: মানাহ
+- **Entities**: LOC: মানাহ, LOC: বৰাক
 - **BIO Integrity**: Valid
 - **Audit Assessment**: Preserves syntactic structure, delimiter consistency, and BIO validity
 
 **Sample 5 [Targeted Augmentation / List]**:
 - **Sentence**: `অসমীয়া প্ৰতিদিন , অসম গেছ কোম্পানী লিমিটেড আৰু অসম গণ পৰিষদ যৌথভাৱে এক গুৰুত্বপূৰ্ণ বৈঠকত মিলিত হয় ।`
-- **Entities**: ORG: অসমীয়া প্ৰতিদিন, ORG: অসম গণ পৰিষদ, ORG: অসম গেছ কোম্পানী লিমিটেড
+- **Entities**: ORG: অসম গেছ কোম্পানী লিমিটেড, ORG: অসমীয়া প্ৰতিদিন, ORG: অসম গণ পৰিষদ
 - **BIO Integrity**: Valid
 - **Audit Assessment**: Preserves syntactic structure, delimiter consistency, and BIO validity
 
@@ -72,7 +72,7 @@
 
 **Sample 3 [Targeted Augmentation / List]**:
 - **Sentence**: `डॉ . सखाराम गुडे ट्रस्टाचो ( शिरोडें - दूधसागर ) गोवा पोलीस भूशण हो मानाचो पुरस्कार तांकां फावो जाला .`
-- **Entities**: ORG: गोवा पोलीस, LOC: दूधसागर
+- **Entities**: LOC: दूधसागर, ORG: गोवा पोलीस
 - **BIO Integrity**: Valid
 - **Audit Assessment**: Preserves syntactic structure, delimiter consistency, and BIO validity
 

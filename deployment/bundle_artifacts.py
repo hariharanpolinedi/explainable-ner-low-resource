@@ -132,6 +132,15 @@ def bundle_language_artifacts(
     shutil.copy2(word_vocab_src, dest_word_vocab)
     shutil.copy2(char_vocab_src, dest_char_vocab)
 
+    # Strict post-copy SHA-256 integrity verification
+    dest_hash = compute_sha256(dest_model)
+    if dest_hash != ckpt_hash:
+        raise RuntimeError(
+            f"FATAL BUNDLE CORRUPTION for {lang}!\n"
+            f"Copied model hash ({dest_hash}) does not match source ({ckpt_hash})."
+        )
+    print(f"[{lang.upper()}] Cryptographic verification: {dest_hash} == {ckpt_hash} (MATCH)")
+
     # 4. Generate bundle metadata
     metadata = {
         "language": lang,
@@ -142,7 +151,7 @@ def bundle_language_artifacts(
             "model": {
                 "filename": "model.pt",
                 "original_source": str(ckpt_src.relative_to(PROJECT_ROOT)),
-                "sha256": ckpt_hash,
+                "sha256": dest_hash,
                 "word_vocab_size": word_vocab_size,
                 "char_vocab_size": char_vocab_size,
                 "word_embedding_dim": int(w_emb_shape[1]),
@@ -172,20 +181,42 @@ def bundle_language_artifacts(
     with open(metadata_path, "w", encoding="utf-8") as f:
         json.dump(metadata, f, ensure_ascii=False, indent=2)
 
+    # Also keep a copy at the language directory root: deployment/bundles/{lang}/bundle_metadata.json
+    lang_metadata_path = base_bundles_dir / lang / "bundle_metadata.json"
+    with open(lang_metadata_path, "w", encoding="utf-8") as f:
+        json.dump(metadata, f, ensure_ascii=False, indent=2)
+
     print(f"  Bundle created successfully at: {bundle_dir}")
     return metadata
 
 
 def create_all_bundles(version: str = "v1", base_bundles_dir: Path | str | None = None) -> dict[str, Any]:
-    """Create bundles for all supported languages."""
+    """Create bundles for all supported languages and generate master metadata."""
     print("=" * 80)
     print(f"CREATING VERSIONED DEPLOYMENT BUNDLES ({version})")
     print("=" * 80)
+
+    if base_bundles_dir is None:
+        base_bundles_dir = PROJECT_ROOT / "deployment" / "bundles"
+    else:
+        base_bundles_dir = Path(base_bundles_dir)
 
     results = {}
     for lang in LANGUAGES:
         meta = bundle_language_artifacts(lang, version=version, base_bundles_dir=base_bundles_dir)
         results[lang] = meta
+
+    # Write top-level deployment/bundle_metadata.json
+    top_level_meta_path = PROJECT_ROOT / "deployment" / "bundle_metadata.json"
+    top_level_meta = {
+        "bundle_version": version,
+        "updated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+        "status": "ALL_BUNDLES_VERIFIED",
+        "languages": results,
+    }
+    with open(top_level_meta_path, "w", encoding="utf-8") as f:
+        json.dump(top_level_meta, f, ensure_ascii=False, indent=2)
+    print(f"Generated top-level bundle metadata at: {top_level_meta_path}")
 
     print("=" * 80)
     print("ALL DEPLOYMENT BUNDLES SUCCESSFULLY VERIFIED AND CREATED.")

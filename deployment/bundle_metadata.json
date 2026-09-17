@@ -1,0 +1,109 @@
+{
+  "bundle_version": "v1",
+  "updated_at": "2026-09-17T12:05:05.041661+00:00",
+  "status": "ALL_BUNDLES_VERIFIED",
+  "languages": {
+    "konkani": {
+      "language": "konkani",
+      "bundle_version": "v1",
+      "created_at": "2026-09-17T12:05:04.689853+00:00",
+      "status": "VERIFIED_COMPATIBLE",
+      "artifacts": {
+        "model": {
+          "filename": "model.pt",
+          "original_source": "checkpoints\\final_konkani.pt",
+          "sha256": "58eb383594ee205960836756a7c5c4525c1379d52e7c89284dd9762b7d54a038",
+          "word_vocab_size": 89196,
+          "char_vocab_size": 13022,
+          "word_embedding_dim": 100,
+          "char_embedding_dim": 50
+        },
+        "config": {
+          "filename": "config.yaml",
+          "original_source": "configs\\final_konkani.yaml",
+          "sha256": "02a53729fd4056926c44a2fa40090c2654f930f1f16ec7d19cd574c6f46c10e3"
+        },
+        "word_vocab": {
+          "filename": "word_vocab.json",
+          "original_source": "data\\processed\\multilingual\\word_vocab.json",
+          "sha256": "0dcdf8e6c6b21018c92df4943ca3b21a4cbc2659aa509372c0fd7792b0358869",
+          "vocab_size": 89196
+        },
+        "char_vocab": {
+          "filename": "char_vocab.json",
+          "original_source": "data\\processed\\multilingual\\char_vocab.json",
+          "sha256": "11400429d8cf583dbf6b8506cea2e99b21587272bb2726637d057a2a1994981f",
+          "vocab_size": 13022
+        }
+      }
+    },
+    "assamese": {
+      "language": "assamese",
+      "bundle_version": "v1",
+      "created_at": "2026-09-17T12:05:04.865897+00:00",
+      "status": "VERIFIED_COMPATIBLE",
+      "artifacts": {
+        "model": {
+          "filename": "model.pt",
+          "original_source": "checkpoints\\final_assamese.pt",
+          "sha256": "2b7688e17b394ba0dd35bc616ed72460b08aaf717d467b8fa84e7170ae37e38d",
+          "word_vocab_size": 89196,
+          "char_vocab_size": 13022,
+          "word_embedding_dim": 100,
+          "char_embedding_dim": 50
+        },
+        "config": {
+          "filename": "config.yaml",
+          "original_source": "configs\\final_assamese.yaml",
+          "sha256": "6bc10adf20fbc072d194279ca46e7e6c7b08863acb2ebb9e95ae0889c02b3e29"
+        },
+        "word_vocab": {
+          "filename": "word_vocab.json",
+          "original_source": "data\\processed\\multilingual\\word_vocab.json",
+          "sha256": "0dcdf8e6c6b21018c92df4943ca3b21a4cbc2659aa509372c0fd7792b0358869",
+          "vocab_size": 89196
+        },
+        "char_vocab": {
+          "filename": "char_vocab.json",
+          "original_source": "data\\processed\\multilingual\\char_vocab.json",
+          "sha256": "11400429d8cf583dbf6b8506cea2e99b21587272bb2726637d057a2a1994981f",
+          "vocab_size": 13022
+        }
+      }
+    },
+    "sinhala": {
+      "language": "sinhala",
+      "bundle_version": "v1",
+      "created_at": "2026-09-17T12:05:05.037436+00:00",
+      "status": "VERIFIED_COMPATIBLE",
+      "artifacts": {
+        "model": {
+          "filename": "model.pt",
+          "original_source": "checkpoints\\final_sinhala.pt",
+          "sha256": "6c268138e546c60e0ed9912606b4133f9011515d562674f764d1f8965e377b03",
+          "word_vocab_size": 89196,
+          "char_vocab_size": 13022,
+          "word_embedding_dim": 100,
+          "char_embedding_dim": 50
+        },
+        "config": {
+          "filename": "config.yaml",
+          "original_source": "configs\\final_sinhala.yaml",
+          "sha256": "d760f3ef1b5d2af191b6157d412ffea9ae509a287d7acbb6e900ccfdea0f63c4"
+        },
+        "word_vocab": {
+          "filename": "word_vocab.json",
+          "original_source": "data\\processed\\multilingual\\word_vocab.json",
+          "sha256": "0dcdf8e6c6b21018c92df4943ca3b21a4cbc2659aa509372c0fd7792b0358869",
+          "vocab_size": 89196
+        },
+        "char_vocab": {
+          "filename": "char_vocab.json",
+          "original_source": "data\\processed\\multilingual\\char_vocab.json",
+          "sha256": "11400429d8cf583dbf6b8506cea2e99b21587272bb2726637d057a2a1994981f",
+          "vocab_size": 13022
+        }
+      }
+    }
+  }
+}

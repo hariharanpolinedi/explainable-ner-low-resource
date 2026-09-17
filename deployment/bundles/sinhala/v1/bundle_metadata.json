@@ -6,8 +6,8 @@
   "artifacts": {
     "model": {
       "filename": "model.pt",
-      "original_source": "checkpoints\\final_sinhala.pt",
-      "sha256": "6c268138e546c60e0ed9912606b4133f9011515d562674f764d1f8965e377b03",
+      "original_source": "checkpoints\\\\conjunct_fixed_sinhala.pt",
+      "sha256": "faa7d168ac9ba8f6a7f9fd1b801e06e30b7592ac7ef59b7b5b8546d5010bf6c5",
       "word_vocab_size": 89196,
       "char_vocab_size": 13022,
       "word_embedding_dim": 100,

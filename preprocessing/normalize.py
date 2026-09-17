@@ -24,20 +24,28 @@ MULTI_SPACE_REGEX = re.compile(r"[^\S\r\n]+")
 # Pipe converted to Danda
 PIPE_TO_DANDA_REGEX = re.compile(r"(?<=\S)\s*\|\s*")
 
+from preprocessing.sinhala_conjunct_repair import is_sinhala_text, repair_sinhala_conjuncts
 
-def normalize_text(text: str, form: str = "NFC") -> str:
+
+def normalize_text(text: str, form: str = "NFC", lang: str | None = None) -> str:
     """
     Normalize text using canonical Unicode normalization and clean formatting.
 
     Args:
         text: Raw input string.
         form: Unicode normalization form ('NFC', 'NFD', 'NFKC', 'NFKD'). Default 'NFC'.
+        lang: Optional language code ('sinhala', 'konkani', 'assamese').
 
     Returns:
         Clean, canonically normalized string.
     """
     if not text:
         return ""
+
+    # 0. Sinhala-specific conjunct orthography repair (ZWJ restoration)
+    # Strictly script-gated: only operates if Sinhala script is detected/specified
+    if (lang == "sinhala") or (lang is None and is_sinhala_text(text)):
+        text = repair_sinhala_conjuncts(text)
 
     # 1. Canonical Unicode Normalization (NFC standard)
     normalized = unicodedata.normalize(form, text)

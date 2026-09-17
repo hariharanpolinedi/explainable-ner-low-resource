@@ -1,5 +1,43 @@
 # No-Pretrained-Model Compliance Checklist & Running Ledger
 
+## Consolidated Project-Wide Compliance Audit Summary (Phases 0–16)
+
+**Final Audit Date**: 2026-09-17  
+**Auditor**: Senior ML/NLP Research Engineer  
+**Overall Project Compliance Status**: **100% COMPLIANT (PASS)**  
+
+### Executive Audit Verdict:
+Across all 16 phases of this research project, **STRICTLY ZERO external pretrained models, pretrained word/subword embeddings, pretrained tokenizers, or externally trained model checkpoints** were introduced, downloaded, imported, or utilized. Every component of the system—from raw corpus acquisition, custom Unicode extended grapheme cluster (`\X`) tokenizers, vocabulary frequency tables, character-level CNN encoders, multi-head self-attention mechanisms, linear-chain CRF transition decoders, to attention attribution explanation modules—was engineered, constructed, and trained purely from scratch using this project's own corpora and gold/silver annotations.
+
+### Phase-by-Phase Audit Ledger Matrix:
+
+| Phase # | Phase Title | Compliance Status | Pretrained Artifacts Introduced | Audit Verification Key |
+| :---: | :--- | :---: | :---: | :--- |
+| **Phase 0** | Reproducible Engineering Foundation & Environment | **COMPLIANT** | **NONE** | Minimal pinned deps (`PyYAML==6.0.3`); zero ML libraries. |
+| **Phase 1** | Corpus Acquisition & Raw Data Consolidation | **COMPLIANT** | **NONE** | Raw Wikimedia/news streams; script purity filter >= 90%. |
+| **Phase 2** | Script-Aware Preprocessing & Tokenization | **COMPLIANT** | **NONE** | Native `\X` grapheme tokenizer; from-scratch word/char vocabs. |
+| **Phase 3** | Gold Seed Annotation & Benchmark Splitting | **COMPLIANT** | **NONE** | Dual-annotator simulation (Cohen's kappa >= 0.88); locked test sets. |
+| **Phase 4** | Weak Supervision & Silver Data Assembly | **COMPLIANT** | **NONE** | Gazetteers + regex rules + Wiki anchor trees (>=96% precision). |
+| **Phase 5** | Baseline Word BiLSTM-CRF Modeling | **COMPLIANT** | **NONE** | Randomly initialized embeddings (100d); scratch CRF partition function. |
+| **Phase 6** | Character-Level CNN Encoder Integration | **COMPLIANT** | **NONE** | From-scratch 50d char embeddings + 1D conv filters [3,4,5]. |
+| **Phase 7** | Multi-Head Self-Attention & Weight Exposure | **COMPLIANT** | **NONE** | Scratch scaled dot-product attention ($H=4, d_k=64$); exact padding mask. |
+| **Phase 8** | Multilingual Joint Warm-Start Training | **COMPLIANT** | **NONE** | Scratch 16d language embedding; pooled gold+silver training. |
+| **Phase 9** | Per-Language Fine-Tuning & Layer Unfreezing | **COMPLIANT** | **NONE** | Fine-tuned from internal Phase 8 model (`checkpoints/joint_best.pt`). |
+| **Phase 10** | Iterative Self-Training & Confidence Filtering | **COMPLIANT** | **NONE** | Pseudo-labels from Phase 9 model; zero test-set overlap. |
+| **Phase 11** | Targeted Augmentation & Class Loss | **COMPLIANT** | **NONE** | In-place gazetteer substitution; zero external generator models. |
+| **Phase 12** | Hyperparameter Search & Ablation Lock | **COMPLIANT** | **NONE** | Bounded search on gold-dev; models locked to `final_{lang}.pt`. |
+| **Phase 13** | Explainability Pipeline & Faithfulness | **COMPLIANT** | **NONE** | Native PyTorch autograd ($\nabla_{\alpha} \text{score}$); zero external explainer packages. |
+| **Phase 14** | Final Locked Gold-Test Evaluation | **COMPLIANT** | **NONE** | Pure Python/numpy metrics; single-run test evaluation guard. |
+| **Phase 15** | Deployment API, Streamlit Demo & Bundling | **COMPLIANT** | **NONE** | Deployed with Phase 2 `ScriptTokenizer`; zero third-party tokenizers. |
+| **Phase 16** | Documentation, Packaging & Final Audit | **COMPLIANT** | **NONE** | Full documentation synthesized from internal artifacts. |
+
+### Confirmation of Zero Contradictions:
+- All warm-starts and transfers (`joint_best.pt`, `finetuned_*.pt`, `final_*.pt`) originated strictly from internal models trained on local corpora from scratch.
+- The gold-test splits (`data/gold/{lang}/test.conll`) remained cryptographically sealed and untouched from Phase 3 until Phase 14's single official evaluation run.
+- Zero high-level transformer libraries (e.g., HuggingFace transformers, Captum, SentencePiece, Flair, spaCy, Stanza) were ever installed or imported.
+
+---
+
 ## Project-Wide Absolute Constraint
 **NO pretrained models, pretrained embeddings, pretrained tokenizers/vocabularies, or externally trained checkpoints may ever be introduced into this project.** Everything must be built and trained from scratch. Target performance is >90% entity-level F1 across all target low-resource languages (Konkani, Assamese, Sinhala).
 
@@ -382,3 +420,21 @@ Every project phase must append a dated compliance entry to this ledger verifyin
   - Zero pretrained components: All new gold data sourced strictly from Phase 1/2 raw text pools (`data/processed/{lang}/sentences.txt`) with manual/rule adjudication; zero automated pretrained taggers or external models.
   - Zero test-set tampering: Verified byte-for-byte that `data/gold/{lang}/test.conll` checksums match `reports/gold_test_lockfile.md` exactly; the expansion was placed in a dedicated standing slice (`long_multientity_eval.conll`).
   - Full divergence verified: All 3 candidate checkpoints verified to possess genuine, non-zero weight divergence from baseline before saving.
+
+---
+
+## Phase 16: Documentation, Packaging, and Consolidated Compliance Audit
+- **Date**: 2026-09-17
+- **Status**: COMPLIANT
+- **Components Introduced**:
+  - Thesis & Research Paper Methodology Section: `paper/methodology.md` (comprehensive continuous prose narrative detailing mathematical formulation, grapheme cluster processing, composite embeddings, BiLSTM-attention-CRF architecture, multi-stage training, and explainability protocols).
+  - Camera-Ready Results Tables: `paper/results_tables.md` (exact compilation of official test F1, per-entity metrics, OOV splits, master ablation matrix, and token-erasure faithfulness benchmarks).
+  - Scientific Limitations & Failure Modes: `paper/limitations.md` (honest exposition of corpus asymmetry, weak supervision noise, tail entity recall, and attention-based attribution limitations).
+  - Comprehensive Project Guide: `README.md` (complete, dry-run verified setup, phase-by-phase reproduction instructions, repository structure, and live serving guide).
+  - Automated Validation Suite: `utils/test_phase16.py` and test report `reports/phase16_test_results.md`.
+  - Clean Dry-Run Verification Record: `reports/phase16_readme_dryrun_log.md`.
+- **Pretrained Artifacts Used**: NONE
+- **Audit Details**:
+  - Technical writing & packaging purity: All documentation, LaTeX/Markdown tables, figures, and reproducibility scripts were compiled strictly from the internal artifacts produced in Phases 0–15. Zero external text generation models, automated translation APIs, or external data sources were used.
+  - Final full-project verification: Confirmed 100% compliance across all 16 project phases (Phase 0 through Phase 16). The absolute constraint—zero pretrained models, zero pretrained embeddings, zero pretrained tokenizers, zero external checkpoints—was rigorously maintained throughout the lifecycle of the project.
+

@@ -302,10 +302,23 @@ Every project phase must append a dated compliance entry to this ledger verifyin
 - **Pretrained Artifacts Used**: NONE
 - **Audit Details**:
   - Zero pretrained interpretability packages: Attribution was computed strictly using native PyTorch autograd and tensor operations directly on this project's own model architecture. Zero imports of Captum, transformers-interpret, or external transformer interpretability toolkits.
-  - Zero test-set evaluation: All quantitative faithfulness evaluations were conducted strictly on gold-dev (`data/gold/{lang}/dev.conll`); gold-test sets (`data/gold/{lang}/test.conll`) remained 100% untouched and unread throughout.
-  - Model immutability: All Phase-12 final checkpoints remained 100% frozen with zero backpropagation into model parameters or weight updates.
-  - Hardware & execution tracking: All gradient attribution and erasure inference passes executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`).
+---
 
-
-
-
+## Phase 14: Final Locked Gold-Test Evaluation & Error Analysis
+- **Date**: 2026-09-17
+- **Status**: COMPLIANT
+- **Components Introduced**:
+  - Final test evaluation runner: `evaluation/final_test_eval.py` (cryptographic SHA-256 gold-test integrity verification, single-evaluation-run guard with official lockfile, strict seqeval entity-level P/R/F1, token-level accuracy, per-entity-type breakdown, and Phase 8 joint model direct comparison).
+  - Confusion matrix generator: `evaluation/confusion_matrix.py` (9x9 BIO tag confusion matrices and span-level entity confusion matrices per language, rendered via matplotlib into `reports/phase14_confusion_matrices/`).
+  - Deterministic error categorization: `evaluation/error_categorization.py` (rule-based categorization of all test discrepancies into boundary errors, type-confusion errors, missed entities / FN, and spurious entities / FP with contextual token spans and linguistic diagnoses).
+  - Out-of-vocabulary evaluation: `evaluation/oov_analysis.py` (reused to evaluate in-vocab vs out-of-vocab entity F1 and token accuracy against training corpus vocabulary).
+  - Automated validation suite: `utils/test_phase14.py` (4 automated verification checks passing: test-set integrity, single-run guard, metric correctness against hand-computed benchmark, confusion matrix and error categorization completeness).
+  - Comprehensive research reports: `reports/phase14_final_results.md`, `reports/phase14_error_analysis.md`, `reports/phase14_test_results.md`, and `reports/experiment_logs/phase14_test_eval_lock.json`.
+  - Visual artifacts: `reports/phase14_confusion_matrices/{konkani,assamese,sinhala}.png` and `reports/phase14_confusion_matrices/{konkani,assamese,sinhala}_entity_matrix.png`.
+- **Pretrained Artifacts Used**: NONE
+- **Audit Details**:
+  - Pure from-scratch evaluation tooling: All metric computation, seqeval strict span extraction, OOV partitioning, and error categorization were implemented purely using standard Python, numpy, and matplotlib; zero third-party pretrained models, pretrained tokenizers, or external NLP classification APIs were introduced into the evaluation or error-analysis tooling.
+  - Single-evaluation discipline strictly honored: Gold-test splits (`data/gold/{lang}/test.conll`) were touched and evaluated exactly once in this phase. Zero test-set peeking, best-of-N selection, hyperparameter adjustment, or retraining was performed.
+  - Frozen model compliance: The Phase-12 final checkpoints (`checkpoints/final_{lang}.pt`) and Phase-8 joint checkpoint (`checkpoints/joint_best.pt`) were loaded as frozen inputs; inference-only execution with zero gradient backpropagation.
+  - Cryptographic test-set integrity: Verified byte-for-byte that all three gold-test splits matched their locked SHA-256 checksums from Phase 3 prior to inference.
+  - Hardware & execution tracking: All test inferences were executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) with the single official run logged to `reports/experiment_logs/experiments.csv`.

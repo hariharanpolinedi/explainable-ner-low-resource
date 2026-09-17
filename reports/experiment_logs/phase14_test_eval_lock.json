@@ -1,0 +1,409 @@
+{
+  "timestamp": "2026-09-17T05:03:59.541563+00:00",
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "languages": {
+    "konkani": {
+      "final_model": {
+        "checkpoint": "final_konkani.pt",
+        "checkpoint_sha256": "58eb383594ee205960836756a7c5c4525c1379d52e7c89284dd9762b7d54a038",
+        "overall": {
+          "entity_precision": 0.9915,
+          "entity_recall": 0.9355,
+          "entity_f1": 0.9627,
+          "token_accuracy": 0.9947,
+          "total_entities_gold": 124,
+          "total_entities_pred": 117,
+          "tp": 116,
+          "fp": 1,
+          "fn": 8
+        },
+        "by_type": {
+          "PER": {
+            "precision": 1.0,
+            "recall": 0.85,
+            "f1": 0.9189,
+            "tp": 17,
+            "fp": 0,
+            "fn": 3
+          },
+          "LOC": {
+            "precision": 1.0,
+            "recall": 0.9333,
+            "f1": 0.9655,
+            "tp": 28,
+            "fp": 0,
+            "fn": 2
+          },
+          "ORG": {
+            "precision": 0.9714,
+            "recall": 0.9189,
+            "f1": 0.9444,
+            "tp": 34,
+            "fp": 1,
+            "fn": 3
+          },
+          "MISC": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 37,
+            "fp": 0,
+            "fn": 0
+          }
+        },
+        "token_accuracy": 0.9947,
+        "target_met": true,
+        "shortfall": 0.0
+      },
+      "joint_baseline": {
+        "checkpoint": "joint_best.pt",
+        "checkpoint_sha256": "ad99fc8fe14eb3d7289cb49964263614980b2a92e23aab2f22e0efc519813d8c",
+        "overall": {
+          "entity_precision": 0.9831,
+          "entity_recall": 0.9355,
+          "entity_f1": 0.9587,
+          "token_accuracy": 0.9941,
+          "total_entities_gold": 124,
+          "total_entities_pred": 118,
+          "tp": 116,
+          "fp": 2,
+          "fn": 8
+        },
+        "by_type": {
+          "PER": {
+            "precision": 1.0,
+            "recall": 0.85,
+            "f1": 0.9189,
+            "tp": 17,
+            "fp": 0,
+            "fn": 3
+          },
+          "LOC": {
+            "precision": 1.0,
+            "recall": 0.9333,
+            "f1": 0.9655,
+            "tp": 28,
+            "fp": 0,
+            "fn": 2
+          },
+          "ORG": {
+            "precision": 0.9444,
+            "recall": 0.9189,
+            "f1": 0.9315,
+            "tp": 34,
+            "fp": 2,
+            "fn": 3
+          },
+          "MISC": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 37,
+            "fp": 0,
+            "fn": 0
+          }
+        },
+        "token_accuracy": 0.9941
+      },
+      "improvement_over_joint": {
+        "entity_f1_delta": 0.004,
+        "entity_precision_delta": 0.0084,
+        "entity_recall_delta": 0.0,
+        "token_accuracy_delta": 0.0006
+      },
+      "oov_analysis": {
+        "in_vocab": {
+          "entity_precision": 0.9900990099009901,
+          "entity_recall": 0.9523809523809523,
+          "entity_f1": 0.970873786407767,
+          "token_accuracy": 0.9934792734047508,
+          "gold_entities_count": 105,
+          "pred_entities_count": 101,
+          "total_tokens": 2147
+        },
+        "out_of_vocab": {
+          "entity_precision": 1.0,
+          "entity_recall": 0.8421052631578947,
+          "entity_f1": 0.9142857142857143,
+          "token_accuracy": 0.9971777986829727,
+          "gold_entities_count": 19,
+          "pred_entities_count": 16,
+          "total_tokens": 1063
+        },
+        "vocab_reference": "data/gold/konkani/train.conll",
+        "total_train_vocab_size": 4036
+      }
+    },
+    "assamese": {
+      "final_model": {
+        "checkpoint": "final_assamese.pt",
+        "checkpoint_sha256": "2b7688e17b394ba0dd35bc616ed72460b08aaf717d467b8fa84e7170ae37e38d",
+        "overall": {
+          "entity_precision": 0.9583,
+          "entity_recall": 1.0,
+          "entity_f1": 0.9787,
+          "token_accuracy": 0.9964,
+          "total_entities_gold": 138,
+          "total_entities_pred": 144,
+          "tp": 138,
+          "fp": 6,
+          "fn": 0
+        },
+        "by_type": {
+          "PER": {
+            "precision": 0.8636,
+            "recall": 1.0,
+            "f1": 0.9268,
+            "tp": 19,
+            "fp": 3,
+            "fn": 0
+          },
+          "LOC": {
+            "precision": 0.9753,
+            "recall": 1.0,
+            "f1": 0.9875,
+            "tp": 79,
+            "fp": 2,
+            "fn": 0
+          },
+          "ORG": {
+            "precision": 0.9333,
+            "recall": 1.0,
+            "f1": 0.9655,
+            "tp": 14,
+            "fp": 1,
+            "fn": 0
+          },
+          "MISC": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 26,
+            "fp": 0,
+            "fn": 0
+          }
+        },
+        "token_accuracy": 0.9964,
+        "target_met": true,
+        "shortfall": 0.0
+      },
+      "joint_baseline": {
+        "checkpoint": "joint_best.pt",
+        "checkpoint_sha256": "ad99fc8fe14eb3d7289cb49964263614980b2a92e23aab2f22e0efc519813d8c",
+        "overall": {
+          "entity_precision": 0.9648,
+          "entity_recall": 0.9928,
+          "entity_f1": 0.9786,
+          "token_accuracy": 0.9961,
+          "total_entities_gold": 138,
+          "total_entities_pred": 142,
+          "tp": 137,
+          "fp": 5,
+          "fn": 1
+        },
+        "by_type": {
+          "PER": {
+            "precision": 0.8571,
+            "recall": 0.9474,
+            "f1": 0.9,
+            "tp": 18,
+            "fp": 3,
+            "fn": 1
+          },
+          "LOC": {
+            "precision": 0.9875,
+            "recall": 1.0,
+            "f1": 0.9937,
+            "tp": 79,
+            "fp": 1,
+            "fn": 0
+          },
+          "ORG": {
+            "precision": 0.9333,
+            "recall": 1.0,
+            "f1": 0.9655,
+            "tp": 14,
+            "fp": 1,
+            "fn": 0
+          },
+          "MISC": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 26,
+            "fp": 0,
+            "fn": 0
+          }
+        },
+        "token_accuracy": 0.9961
+      },
+      "improvement_over_joint": {
+        "entity_f1_delta": 0.0001,
+        "entity_precision_delta": -0.0065,
+        "entity_recall_delta": 0.0072,
+        "token_accuracy_delta": 0.0003
+      },
+      "oov_analysis": {
+        "in_vocab": {
+          "entity_precision": 0.984251968503937,
+          "entity_recall": 1.0,
+          "entity_f1": 0.9920634920634921,
+          "token_accuracy": 0.997588424437299,
+          "gold_entities_count": 125,
+          "pred_entities_count": 127,
+          "total_tokens": 2488
+        },
+        "out_of_vocab": {
+          "entity_precision": 0.7647058823529411,
+          "entity_recall": 1.0,
+          "entity_f1": 0.8666666666666666,
+          "token_accuracy": 0.9930313588850174,
+          "gold_entities_count": 13,
+          "pred_entities_count": 17,
+          "total_tokens": 861
+        },
+        "vocab_reference": "data/gold/assamese/train.conll",
+        "total_train_vocab_size": 3767
+      }
+    },
+    "sinhala": {
+      "final_model": {
+        "checkpoint": "final_sinhala.pt",
+        "checkpoint_sha256": "6c268138e546c60e0ed9912606b4133f9011515d562674f764d1f8965e377b03",
+        "overall": {
+          "entity_precision": 0.9632,
+          "entity_recall": 0.9924,
+          "entity_f1": 0.9776,
+          "token_accuracy": 0.997,
+          "total_entities_gold": 132,
+          "total_entities_pred": 136,
+          "tp": 131,
+          "fp": 5,
+          "fn": 1
+        },
+        "by_type": {
+          "PER": {
+            "precision": 0.9487,
+            "recall": 0.9737,
+            "f1": 0.961,
+            "tp": 37,
+            "fp": 2,
+            "fn": 1
+          },
+          "LOC": {
+            "precision": 0.9286,
+            "recall": 1.0,
+            "f1": 0.963,
+            "tp": 39,
+            "fp": 3,
+            "fn": 0
+          },
+          "ORG": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 28,
+            "fp": 0,
+            "fn": 0
+          },
+          "MISC": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 27,
+            "fp": 0,
+            "fn": 0
+          }
+        },
+        "token_accuracy": 0.997,
+        "target_met": true,
+        "shortfall": 0.0
+      },
+      "joint_baseline": {
+        "checkpoint": "joint_best.pt",
+        "checkpoint_sha256": "ad99fc8fe14eb3d7289cb49964263614980b2a92e23aab2f22e0efc519813d8c",
+        "overall": {
+          "entity_precision": 0.9493,
+          "entity_recall": 0.9924,
+          "entity_f1": 0.9704,
+          "token_accuracy": 0.996,
+          "total_entities_gold": 132,
+          "total_entities_pred": 138,
+          "tp": 131,
+          "fp": 7,
+          "fn": 1
+        },
+        "by_type": {
+          "PER": {
+            "precision": 0.925,
+            "recall": 0.9737,
+            "f1": 0.9487,
+            "tp": 37,
+            "fp": 3,
+            "fn": 1
+          },
+          "LOC": {
+            "precision": 0.907,
+            "recall": 1.0,
+            "f1": 0.9512,
+            "tp": 39,
+            "fp": 4,
+            "fn": 0
+          },
+          "ORG": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 28,
+            "fp": 0,
+            "fn": 0
+          },
+          "MISC": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 27,
+            "fp": 0,
+            "fn": 0
+          }
+        },
+        "token_accuracy": 0.996
+      },
+      "improvement_over_joint": {
+        "entity_f1_delta": 0.0072,
+        "entity_precision_delta": 0.0139,
+        "entity_recall_delta": 0.0,
+        "token_accuracy_delta": 0.001
+      },
+      "oov_analysis": {
+        "in_vocab": {
+          "entity_precision": 0.9789473684210527,
+          "entity_recall": 1.0,
+          "entity_f1": 0.9893617021276596,
+          "token_accuracy": 0.9964701729615248,
+          "gold_entities_count": 93,
+          "pred_entities_count": 95,
+          "total_tokens": 2833
+        },
+        "out_of_vocab": {
+          "entity_precision": 0.926829268292683,
+          "entity_recall": 0.9743589743589743,
+          "entity_f1": 0.9500000000000001,
+          "token_accuracy": 0.998280309544282,
+          "gold_entities_count": 39,
+          "pred_entities_count": 41,
+          "total_tokens": 1163
+        },
+        "vocab_reference": "data/gold/sinhala/train.conll",
+        "total_train_vocab_size": 4599
+      }
+    }
+  },
+  "target_f1": 0.9,
+  "single_run_guard": {
+    "status": "OFFICIAL_SINGLE_EVALUATION",
+    "force_re_run": false,
+    "force_reason": ""
+  }
+}

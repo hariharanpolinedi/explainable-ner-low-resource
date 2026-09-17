@@ -159,6 +159,24 @@ class AugmentationConfig:
 
 
 @dataclass(frozen=True)
+class SearchConfig:
+    budget: int
+    hidden_dims: list[int]
+    num_heads: list[int]
+    num_attention_blocks: list[int]
+    dropouts: list[float]
+    learning_rates: list[float]
+    lang_embedding_dims: list[int]
+    batch_sizes: list[int]
+    target_stage: str = "multilingual_joint"
+
+
+@dataclass(frozen=True)
+class AblationConfig:
+    components: list[str]
+
+
+@dataclass(frozen=True)
 class BaseConfig:
     project: ProjectConfig
     seed: int
@@ -175,6 +193,9 @@ class BaseConfig:
     self_training: SelfTrainingConfig | None = None
     augmentation: AugmentationConfig | None = None
     training: TrainingConfig | None = None
+    search: SearchConfig | None = None
+    ablation: AblationConfig | None = None
+
 
 
 

@@ -262,10 +262,27 @@ Every project phase must append a dated compliance entry to this ledger verifyin
   - Verification test suite: `utils/test_phase11.py`.
   - Config extensions: `augmentation:` block in `configs/base_config.yaml` and `AugmentationConfig` in `utils/config_loader.py`.
 - **Pretrained Artifacts Used**: NONE
+---
+
+## Phase 12: Hyperparameter Optimization, Full Ablation Suite, and Final Configuration Lock
+- **Date**: 2026-09-17
+- **Status**: COMPLIANT
+- **Components Introduced**:
+  - Bounded random hyperparameter search module: `experiments/hparam_search.py` (15 trials systematically sampling hidden size {128, 192, 256}, attention heads {4, 8}, attention blocks {1, 2}, dropout {0.3, 0.4, 0.5}, learning rate {5e-4, 1e-3, 2e-3}, language embedding dimension {8, 16, 32}, and batch size {16, 32}).
+  - Full ablation suite runner: `experiments/ablation_runner.py` (isolating (a) char-CNN, (b) self-attention, (c) CRF, (d) multilingual joint warm-start, (e) self-training, (f) augmentation, and (g) from-scratch BPE tokenization across all three languages).
+  - Master ablation consolidation & MUST VERIFY resolution: `experiments/consolidate_ablation_table.py`.
+  - Architectural ablation toggles in `model/ner_model_v4_multilingual.py`: `use_char_cnn`, `use_attention`, and `use_crf` (supporting both shared and per-language softmax decoding).
+  - Final locked configurations: `configs/final_{konkani,assamese,sinhala}.yaml`.
+  - Final locked model checkpoints: `checkpoints/final_{konkani,assamese,sinhala}.pt`.
+  - Comprehensive research reports: `reports/phase12_ablation_table.md`, `reports/phase12_hparam_search.md`, `reports/phase12_must_verify_resolution.md`, and `reports/phase12_test_results.md`.
+  - Automated test suite: `utils/test_phase12.py` (verifying toggle correctness, search-space coverage, ablation completeness, and final reproducibility).
+  - Config extensions: `search:` and `ablation:` blocks in `configs/base_config.yaml` and `SearchConfig`, `AblationConfig` dataclasses in `utils/config_loader.py`.
+- **Pretrained Artifacts Used**: NONE
 - **Audit Details**:
-  - Zero pretrained generation / paraphrasing tools: Augmentation was strictly template-based (swapping entities with in-project gazetteers and non-entity words with hand-curated vocabulary equivalence sets). No LLMs, pretrained word2vec/fasttext similarity, back-translation models, or generative paraphrase tools were used.
-  - Zero test-set leakage: Augmentation was applied strictly to gold-train, silver-train, and pseudo-labeled pools. The gold test sets (`data/gold/{lang}/test.conll`) remained 100% untouched and unread throughout.
-  - Scope constraint compliance: Hyperparameter search and ablation matrices (reserved for Phase 12) and attribution-based explainability (reserved for Phase 13) were strictly NOT implemented in this phase.
-  - Hardware & execution tracking: All isolated experiment training runs executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) with runs logged to `reports/experiment_logs/experiments.csv`.
+  - Zero pretrained models or tokenizers: All models trained from fresh random initialization; the tokenization ablation employed pure Python Byte-Pair Encoding (`FromScratchBPETokenizer`) fitted strictly on local project corpora without any HuggingFace tokenizers, sentencepiece, or third-party tokenizers.
+  - Zero test-set evaluation: All hyperparameter comparisons, ablation delta computations, and final model verifications were conducted exclusively on gold-dev (`data/gold/{lang}/dev.conll`). The gold test sets (`data/gold/{lang}/test.conll`) remained 100% untouched and unread throughout.
+  - Scope constraint compliance: Explainability and attention attribution pipelines (reserved for Phase 13) were strictly NOT implemented in this phase.
+  - Hardware & execution tracking: All search trials and ablation trainings executed on local GPU (`NVIDIA GeForce RTX 3050 Laptop GPU`) with runs logged to `reports/experiment_logs/experiments.csv`.
+
 
 

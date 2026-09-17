@@ -142,6 +142,7 @@ class MultilingualNERDataset(Dataset):
         unk_word_id: int = 1,
         pad_char_id: int = 0,
         unk_char_id: int = 1,
+        max_sentences_per_lang: int | None = None,
     ) -> None:
         self.word_to_id = word_to_id
         self.char_to_id = char_to_id
@@ -149,6 +150,7 @@ class MultilingualNERDataset(Dataset):
         self.unk_word_id = unk_word_id
         self.pad_char_id = pad_char_id
         self.unk_char_id = unk_char_id
+        self.max_sentences_per_lang = max_sentences_per_lang
 
         self.tokenizers = {
             lang: ScriptTokenizer(lang) for lang in lang_conll_paths.keys()
@@ -169,6 +171,8 @@ class MultilingualNERDataset(Dataset):
             tok = self.tokenizers[lang]
 
             for p in paths:
+                if self.max_sentences_per_lang and len(self.lang_indices[lang_id]) >= self.max_sentences_per_lang:
+                    break
                 fpath = Path(p)
                 if not fpath.is_file():
                     raise FileNotFoundError(f"Missing CoNLL file for {lang}: {fpath}")
@@ -184,6 +188,8 @@ class MultilingualNERDataset(Dataset):
                                 self._append_sample(curr_tokens, curr_tags, lang_id, tok)
                                 curr_tokens = []
                                 curr_tags = []
+                                if self.max_sentences_per_lang and len(self.lang_indices[lang_id]) >= self.max_sentences_per_lang:
+                                    break
                             continue
 
                         parts = line_str.split("\t")
@@ -192,8 +198,9 @@ class MultilingualNERDataset(Dataset):
                             curr_tokens.append(tok_str)
                             curr_tags.append(TAG_TO_ID.get(tag_str, 0))
 
-                if curr_tokens:
+                if curr_tokens and (not self.max_sentences_per_lang or len(self.lang_indices[lang_id]) < self.max_sentences_per_lang):
                     self._append_sample(curr_tokens, curr_tags, lang_id, tok)
+
 
     def _append_sample(
         self,

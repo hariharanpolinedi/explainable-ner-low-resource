@@ -1,0 +1,42 @@
+{
+  "full_system": {
+    "konkani": 96.69,
+    "assamese": 98.92,
+    "sinhala": 99.24
+  },
+  "no_joint_warmstart": {
+    "konkani": 94.17,
+    "assamese": 98.91,
+    "sinhala": 96.18
+  },
+  "no_selftraining": {
+    "konkani": 96.69,
+    "assamese": 98.91,
+    "sinhala": 98.13
+  },
+  "no_augmentation": {
+    "konkani": 96.69,
+    "assamese": 98.91,
+    "sinhala": 98.13
+  },
+  "no_char_cnn": {
+    "konkani": 87.66,
+    "assamese": 88.89,
+    "sinhala": 83.2
+  },
+  "no_attention": {
+    "konkani": 58.58,
+    "assamese": 72.59,
+    "sinhala": 51.45
+  },
+  "no_crf": {
+    "konkani": 83.19,
+    "assamese": 83.92,
+    "sinhala": 76.11
+  },
+  "tokenization_bpe": {
+    "konkani": 86.08,
+    "assamese": 87.29,
+    "sinhala": 81.7
+  }
+}

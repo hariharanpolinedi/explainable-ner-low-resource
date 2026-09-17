@@ -193,4 +193,44 @@ training:
   device: "auto"
   use_class_weights: false
 
+search:
+  budget: 15
+  hidden_dims:
+    - 128
+    - 192
+    - 256
+  num_heads:
+    - 4
+    - 8
+  num_attention_blocks:
+    - 1
+    - 2
+  dropouts:
+    - 0.3
+    - 0.4
+    - 0.5
+  learning_rates:
+    - 0.0005
+    - 0.001
+    - 0.002
+  lang_embedding_dims:
+    - 8
+    - 16
+    - 32
+  batch_sizes:
+    - 16
+    - 32
+  target_stage: "multilingual_joint"
+
+ablation:
+  components:
+    - "no_char_cnn"
+    - "no_attention"
+    - "no_crf"
+    - "no_joint_warmstart"
+    - "no_selftraining"
+    - "no_augmentation"
+    - "tokenization_bpe"
+
+
 

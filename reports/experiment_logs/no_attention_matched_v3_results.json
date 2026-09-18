@@ -1,0 +1,23 @@
+{
+  "konkani": {
+    "entity_f1": 89.66,
+    "entity_precision": 86.03,
+    "entity_recall": 93.6,
+    "token_accuracy": 98.93
+  },
+  "assamese": {
+    "entity_f1": 95.5,
+    "entity_precision": 92.0,
+    "entity_recall": 99.28,
+    "token_accuracy": 99.61
+  },
+  "sinhala": {
+    "entity_f1": 89.82,
+    "entity_precision": 83.12,
+    "entity_recall": 97.71,
+    "token_accuracy": 99.01
+  },
+  "macro": {
+    "entity_f1": 91.66
+  }
+}

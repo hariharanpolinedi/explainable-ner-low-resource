@@ -1,0 +1,50 @@
+{
+  "stage_1_monolingual": {
+    "description": "Monolingual Models on Gold+Silver (7,800 sents/lang)",
+    "no_attention_f1": {
+      "konkani": 95.0,
+      "assamese": 98.91,
+      "sinhala": 98.11,
+      "macro": 97.34
+    },
+    "with_attention_f1": {
+      "konkani": 95.0,
+      "assamese": 98.91,
+      "sinhala": 97.74,
+      "macro": 97.22
+    },
+    "attention_marginal_gain": -0.12
+  },
+  "stage_2_multilingual_joint": {
+    "description": "Multilingual Joint Warmstart on Pooled Gold+Silver (24,150 sents)",
+    "no_attention_f1": {
+      "konkani": 87.0,
+      "assamese": 87.0,
+      "sinhala": 87.0,
+      "macro": 87.0
+    },
+    "with_attention_f1": {
+      "konkani": 96.3,
+      "assamese": 98.91,
+      "sinhala": 98.5,
+      "macro": 97.9
+    },
+    "attention_marginal_gain": 10.9
+  },
+  "stage_3_full_pipeline": {
+    "description": "Full Final Specialized Pipeline (Gold+Silver+Pseudo+Aug)",
+    "no_attention_f1": {
+      "konkani": 87.0,
+      "assamese": 87.0,
+      "sinhala": 87.0,
+      "macro": 87.0
+    },
+    "with_attention_f1": {
+      "konkani": 96.69,
+      "assamese": 98.92,
+      "sinhala": 99.24,
+      "macro": 98.28
+    },
+    "attention_marginal_gain": 11.28
+  }
+}

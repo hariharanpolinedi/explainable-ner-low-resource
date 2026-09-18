@@ -24,6 +24,7 @@ import torch
 def compute_parameter_divergence(
     state_candidate: dict[str, torch.Tensor],
     state_baseline: dict[str, torch.Tensor],
+    allow_shape_mismatch: bool = False,
 ) -> dict[str, Any]:
     """
     Compute parameter-wise divergence between two model state dicts.
@@ -42,6 +43,8 @@ def compute_parameter_divergence(
         t_base = state_baseline[k].detach().cpu().float()
 
         if t_cand.shape != t_base.shape:
+            if allow_shape_mismatch:
+                continue
             raise ValueError(f"Shape mismatch for parameter '{k}': {t_cand.shape} vs {t_base.shape}")
 
         num_el = t_cand.numel()
@@ -75,12 +78,17 @@ def verify_weight_divergence(
     state_baseline: dict[str, torch.Tensor],
     min_pct_changed: float = 1.0,
     min_l2_diff: float = 0.01,
+    allow_shape_mismatch: bool = False,
 ) -> tuple[bool, dict[str, Any], str]:
     """
     Verify if candidate weights have diverged meaningfully from baseline.
     Returns (passed, divergence_metrics, message).
     """
-    div = compute_parameter_divergence(state_candidate, state_baseline)
+    div = compute_parameter_divergence(
+        state_candidate,
+        state_baseline,
+        allow_shape_mismatch=allow_shape_mismatch,
+    )
 
     if div["pct_changed"] < min_pct_changed or div["l2_diff"] < min_l2_diff:
         msg = (

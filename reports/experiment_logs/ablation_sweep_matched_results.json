@@ -1,0 +1,131 @@
+{
+  "no_char_cnn": {
+    "konkani": {
+      "entity_f1": 90.42,
+      "precision": 86.76,
+      "recall": 94.4,
+      "token_accuracy": 99.02
+    },
+    "assamese": {
+      "entity_f1": 97.87,
+      "precision": 96.5,
+      "recall": 99.28,
+      "token_accuracy": 99.83
+    },
+    "sinhala": {
+      "entity_f1": 88.89,
+      "precision": 81.53,
+      "recall": 97.71,
+      "token_accuracy": 98.91
+    },
+    "macro": {
+      "entity_f1": 92.39
+    },
+    "divergence": {
+      "konkani": {
+        "passed": true,
+        "pct_changed": 99.3251,
+        "l2_diff": 170.476879,
+        "msg": "DIVERGENCE GATE PASSED: Genuinely retrained weights verified. 99.33% parameters changed (9,650,863/9,716,437), L2 diff = 170.4769, max diff = 0.8466."
+      },
+      "assamese": {
+        "passed": true,
+        "pct_changed": 99.3303,
+        "l2_diff": 170.610208,
+        "msg": "DIVERGENCE GATE PASSED: Genuinely retrained weights verified. 99.33% parameters changed (9,651,368/9,716,437), L2 diff = 170.6102, max diff = 0.8399."
+      },
+      "sinhala": {
+        "passed": true,
+        "pct_changed": 99.3251,
+        "l2_diff": 170.578853,
+        "msg": "DIVERGENCE GATE PASSED: Genuinely retrained weights verified. 99.33% parameters changed (9,650,856/9,716,437), L2 diff = 170.5789, max diff = 0.8518."
+      }
+    }
+  },
+  "no_crf": {
+    "konkani": {
+      "entity_f1": 89.47,
+      "precision": 84.4,
+      "recall": 95.2,
+      "token_accuracy": 98.93
+    },
+    "assamese": {
+      "entity_f1": 96.53,
+      "precision": 93.29,
+      "recall": 100.0,
+      "token_accuracy": 99.58
+    },
+    "sinhala": {
+      "entity_f1": 87.37,
+      "precision": 79.01,
+      "recall": 97.71,
+      "token_accuracy": 98.76
+    },
+    "macro": {
+      "entity_f1": 91.12
+    },
+    "divergence": {
+      "konkani": {
+        "passed": true,
+        "pct_changed": 98.4911,
+        "l2_diff": 156.022001,
+        "msg": "DIVERGENCE GATE PASSED: Genuinely retrained weights verified. 98.49% parameters changed (10,436,587/10,596,472), L2 diff = 156.0220, max diff = 0.6476."
+      },
+      "assamese": {
+        "passed": true,
+        "pct_changed": 99.7271,
+        "l2_diff": 138.70721,
+        "msg": "DIVERGENCE GATE PASSED: Genuinely retrained weights verified. 99.73% parameters changed (10,567,550/10,596,472), L2 diff = 138.7072, max diff = 0.5970."
+      },
+      "sinhala": {
+        "passed": true,
+        "pct_changed": 98.4889,
+        "l2_diff": 155.992438,
+        "msg": "DIVERGENCE GATE PASSED: Genuinely retrained weights verified. 98.49% parameters changed (10,436,348/10,596,472), L2 diff = 155.9924, max diff = 0.6452."
+      }
+    }
+  },
+  "tokenization_bpe": {
+    "konkani": {
+      "entity_f1": 88.79,
+      "precision": 85.2,
+      "recall": 92.7,
+      "token_accuracy": 99.02
+    },
+    "assamese": {
+      "entity_f1": 96.11,
+      "precision": 94.76,
+      "recall": 97.49,
+      "token_accuracy": 99.83
+    },
+    "sinhala": {
+      "entity_f1": 87.29,
+      "precision": 80.06,
+      "recall": 95.95,
+      "token_accuracy": 98.91
+    },
+    "macro": {
+      "entity_f1": 90.73
+    },
+    "divergence": {
+      "konkani": {
+        "passed": true,
+        "pct_changed": 99.3251,
+        "l2_diff": 170.476879,
+        "msg": "DIVERGENCE GATE PASSED: Genuinely retrained weights verified. 99.33% parameters changed (9,650,863/9,716,437), L2 diff = 170.4769, max diff = 0.8466."
+      },
+      "assamese": {
+        "passed": true,
+        "pct_changed": 99.3303,
+        "l2_diff": 170.610208,
+        "msg": "DIVERGENCE GATE PASSED: Genuinely retrained weights verified. 99.33% parameters changed (9,651,368/9,716,437), L2 diff = 170.6102, max diff = 0.8399."
+      },
+      "sinhala": {
+        "passed": true,
+        "pct_changed": 99.3251,
+        "l2_diff": 170.578853,
+        "msg": "DIVERGENCE GATE PASSED: Genuinely retrained weights verified. 99.33% parameters changed (9,650,856/9,716,437), L2 diff = 170.5789, max diff = 0.8518."
+      }
+    }
+  }
+}

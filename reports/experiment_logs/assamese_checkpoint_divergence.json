@@ -1,0 +1,40 @@
+{
+  "comparisons": {
+    "final_reference__vs__(d) fromscratch_control": {
+      "pct_params_changed": 99.98,
+      "l2_norm_diff": 126.7855,
+      "is_duplicate": false,
+      "verdict": "GENUINELY DISTINCT"
+    },
+    "final_reference__vs__(e) finetuned": {
+      "pct_params_changed": 27.76,
+      "l2_norm_diff": 12.2143,
+      "is_duplicate": false,
+      "verdict": "GENUINELY DISTINCT"
+    },
+    "final_reference__vs__(f) selftrained_best": {
+      "pct_params_changed": 27.61,
+      "l2_norm_diff": 11.3969,
+      "is_duplicate": false,
+      "verdict": "GENUINELY DISTINCT"
+    },
+    "(d) fromscratch_control__vs__(e) finetuned": {
+      "pct_params_changed": 99.98,
+      "l2_norm_diff": 125.6095,
+      "is_duplicate": false,
+      "verdict": "GENUINELY DISTINCT"
+    },
+    "(d) fromscratch_control__vs__(f) selftrained_best": {
+      "pct_params_changed": 99.98,
+      "l2_norm_diff": 125.7702,
+      "is_duplicate": false,
+      "verdict": "GENUINELY DISTINCT"
+    },
+    "(e) finetuned__vs__(f) selftrained_best": {
+      "pct_params_changed": 25.37,
+      "l2_norm_diff": 3.4723,
+      "is_duplicate": false,
+      "verdict": "GENUINELY DISTINCT"
+    }
+  }
+}

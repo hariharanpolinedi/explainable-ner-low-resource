@@ -1,0 +1,34 @@
+[
+  {
+    "language": "Konkani",
+    "precision": 99.15,
+    "recall": 93.55,
+    "f1": 96.27,
+    "token_acc": 99.47,
+    "target_margin": "+6.27 pp"
+  },
+  {
+    "language": "Assamese",
+    "precision": 95.83,
+    "recall": 100.0,
+    "f1": 97.87,
+    "token_acc": 99.64,
+    "target_margin": "+7.87 pp"
+  },
+  {
+    "language": "Sinhala",
+    "precision": 96.32,
+    "recall": 99.24,
+    "f1": 97.76,
+    "token_acc": 99.7,
+    "target_margin": "+7.76 pp"
+  },
+  {
+    "language": "Macro Average",
+    "precision": 97.1,
+    "recall": 97.6,
+    "f1": 97.3,
+    "token_acc": 99.6,
+    "target_margin": "+7.30 pp"
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "language": "Konkani",
+    "split": "Gold Train (Expanded)",
+    "sentences": 850,
+    "tokens": 13710,
+    "entities": 592,
+    "per": 144,
+    "loc": 168,
+    "org": 149,
+    "misc": 131
+  },
+  {
+    "language": "Konkani",
+    "split": "Gold Dev (Locked)",
+    "sentences": 200,
+    "tokens": 3173,
+    "entities": 125,
+    "per": 20,
+    "loc": 31,
+    "org": 37,
+    "misc": 37
+  },
+  {
+    "language": "Konkani",
+    "split": "Gold Test (Locked)",
+    "sentences": 200,
+    "tokens": 3210,
+    "entities": 124,
+    "per": 20,
+    "loc": 30,
+    "org": 37,
+    "misc": 37
+  },
+  {
+    "language": "Assamese",
+    "split": "Gold Train (Expanded)",
+    "sentences": 850,
+    "tokens": 14649,
+    "entities": 679,
+    "per": 102,
+    "loc": 395,
+    "org": 67,
+    "misc": 115
+  },
+  {
+    "language": "Assamese",
+    "split": "Gold Dev (Locked)",
+    "sentences": 200,
+    "tokens": 3569,
+    "entities": 139,
+    "per": 18,
+    "loc": 79,
+    "org": 15,
+    "misc": 27
+  },
+  {
+    "language": "Assamese",
+    "split": "Gold Test (Locked)",
+    "sentences": 200,
+    "tokens": 3349,
+    "entities": 138,
+    "per": 19,
+    "loc": 79,
+    "org": 14,
+    "misc": 26
+  },
+  {
+    "language": "Sinhala",
+    "split": "Gold Train (Expanded)",
+    "sentences": 850,
+    "tokens": 16541,
+    "entities": 641,
+    "per": 178,
+    "loc": 224,
+    "org": 119,
+    "misc": 120
+  },
+  {
+    "language": "Sinhala",
+    "split": "Gold Dev (Locked)",
+    "sentences": 200,
+    "tokens": 4032,
+    "entities": 131,
+    "per": 37,
+    "loc": 39,
+    "org": 28,
+    "misc": 27
+  },
+  {
+    "language": "Sinhala",
+    "split": "Gold Test (Locked)",
+    "sentences": 200,
+    "tokens": 3996,
+    "entities": 132,
+    "per": 38,
+    "loc": 39,
+    "org": 28,
+    "misc": 27
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "bin": "Dist 0 (Entity)",
+    "raw_attention": 0.14,
+    "input_attribution": 46.83
+  },
+  {
+    "bin": "Dist 1 (Immediate)",
+    "raw_attention": 2.1,
+    "input_attribution": 19.69
+  },
+  {
+    "bin": "Dist 2",
+    "raw_attention": 6.12,
+    "input_attribution": 11.28
+  },
+  {
+    "bin": "Dist 3",
+    "raw_attention": 8.78,
+    "input_attribution": 5.6
+  },
+  {
+    "bin": "Dist 4-5",
+    "raw_attention": 21.34,
+    "input_attribution": 6.09
+  },
+  {
+    "bin": "Dist > 5 (Distant)",
+    "raw_attention": 61.53,
+    "input_attribution": 10.51
+  }
+]

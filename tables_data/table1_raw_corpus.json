@@ -1,0 +1,26 @@
+[
+  {
+    "language": "Konkani",
+    "script": "Devanagari",
+    "raw_sentences": 112235,
+    "clean_sentences": 51488,
+    "tokens": 4950107,
+    "vocab": 21176
+  },
+  {
+    "language": "Assamese",
+    "script": "Eastern Nagari",
+    "raw_sentences": 119265,
+    "clean_sentences": 55002,
+    "tokens": 4376034,
+    "vocab": 25288
+  },
+  {
+    "language": "Sinhala",
+    "script": "Sinhala",
+    "raw_sentences": 113296,
+    "clean_sentences": 66954,
+    "tokens": 5799421,
+    "vocab": 30230
+  }
+]

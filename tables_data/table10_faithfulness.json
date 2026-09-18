@@ -1,0 +1,66 @@
+[
+  {
+    "method": "Integrated Gradients",
+    "k1_macro": 0.2449,
+    "k2_macro": 0.3105,
+    "k3_macro": 0.3396,
+    "win_rate": 63.3,
+    "p_val": "< 0.0001"
+  },
+  {
+    "method": "Gradient \u00d7 Input",
+    "k1_macro": 0.235,
+    "k2_macro": 0.2823,
+    "k3_macro": 0.3057,
+    "win_rate": 62.7,
+    "p_val": "< 0.0001"
+  },
+  {
+    "method": "Grad \u00d7 Attn (Signed ReLU)",
+    "k1_macro": 0.0574,
+    "k2_macro": 0.0841,
+    "k3_macro": 0.1128,
+    "win_rate": 35.0,
+    "p_val": "< 0.01"
+  },
+  {
+    "method": "Grad-Only Input",
+    "k1_macro": 0.1365,
+    "k2_macro": 0.182,
+    "k3_macro": 0.2105,
+    "win_rate": 42.0,
+    "p_val": "< 0.0001"
+  },
+  {
+    "method": "Grad-Only Attention",
+    "k1_macro": 0.1067,
+    "k2_macro": 0.1415,
+    "k3_macro": 0.168,
+    "win_rate": 39.7,
+    "p_val": "< 0.001"
+  },
+  {
+    "method": "Uniform Control",
+    "k1_macro": 0.02,
+    "k2_macro": 0.028,
+    "k3_macro": 0.035,
+    "win_rate": 23.7,
+    "p_val": "n.s."
+  },
+  {
+    "method": "Random Control",
+    "k1_macro": -0.0049,
+    "k2_macro": -0.0062,
+    "k3_macro": -0.008,
+    "win_rate": 24.3,
+    "p_val": "n.s."
+  },
+  {
+    "method": "Raw Attention (Baseline)",
+    "k1_macro": -0.0279,
+    "k2_macro": -0.0422,
+    "k3_macro": -0.0617,
+    "win_rate": 22.0,
+    "p_val": "ref"
+  }
+]

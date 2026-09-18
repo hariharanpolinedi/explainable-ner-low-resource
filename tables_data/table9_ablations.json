@@ -1,0 +1,50 @@
+[
+  {
+    "condition": "Full Final Pipeline (Locked Ref)",
+    "dev_f1": 98.28,
+    "delta": 0.0,
+    "rank": 0
+  },
+  {
+    "condition": "(f) No Data Augmentation",
+    "dev_f1": 97.91,
+    "delta": -0.37,
+    "rank": 1
+  },
+  {
+    "condition": "(e) No Self-Training",
+    "dev_f1": 97.91,
+    "delta": -0.37,
+    "rank": 2
+  },
+  {
+    "condition": "(d) No Multilingual Joint Warm-Start",
+    "dev_f1": 96.42,
+    "delta": -1.86,
+    "rank": 3
+  },
+  {
+    "condition": "(a) No Char-CNN Encoder",
+    "dev_f1": 92.39,
+    "delta": -5.89,
+    "rank": 4
+  },
+  {
+    "condition": "(b) No Self-Attention (Matched Full)",
+    "dev_f1": 91.66,
+    "delta": -6.62,
+    "rank": 5
+  },
+  {
+    "condition": "(c) No CRF (Softmax Cross-Entropy)",
+    "dev_f1": 91.12,
+    "delta": -7.16,
+    "rank": 6
+  },
+  {
+    "condition": "(g) Subword BPE vs Word+Char",
+    "dev_f1": 90.73,
+    "delta": -7.55,
+    "rank": 7
+  }
+]

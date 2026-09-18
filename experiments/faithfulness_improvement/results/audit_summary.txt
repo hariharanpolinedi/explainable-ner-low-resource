@@ -1,0 +1,100 @@
+
+=========================================================================================================
+  SAMPLE REAL TARGET LEAKAGE AUDIT CASES (From First Instances)
+=========================================================================================================
+
+[KONKANI] Real Sentence Leakage Checks:
+  Sentence:       कोंकणी भाशा मंडळ तशेंच गोवा कोंकणी आकादमीचे अध्यक्ष आसले ....
+  Target Entity:  'कोंकणी' (token_idx = 0)
+  In Candidates?  False (MUST BE FALSE)
+  Top-1 Context:  'मंडळ' (token_idx = 2)
+  In Top-1?       False (MUST BE FALSE)
+
+  Sentence:       सणांचें पारंपारीक म्हत्वगोंयान जायतें सण मनयतात जशें पाडवो , बाउबीज , चवथ , नाता...
+  Target Entity:  'नाताल' (token_idx = 13)
+  In Candidates?  False (MUST BE FALSE)
+  Top-1 Context:  ',' (token_idx = 12)
+  In Top-1?       False (MUST BE FALSE)
+
+  Sentence:       ताणें तियात्र माचये खातीर केल्ल्या मोलादीक आनी तोखणायेचें पात्र अश्या वावराक लाग...
+  Target Entity:  'शिगमो' (token_idx = 33)
+  In Candidates?  False (MUST BE FALSE)
+  Top-1 Context:  'ओल्ड' (token_idx = 30)
+  In Top-1?       False (MUST BE FALSE)
+
+  Sentence:       महाभारत , आदिपर्व , 167 हातूंत आयिल्ले कथेनुसार द्रौपदीं पूर्वजल्मीं मुदगल ऋषीची...
+  Target Entity:  'महाभारत' (token_idx = 0)
+  In Candidates?  False (MUST BE FALSE)
+  Top-1 Context:  'आदिपर्व' (token_idx = 2)
+  In Top-1?       False (MUST BE FALSE)
+
+  Sentence:       भारतीय झूजतंत्राचे परंपरेंत असलो झूजप्रकार पूर्विल्ल्या काळासावन दिसून येता अथर्...
+  Target Entity:  'महाभारत' (token_idx = 13)
+  In Candidates?  False (MUST BE FALSE)
+  Top-1 Context:  ',' (token_idx = 12)
+  In Top-1?       False (MUST BE FALSE)
+
+
+[ASSAMESE] Real Sentence Leakage Checks:
+  Sentence:       তেওঁ ভাৰতীয় জাতীয় কংগ্ৰেছ দলৰ সদস্য আৰু লোকসভাত অসমৰ কলিয়াবৰ লোকসভা সমষ্টিক প...
+  Target Entity:  'ভাৰতীয়' (token_idx = 1)
+  In Candidates?  False (MUST BE FALSE)
+  Top-1 Context:  'জাতীয়' (token_idx = 2)
+  In Top-1?       False (MUST BE FALSE)
+
+  Sentence:       অসমীয়া প্ৰতিদিন নামৰ অতি জনপ্ৰিয় বাতৰি কাকতখন গুৱাহাটী , উত্তৰ লখিমপুৰ আৰু ডিব...
+  Target Entity:  'অসমীয়া' (token_idx = 0)
+  In Candidates?  False (MUST BE FALSE)
+  Top-1 Context:  'প্ৰতিদিন' (token_idx = 1)
+  In Top-1?       False (MUST BE FALSE)
+
+  Sentence:       বৰ্তমান ডিব্ৰুগড় বিশ্ববিদ্যালয়ে ২০টাতকৈ অধিক বিষয়ত পি , এইচ , ডি , ডিগ্ৰী প্ৰ...
+  Target Entity:  'ডিব্ৰুগড়' (token_idx = 1)
+  In Candidates?  False (MUST BE FALSE)
+  Top-1 Context:  'বিশ্ববিদ্যালয়ে' (token_idx = 2)
+  In Top-1?       False (MUST BE FALSE)
+
+  Sentence:       ২০০৯ চনত , তেওঁক সাহিত্য আৰু শিক্ষাৰ ক্ষেত্ৰত আগবঢ়োৱা অৱদানৰ বাবে ভাৰতৰ চতুৰ্থ ...
+  Target Entity:  'পদ্মশ্ৰী' (token_idx = 16)
+  In Candidates?  False (MUST BE FALSE)
+  Top-1 Context:  'বঁটা' (token_idx = 17)
+  In Top-1?       False (MUST BE FALSE)
+
+  Sentence:       বিহু নৃত্য আৰু গীতৰ লগত সংগত কৰা সৰু আকৃতিৰ ঢোল ।...
+  Target Entity:  'বিহু' (token_idx = 0)
+  In Candidates?  False (MUST BE FALSE)
+  Top-1 Context:  'নৃত্য' (token_idx = 1)
+  In Top-1?       False (MUST BE FALSE)
+
+
+[SINHALA] Real Sentence Leakage Checks:
+  Sentence:       මහනුවර යුද්ධ සහ 1815 උඩරට ගිවිසුම අත්සන් කිරීමෙන් පසුව , දිවයින බ්‍රිතාන්‍ය රජු ...
+  Target Entity:  'මහනුවර' (token_idx = 0)
+  In Candidates?  False (MUST BE FALSE)
+  Top-1 Context:  'ජෝර්ජ්' (token_idx = 15)
+  In Top-1?       False (MUST BE FALSE)
+
+  Sentence:       එය දෙමළ මිනිසුන් වැඩිපුර ජීවත් වු නුවර ( මෙහි ඇඳිරි නීතිය සවස 6 . 00ට පනවන ලදී )...
+  Target Entity:  'මාතලේ' (token_idx = 18)
+  In Candidates?  False (MUST BE FALSE)
+  Top-1 Context:  'ලදී' (token_idx = 16)
+  In Top-1?       False (MUST BE FALSE)
+
+  Sentence:       1994 පැවති පාර්ලිමේන්තු මැතිවරණයේන් එක්සත් ජාතික පක්ෂය පරාජයට පත්වු අතර විශාල බල...
+  Target Entity:  'එක්සත්' (token_idx = 4)
+  In Candidates?  False (MUST BE FALSE)
+  Top-1 Context:  'පක්ෂය' (token_idx = 6)
+  In Top-1?       False (MUST BE FALSE)
+
+  Sentence:       ඉන්දියාවේ සිට පැමිණි මිහිඳු මහ රහතන් වහන්සේ පොසොන් පොහෝ දින දේවානම්පියතිස්ස රජතු...
+  Target Entity:  'පොසොන්' (token_idx = 7)
+  In Candidates?  False (MUST BE FALSE)
+  Top-1 Context:  'වහන්සේ' (token_idx = 6)
+  In Top-1?       False (MUST BE FALSE)
+
+  Sentence:       ශ්‍රී ලංකාව ප්‍රමාණාත්මකව කුඩා වූද සාගරයකින් වටවු කුඩා දිවයිනක් වීමත් ස්වාභාවික ...
+  Target Entity:  'ශ්‍රී' (token_idx = 0)
+  In Candidates?  False (MUST BE FALSE)
+  Top-1 Context:  'ලංකාව' (token_idx = 1)
+  In Top-1?       False (MUST BE FALSE)
+

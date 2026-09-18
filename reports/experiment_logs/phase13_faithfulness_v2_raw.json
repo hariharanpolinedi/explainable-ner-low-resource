@@ -1,0 +1,140 @@
+{
+  "konkani": {
+    "sample_size": 100,
+    "exclude_target_token": true,
+    "grad_x_attn": {
+      "k=1": {
+        "mean_top_drop": 0.0015,
+        "mean_random_drop": 0.0354,
+        "faithfulness_gap": -0.0339,
+        "faithfulness_win_rate": 15.0
+      },
+      "k=2": {
+        "mean_top_drop": 0.0013,
+        "mean_random_drop": 0.0721,
+        "faithfulness_gap": -0.0709,
+        "faithfulness_win_rate": 19.0
+      },
+      "k=3": {
+        "mean_top_drop": 0.0002,
+        "mean_random_drop": 0.0633,
+        "faithfulness_gap": -0.0631,
+        "faithfulness_win_rate": 15.0
+      }
+    },
+    "raw_attention": {
+      "k=1": {
+        "mean_top_drop": 0.0018,
+        "mean_random_drop": 0.0354,
+        "faithfulness_gap": -0.0336,
+        "faithfulness_win_rate": 19.0
+      },
+      "k=2": {
+        "mean_top_drop": 0.0019,
+        "mean_random_drop": 0.0721,
+        "faithfulness_gap": -0.0702,
+        "faithfulness_win_rate": 19.0
+      },
+      "k=3": {
+        "mean_top_drop": 0.0018,
+        "mean_random_drop": 0.0633,
+        "faithfulness_gap": -0.0615,
+        "faithfulness_win_rate": 23.0
+      }
+    }
+  },
+  "assamese": {
+    "sample_size": 100,
+    "exclude_target_token": true,
+    "grad_x_attn": {
+      "k=1": {
+        "mean_top_drop": 0.0,
+        "mean_random_drop": 0.0058,
+        "faithfulness_gap": -0.0058,
+        "faithfulness_win_rate": 24.0
+      },
+      "k=2": {
+        "mean_top_drop": 0.0,
+        "mean_random_drop": 0.0668,
+        "faithfulness_gap": -0.0668,
+        "faithfulness_win_rate": 24.0
+      },
+      "k=3": {
+        "mean_top_drop": 0.0007,
+        "mean_random_drop": 0.041,
+        "faithfulness_gap": -0.0402,
+        "faithfulness_win_rate": 24.0
+      }
+    },
+    "raw_attention": {
+      "k=1": {
+        "mean_top_drop": 0.0,
+        "mean_random_drop": 0.0058,
+        "faithfulness_gap": -0.0058,
+        "faithfulness_win_rate": 30.0
+      },
+      "k=2": {
+        "mean_top_drop": 0.0,
+        "mean_random_drop": 0.0668,
+        "faithfulness_gap": -0.0668,
+        "faithfulness_win_rate": 27.0
+      },
+      "k=3": {
+        "mean_top_drop": 0.0008,
+        "mean_random_drop": 0.041,
+        "faithfulness_gap": -0.0402,
+        "faithfulness_win_rate": 26.0
+      }
+    }
+  },
+  "sinhala": {
+    "sample_size": 100,
+    "exclude_target_token": true,
+    "grad_x_attn": {
+      "k=1": {
+        "mean_top_drop": 0.0,
+        "mean_random_drop": 0.0296,
+        "faithfulness_gap": -0.0296,
+        "faithfulness_win_rate": 12.0
+      },
+      "k=2": {
+        "mean_top_drop": 0.0003,
+        "mean_random_drop": 0.0599,
+        "faithfulness_gap": -0.0597,
+        "faithfulness_win_rate": 8.0
+      },
+      "k=3": {
+        "mean_top_drop": 0.0103,
+        "mean_random_drop": 0.1163,
+        "faithfulness_gap": -0.1059,
+        "faithfulness_win_rate": 6.0
+      }
+    },
+    "raw_attention": {
+      "k=1": {
+        "mean_top_drop": 0.0007,
+        "mean_random_drop": 0.0296,
+        "faithfulness_gap": -0.029,
+        "faithfulness_win_rate": 23.0
+      },
+      "k=2": {
+        "mean_top_drop": 0.0008,
+        "mean_random_drop": 0.0599,
+        "faithfulness_gap": -0.0591,
+        "faithfulness_win_rate": 14.0
+      },
+      "k=3": {
+        "mean_top_drop": 0.012,
+        "mean_random_drop": 0.1163,
+        "faithfulness_gap": -0.1043,
+        "faithfulness_win_rate": 15.0
+      }
+    }
+  },
+  "summary": {
+    "mean_grad_x_attn_gap": -0.0529,
+    "mean_raw_attention_gap": -0.0523,
+    "winning_method": "Raw Attention",
+    "gap_margin": 0.0006
+  }
+}

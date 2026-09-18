@@ -1,0 +1,50 @@
+{
+  "konkani": {
+    "N": 125,
+    "grad_mean_attr": 0.003278,
+    "grad_median_attr": 0.0,
+    "grad_pct_le_001": 92.8,
+    "grad_pct_le_01": 94.4,
+    "grad_pct_top1": 0.0,
+    "grad_pct_top3": 1.6,
+    "grad_mean_rank": 16.94,
+    "raw_mean_attr": 0.002845,
+    "raw_pct_le_001": 93.6,
+    "raw_pct_le_01": 93.6,
+    "raw_pct_top1": 0.0,
+    "raw_pct_top3": 0.8,
+    "raw_mean_rank": 17.26
+  },
+  "assamese": {
+    "N": 139,
+    "grad_mean_attr": 0.002364,
+    "grad_median_attr": 0.0,
+    "grad_pct_le_001": 98.56,
+    "grad_pct_le_01": 98.56,
+    "grad_pct_top1": 0.72,
+    "grad_pct_top3": 1.44,
+    "grad_mean_rank": 17.17,
+    "raw_mean_attr": 0.000969,
+    "raw_pct_le_001": 98.56,
+    "raw_pct_le_01": 98.56,
+    "raw_pct_top1": 0.0,
+    "raw_pct_top3": 0.0,
+    "raw_mean_rank": 17.3
+  },
+  "sinhala": {
+    "N": 131,
+    "grad_mean_attr": 0.000204,
+    "grad_median_attr": 0.0,
+    "grad_pct_le_001": 98.47,
+    "grad_pct_le_01": 99.24,
+    "grad_pct_top1": 0.0,
+    "grad_pct_top3": 0.0,
+    "grad_mean_rank": 20.57,
+    "raw_mean_attr": 4.3e-05,
+    "raw_pct_le_001": 99.24,
+    "raw_pct_le_01": 100.0,
+    "raw_pct_top1": 0.0,
+    "raw_pct_top3": 0.0,
+    "raw_mean_rank": 20.63
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "konkani": {
+    "entity_f1": 87.12,
+    "precision": 82.73,
+    "recall": 92.0,
+    "token_accuracy": 98.61,
+    "divergence_pct_changed": 97.8759,
+    "divergence_l2_diff": 192.706866
+  },
+  "assamese": {
+    "entity_f1": 88.89,
+    "precision": 81.44,
+    "recall": 97.84,
+    "token_accuracy": 98.91,
+    "divergence_pct_changed": 97.9468,
+    "divergence_l2_diff": 192.924448
+  },
+  "sinhala": {
+    "entity_f1": 87.2,
+    "precision": 79.75,
+    "recall": 96.18,
+    "token_accuracy": 98.76,
+    "divergence_pct_changed": 97.8527,
+    "divergence_l2_diff": 192.833227
+  },
+  "macro": {
+    "entity_f1": 87.74
+  }
+}

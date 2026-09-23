@@ -12,6 +12,13 @@ An autonomous, research-grade Named Entity Recognition (NER) and attention attri
 
 ---
 
+> [!IMPORTANT]
+> **IMMUTABLE BASELINE V1 SNAPSHOT**  
+> `baseline_v1/` is an immutable historical snapshot. Nothing under this directory is ever modified, retrained, or overwritten by any later phase. All v2 development happens outside this directory.  
+> See [`baseline_v1/BASELINE_MANIFEST.md`](baseline_v1/BASELINE_MANIFEST.md) and [`reports/baseline_v1_reference_card.md`](reports/baseline_v1_reference_card.md).
+
+---
+
 ## Absolute Project-Wide Constraint
 
 > [!IMPORTANT]

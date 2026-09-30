@@ -1,0 +1,28 @@
+{
+  "total_candidates": 1367,
+  "reviewed": 0,
+  "human_verified": 0,
+  "uncertain": 0,
+  "rejected": 0,
+  "unreviewed": 1367,
+  "entities": {
+    "PER": 0,
+    "LOC": 0,
+    "ORG": 0,
+    "MISC": 0,
+    "total": 0,
+    "multi_token": 0
+  },
+  "agreement": {
+    "matches": 0,
+    "disagreements": 0,
+    "decisions": {}
+  },
+  "exported_files": {
+    "human_verified_conll": "c:\\Users\\harih\\Desktop\\NLP-MARK-3\\data\\processed\\kokborok_exp11b_human_verified.conll",
+    "provenance_csv": "c:\\Users\\harih\\Desktop\\NLP-MARK-3\\data\\processed\\kokborok_exp11b_provenance.csv",
+    "total_verified_sentences": 0,
+    "total_verified_tokens": 0,
+    "total_verified_entities": 0
+  }
+}

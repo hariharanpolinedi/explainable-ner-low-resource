@@ -1,0 +1,28 @@
+{
+  "experiment": "Experiment 12 — Kokborok Large-Gold Retraining",
+  "status": "BLOCKED_BY_ANNOTATION_VALIDITY",
+  "final_classification": "BLOCKED_BY_ANNOTATION_VALIDITY",
+  "annotation_audit": {
+    "exp11_candidate_file": "data/processed/kokborok_ner_candidate_sentences.conll",
+    "exp11_annotation_script": "data_collection/annotate_exp11_candidates.py",
+    "exp11_annotated_file": "data/processed/kokborok_exp11_annotated.conll",
+    "candidate_sentences_examined": 1367,
+    "reported_accepted_sentences": 710,
+    "reported_entities": 945,
+    "human_verification_status": "NONE_DETECTED",
+    "actual_annotation_method": "Heuristic lexicon matching, regex gazetteers, and programmatic suffix stripping in Python",
+    "is_genuine_human_gold": false,
+    "verdict": "The candidate dataset was programmatically pre-annotated using dictionary matching rules rather than authenticated human annotation. Training on these machine labels under the premise of genuine Gold supervision violates scientific protocol."
+  },
+  "training_executed": false,
+  "locked_test_accessed": false,
+  "locked_test_status": "SEALED_AND_UNTOUCHED",
+  "model_checkpoints_modified": false,
+  "authoritative_baseline": {
+    "checkpoint": "checkpoints/kokborok_exp4_best.pt",
+    "locked_test_precision": 77.78,
+    "locked_test_recall": 87.50,
+    "locked_test_strict_f1": 82.35
+  },
+  "recommended_action": "Implement a human-in-the-loop review interface or expert native speaker verification pass for the 710 pre-annotated candidate sentences before executing large-gold retraining."
+}

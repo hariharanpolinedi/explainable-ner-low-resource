@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kokborok NER — Human-In-The-Loop Annotation Platform</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <!-- TOP NAVBAR -->
+    <header class="navbar">
+      <div class="brand">
+        <div class="logo-badge">KOK-HITL</div>
+        <div class="brand-text">
+          <h1>Kokborok NER Studio</h1>
+          <span class="subtext">Experiment 11B • Human-In-The-Loop Gold Verification</span>
+        </div>
+      </div>
+
+      <div class="nav-center">
+        <div class="annotator-chip" id="annotatorChip" title="Click to change Annotator ID">
+          <span class="chip-label">Annotator:</span>
+          <span class="chip-value" id="annotatorDisplay">Not Set</span>
+          <span class="edit-icon">✎</span>
+        </div>
+        <div class="progress-pill">
+          <div class="progress-fill" id="progressBarFill" style="width: 0%;"></div>
+          <span class="progress-text" id="progressText">0 / 0 Reviewed (0%)</span>
+        </div>
+      </div>
+
+      <div class="nav-actions">
+        <button id="btnShortcuts" class="btn btn-ghost" title="Keyboard Shortcuts">⌨ Shortcuts</button>
+        <button id="btnExport" class="btn btn-primary" title="Export Verified Gold CoNLL & Provenance">⤓ Export Gold</button>
+      </div>
+    </header>
+
+    <!-- MAIN CONTENT AREA -->
+    <main class="main-layout">
+      <!-- LEFT / MAIN ANNOTATION PANEL -->
+      <section class="workspace-panel">
+        <!-- NAVIGATION & FILTER TOOLBAR -->
+        <div class="toolbar-card">
+          <div class="nav-controls">
+            <button id="btnPrev" class="btn btn-secondary" title="Previous Sentence (P or ←)">◀ Prev</button>
+            <div class="index-indicator">
+              <span id="currentIndexDisplay">#1</span>
+              <span class="dimmed">/</span>
+              <span id="totalIndexDisplay" class="dimmed">1367</span>
+            </div>
+            <button id="btnNext" class="btn btn-secondary" title="Next Sentence (N or →)">Next ▶</button>
+          </div>
+
+          <div class="filter-controls">
+            <label for="statusFilter" class="filter-label">Filter:</label>
+            <select id="statusFilter" class="select-dropdown">
+              <option value="ALL">All Candidates (1367)</option>
+              <option value="UNREVIEWED" selected>Unreviewed Only</option>
+              <option value="HUMAN_VERIFIED">Human Verified</option>
+              <option value="NEEDS_REVIEW">Needs Review / Uncertain</option>
+              <option value="REJECTED">Rejected</option>
+            </select>
+          </div>
+
+          <div class="jump-controls">
+            <input type="text" id="jumpIdInput" placeholder="Jump to ID (e.g. KOK_CAND_00042)" class="input-text">
+            <button id="btnJump" class="btn btn-secondary">Go</button>
+          </div>
+        </div>
+
+        <!-- SENTENCE METADATA CARD -->
+        <div class="meta-card">
+          <div class="meta-header">
+            <div class="id-tags">
+              <span class="sentence-id" id="sentenceIdDisplay">KOK_CAND_00001</span>
+              <span class="source-tag" id="sourceDisplay">SpeeD-TB</span>
+              <span class="license-tag" id="licenseDisplay">CC-BY 4.0</span>
+            </div>
+            <div class="status-badge" id="sentenceStatusBadge">UNREVIEWED</div>
+          </div>
+          <div class="raw-sentence-text" id="rawSentenceText">
+            Loading candidate sentence...
+          </div>
+        </div>
+
+        <!-- SECTION 1: MACHINE SUGGESTION (UNVERIFIED) -->
+        <div class="suggestion-card">
+          <div class="section-badge-header">
+            <span class="machine-indicator-badge">⚡ MACHINE PRE-ANNOTATION (SUGGESTION ONLY)</span>
+            <span class="hint-text">Generated via heuristic lexicons — Not gold</span>
+          </div>
+          <div class="token-container" id="machineTokenContainer">
+            <!-- Rendered machine tokens with badges -->
+          </div>
+        </div>
+
+        <!-- SECTION 2: HUMAN ANNOTATION WORKSPACE -->
+        <div class="workspace-card">
+          <div class="section-badge-header">
+            <span class="human-indicator-badge">★ HUMAN ANNOTATION WORKSPACE (AUTHORITATIVE)</span>
+            <span class="hint-text">Select token(s) by clicking start and end tokens, then choose an entity type</span>
+          </div>
+
+          <!-- ENTITY PALETTE TOOLBAR -->
+          <div class="entity-toolbar">
+            <div class="entity-buttons">
+              <button class="btn-entity btn-ent-per" data-type="PER" title="Hotkey: 1">
+                <span class="ent-key">1</span>
+                <span class="ent-label">PER</span>
+                <span class="ent-desc">Person</span>
+              </button>
+              <button class="btn-entity btn-ent-loc" data-type="LOC" title="Hotkey: 2">
+                <span class="ent-key">2</span>
+                <span class="ent-label">LOC</span>
+                <span class="ent-desc">Location</span>
+              </button>
+              <button class="btn-entity btn-ent-org" data-type="ORG" title="Hotkey: 3">
+                <span class="ent-key">3</span>
+                <span class="ent-label">ORG</span>
+                <span class="ent-desc">Organization</span>
+              </button>
+              <button class="btn-entity btn-ent-misc" data-type="MISC" title="Hotkey: 4">
+                <span class="ent-key">4</span>
+                <span class="ent-label">MISC</span>
+                <span class="ent-desc">Misc Event</span>
+              </button>
+              <button class="btn-entity btn-ent-clear" data-type="CLEAR" title="Hotkey: 0 or Backspace">
+                <span class="ent-key">0</span>
+                <span class="ent-label">CLEAR</span>
+                <span class="ent-desc">Set to O</span>
+              </button>
+            </div>
+
+            <div class="selection-indicator" id="selectionInfo">
+              No token selected. Click any token to begin span.
+            </div>
+          </div>
+
+          <!-- INTERACTIVE TOKENS -->
+          <div class="interactive-token-board" id="humanTokenBoard">
+            <!-- Tokens rendered interactively -->
+          </div>
+
+          <!-- BIO TAG PREVIEW TABLE -->
+          <div class="bio-tag-preview">
+            <div class="bio-preview-title">Current BIO Sequence:</div>
+            <div class="bio-tags-stream" id="bioTagsStream"></div>
+          </div>
+
+          <!-- NOTES / COMMENTS -->
+          <div class="notes-container">
+            <label for="annotationNotes" class="notes-label">Annotator Notes / Ambiguity Context:</label>
+            <input type="text" id="annotationNotes" placeholder="e.g. Clitic attached to proper name; verified institutional department" class="input-text">
+          </div>
+
+          <!-- ACTION CONTROLS -->
+          <div class="decision-actions">
+            <button id="btnAccept" class="btn btn-action btn-accept" title="Hotkey: A or Enter">
+              <span class="action-icon">✓</span>
+              <span>Accept Machine Suggestion</span>
+              <span class="action-key">[A]</span>
+            </button>
+            <button id="btnSaveEdit" class="btn btn-action btn-save-edit" title="Hotkey: S">
+              <span class="action-icon">💾</span>
+              <span>Save Human Edit</span>
+              <span class="action-key">[S]</span>
+            </button>
+            <button id="btnReject" class="btn btn-action btn-reject" title="Hotkey: R">
+              <span class="action-icon">✕</span>
+              <span>Reject Suggestion (Set O)</span>
+              <span class="action-key">[R]</span>
+            </button>
+            <button id="btnUncertain" class="btn btn-action btn-uncertain" title="Hotkey: U">
+              <span class="action-icon">?</span>
+              <span>Mark Uncertain / Needs Review</span>
+              <span class="action-key">[U]</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- RIGHT SIDEBAR: LIVE METRICS & ENTITY SUMMARY -->
+      <aside class="sidebar-panel">
+        <div class="side-card stats-summary-card">
+          <h2 class="side-card-title">Live Review Metrics</h2>
+          <div class="stat-grid">
+            <div class="stat-box">
+              <span class="stat-num" id="statVerified">0</span>
+              <span class="stat-lbl">Human Verified</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num" id="statUncertain">0</span>
+              <span class="stat-lbl">Needs Review</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num" id="statRejected">0</span>
+              <span class="stat-lbl">Rejected</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-num" id="statUnreviewed">1367</span>
+              <span class="stat-lbl">Unreviewed</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="side-card entity-breakdown-card">
+          <h2 class="side-card-title">Verified Entity Pool</h2>
+          <div class="entity-stat-list">
+            <div class="entity-stat-row ent-per-border">
+              <span class="ent-stat-name">PER (Person)</span>
+              <span class="ent-stat-val" id="countPER">0</span>
+            </div>
+            <div class="entity-stat-row ent-loc-border">
+              <span class="ent-stat-name">LOC (Location)</span>
+              <span class="ent-stat-val" id="countLOC">0</span>
+            </div>
+            <div class="entity-stat-row ent-org-border">
+              <span class="ent-stat-name">ORG (Organization)</span>
+              <span class="ent-stat-val" id="countORG">0</span>
+            </div>
+            <div class="entity-stat-row ent-misc-border">
+              <span class="ent-stat-name">MISC (Miscellaneous)</span>
+              <span class="ent-stat-val" id="countMISC">0</span>
+            </div>
+            <div class="entity-stat-divider"></div>
+            <div class="entity-stat-row total-row">
+              <span class="ent-stat-name">Total Entities</span>
+              <span class="ent-stat-val" id="countTotalEnt">0</span>
+            </div>
+            <div class="entity-stat-row">
+              <span class="ent-stat-name">Multi-Token Spans</span>
+              <span class="ent-stat-val" id="countMultiToken">0</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="side-card guidelines-card">
+          <h2 class="side-card-title">Quick Annotation Guide</h2>
+          <ul class="guide-list">
+            <li><strong>PER</strong>: Specific individual persons (e.g. <em>Prasanta Debbarma</em>, <em>B.R. Ambedkar</em>).</li>
+            <li><strong>LOC</strong>: Toponyms, villages, rivers, states (e.g. <em>Agartala</em>, <em>Khumulwng</em>, <em>Twipra</em>).</li>
+            <li><strong>ORG</strong>: Institutions, banks, boards, departments (e.g. <em>Tripura University</em>, <em>TSECL</em>, <em>Tripura Police</em>).</li>
+            <li><strong>MISC</strong>: Festivals, treaties, events (e.g. <em>Garia</em>, <em>Kharchi</em>, <em>Universal Declaration</em>).</li>
+            <li><strong>Clitics</strong>: If clitics (-no, -ni, -o) are attached, label the whole token per project convention.</li>
+            <li><strong>Uncertain</strong>: When in doubt, mark <em>Uncertain</em>. Do not guess.</li>
+          </ul>
+        </div>
+      </aside>
+    </main>
+
+    <!-- MODAL: ANNOTATOR ID PROMPT -->
+    <div class="modal-backdrop" id="annotatorModal">
+      <div class="modal-card">
+        <h2 class="modal-title">Enter Annotator ID</h2>
+        <p class="modal-desc">Every human-verified decision is logged with strict provenance. Please identify yourself before beginning annotation.</p>
+        <div class="modal-input-group">
+          <input type="text" id="annotatorInput" placeholder="e.g. annotator_researcher1" class="input-text-lg" autofocus>
+        </div>
+        <div class="modal-actions">
+          <button id="btnSaveAnnotator" class="btn btn-primary btn-lg">Set Annotator ID & Continue</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL: KEYBOARD SHORTCUTS -->
+    <div class="modal-backdrop" id="shortcutsModal" style="display: none;">
+      <div class="modal-card">
+        <h2 class="modal-title">Keyboard Shortcuts</h2>
+        <div class="shortcut-list">
+          <div class="shortcut-item"><kbd>1</kbd> <span>Label selection as PER</span></div>
+          <div class="shortcut-item"><kbd>2</kbd> <span>Label selection as LOC</span></div>
+          <div class="shortcut-item"><kbd>3</kbd> <span>Label selection as ORG</span></div>
+          <div class="shortcut-item"><kbd>4</kbd> <span>Label selection as MISC</span></div>
+          <div class="shortcut-item"><kbd>0</kbd> / <kbd>Backspace</kbd> <span>Clear selection (Set to O)</span></div>
+          <div class="shortcut-item"><kbd>A</kbd> <span>Accept machine suggestion as verified</span></div>
+          <div class="shortcut-item"><kbd>S</kbd> <span>Save current human edit</span></div>
+          <div class="shortcut-item"><kbd>R</kbd> <span>Reject machine suggestion (Set all O)</span></div>
+          <div class="shortcut-item"><kbd>U</kbd> <span>Mark sentence as Uncertain / Needs Review</span></div>
+          <div class="shortcut-item"><kbd>N</kbd> / <kbd>→</kbd> <span>Next sentence</span></div>
+          <div class="shortcut-item"><kbd>P</kbd> / <kbd>←</kbd> <span>Previous sentence</span></div>
+          <div class="shortcut-item"><kbd>Esc</kbd> <span>Clear token selection or close modal</span></div>
+        </div>
+        <div class="modal-actions">
+          <button id="btnCloseShortcuts" class="btn btn-secondary">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- TOAST NOTIFICATION -->
+    <div class="toast-container" id="toastContainer"></div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

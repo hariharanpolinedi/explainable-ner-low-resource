@@ -1,0 +1,66 @@
+{
+  "timestamp": "2026-09-23 10:56:23",
+  "test1_sweep_scope_justification": {
+    "traced_to_phase2": true,
+    "swept_parameters": [
+      "num_attention_blocks",
+      "num_heads",
+      "num_layers"
+    ],
+    "status": "PASS"
+  },
+  "test2_divergence_gate": {
+    "total_runs": 12,
+    "passed_runs": 12,
+    "status": "PASS"
+  },
+  "test3_data_parity": {
+    "konkani": {
+      "matched_final_composition": true,
+      "sentences": 11119
+    },
+    "assamese": {
+      "matched_final_composition": true,
+      "sentences": 12927
+    },
+    "sinhala": {
+      "matched_final_composition": true,
+      "sentences": 11676
+    }
+  },
+  "test4_dual_evaluation": {
+    "konkani": {
+      "has_dev_metrics": true,
+      "has_stress_metrics": true,
+      "has_middle_recall": true
+    },
+    "assamese": {
+      "has_dev_metrics": true,
+      "has_stress_metrics": true,
+      "has_middle_recall": true
+    },
+    "sinhala": {
+      "has_dev_metrics": true,
+      "has_stress_metrics": true,
+      "has_middle_recall": true
+    }
+  },
+  "test5_test_set_isolation": {
+    "konkani": {
+      "expected_hash": "bd08ebbf60e048d4fce5d9f5fd233f7dbdeb5bf1f066ee0718eb4b04404ab2d1",
+      "actual_hash": "bd08ebbf60e048d4fce5d9f5fd233f7dbdeb5bf1f066ee0718eb4b04404ab2d1",
+      "intact": true
+    },
+    "assamese": {
+      "expected_hash": "2a49321609716b38a893d7b7ca5aa3c27ba0c90863fbca8ac0d4aa87d143c070",
+      "actual_hash": "2a49321609716b38a893d7b7ca5aa3c27ba0c90863fbca8ac0d4aa87d143c070",
+      "intact": true
+    },
+    "sinhala": {
+      "expected_hash": "47cf890b0e9c76e235e17355806b521f8925525e80256bf6667b2835a16854d0",
+      "actual_hash": "47cf890b0e9c76e235e17355806b521f8925525e80256bf6667b2835a16854d0",
+      "intact": true
+    }
+  },
+  "recommendation": "Preserve current 1-block, 4-head, 2-layer architecture (~10.6M parameters). Architectural capacity expansion is ruled out as the primary failure lever."
+}

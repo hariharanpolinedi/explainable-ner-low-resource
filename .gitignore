@@ -46,3 +46,28 @@ Thumbs.db
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Scratch & local experimental scripts
+scratch/
+backup/
+.agents/
+
+# LaTeX build outputs and intermediate crops
+pdf_pages/
+pdf_pages_sec6/
+pdf_qa_renders/
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Intermediate section PDFs and word docs
+*.docx
+Section_6_Methodology_Springer_Final.pdf
+Section_7_8_Results_Conclusion_Springer_Final.pdf
+Section_6_Methodology_Springer_Final.html
+Section_7_8_Results_Conclusion_Springer_Final.html
+paper_manuscript.html

@@ -1,0 +1,76 @@
+{
+  "timestamp": "2026-09-23 10:06:37",
+  "test1_divergence_gate": {
+    "total_runs": 12,
+    "passed_runs": 12,
+    "status": "PASS"
+  },
+  "test2_curve_shape_reporting": {
+    "konkani": {
+      "delta_f1_75_to_100": 7.09,
+      "slope_per_1k": 3.5221,
+      "characterization": "Steeply Rising (strong data-hungriness, highly sensitive to data volume)"
+    },
+    "assamese": {
+      "delta_f1_75_to_100": 1.7,
+      "slope_per_1k": 0.8445,
+      "characterization": "Modestly Climbing (slow progressive gain, mild volume sensitivity)"
+    },
+    "sinhala": {
+      "delta_f1_75_to_100": 14.69,
+      "slope_per_1k": 7.2976,
+      "characterization": "Steeply Rising (strong data-hungriness, highly sensitive to data volume)"
+    }
+  },
+  "test3_consistency_audit_evidence": {
+    "konkani": {
+      "contradictions_count": 0,
+      "violations_count": 0,
+      "density_ratio": 1.42
+    },
+    "assamese": {
+      "contradictions_count": 0,
+      "violations_count": 0,
+      "density_ratio": 1.52
+    },
+    "sinhala": {
+      "contradictions_count": 0,
+      "violations_count": 0,
+      "density_ratio": 1.51
+    }
+  },
+  "test4_frequency_crosscheck": {
+    "konkani": {
+      "total_failures": 71,
+      "zero_in_pool": 16,
+      "frequent_in_pool": 41
+    },
+    "assamese": {
+      "total_failures": 44,
+      "zero_in_pool": 5,
+      "frequent_in_pool": 37
+    },
+    "sinhala": {
+      "total_failures": 29,
+      "zero_in_pool": 1,
+      "frequent_in_pool": 24
+    }
+  },
+  "test5_test_set_isolation": {
+    "konkani": {
+      "expected_hash": "bd08ebbf60e048d4fce5d9f5fd233f7dbdeb5bf1f066ee0718eb4b04404ab2d1",
+      "actual_hash": "bd08ebbf60e048d4fce5d9f5fd233f7dbdeb5bf1f066ee0718eb4b04404ab2d1",
+      "intact": true
+    },
+    "assamese": {
+      "expected_hash": "2a49321609716b38a893d7b7ca5aa3c27ba0c90863fbca8ac0d4aa87d143c070",
+      "actual_hash": "2a49321609716b38a893d7b7ca5aa3c27ba0c90863fbca8ac0d4aa87d143c070",
+      "intact": true
+    },
+    "sinhala": {
+      "expected_hash": "47cf890b0e9c76e235e17355806b521f8925525e80256bf6667b2835a16854d0",
+      "actual_hash": "47cf890b0e9c76e235e17355806b521f8925525e80256bf6667b2835a16854d0",
+      "intact": true
+    }
+  }
+}

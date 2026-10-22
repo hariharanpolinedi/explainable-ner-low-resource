@@ -118,7 +118,12 @@ class GradientAttentionAttributor:
         attended_states = layer.layer_norm(lstm_hidden + attn_output)
 
         # 3. Project to emissions
-        emissions = self.model.fc_shared(attended_states)  # (1, seq_len, num_tags)
+        if hasattr(self.model, "fc_heads") and self.model.fc_heads is not None and self.extractor.lang_id is not None:
+            emissions = self.model.fc_heads[self.extractor.lang_id](attended_states)
+        elif hasattr(self.model, "fc_shared") and self.model.fc_shared is not None:
+            emissions = self.model.fc_shared(attended_states)  # (1, seq_len, num_tags)
+        else:
+            raise RuntimeError("Model has neither valid fc_heads nor fc_shared.")
 
         # 4. Resolve target tag ID
         if target_tag_id is None:

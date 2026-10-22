@@ -39,7 +39,8 @@ Evaluated on the cryptographically locked gold-test splits (`data/gold/{lang}/te
 | **Konkani** | Devanagari | `checkpoints/final_konkani.pt` | 99.15% | 93.55% | **96.27%** | 99.47% | >90.0% | **MET (+6.27 pp)** |
 | **Assamese** | Bengali-Assamese | `checkpoints/final_assamese.pt` | 95.83% | 100.00% | **97.87%** | 99.64% | >90.0% | **MET (+7.87 pp)** |
 | **Sinhala** | Sinhala | `checkpoints/final_sinhala.pt` | 96.32% | 99.24% | **97.76%** | 99.70% | >90.0% | **MET (+7.76 pp)** |
-| **Macro Avg**| — | — | **97.10%** | **97.60%** | **97.30%** | **99.60%** | **>90.0%** | **ALL MET** |
+| **Kokborok** | Roman / Latin | `checkpoints/kokborok_exp4_best.pt` | 77.78% | 87.50% | **82.35%** | 99.55% | Exploratory | **FINAL BEST** |
+| **Macro Avg (4-Lang)**| — | — | **92.27%** | **95.07%** | **93.56%** | **99.59%** | — | — |
 
 - **Out-of-Vocabulary Generalization**: In-Vocab F1 = **98.41%**, Out-of-Vocab F1 = **91.03%** (Char-CNN successfully captures unseen inflections).
 - **Explainability Method**: **Gradient × Attention** ($\nabla_{\alpha} \text{score}$) selected over raw attention for causal emission grounding.

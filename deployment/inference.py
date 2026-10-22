@@ -17,6 +17,7 @@ from __future__ import annotations
 import html
 import json
 import logging
+import re
 import sys
 from pathlib import Path
 from typing import Any, Sequence
@@ -48,7 +49,7 @@ from training.train_charcnn import ID_TO_TAG, TAG_TO_ID
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
-SUPPORTED_LANGUAGES = ("konkani", "assamese", "sinhala")
+SUPPORTED_LANGUAGES = ("konkani", "assamese", "sinhala", "kokborok")
 DEFAULT_BUNDLE_DIR = PROJECT_ROOT / "deployment" / "bundles"
 DEFAULT_BUNDLE_VERSION = "v1"
 
@@ -120,24 +121,47 @@ class NERPredictor:
             c_data = json.load(f)
             self.char_to_id: dict[str, int] = c_data.get("token_to_id", c_data)
 
-        # 2. Load Model Checkpoint
+        # 2. Determine Architecture Configuration
+        num_languages = 4 if self.language == "kokborok" else 3
+        crf_config = "per_language" if self.language == "kokborok" else "shared"
+        cfg_file = self.bundle_path / "config.json"
+        if cfg_file.is_file():
+            try:
+                with open(cfg_file, "r", encoding="utf-8") as cf:
+                    loaded_cfg = json.load(cf)
+                    num_languages = loaded_cfg.get("num_languages", num_languages)
+                    crf_config = loaded_cfg.get("crf_config", crf_config)
+            except Exception as e:
+                logger.warning("Could not read bundle config.json for %s: %s", self.language, e)
+
+        # 3. Load Model Checkpoint
         model_path = self.bundle_path / "model.pt"
         ckpt = torch.load(model_path, map_location=self.device, weights_only=False)
         sd = ckpt.get("model_state_dict", ckpt)
+
+        # Dynamic fallback: inspect lang_embedding shape if needed
+        if "lang_embedding.embedding.weight" in sd:
+            num_languages = sd["lang_embedding.embedding.weight"].shape[0]
 
         self.model = NERMultilingualModel(
             word_vocab_size=len(self.word_to_id),
             char_vocab_size=len(self.char_to_id),
             num_tags=9,
-            num_languages=3,
+            num_languages=num_languages,
+            crf_config=crf_config,
             hidden_dim=128,
         ).to(self.device)
 
         self.model.load_state_dict(sd, strict=True)
         self.model.eval()
 
-        # 3. Setup Preprocessing and Explainability
-        self.tokenizer = ScriptTokenizer(self.language)
+        # 4. Setup Preprocessing and Explainability
+        if self.language == "kokborok":
+            from preprocessing.kokborok_tokenizer import KokborokTokenizer
+            self.tokenizer = KokborokTokenizer()
+        else:
+            self.tokenizer = ScriptTokenizer(self.language)
+
         self.lang_id = LANG_TO_ID[self.language]
 
         self.extractor = AttentionExtractor(
@@ -149,6 +173,16 @@ class NERPredictor:
             device=self.device,
         )
         self.attributor = GradientAttentionAttributor(self.extractor)
+
+        # 5. Robust Multilingual Normalization & Reconciliation
+        from preprocessing.multilingual_robustness import (
+            detect_script,
+            transliterate_to_native,
+            MorphologicalDecoupler,
+            GazetteerReconciler,
+        )
+        self.decoupler = MorphologicalDecoupler(self.language, self.word_to_id)
+        self.reconciler = GazetteerReconciler(self.language)
 
     def predict(
         self,
@@ -170,12 +204,22 @@ class NERPredictor:
                 "device": str(self.device),
             }
 
-        # 1. Normalize text (Phase 2 canonical Unicode NFC)
-        norm_text = normalize_text(sentence) if normalize_input else sentence.strip()
+        from preprocessing.multilingual_robustness import detect_script, transliterate_to_native
 
-        # 2. Script-aware tokenization
-        tokens = self.tokenizer.tokenize_words(norm_text)
-        if not tokens:
+        # 1. Script Detection & Transliteration (if Roman input in Indic language)
+        script = detect_script(sentence)
+        is_roman = (script == "latin")
+        if is_roman and self.language != "kokborok":
+            working_sentence = transliterate_to_native(sentence, self.language)
+        else:
+            working_sentence = sentence
+
+        # 2. Normalize text (Phase 2 canonical Unicode NFC)
+        norm_text = normalize_text(working_sentence) if normalize_input else working_sentence.strip()
+
+        # 3. Script-aware word tokenization
+        raw_tokens = self.tokenizer.tokenize_words(norm_text)
+        if not raw_tokens:
             return {
                 "language": self.language,
                 "raw_sentence": sentence,
@@ -186,21 +230,52 @@ class NERPredictor:
                 "device": str(self.device),
             }
 
-        # 3. Model Forward Pass & Viterbi Decoding
+        # 4. Morphological Decoupling of bound case suffixes
+        tokens: list[str] = []
+        for tok in raw_tokens:
+            tokens.extend(self.decoupler.segment_word(tok))
+
+        # 5. Model Forward Pass & Viterbi Decoding
         w, c, l, mask = self.extractor.prepare_input_tensors(tokens)
         with torch.no_grad():
             paths = self.model(w, c, lang_ids=l, mask=mask)
 
         pred_tags = [ID_TO_TAG.get(tid, "O") for tid in paths[0][: len(tokens)]]
 
-        # 4. Entity Span Extraction & Character Offset Alignment
+        # 6. Entity Span Extraction & Reconciliation
         raw_spans = extract_entities(pred_tags)  # set of (etype, start_tok, end_tok) [end exclusive]
-        sorted_spans = sorted(raw_spans, key=lambda x: (x[1], x[2]))
+        pred_entities = []
+        trailing_noise = {"आनी", "आणि", "আৰু", "සහ", "aru", "and", ",", "।", ".", ";", ":", "tongo", "wngkha", "wng-o", "phaikha", "bisi", "bisi-o", "bisio", "tal", "tal-o", "talo", "tei", "aro"}
+        leading_noise  = {",", "।", ".", ";", ":", "-", "(", ")", "Tabuk", "Tabuk,", "Tabok", "tabuk", "bisi", "bisi-o", "bisio", "tal", "tal-o", "talo", "tei", "aro", "and", "or"}
+        for etype, s_idx, e_idx in sorted(raw_spans, key=lambda x: (x[1], x[2])):
+            # Strip trailing noise tokens or isolated suffix tokens
+            while e_idx > s_idx and (tokens[e_idx - 1].startswith("-") or tokens[e_idx - 1] in trailing_noise):
+                e_idx -= 1
+            # Strip leading noise tokens or isolated suffix tokens
+            while s_idx < e_idx and (tokens[s_idx].startswith("-") or tokens[s_idx] in leading_noise):
+                s_idx += 1
+            if e_idx <= s_idx:
+                continue
+            # Skip spans that are purely punctuation / whitespace (Fix 5)
+            span_text = " ".join(tokens[s_idx:e_idx])
+            if re.match(r'^[\W\s]+$', span_text):
+                continue
+            pred_entities.append({
+                "type": etype,
+                "text": span_text,
+                "start_token": s_idx,
+                "end_token": e_idx,
+            })
+
+        reconciled_spans = self.reconciler.reconcile_entities(tokens, pred_entities)
 
         entities: list[dict[str, Any]] = []
         token_char_spans = self._compute_token_char_offsets(norm_text, tokens)
 
-        for etype, s_idx, e_idx in sorted_spans:
+        for ent in reconciled_spans:
+            etype = ent["type"]
+            s_idx = ent["start_token"]
+            e_idx = ent["end_token"]
             ent_tokens = tokens[s_idx:e_idx]
             surface_text = " ".join(ent_tokens)
 
@@ -210,16 +285,29 @@ class NERPredictor:
             if start_char != -1 and end_char != -1 and end_char >= start_char:
                 surface_text = norm_text[start_char:end_char]
 
+            # Fix 8: strip Kokborok grammatical suffixes from entity surface text
+            if self.language == "kokborok":
+                surface_text = re.sub(
+                    r'-(?:ni|no|o|ao|ot|bai|rok|rog|le|de|bo|se)$',
+                    '',
+                    surface_text.strip()
+                )
+
+            # Skip empty or suffix-only noise entities
+            surface_clean = surface_text.strip(" ,.-;:()")
+            if not surface_clean or len(surface_clean) < 2 or surface_clean in {"ni", "no", "o", "ao", "ot", "bai", "rok", "rog"}:
+                continue
+
             ent_record: dict[str, Any] = {
                 "type": etype,
-                "text": surface_text,
+                "text": surface_text.strip(" ,.-;:()"),
                 "start_token": s_idx,
                 "end_token": e_idx,
                 "start_char": start_char,
                 "end_char": end_char,
             }
 
-            # 5. Compute Attribution for predicted entity
+            # 7. Compute Attribution for predicted entity
             if include_attribution:
                 target_token_idx = s_idx
                 target_tag_id = TAG_TO_ID.get(f"B-{etype}", 0)
@@ -247,6 +335,7 @@ class NERPredictor:
             "language": self.language,
             "raw_sentence": sentence,
             "normalized_sentence": norm_text,
+            "is_roman_input": is_roman,
             "tokens": tokens,
             "tags": pred_tags,
             "entities": entities,

@@ -1,9 +1,15 @@
 """
-Phase 15: Artifact Bundling Pipeline.
+Artifact Bundling Pipeline for Multilingual NER Deployment.
 
-Packages each language's locked Phase-12 final checkpoint, unified vocabularies,
+Packages each language's locked final checkpoint, matching vocabularies,
 and configuration into a standalone, versioned deployment bundle:
     deployment/bundles/{lang}/{version}/
+
+Supports all four languages:
+- Konkani: checkpoints/current_best_konkani.pt
+- Assamese: checkpoints/current_best_assamese.pt
+- Sinhala: checkpoints/improved_sinhala_v2.pt
+- Kokborok: checkpoints/final_kokborok.pt
 
 Verifies cryptographic hashes and embedding-layer dimension compatibility
 to guarantee that the deployed inference engine never encounters a vocab/checkpoint mismatch.
@@ -27,7 +33,40 @@ if str(PROJECT_ROOT) not in sys.path:
 
 import torch
 
-LANGUAGES = ("konkani", "assamese", "sinhala")
+LANGUAGES = ("konkani", "assamese", "sinhala", "kokborok")
+
+CHECKPOINT_SOURCES = {
+    "konkani": PROJECT_ROOT / "checkpoints" / "current_best_konkani.pt",
+    "assamese": PROJECT_ROOT / "checkpoints" / "current_best_assamese.pt",
+    "sinhala": PROJECT_ROOT / "checkpoints" / "improved_sinhala_v2.pt",
+    "kokborok": PROJECT_ROOT / "checkpoints" / "final_kokborok.pt",
+}
+
+VOCAB_SOURCES = {
+    "konkani": {
+        "word": PROJECT_ROOT / "data" / "processed" / "multilingual" / "word_vocab.json",
+        "char": PROJECT_ROOT / "data" / "processed" / "multilingual" / "char_vocab.json",
+    },
+    "assamese": {
+        "word": PROJECT_ROOT / "data" / "processed" / "multilingual" / "word_vocab.json",
+        "char": PROJECT_ROOT / "data" / "processed" / "multilingual" / "char_vocab.json",
+    },
+    "sinhala": {
+        "word": PROJECT_ROOT / "data" / "processed" / "multilingual" / "word_vocab.json",
+        "char": PROJECT_ROOT / "data" / "processed" / "multilingual" / "char_vocab.json",
+    },
+    "kokborok": {
+        "word": PROJECT_ROOT / "data" / "processed" / "multilingual_4lang" / "word_vocab.json",
+        "char": PROJECT_ROOT / "data" / "processed" / "multilingual_4lang" / "char_vocab.json",
+    },
+}
+
+MODEL_CONFIGS = {
+    "konkani": {"num_languages": 3, "crf_config": "shared", "hidden_dim": 128, "num_tags": 9},
+    "assamese": {"num_languages": 3, "crf_config": "shared", "hidden_dim": 128, "num_tags": 9},
+    "sinhala": {"num_languages": 3, "crf_config": "shared", "hidden_dim": 128, "num_tags": 9},
+    "kokborok": {"num_languages": 4, "crf_config": "per_language", "hidden_dim": 128, "num_tags": 9},
+}
 
 
 def compute_sha256(filepath: Path | str) -> str:
@@ -48,6 +87,10 @@ def bundle_language_artifacts(
     """
     Bundle checkpoint, vocabs, and config for a single language with compatibility verification.
     """
+    lang = lang.lower().strip()
+    if lang not in LANGUAGES:
+        raise ValueError(f"Unsupported language '{lang}'. Must be one of: {LANGUAGES}")
+
     if base_bundles_dir is None:
         base_bundles_dir = PROJECT_ROOT / "deployment" / "bundles"
     else:
@@ -56,10 +99,10 @@ def bundle_language_artifacts(
     bundle_dir = base_bundles_dir / lang / version
     bundle_dir.mkdir(parents=True, exist_ok=True)
 
-    ckpt_src = PROJECT_ROOT / "checkpoints" / f"final_{lang}.pt"
+    ckpt_src = CHECKPOINT_SOURCES[lang]
     config_src = PROJECT_ROOT / "configs" / f"final_{lang}.yaml"
-    word_vocab_src = PROJECT_ROOT / "data" / "processed" / "multilingual" / "word_vocab.json"
-    char_vocab_src = PROJECT_ROOT / "data" / "processed" / "multilingual" / "char_vocab.json"
+    word_vocab_src = VOCAB_SOURCES[lang]["word"]
+    char_vocab_src = VOCAB_SOURCES[lang]["char"]
 
     for src, name in [
         (ckpt_src, f"checkpoint ({ckpt_src.name})"),
@@ -132,6 +175,18 @@ def bundle_language_artifacts(
     shutil.copy2(word_vocab_src, dest_word_vocab)
     shutil.copy2(char_vocab_src, dest_char_vocab)
 
+    # Also write a JSON config for lightweight runtime loading
+    dest_config_json = bundle_dir / "config.json"
+    model_cfg = dict(MODEL_CONFIGS[lang])
+    model_cfg.update({
+        "model_type": "NERMultilingualModel",
+        "word_vocab_size": word_vocab_size,
+        "char_vocab_size": char_vocab_size,
+        "language": lang,
+    })
+    with open(dest_config_json, "w", encoding="utf-8") as f:
+        json.dump(model_cfg, f, ensure_ascii=False, indent=2)
+
     # Strict post-copy SHA-256 integrity verification
     dest_hash = compute_sha256(dest_model)
     if dest_hash != ckpt_hash:
@@ -156,6 +211,8 @@ def bundle_language_artifacts(
                 "char_vocab_size": char_vocab_size,
                 "word_embedding_dim": int(w_emb_shape[1]),
                 "char_embedding_dim": int(c_emb_shape[1]),
+                "num_languages": model_cfg["num_languages"],
+                "crf_config": model_cfg["crf_config"],
             },
             "config": {
                 "filename": "config.yaml",
@@ -181,7 +238,7 @@ def bundle_language_artifacts(
     with open(metadata_path, "w", encoding="utf-8") as f:
         json.dump(metadata, f, ensure_ascii=False, indent=2)
 
-    # Also keep a copy at the language directory root: deployment/bundles/{lang}/bundle_metadata.json
+    # Keep a copy at the language directory root: deployment/bundles/{lang}/bundle_metadata.json
     lang_metadata_path = base_bundles_dir / lang / "bundle_metadata.json"
     with open(lang_metadata_path, "w", encoding="utf-8") as f:
         json.dump(metadata, f, ensure_ascii=False, indent=2)

@@ -1,17 +1,19 @@
 {
   "language": "konkani",
   "bundle_version": "v1",
-  "created_at": "2026-09-17T12:05:04.689853+00:00",
+  "created_at": "2026-09-25T09:53:39.394821+00:00",
   "status": "VERIFIED_COMPATIBLE",
   "artifacts": {
     "model": {
       "filename": "model.pt",
-      "original_source": "checkpoints\\final_konkani.pt",
-      "sha256": "58eb383594ee205960836756a7c5c4525c1379d52e7c89284dd9762b7d54a038",
+      "original_source": "checkpoints\\current_best_konkani.pt",
+      "sha256": "73bac91510a6f755ff80e7c4529ac709d040872ad1d3c3b38ffb1bde0f2530ce",
       "word_vocab_size": 89196,
       "char_vocab_size": 13022,
       "word_embedding_dim": 100,
-      "char_embedding_dim": 50
+      "char_embedding_dim": 50,
+      "num_languages": 3,
+      "crf_config": "shared"
     },
     "config": {
       "filename": "config.yaml",

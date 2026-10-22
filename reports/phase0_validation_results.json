@@ -1,0 +1,303 @@
+{
+  "test1_checksum_integrity": true,
+  "test2_checkpoint_reload": true,
+  "test3_dev_reproduction": {
+    "konkani": {
+      "overall": {
+        "entity_precision": 1.0,
+        "entity_recall": 0.936,
+        "entity_f1": 0.9669,
+        "token_accuracy": 0.9959,
+        "total_entities_gold": 125,
+        "total_entities_pred": 117,
+        "tp": 117,
+        "fp": 0,
+        "fn": 8
+      },
+      "by_type": {
+        "PER": {
+          "precision": 1.0,
+          "recall": 0.85,
+          "f1": 0.9189,
+          "tp": 17,
+          "fp": 0,
+          "fn": 3
+        },
+        "LOC": {
+          "precision": 1.0,
+          "recall": 0.871,
+          "f1": 0.931,
+          "tp": 27,
+          "fp": 0,
+          "fn": 4
+        },
+        "ORG": {
+          "precision": 1.0,
+          "recall": 0.973,
+          "f1": 0.9863,
+          "tp": 36,
+          "fp": 0,
+          "fn": 1
+        },
+        "MISC": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 37,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "token_accuracy": 0.9959,
+      "total_tokens": 3173
+    },
+    "assamese": {
+      "overall": {
+        "entity_precision": 0.9928,
+        "entity_recall": 0.9856,
+        "entity_f1": 0.9892,
+        "token_accuracy": 0.9989,
+        "total_entities_gold": 139,
+        "total_entities_pred": 138,
+        "tp": 137,
+        "fp": 1,
+        "fn": 2
+      },
+      "by_type": {
+        "PER": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 18,
+          "fp": 0,
+          "fn": 0
+        },
+        "LOC": {
+          "precision": 0.9873,
+          "recall": 0.9873,
+          "f1": 0.9873,
+          "tp": 78,
+          "fp": 1,
+          "fn": 1
+        },
+        "ORG": {
+          "precision": 1.0,
+          "recall": 0.9333,
+          "f1": 0.9655,
+          "tp": 14,
+          "fp": 0,
+          "fn": 1
+        },
+        "MISC": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 27,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "token_accuracy": 0.9989,
+      "total_tokens": 3569
+    },
+    "sinhala": {
+      "overall": {
+        "entity_precision": 0.985,
+        "entity_recall": 1.0,
+        "entity_f1": 0.9924,
+        "token_accuracy": 0.9993,
+        "total_entities_gold": 131,
+        "total_entities_pred": 133,
+        "tp": 131,
+        "fp": 2,
+        "fn": 0
+      },
+      "by_type": {
+        "PER": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 37,
+          "fp": 0,
+          "fn": 0
+        },
+        "LOC": {
+          "precision": 0.9512,
+          "recall": 1.0,
+          "f1": 0.975,
+          "tp": 39,
+          "fp": 2,
+          "fn": 0
+        },
+        "ORG": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 28,
+          "fp": 0,
+          "fn": 0
+        },
+        "MISC": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 27,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "token_accuracy": 0.9993,
+      "total_tokens": 4032
+    }
+  },
+  "test3_aux_test_reproduction": {
+    "konkani": {
+      "overall": {
+        "entity_precision": 0.9915,
+        "entity_recall": 0.9355,
+        "entity_f1": 0.9627,
+        "token_accuracy": 0.9947,
+        "total_entities_gold": 124,
+        "total_entities_pred": 117,
+        "tp": 116,
+        "fp": 1,
+        "fn": 8
+      },
+      "by_type": {
+        "PER": {
+          "precision": 1.0,
+          "recall": 0.85,
+          "f1": 0.9189,
+          "tp": 17,
+          "fp": 0,
+          "fn": 3
+        },
+        "LOC": {
+          "precision": 1.0,
+          "recall": 0.9333,
+          "f1": 0.9655,
+          "tp": 28,
+          "fp": 0,
+          "fn": 2
+        },
+        "ORG": {
+          "precision": 0.9714,
+          "recall": 0.9189,
+          "f1": 0.9444,
+          "tp": 34,
+          "fp": 1,
+          "fn": 3
+        },
+        "MISC": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 37,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "token_accuracy": 0.9947,
+      "total_tokens": 3210
+    },
+    "assamese": {
+      "overall": {
+        "entity_precision": 0.9583,
+        "entity_recall": 1.0,
+        "entity_f1": 0.9787,
+        "token_accuracy": 0.9964,
+        "total_entities_gold": 138,
+        "total_entities_pred": 144,
+        "tp": 138,
+        "fp": 6,
+        "fn": 0
+      },
+      "by_type": {
+        "PER": {
+          "precision": 0.8636,
+          "recall": 1.0,
+          "f1": 0.9268,
+          "tp": 19,
+          "fp": 3,
+          "fn": 0
+        },
+        "LOC": {
+          "precision": 0.9753,
+          "recall": 1.0,
+          "f1": 0.9875,
+          "tp": 79,
+          "fp": 2,
+          "fn": 0
+        },
+        "ORG": {
+          "precision": 0.9333,
+          "recall": 1.0,
+          "f1": 0.9655,
+          "tp": 14,
+          "fp": 1,
+          "fn": 0
+        },
+        "MISC": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 26,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "token_accuracy": 0.9964,
+      "total_tokens": 3349
+    },
+    "sinhala": {
+      "overall": {
+        "entity_precision": 0.9632,
+        "entity_recall": 0.9924,
+        "entity_f1": 0.9776,
+        "token_accuracy": 0.997,
+        "total_entities_gold": 132,
+        "total_entities_pred": 136,
+        "tp": 131,
+        "fp": 5,
+        "fn": 1
+      },
+      "by_type": {
+        "PER": {
+          "precision": 0.9487,
+          "recall": 0.9737,
+          "f1": 0.961,
+          "tp": 37,
+          "fp": 2,
+          "fn": 1
+        },
+        "LOC": {
+          "precision": 0.9286,
+          "recall": 1.0,
+          "f1": 0.963,
+          "tp": 39,
+          "fp": 3,
+          "fn": 0
+        },
+        "ORG": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 28,
+          "fp": 0,
+          "fn": 0
+        },
+        "MISC": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "tp": 27,
+          "fp": 0,
+          "fn": 0
+        }
+      },
+      "token_accuracy": 0.997,
+      "total_tokens": 3996
+    }
+  },
+  "test4_completeness": true
+}

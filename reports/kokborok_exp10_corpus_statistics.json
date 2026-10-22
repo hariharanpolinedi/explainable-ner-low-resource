@@ -1,0 +1,32 @@
+{
+  "retained_sentence_count": 13317,
+  "total_token_count": 186186,
+  "unique_token_count": 28316,
+  "gold_train_vocab_size": 2123,
+  "new_unique_tokens_count": 26360,
+  "vocab_growth_percentage": 1233.772962788507,
+  "avg_sentence_length": 13.98,
+  "median_sentence_length": 12.0,
+  "min_sentence_length": 3,
+  "max_sentence_length": 55,
+  "sentences_with_novel_vocab_count": 12395,
+  "pct_sentences_with_novel_vocab": 93.08,
+  "source_distribution": {
+    "sdmy/kokborok (smoldoc)": 5480,
+    "sdmy/kokborok (smolsent)": 48,
+    "agnivamaiti/kokborok-qa": 4375,
+    "sulabhkatiyar/ne-asr-dataset-trp": 506,
+    "Wikimedia Incubator (Wp/trp)": 6,
+    "Kokborok_datasets/English-Kokborok 3rd Dataset.xlsx": 21,
+    "Kokborok_datasets/Kokborok second dataset (1).xlsx": 465,
+    "Kokborok_datasets/Kokborok Sentiment data.xlsx": 6,
+    "Kokborok_datasets/Kokborok Translations (1).xlsx": 233,
+    "Kokborok_datasets/Kokborok-dataset.xlsx": 2177
+  },
+  "quality_exclusion_breakdown": {
+    "VALID_KOKBOROK_SENTENCE": 13317,
+    "NON_KOKBOROK_OR_EXCESSIVE_ENGLISH": 2524,
+    "EXTREMELY_SHORT": 278,
+    "EXACT_DUPLICATE": 4738
+  }
+}

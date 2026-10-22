@@ -31,6 +31,7 @@ except ImportError:
     Dataset = object  # type: ignore
     Sampler = object  # type: ignore
 
+from preprocessing.kokborok_tokenizer import KokborokTokenizer
 from preprocessing.tokenizer import ScriptTokenizer
 from training.train_charcnn import TAG_TO_ID
 
@@ -38,15 +39,17 @@ LANG_TO_ID = {
     "konkani": 0,
     "assamese": 1,
     "sinhala": 2,
+    "kokborok": 3,
 }
 ID_TO_LANG = {v: k for k, v in LANG_TO_ID.items()}
 
-# Raw corpus sentence volumes from Phase 1 (reports/corpus_stats.md)
+# Raw corpus sentence volumes from Phase 1 and Phase 9
 # Used for proportional sampling
 RAW_CORPUS_VOLUMES = {
     "konkani": 30980,
     "assamese": 55002,
     "sinhala": 66954,
+    "kokborok": 4020,
 }
 
 
@@ -59,7 +62,8 @@ def load_or_create_multilingual_vocabs(
     Preserves special tokens: <PAD>=0, <UNK>=1, <BOS>=2, <EOS>=3.
     """
     proc_dir = Path(proc_dir)
-    multi_dir = proc_dir / "multilingual"
+    target_subdir = "multilingual_4lang" if len(languages) > 3 or "kokborok" in languages else "multilingual"
+    multi_dir = proc_dir / target_subdir
     multi_dir.mkdir(parents=True, exist_ok=True)
 
     word_vocab_path = multi_dir / "word_vocab.json"
@@ -153,7 +157,8 @@ class MultilingualNERDataset(Dataset):
         self.max_sentences_per_lang = max_sentences_per_lang
 
         self.tokenizers = {
-            lang: ScriptTokenizer(lang) for lang in lang_conll_paths.keys()
+            lang: (KokborokTokenizer() if lang == "kokborok" else ScriptTokenizer(lang))
+            for lang in lang_conll_paths.keys()
         }
 
         # samples: (tokens, word_ids, char_ids_per_word, tag_ids, lang_id)

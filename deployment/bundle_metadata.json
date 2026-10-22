@@ -1,22 +1,24 @@
 {
   "bundle_version": "v1",
-  "updated_at": "2026-09-17T12:05:05.041661+00:00",
+  "updated_at": "2026-09-25T09:53:39.880039+00:00",
   "status": "ALL_BUNDLES_VERIFIED",
   "languages": {
     "konkani": {
       "language": "konkani",
       "bundle_version": "v1",
-      "created_at": "2026-09-17T12:05:04.689853+00:00",
+      "created_at": "2026-09-25T09:53:39.394821+00:00",
       "status": "VERIFIED_COMPATIBLE",
       "artifacts": {
         "model": {
           "filename": "model.pt",
-          "original_source": "checkpoints\\final_konkani.pt",
-          "sha256": "58eb383594ee205960836756a7c5c4525c1379d52e7c89284dd9762b7d54a038",
+          "original_source": "checkpoints\\current_best_konkani.pt",
+          "sha256": "73bac91510a6f755ff80e7c4529ac709d040872ad1d3c3b38ffb1bde0f2530ce",
           "word_vocab_size": 89196,
           "char_vocab_size": 13022,
           "word_embedding_dim": 100,
-          "char_embedding_dim": 50
+          "char_embedding_dim": 50,
+          "num_languages": 3,
+          "crf_config": "shared"
         },
         "config": {
           "filename": "config.yaml",
@@ -40,17 +42,19 @@
     "assamese": {
       "language": "assamese",
       "bundle_version": "v1",
-      "created_at": "2026-09-17T12:05:04.865897+00:00",
+      "created_at": "2026-09-25T09:53:39.553206+00:00",
       "status": "VERIFIED_COMPATIBLE",
       "artifacts": {
         "model": {
           "filename": "model.pt",
-          "original_source": "checkpoints\\final_assamese.pt",
-          "sha256": "2b7688e17b394ba0dd35bc616ed72460b08aaf717d467b8fa84e7170ae37e38d",
+          "original_source": "checkpoints\\current_best_assamese.pt",
+          "sha256": "d59afca5d233c471384db4d46f5407855a581cf573f77725b29f63bdf9733dd3",
           "word_vocab_size": 89196,
           "char_vocab_size": 13022,
           "word_embedding_dim": 100,
-          "char_embedding_dim": 50
+          "char_embedding_dim": 50,
+          "num_languages": 3,
+          "crf_config": "shared"
         },
         "config": {
           "filename": "config.yaml",
@@ -74,17 +78,19 @@
     "sinhala": {
       "language": "sinhala",
       "bundle_version": "v1",
-      "created_at": "2026-09-17T12:05:05.037436+00:00",
+      "created_at": "2026-09-25T09:53:39.707492+00:00",
       "status": "VERIFIED_COMPATIBLE",
       "artifacts": {
         "model": {
           "filename": "model.pt",
-          "original_source": "checkpoints\\final_sinhala.pt",
-          "sha256": "6c268138e546c60e0ed9912606b4133f9011515d562674f764d1f8965e377b03",
+          "original_source": "checkpoints\\improved_sinhala_v2.pt",
+          "sha256": "aca068df0355e0b1656ee1ffb8e4c9a3d3046aa70233b38800be7092f36afe86",
           "word_vocab_size": 89196,
           "char_vocab_size": 13022,
           "word_embedding_dim": 100,
-          "char_embedding_dim": 50
+          "char_embedding_dim": 50,
+          "num_languages": 3,
+          "crf_config": "shared"
         },
         "config": {
           "filename": "config.yaml",
@@ -101,6 +107,42 @@
           "filename": "char_vocab.json",
           "original_source": "data\\processed\\multilingual\\char_vocab.json",
           "sha256": "11400429d8cf583dbf6b8506cea2e99b21587272bb2726637d057a2a1994981f",
+          "vocab_size": 13022
+        }
+      }
+    },
+    "kokborok": {
+      "language": "kokborok",
+      "bundle_version": "v1",
+      "created_at": "2026-09-25T09:53:39.859994+00:00",
+      "status": "VERIFIED_COMPATIBLE",
+      "artifacts": {
+        "model": {
+          "filename": "model.pt",
+          "original_source": "checkpoints\\final_kokborok.pt",
+          "sha256": "4c719deb499e41b94a643cc042dd3d40b321447bf0e5afa225205d7843efd5a2",
+          "word_vocab_size": 95291,
+          "char_vocab_size": 13022,
+          "word_embedding_dim": 100,
+          "char_embedding_dim": 50,
+          "num_languages": 4,
+          "crf_config": "per_language"
+        },
+        "config": {
+          "filename": "config.yaml",
+          "original_source": "configs\\final_kokborok.yaml",
+          "sha256": "496a565ef629d562186f306bdb4f7642106ef5356ff197b01c9ad087a81de003"
+        },
+        "word_vocab": {
+          "filename": "word_vocab.json",
+          "original_source": "data\\processed\\multilingual_4lang\\word_vocab.json",
+          "sha256": "29f6fb43245ccb5782d8d7635dc3877d3f510c4c76ac7ae5fe0fa3a923955788",
+          "vocab_size": 95291
+        },
+        "char_vocab": {
+          "filename": "char_vocab.json",
+          "original_source": "data\\processed\\multilingual_4lang\\char_vocab.json",
+          "sha256": "94c2b909cc9db704293f0c74ecf6909de5af4bef1e1c15b780c6b208c4f5895a",
           "vocab_size": 13022
         }
       }

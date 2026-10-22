@@ -1,0 +1,49 @@
+{
+  "total_candidates_examined": 1367,
+  "accepted_high_confidence_sentences": 710,
+  "review_medium_confidence_sentences": 615,
+  "uncertain_sentences": 42,
+  "accepted_data_statistics": {
+    "total_tokens": 12496,
+    "total_entities": 945,
+    "by_type": {
+      "LOC": 725,
+      "PER": 134,
+      "ORG": 38,
+      "MISC": 48
+    },
+    "unique_surface_forms": 169,
+    "singleton_surface_forms": 100,
+    "span_lengths": {
+      "1_token": 849,
+      "2_token": 71,
+      "3_token": 17,
+      "4_plus_token": 8,
+      "multi_token_total": 96
+    }
+  },
+  "combined_dataset_projection": {
+    "sentences": 1560,
+    "tokens": 19207,
+    "total_entities": 975,
+    "per_entities": 136,
+    "loc_entities": 734,
+    "org_entities": 45,
+    "misc_entities": 60,
+    "multipliers": {
+      "per_expansion": "68.0x",
+      "loc_expansion": "81.6x",
+      "org_expansion": "6.4x",
+      "misc_expansion": "5.0x",
+      "total_entity_expansion": "32.5x"
+    }
+  },
+  "oov_reduction_dev": {
+    "gold_train_vocab": 2123,
+    "expanded_vocab": 4974,
+    "orig_dev_oov_rate_pct": 21.339950372208435,
+    "new_dev_oov_rate_pct": 18.610421836228287,
+    "reduction_percentage_points": 2.7295285359801476
+  },
+  "leakage_check": "PASS"
+}

@@ -1,0 +1,81 @@
+{
+  "timestamp": "2026-09-23 11:29:41",
+  "test1_evidence_traceability": {
+    "sinhala_conjunct_normalization": {
+      "root_cause_cited": "Phase 2 Triage: 27.8% of Sinhala collapses caused by decomposed or missing ZWJ in conjuncts.",
+      "traced": true
+    },
+    "konkani_middle_weighting": {
+      "root_cause_cited": "Phase 2 Position Test: Middle-entity recall collapsed to 33.93% (+30.07 pp gap vs edges) due to CRF 'O'-emission bias.",
+      "traced": true
+    },
+    "assamese_inflectional_augmentation": {
+      "root_cause_cited": "Phase 1 & 2 OOV Triage (79.2% collapses) & Phase 3 frequency check: failure of high-frequency stems under novel case inflections.",
+      "traced": true
+    },
+    "konkani_inflectional_loc": {
+      "root_cause_cited": "Phase 1 & 2 LOC Diagnostic: Inflected location forms like \u092a\u0923\u091c\u0940\u0902\u0924 and \u0917\u094b\u092f\u093e\u091a\u094d\u092f\u093e suffered 50% F1 penalty and 33.3% recall.",
+      "traced": true
+    },
+    "sinhala_loc_precision_filtering": {
+      "root_cause_cited": "Phase 3 Silver Re-Audit: LOC precision on independent gold train is only 57.81% due to toponymic heuristic over-generation on common spatial terms.",
+      "traced": true
+    }
+  },
+  "test2_divergence_gate": {
+    "total_runs": 5,
+    "passed_runs": 5,
+    "status": "PASS"
+  },
+  "test3_non_circularity": {
+    "evaluated_on_locked_benchmarks_only": true,
+    "status": "PASS"
+  },
+  "test4_tradeoff_detection": {
+    "sinhala_conjunct_normalization": {
+      "tradeoff_detected": true,
+      "tradeoff_details": [
+        "PER precision dropped from 100.0% to 90.0% (-10.0 pp)",
+        "ORG precision dropped from 100.0% to 87.0% (-13.0 pp)"
+      ]
+    },
+    "konkani_middle_weighting": {
+      "tradeoff_detected": true,
+      "tradeoff_details": [
+        "LOC precision dropped from 100.0% to 89.3% (-10.7 pp)",
+        "ORG precision dropped from 100.0% to 93.9% (-6.1 pp)"
+      ]
+    },
+    "assamese_inflectional_augmentation": {
+      "tradeoff_detected": false,
+      "tradeoff_details": []
+    },
+    "konkani_inflectional_loc": {
+      "tradeoff_detected": false,
+      "tradeoff_details": []
+    },
+    "sinhala_loc_precision_filtering": {
+      "tradeoff_detected": false,
+      "tradeoff_details": []
+    }
+  },
+  "test5_test_set_isolation": {
+    "konkani": {
+      "expected_hash": "bd08ebbf60e048d4fce5d9f5fd233f7dbdeb5bf1f066ee0718eb4b04404ab2d1",
+      "actual_hash": "bd08ebbf60e048d4fce5d9f5fd233f7dbdeb5bf1f066ee0718eb4b04404ab2d1",
+      "intact": true
+    },
+    "assamese": {
+      "expected_hash": "2a49321609716b38a893d7b7ca5aa3c27ba0c90863fbca8ac0d4aa87d143c070",
+      "actual_hash": "2a49321609716b38a893d7b7ca5aa3c27ba0c90863fbca8ac0d4aa87d143c070",
+      "intact": true
+    },
+    "sinhala": {
+      "expected_hash": "47cf890b0e9c76e235e17355806b521f8925525e80256bf6667b2835a16854d0",
+      "actual_hash": "47cf890b0e9c76e235e17355806b521f8925525e80256bf6667b2835a16854d0",
+      "intact": true
+    }
+  },
+  "shortlist_count": 0,
+  "rejected_count": 5
+}

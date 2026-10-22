@@ -46,7 +46,11 @@ class AttentionExtractor:
         self.lang = lang
         self.lang_id = lang_id
         self.device = device or next(model.parameters()).device
-        self.tokenizer = ScriptTokenizer(lang)
+        if lang.lower().strip() == "kokborok":
+            from preprocessing.kokborok_tokenizer import KokborokTokenizer
+            self.tokenizer = KokborokTokenizer()
+        else:
+            self.tokenizer = ScriptTokenizer(lang)
         self.model.eval()
 
     def prepare_input_tensors(
@@ -125,9 +129,12 @@ class AttentionExtractor:
             lstm_hidden = self.model.encoder(combined, mask=mask, return_hidden=True)
             if self.model.use_attention and self.model.attention is not None:
                 attended, _ = self.model.attention(lstm_hidden, mask=mask)
+            if hasattr(self.model, "fc_heads") and self.model.fc_heads is not None and self.lang_id is not None:
+                emissions = self.model.fc_heads[self.lang_id](attended)[0]
+            elif hasattr(self.model, "fc_shared") and self.model.fc_shared is not None:
+                emissions = self.model.fc_shared(attended)[0]
             else:
-                attended = lstm_hidden
-            emissions = self.model.fc_shared(attended)[0]  # (seq_len, num_tags)
+                raise RuntimeError("Model does not have valid fc_heads or fc_shared.")
 
         return {
             "tokens": list(tokens),

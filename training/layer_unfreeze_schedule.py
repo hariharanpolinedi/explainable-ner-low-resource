@@ -67,7 +67,7 @@ class LayerUnfreezeScheduler:
             for p in module.parameters():
                 p.requires_grad = requires_grad
 
-    def step_epoch(self, epoch: int) -> dict[str, Any]:
+    def step_epoch(self, epoch: int) -> dict[str, any]:
         """
         Configure layer parameter gradients at the beginning of an epoch.
 

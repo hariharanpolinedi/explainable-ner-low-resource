@@ -1,0 +1,32 @@
+{
+  "total_pdfs": 3,
+  "total_sentences": 1773,
+  "total_tokens": 7898,
+  "entities_by_type": {
+    "PER": 150,
+    "LOC": 201,
+    "ORG": 154,
+    "MISC": 53
+  },
+  "sentences_with_entities": 474,
+  "per_pdf": [
+    {
+      "pdf": "Hani Kokmalama-1, 6 August 2023, Sunday.pdf",
+      "sentences": 713,
+      "tokens": 3307,
+      "entities": 234
+    },
+    {
+      "pdf": "Hani Kokmalama, No.2, 13 August 2023.pdf",
+      "sentences": 588,
+      "tokens": 2667,
+      "entities": 175
+    },
+    {
+      "pdf": "KOKMALAMA-45, 23-10-2022.pdf",
+      "sentences": 472,
+      "tokens": 1924,
+      "entities": 149
+    }
+  ]
+}

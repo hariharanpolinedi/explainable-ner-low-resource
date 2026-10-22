@@ -1,0 +1,10 @@
+{
+  "num_languages": 4,
+  "crf_config": "per_language",
+  "hidden_dim": 128,
+  "num_tags": 9,
+  "model_type": "NERMultilingualModel",
+  "word_vocab_size": 95291,
+  "char_vocab_size": 13022,
+  "language": "kokborok"
+}

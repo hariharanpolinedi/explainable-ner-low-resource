@@ -35,7 +35,7 @@ class LanguageEmbedding(nn.Module if nn else object):
 
     def __init__(
         self,
-        num_languages: int = 3,
+        num_languages: int = 4,
         embedding_dim: int = 16,
         dropout: float = 0.1,
     ) -> None:

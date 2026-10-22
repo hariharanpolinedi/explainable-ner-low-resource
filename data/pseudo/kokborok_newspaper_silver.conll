@@ -1,0 +1,9670 @@
+Hani	O
+Kokmalama	O
+	O
+Vol	O
+.	O
+
+1	O
+	O
+Issue	O
+No	O
+.	O
+
+1	O
+	O
+6	B-MISC
+August	I-MISC
+2023	I-MISC
+	O
+Sunday	O
+	O
+Khumulwng	B-LOC
+	O
+No	O
+.	O
+
+of	O
+Pages	O
+:	O
+2	O
+	O
+Rs	O
+.	O
+
+00	O
+	O
+RNI	O
+Title	O
+Code	O
+:	O
+TRITRI00002	O
+
+Hani	O
+Kokmalama	O
+
+The	O
+Tripuri	O
+Weekly	O
+Newspaper	O
+
+ALOHA	O
+Haiyong	O
+Bataimwng	O
+
+Kaplai	O
+Ongkha	O
+Lucianna	B-PER
+Tripura	I-PER
+
+4	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Agartala	B-LOC
+:	O
+thangnai	O
+
+30	B-MISC
+July	I-MISC
+2023	I-MISC
+,	O
+Malaysiani	O
+Kuala	O
+Lumpur	O
+
+daiyo	O
+songchajak	O
+ALOHA	O
+Haiyong	O
+
+Batailaimwngo	O
+Tripura	O
+hasteni	O
+
+Lucianna	B-PER
+Tripura	I-PER
+Bharat	O
+hagarani	O
+ongoi	O
+
+bataiywi	O
+kaplai	O
+ongkha	O
+.	O
+
+Tripura	B-LOC
+hasteni	O
+South	B-LOC
+Tripura	I-LOC
+
+Districtni	O
+Sabroom	B-LOC
+bwkhak	O
+-ni	O
+Maira	O
+
+amchaini	O
+Senchandra	O
+Parago	O
+bini	O
+nok	O
+.	O
+
+Bo	O
+tabok	O
+Sabroom	B-LOC
+bwkhak	O
+-ni	O
+Sinduk	O
+
+Pathar	O
+amchaini	O
+St	O
+.	O
+
+Francis	O
+De	O
+Sales	O
+
+jagwk	O
+.	O
+
+Lucianna	B-PER
+Tripura	I-PER
+bo	O
+i	O
+
+bataimwngo	O
+chorok	O
+swngmwngni	O
+
+sraichakhlai	O
+kokphorokmwng	O
+rogoi	O
+
+manma	O
+-ni	O
+bagoi	O
+Grand	O
+Champion	O
+hinoi	O
+
+saklaijakkha	O
+.	O
+
+Kaplai	O
+ongnairokno	O
+medol	O
+aro	O
+trophy	O
+
+yapharjakkha	O
+.	O
+
+Lucianna	B-PER
+Tripura	I-PER
+bo	O
+
+kaplai	O
+ongmani	O
+bisingtwi	O
+Bharat	O
+hagara	O
+
+aro	O
+Tripura	B-LOC
+hasteni	O
+bwmwngno	O
+
+kwchwng	O
+khlaika	O
+.	O
+
+Ibo	O
+simingya	O
+,	O
+bo	O
+
+Tripura	B-LOC
+Dopha	O
+aro	O
+chorok	O
+Tiprasani	O
+
+Banglahago	O
+Uanamasangcha	O
+Khlai	O
+Buthajakkha	O
+
+Phrwngnai	O
+Yakchu	O
+Asha	B-PER
+Tripura	I-PER
+(	O
+Nobina	O
+)	O
+(	O
+42	O
+)	O
+
+August	O
+
+2023	O
+,	O
+
+Agartala	B-LOC
+:	O
+
+Bangladesh	B-LOC
+hagarani	O
+Khagrachari	O
+
+Districtni	O
+Matiranga	O
+Upazilani	O
+Tapta	O
+
+Master	O
+Para	O
+Govt	O
+.	O
+
+Primary	B-ORG
+School	I-ORG
+-ni	O
+
+Asstt	O
+.	O
+
+Teacher	O
+Asha	B-PER
+Tripura	I-PER
+(	O
+Nobina	O
+)	O
+
+basai	O
+Uddipan	B-PER
+Tripura	I-PER
+aro	O
+basa	O
+
+khoroknoino	O
+lagwi	O
+Khagrachari	O
+dolini	O
+
+Mahajan	O
+Parago	O
+nokchorai	O
+tongoi	O
+
+tongmani	O
+.	O
+
+Mator	O
+Thangnai	O
+21	O
+July	O
+
+salmarigo	O
+uanamasangsa	O
+khlai	O
+buthar	O
+-	O
+
+jakkha	O
+bini	O
+nokchoraigo	O
+.	O
+
+Asha	O
+Tripurani	B-LOC
+
+mangkwthwino	O
+makha	O
+twikuthainogo	O
+.	O
+
+Poilago	O
+nukhungni	O
+borokrokni	O
+
+bwkhaktwi	O
+sajakkha	O
+mokhra	O
+(	O
+heart	O
+
+attack	O
+)	O
+ongoise	O
+thwiphwk	O
+.	O
+
+Mator	O
+olo	O
+
+nok	O
+korekarani	O
+borokni	O
+khugo	O
+,	O
+
+amchaini	O
+borokrokni	O
+khugo	O
+aro	O
+social	O
+
+mediani	O
+bisingtwi	O
+koksilchajakkha	O
+,	O
+
+Asha	B-PER
+Tripura	I-PER
+-no	O
+agebariyani	O
+siming	O
+juk	O
+
+raiywi	O
+(	O
+pre-planned	O
+)	O
+buthajakkha	O
+.	O
+
+basak	O
+,	O
+bokhorogo	O
+butok	O
+khlaijakmani	O
+
+mari	O
+gnang	O
+pilik	O
+social	O
+mediago	O
+
+barikhlai	O
+lokkha	O
+(	O
+viral	O
+)	O
+.	O
+
+I	O
+patimwngno	O
+lagwi	O
+Asha	O
+Tripurani	B-LOC
+
+bata	B-ORG
+Khagrachari	I-ORG
+Police	I-ORG
+Station	I-ORG
+daiyo	O
+
+kaisa	O
+FIR	O
+khlaikha	O
+.	O
+
+FRI	O
+khlaijakmani	O
+
+bisingtwi	O
+i	O
+patimwngno	O
+naikolni	O
+
+thangtanigo	O
+patimwng	O
+bai	O
+yak	O
+krwngjak	O
+
+ongmago	O
+ibotwi	O
+mwkchwngwi	O
+Asha	O
+
+Tripurani	B-LOC
+basai	O
+Uddipan	B-PER
+Tripura	I-PER
+-no	O
+
+romkha	O
+Police	O
+.	O
+
+Tmwi	O
+hinba	O
+Asha	O
+
+Tripura	B-LOC
+thwiphugo	O
+bana	O
+bwsai	O
+simingse	O
+
+nogo	O
+tongphwk	O
+hinoi	O
+koktma	O
+.	O
+
+I	O
+patimwngno	O
+lagwi	O
+Bangladesh	B-LOC
+
+hagnangoi	O
+kabangma	O
+bodol	O
+,	O
+motha	O
+aro	O
+
+sijak-nujak	O
+lukurokni	O
+bisingtwi	O
+
+selengmwng	O
+phunujakkha	O
+aro	O
+justice	O
+
+biywi	O
+khorang	O
+tisajakkha	O
+.	O
+
+Tabok	O
+Bharatni	B-PER
+Tripura	I-PER
+dopha	O
+-ni	O
+
+lukurokbo	O
+i	O
+patimwngno	O
+selengmwng	O
+
+phunuka	O
+aro	O
+justice	O
+bikha	O
+.	O
+
+Tripura	B-LOC
+
+dopha	O
+-ni	O
+jotonislai	O
+kuchuk	O
+achokthai	O
+
+daiyo	O
+achogoi	O
+dopha	O
+-no	O
+naikolnai	O
+
+NARAN	O
+boromgnang	O
+Birendra	B-PER
+Tripura	I-PER
+
+thangnai	O
+5	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Bharatni	O
+
+Tripura	B-LOC
+hasteni	O
+NARAN	O
+POMANG	O
+
+ROAJA	B-ORG
+COUNCIL-ni	I-ORG
+phaichingtwi	O
+
+03	B-ORG
+/	I-ORG
+NPRC	I-ORG
+/	I-ORG
+Press	I-ORG
+Release	O
+/	O
+2023	O
+/	O
+24	O
+,	O
+
+Dated	O
+,	O
+Agartala	B-LOC
+,	O
+the	O
+5th	O
+August	O
+2023	O
+
+Press	B-ORG
+Releaseni	O
+bisingtwi	O
+i	O
+patimwngno	O
+
+selengmwng	O
+phunuka	O
+aro	O
+patimwngni	O
+
+uklogo	O
+sororokni	O
+yak	O
+krwngjak	O
+tong	O
+
+ibono	O
+gamkhlai	O
+naikolgoi	O
+patimwng	O
+bai	O
+
+krwngjakrokno	O
+krak	O
+majra	O
+ronani	O
+bagoi	O
+
+Bangladesh	B-ORG
+Police	I-ORG
+authority	I-ORG
+-no	O
+
+haiyokkha	O
+.	O
+
+Tripura	B-LOC
+dopha	O
+-ni	O
+NARAN	O
+
+boromgnang	B-ORG
+Birendra	I-ORG
+Tripura	I-ORG
+Press	I-ORG
+
+Releaseni	O
+bisingtwi	O
+saka	O
+—	O
+
+It	O
+’	O
+s	O
+seen	O
+through	O
+various	O
+social	O
+media	O
+
+and	B-ORG
+electronic	I-ORG
+media	I-ORG
+of	O
+Bangladesh	B-LOC
+that	O
+
+Asha	B-PER
+Tripura	I-PER
+,	O
+an	O
+Assistant	O
+Teacher	O
+
+of	B-ORG
+Primary	I-ORG
+School	I-ORG
+under	O
+Matiranga	O
+
+Upazila	O
+,	O
+Khagrachhari	O
+District	O
+,	O
+
+Iboni	O
+bokchoi	O
+noi	O
+balaiyo	O
+-	O
+-	O
+
+Tiprasani	O
+Mwthangjakni	O
+Bagoi	O
+Interlocutor	O
+
+AK	O
+Mishra	O
+Bai	O
+Malaikha	O
+CTH	O
+
+5	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Khumulwng	B-LOC
+:	O
+
+Tiprasano	O
+
+mwthangnani	O
+
+bagoi	O
+
+Constitutional	O
+Solution	O
+bithanigo	O
+bana	O
+
+bobagra	O
+aro	O
+Tipra	O
+Motha	O
+simingya	O
+,	O
+
+tabok	O
+Tiprasani	O
+chorok	O
+hodarokbo	O
+
+naiywk	O
+.	O
+
+Ibo	O
+arouaisa	O
+sraicha	O
+ongoi	O
+kasai	O
+
+phaika	O
+.	O
+
+Thangnai	O
+27	O
+July	O
+salmarigo	O
+
+New	B-ORG
+Delhigo	I-ORG
+Ministry	I-ORG
+of	O
+Home	O
+Affairs	O
+,	O
+
+Northeast	O
+Regionni	O
+Advisor	O
+ebakhlai	O
+
+Interlocutor	B-PER
+Akshay	I-PER
+Kumar	I-PER
+Mishra	O
+bai	O
+
+malaikha	B-ORG
+Council	I-ORG
+of	O
+Tiprasa	O
+Hoda	O
+
+(	O
+CTH	O
+)	O
+ni	O
+okra-chakrarok	O
+.	O
+
+Satai	O
+klaiywk	O
+,	O
+
+CTH	O
+ongkha	O
+hasteni	O
+chorok	O
+Tiprasani	O
+
+hoda-dophani	O
+motharokno	O
+lagwi	O
+
+songchajak	O
+kaisa	O
+motha	O
+.	O
+
+I	O
+malaimwngo	O
+Council	O
+of	O
+Tiprasa	O
+
+Hoda	O
+-ni	O
+ongoi	O
+thangnai	O
+Hodaokrarok	O
+
+Interlocutor	O
+A	O
+.	O
+
+K	O
+Mishrani	O
+daiyo	O
+kangsa	O
+
+memorandum	O
+balaibo	O
+yapharlaikha	O
+.	O
+
+I	O
+malaimwngo	O
+Tripura	B-LOC
+dopha	O
+-ni	O
+
+Narane	O
+bakhlai	O
+CTH-ni	O
+Convener	O
+
+Birendra	B-PER
+Tripura	I-PER
+,	O
+Jamatia	O
+Hoda	O
+-ni	O
+
+kacham	O
+Hoda	O
+Okra	O
+ebakhlai	O
+CTH-ni	O
+
+Chairman	O
+Padma	B-PER
+Lila	I-PER
+Jamatia	I-PER
+,	O
+Tripur	O
+
+Kshatriya	O
+Samajni	O
+twiphang	O
+Jogendra	O
+
+Debbarma	O
+,	O
+kacham	O
+twiphang	O
+Dilip	O
+
+Kumar	B-PER
+Debbarma	I-PER
+,	O
+Murasingh	O
+Hoda	O
+-ni	O
+
+tangphang	O
+Sunil	B-PER
+Murasingh	I-PER
+,	O
+Bru	O
+
+dopha	O
+-ni	O
+Rai	O
+Kaskau	O
+Parishadni	O
+
+tangphang	O
+Pancharam	B-PER
+Reang	I-PER
+,	O
+Kalai	O
+
+Samajni	O
+Rai	O
+Mangal	O
+Pada	O
+Kalai	O
+,	O
+
+Molsom	O
+Hoda	O
+-ni	O
+tangphang-yakchu	O
+
+Narayan	O
+Molsom	O
+song	O
+thangoi	O
+
+majakkha	O
+.	O
+
+CTHni	O
+okrarok	O
+bai	O
+malaiywi	O
+
+kokmalama	O
+salaimani	O
+olo	O
+Tiprasani	O
+
+jwngjalno	O
+jai-jai	O
+khlai	O
+naikani	O
+khlainai	O
+
+hinoi	O
+kokrokha	O
+raibai	O
+AK	O
+Mishra	O
+.	O
+
+O	O
+salo	O
+-no	O
+hani	O
+bobagra	O
+boromgnang	O
+
+Pradyot	O
+Kishore	O
+Manikyani	O
+twidul	O
+-	O
+
+mwng	O
+bai	O
+Tipra	O
+Mothani	O
+ojama	O
+-rok	O
+
+raibai	O
+AK	O
+Mishra	O
+bai	O
+thangoi	O
+malaikha	O
+
+kokmalamabo	O
+
+salaika	O
+.	O
+
+malaimwngo	O
+Tipra	O
+Mothani	O
+twiphang	O
+
+BK	B-PER
+Hrangkhawl	I-PER
+,	O
+TTAADC-ni	B-ORG
+achok	O
+-	O
+
+phang	O
+Jagadish	B-PER
+Debbarma	I-PER
+,	O
+CEM	O
+Purna	O
+
+Chandra	B-PER
+Jamatia	I-PER
+,	O
+hasteni	O
+kebengnai	O
+
+bodol	O
+-ni	O
+ojama	O
+Animesh	B-PER
+Debbarma	I-PER
+,	O
+
+Tipra	O
+Mothani	O
+MLA	O
+,	O
+EM	O
+,	O
+MDC	O
+song	O
+
+thangoi	O
+majakkha	O
+.	O
+
+IPFT	O
+bodol	O
+-ni	O
+ojamarokbo	O
+raibai	O
+AK	O
+
+Mishra	O
+bai	O
+malailaikha	O
+aro	O
+kokmalama	O
+
+salaika	O
+.	O
+
+I	O
+malaimwngo	O
+IPFT	O
+Central	O
+
+Committee	B-ORG
+-ni	O
+twiphang	O
+Prem	O
+Kr	O
+.	O
+
+Reang	O
+,	O
+
+tangphang	O
+yakchu	O
+ebakhlai	O
+hasteni	O
+
+montri	O
+Sukla	O
+Charan	O
+Noatia	O
+,	O
+tangphang	O
+
+Swapan	B-PER
+Debbarma	I-PER
+,	O
+IPFT	O
+Advisory	O
+
+Committee	B-ORG
+-ni	O
+kasku	O
+Krishna	O
+Kanta	O
+
+Jamatia	O
+song	O
+thangoi	O
+majakkha	O
+.	O
+
+Tini	O
+5	O
+August	O
+,	O
+BJP	O
+Tripura	B-PER
+Pradeshni	O
+
+twiphang-yakchu	O
+Patal	B-PER
+Kanya	I-PER
+Jamatia	I-PER
+
+bobo	O
+raibai	O
+AK	O
+Mishra	O
+bai	O
+malaikha	O
+.	O
+
+Satai	O
+klaiywk	O
+,	O
+Tiprasano	O
+mwthang	O
+-	O
+
+nani	O
+,	O
+Tiprasani	O
+thinang	O
+aro	O
+hamkrai	O
+-ni	O
+
+bagoi	O
+Constitutional	O
+Solution	O
+aro	O
+
+Greater	O
+Tipraland	O
+bimwngno	O
+baskango	O
+
+larwgoi	O
+hagara	O
+hapang	O
+bai	O
+Tiprasani	O
+
+bisingo	O
+koktunnani	O
+bagoi	O
+raibai	O
+
+ebakhlai	O
+Interlocutor	O
+sitongnani	O
+
+khorang	O
+tisagoi	O
+phaijak	O
+bobagra	O
+.	O
+
+Tripura	B-LOC
+Muksuma	O
+‘	O
+BURASA-2	O
+’	O
+
+5	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Agartala	B-LOC
+:	O
+Tripura	B-LOC
+
+Muksuma	O
+(	O
+Short	O
+Film	O
+)	O
+BURASA-2	O
+
+daktwino	O
+karejaknai	O
+hinoi	O
+sagwi	O
+makha	O
+.	O
+
+Bari	O
+khatongmani	O
+kok	O
+.	O
+
+Menuti	O
+Production	O
+bai	O
+karejak	O
+aro	O
+
+Jacob	B-PER
+Tripura	I-PER
+bai	O
+snamjak	O
+i	O
+muksumani	O
+
+kokboma	O
+ongkha	O
+khorokcha	O
+mwichon	O
+-	O
+
+naisa	O
+bolong	O
+-o	O
+saichong	O
+mwichonnani	O
+
+thangtanigo	O
+Burasa	O
+bai	O
+malaimani	O
+,	O
+
+ibono	O
+lagwi	O
+snamjkha	O
+i	O
+muksuma	O
+.	O
+
+Sataui	O
+klaiywk	O
+,	O
+i	O
+muksuma	O
+Tripura	B-LOC
+bai	O
+
+Reang	O
+dopha	O
+-ni	O
+kokdumani	O
+kokbomano	O
+
+rwgwi	O
+-no	O
+snamjakkha	O
+.	O
+
+I	O
+muksuma	O
+daiyo	O
+
+Burasano	O
+Tiprasani	O
+grwng	O
+rwgwi	O
+-no	O
+
+kothe	O
+khlai	O
+phunujaknai	O
+hinoi	O
+
+sagwimakha	O
+.	O
+
+Burasani	O
+tongrwng	O
+braijati	O
+
+ongno	O
+ibo	O
+tabokbo	O
+sraichayakho	O
+.	O
+
+hinba	O
+i	O
+muksuma	O
+ebakhlai	O
+short	O
+film	O
+
+karejakmani	O
+olose	O
+chwng	O
+gamkhlai	O
+
+sagwi	O
+malainai	O
+.	O
+
+I	O
+Burasa	O
+muksuma	O
+daiyo	O
+bana	O
+
+bolong	O
+-o	O
+thangoi	O
+Burasa	O
+bai	O
+malaimani	O
+,	O
+
+sikri-sokro	O
+ongmani	O
+simingya	O
+,	O
+iro	O
+
+hamjakmwng	O
+,	O
+khakamwng	O
+,	O
+phakra	O
+,	O
+aro	O
+
+Tiprasani	O
+hukumu-mukumuno	O
+rwngwi	O
+
+larwkthanigobo	O
+gamkhlai	O
+sep	O
+rojakkha	O
+.	O
+
+Aaiphabo	O
+kokdumano	O
+rwgwi	O
+tabok	O
+-ni	O
+
+jora	O
+-bai	O
+gotherogoi	O
+tongthok-chathok	O
+,	O
+
+mini-klwi	O
+khlai	O
+lukurokni	O
+daiyo	O
+twbwi	O
+
+phaimani	O
+chaitokmwng	O
+ongkha	O
+i	O
+
+muksuma	O
+.	O
+
+Iboni	O
+sakango	O
+Burasa-1	O
+
+muksuma	O
+barikhlai	O
+naithotokni	O
+
+bisingtwi	O
+Bharat	O
+hagara	O
+gnangoi	O
+kothe	O
+
+kothe	O
+Short	O
+Film	O
+Festival	O
+aro	O
+
+bataimwng	O
+daiyobo	O
+phunujakkha	O
+.	O
+
+Kaplai	O
+ongoi	O
+sokatbo	O
+yapharjakkha	O
+.	O
+
+Tabok	O
+i	O
+Burasa	O
+muksumani	O
+dain	O
+noi	O
+
+ebakhlai	O
+Part-2	O
+daktwino	O
+karejaknai	O
+
+hinoi	O
+i	O
+muksumano	O
+snamnaisa	O
+ebakhlai	O
+
+Directorni	O
+khugo	O
+samani	O
+khanago	O
+.	O
+
+I	O
+Burasa-2	O
+ni	O
+actor	O
+Pohar	B-PER
+Jamatia	I-PER
+bo	O
+
+khorokcha	B-ORG
+National	I-ORG
+School	I-ORG
+of	O
+Drama	O
+
+daiyo	O
+srwngmwng	O
+lajak	O
+aro	O
+Acting	O
+
+Courceno	O
+lagwibo	O
+Master	O
+Degree	O
+
+khlaijak	O
+.	O
+
+Bini	O
+badebo	O
+lead	O
+actor	O
+Ajay	O
+
+Tripurabo	O
+actingno	O
+lagwi	O
+Master	O
+De	O
+-	O
+
+gree	O
+khlaijak	O
+.	O
+
+I	O
+muksumani	O
+actress	O
+
+Bubar	O
+Debbarmabo	O
+khorokcha	O
+barigam	O
+
+acting	O
+krwngno	O
+.	O
+
+Sani	O
+thangkai	O
+i	O
+
+muksuma	O
+jabwini	O
+slaibo	O
+aro	O
+jobor	O
+gam	O
+
+ongsoknai	O
+hinoi	O
+kha	O
+kamani	O
+kokno	O
+saka	O
+
+i	O
+muksumani	O
+Director	O
+Jacob	B-PER
+Tripura	I-PER
+.	O
+
+High	B-ORG
+School	I-ORG
+daiyo	O
+rwng	O
+remnoi	O
+(	O
+Class	O
+-	O
+
+II	O
+)	O
+o	O
+poreywi	O
+tongwk	O
+.	O
+
+Bopha	O
+aro	O
+bomani	O
+
+bwmwng	O
+ongkha	O
+machang	O
+Samir	O
+
+Tripura	B-LOC
+
+machangjuk	O
+
+Basumatary	B-PER
+Tripura	I-PER
+.	O
+
+ALOHA	O
+haiyong	O
+beremni	O
+bataimwng	O
+
+daiyo	O
+haiyongni	O
+kaibrwichi	O
+hagarani	O
+
+batainairok	O
+thangoi	O
+majakkha	O
+.	O
+
+Bharat	O
+
+hagarani	O
+ongoi	O
+khorok	O
+thamchibrwi	O
+
+(	O
+34	O
+)	O
+batainairok	O
+thangoi	O
+majakkha	O
+.	O
+
+Iboni	O
+bisingo	O
+khorokchi	O
+batainai	O
+ongkha	O
+
+Tripura	B-LOC
+hasteni	O
+.	O
+
+Bataiywi	O
+khorokdok	O
+
+Grand	O
+
+Champion	O
+,	O
+
+khorokcha	O
+
+Champion	O
+,	O
+khoroknoi	O
+1st	O
+Runner-up	O
+
+aro	O
+khorokcha	O
+3rd	O
+Runner-up	O
+ongkha	O
+.	O
+
+Grand	O
+Champion	O
+khorok	O
+dokni	O
+bisingo	O
+
+khorokcha	O
+ongkha	O
+Lucianna	B-PER
+Tripura	I-PER
+.	O
+
+Satai	O
+klaiywk	O
+,	O
+i	O
+bataimwngo	O
+je	O
+
+batainairok	O
+thaicha-lesa	O
+koro-kuthu	O
+
+krwikhlai	O
+swngmwngni	O
+phirokmwng	O
+
+romago	O
+bok	O
+-no	O
+Grand	O
+Champion	O
+hinoi	O
+
+saklaijagwk	O
+.	O
+
+Je	O
+batainairok	O
+kisamisa	O
+
+swngmwngni	O
+phirokmwng	O
+romaya	O
+
+ongnairokno	O
+Champion	O
+hinoi	O
+saklai	O
+-	O
+
+mwkhangnobo	O
+kwchwng	O
+khlaika	O
+.	O
+
+chini	O
+bagoi	O
+barikhlai	O
+khatongtong	O
+
+ongjaknai	O
+koktma	O
+.	O
+
+Satai	O
+klaiywk	O
+Lucianna	B-PER
+Tripura	I-PER
+bo	O
+
+bana	O
+Grand	O
+Champion	O
+siming	O
+ongoi	O
+
+tongliya	O
+,	O
+bo	O
+Tripura	B-LOC
+dopha	O
+-ni	O
+huk	O
+bai	O
+
+krwngjak	O
+hukumu-mukumuno	O
+haiyong	O
+-	O
+
+ni	O
+daiyo	O
+pirthanigo	O
+barikhlai	O
+sakthar	O
+-	O
+
+mani	O
+nujakkha	O
+.	O
+
+Bo	B-PER
+Tripura	I-PER
+dopha	O
+-ni	O
+
+Rinai-Risa	O
+kangoi	O
+masamwngbo	O
+
+masaka	O
+.	O
+
+I	O
+masamwngni	O
+bagoi	O
+bo	O
+kothe	O
+
+khlai	O
+borombalaibo	O
+yapharjakkha	O
+.	O
+
+Bharat	O
+hagarani	O
+ongoi	O
+masamwngo	O
+
+batainani	O
+
+bagoi	O
+sep	O
+manma	O
+-ni	O
+
+khoroknoini	O
+bisingo	O
+Lucianna	B-PER
+Tripura	I-PER
+
+khorokcha	O
+.	O
+
+Aro	O
+khorokcha	O
+ongkha	O
+
+Bangaloreni	O
+.	O
+
+Luciana	O
+Tripurani	B-LOC
+ibotwikhlai	O
+
+pharimani	O
+aro	O
+rwngmani	O
+bisingtwi	O
+
+Tripura	B-LOC
+dopha	O
+-ni	O
+sinimwngno	O
+haiyongni	O
+
+daiyo	O
+kasokromani	O
+bagoi	O
+barikhlai	O
+
+khagam	O
+aro	O
+hamjakma	O
+yaphargo	O
+.	O
+
+thinang	O
+arobo	O
+kwchwng	O
+ongthwk	O
+,	O
+arobo	O
+
+pharithwk	O
+hinoi	O
+usrigo	O
+.	O
+
+Hani	O
+Kokmalama	O
+,	O
+Vol	O
+.	O
+
+1	O
+,	O
+Issue	O
+No	O
+.	O
+
+1	O
+,	O
+6	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Sunday	O
+,	O
+Khumulwng	B-LOC
+,	O
+RNI	O
+Title	O
+Code	O
+:	O
+TRITRI00002	O
+
+Page	O
+No	O
+.	O
+
+Editor	O
+,	O
+Publisher	O
+,	O
+Printer	O
+&	O
+Owner	O
+Smt	O
+.	O
+
+Bijali	B-PER
+Debbarma	I-PER
+published	O
+from	O
+Harinath	O
+Sardar	O
+Para	O
+,	O
+Khumulwng	B-LOC
+,	O
+West	B-LOC
+Tripura	I-LOC
+,	O
+Tripura	B-LOC
+035	O
+,	O
+M	O
+:	O
++	O
+91	O
+8731956403	O
+,	O
+
+email	O
+:	O
+gairing2013dharin	O
+@	O
+gmail	O
+.	O
+
+com	O
+and	O
+Printed	O
+at	O
+Abstract	O
+Print	O
+,	O
+Krishna	O
+Nagar	O
+,	O
+Agartala	B-LOC
+,	O
+West	B-LOC
+Tripura	I-LOC
+,	O
+Tripura	B-LOC
+001	O
+,	O
+India	B-LOC
+,	O
+M	O
+:	O
++	O
+91	O
+9089722199	O
+
+Kokmithingnaini	O
+Kok	O
+
+Tripura	B-LOC
+dopha	O
+-ni	O
+ama	O
+-ni	O
+kokno	O
+
+mwthangoi	O
+larwknani	O
+aro	O
+kokrabaino	O
+
+arobo	O
+kwchwng	O
+kwkrwk	O
+khlai	O
+boksagwi	O
+
+chongsagwi	O
+larwknani	O
+bagoi	O
+ama	O
+-ni	O
+
+kokbai	O
+kokrabaini	O
+samwng	O
+tangna	O
+-ni	O
+
+nangsogo	O
+.	O
+
+Koktma	O
+balai	O
+karemanibo	O
+
+jesa	O
+dopha	O
+-ni	O
+ama	O
+-ni	O
+kok	O
+-ni	O
+hamkrai	O
+-ni	O
+
+bagoi	O
+porsa	O
+samwng	O
+.	O
+
+Ibo	O
+simingya	O
+,	O
+
+Tripura	B-LOC
+hasteni	O
+chorok	O
+Tiprasani	O
+kok	O
+-	O
+
+kokrabai	O
+,	O
+luku-hukumu	O
+,	O
+mathai-soktai	O
+,	O
+
+bimwng	O
+,	O
+jwngjalrokno	O
+dak-dak	O
+khlai	O
+
+lukurokni	O
+daiyo	O
+tisagwi	O
+phununani	O
+aro	O
+
+kasokronani	O
+bagoibo	O
+tabok	O
+-ni	O
+jorago	O
+
+koktma	O
+balai	O
+barikhlai	O
+nangsogo	O
+.	O
+
+Aini	O
+bagoi	O
+thangnai	O
+bisinoi	O
+jora	O
+
+rwngwi	O
+‘	O
+Kokmalama	O
+’	O
+bwmwngoi	O
+
+Tripura	B-LOC
+kokbai	O
+koktma	O
+balai	O
+karenani	O
+
+samwng	O
+chengwk	O
+.	O
+
+Mator	O
+koktma	O
+balai	O
+
+karenani	O
+gosemwng	O
+lani	O
+thangoi	O
+haba	O
+-	O
+
+nokni	O
+samwng-homwngni	O
+bagoi	O
+kisa	O
+
+karenani	O
+lerkha	O
+.	O
+
+Paithago	O
+‘	O
+Hani	O
+
+Kokmalama	O
+’	O
+bwmwngoi	O
+Tripura	B-LOC
+kokbai	O
+
+koktma	O
+balai	O
+karenani	O
+gosemwng	O
+manoi	O
+
+tinini	O
+siming	O
+i	O
+bwmwngoi	O
+koktma	O
+
+balai	O
+-ni	O
+yapri	O
+chengoi	O
+rojakkha	O
+.	O
+
+I	O
+koktma	O
+
+balai	O
+-no	O
+yakchoyakhlai	O
+karethanigo	O
+
+nókni	O
+chorokni	O
+chubachu	O
+nangwk	O
+.	O
+
+Kokmithingnai	O
+
+5	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Hakutoisa	O
+:	O
+Tripura	B-LOC
+
+dopha	O
+-ni	O
+sikla-chakli	O
+bodol	O
+United	O
+
+Tripura	B-ORG
+Youth	I-ORG
+Association	I-ORG
+(	O
+UTYA	O
+)	O
+ni	O
+
+2nd	B-ORG
+Foundation	I-ORG
+day	O
+ebakhlai	O
+noi	O
+
+beremni	O
+songchama	O
+sal	O
+hohom	O
+-	O
+
+dodomni	O
+bisingtwi	O
+palaijakkha	O
+Longtrai	O
+
+Valley	O
+bwkhak	O
+-ni	O
+Hakutoisa	O
+Govt	O
+.	O
+
+English	B-MISC
+Medium	O
+H	O
+.	O
+
+S	B-ORG
+School	I-ORG
+-ni	O
+
+thwngkholago	O
+.	O
+
+I	O
+panano	O
+chati	O
+mwchwngoi	O
+chengoi	O
+
+rokha	O
+North	O
+Zone	O
+-ni	O
+Naran-yakchu	O
+
+ebakhlai	O
+Hakutoisa	O
+Moyalni	O
+Pomang	O
+
+Burba	O
+Mohan	B-PER
+Tripura	I-PER
+.	O
+
+Panago	O
+naruai	O
+
+ongoi	O
+phai	O
+majakkha	O
+Koromtwisa	O
+
+Moyalni	O
+Pomang	O
+Gasa	O
+Kumar	B-PER
+Tripura	I-PER
+,	O
+
+48	B-ORG
+Karamcherra	I-ORG
+Assembly	I-ORG
+achokthaini	O
+
+MLA	O
+Paul	O
+Dangshu	O
+,	O
+UTYA	O
+Central	O
+
+Committee	B-ORG
+twiphang-yakchu	O
+Kanchan	O
+
+Tripura	B-LOC
+,	O
+Tripura	B-LOC
+Chubalai	O
+Buthu	O
+,	O
+
+Central	B-ORG
+Committee	I-ORG
+-ni	O
+tangphang	O
+-	O
+
+yakchu	O
+Charu	O
+Kumar	B-PER
+Tripura	I-PER
+,	O
+Roaja	O
+
+Manik	O
+Kanti	B-PER
+Tripura	I-PER
+,	O
+Social	O
+worker	O
+
+Brajalal	B-PER
+Tripura	I-PER
+,	O
+Chinta	O
+Mohan	B-PER
+Tripura	I-PER
+,	O
+
+Abhijit	B-PER
+Tripura	I-PER
+,	O
+Tripura	B-LOC
+Bwrwi	O
+Buthu	O
+,	O
+
+Central	B-ORG
+Committee	I-ORG
+-ni	O
+tangphang	O
+Nilima	O
+
+Tripura	B-LOC
+song	O
+.	O
+
+UTYA-ni	O
+songchama	O
+sal	O
+palaima	O
+
+rwgwi	O
+amchaini	O
+chakli-siklarokno	O
+
+phekjaknai	O
+mandwi-khundwirok	O
+bai	O
+
+langchagwi	O
+tongronani	O
+aro	O
+thwng	O
+-	O
+
+mwngo	O
+kha	O
+bacharonani	O
+bagoi	O
+
+Hakutoisago	O
+salsa	O
+-ni	O
+Knockout	O
+Football	O
+
+bataimwngbo	O
+songchajakkha	O
+.	O
+
+Hakutoisago	O
+Palaijakkha	O
+UTYA-ni	O
+Songchama	O
+Sal	O
+
+Haiyong	O
+Kokrabai	O
+Tergo	O
+Tripurani	B-LOC
+Lincoln	B-PER
+Murasingh	I-PER
+
+5	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Bhopal	O
+:	O
+thangnai	O
+3	O
+
+August	O
+2023	O
+salmarigo	O
+Bharat	O
+hagarani	O
+
+boromgnangjuk	O
+habokhorok	O
+Droupadi	O
+
+Murmuni	O
+yaktwi	O
+khlai	O
+Madhya	O
+Pradesh	O
+
+hasteni	O
+Bhopalglni	O
+Rabindra	O
+Bhavango	O
+
+chengoi	O
+rojakkha	O
+Asia	O
+-ni	O
+jotonislai	O
+gara	O
+
+Haiyong	O
+Kokrabai	O
+Ter	O
+ebakhlai	O
+
+International	O
+Literature	O
+Festival	O
+
+‘	O
+UNMESHA	O
+’	O
+and	O
+National	O
+Festival	O
+of	O
+
+Tribal	O
+
+Expressions	O
+
+‘	O
+UTKSRSHA	O
+’	O
+pana	O
+.	O
+
+Sahitya	B-ORG
+Akademi	I-ORG
+,	I-ORG
+Union	I-ORG
+Ministry	I-ORG
+of	O
+
+Culture	O
+aro	O
+Madhya	O
+Pradeshni	O
+Hukumu	O
+
+Bedek	O
+thaincha	O
+khlai	O
+I	O
+panano	O
+
+songchalaikha	O
+Bharatni	O
+‘	O
+AzadiKa	O
+Amrit	O
+
+Mahotsav	O
+’	O
+rwgwi	O
+.	O
+
+Ibo	O
+saltham	O
+jora	O
+
+rwngoi	O
+songchajakkha	O
+.	O
+
+I	O
+panago	O
+Bharatni	O
+boromgnangjuk	O
+
+habokhorok	O
+Droupadini	O
+logego	O
+naruai	O
+
+ongoi	O
+phai	O
+majakkha	O
+Madhya	O
+Pradesh	O
+
+hasteni	O
+
+boromgnang	O
+
+hastepha	O
+
+Mangubhai	O
+Patel	O
+,	O
+Madhya	O
+Pradeshni	O
+
+montriokra	O
+Shivraj	O
+Singh	O
+Chouhan	O
+,	O
+
+Bharat	B-ORG
+hagara	I-ORG
+hapangni	I-ORG
+Ministry	I-ORG
+of	O
+
+Cultureni	O
+Joint	O
+Secretary	O
+machangjuk	O
+
+Uma	O
+Nanduri	O
+song	O
+.	O
+
+Bokni	O
+badebo	O
+
+Sahitya	O
+Akademini	O
+twiphang	O
+Madhav	O
+
+Kaushik	O
+,	O
+Sangeet	O
+Natak	O
+Akademini	O
+
+kasku	O
+Dr	O
+Sandhya	B-PER
+Purecha	I-PER
+song	O
+I	O
+
+panago	O
+thangoi	O
+majakkha	O
+.	O
+
+Chengsama	O
+pana	O
+paimani	O
+olo	O
+
+Rabindra	O
+Bhavanni	O
+kothe	O
+kothe	O
+khwda	O
+
+daiyo	O
+songchajakkha	O
+multilingual	O
+
+poetry	O
+readings	O
+,	O
+short	O
+story	O
+readings	O
+,	O
+
+tribal	O
+poets	O
+’	O
+meet	O
+,	O
+young	O
+writers	O
+’	O
+meet	O
+.	O
+
+I	O
+ter	O
+-ni	O
+poila	O
+salni	O
+paithak	O
+dain	O
+daiyo	O
+
+sare	O
+-ni	O
+5	O
+.	O
+
+30	O
+pm	O
+-ni	O
+siming	O
+7	O
+.	O
+
+00	O
+pm	O
+jorago	O
+
+TRIBAL	O
+POETS	O
+’	O
+MEET	O
+pana	O
+
+songchajakkha	O
+.	O
+
+Iro	O
+hagarani	O
+kabangma	O
+
+kok	O
+-ni	O
+koklopnairok	O
+thangoi	O
+majakkha	O
+.	O
+
+I	O
+Tribal	O
+Poets	O
+’	O
+Meet	O
+daiyo	O
+Tripura	B-LOC
+
+hasteni	O
+ongoi	O
+thangoi	O
+majakkha	O
+aro	O
+
+koklop	O
+sagwi	O
+khanarokha	O
+koklopnai	O
+
+Lincoln	B-PER
+Murasingh	I-PER
+.	O
+
+Ibo	B-PER
+Tripura	I-PER
+hasteni	O
+
+lukurokni	O
+bagoi	O
+aro	O
+chorok	O
+Tiprasani	O
+
+bagoi	O
+barikhlai	O
+khatongjaknai	O
+koktma	O
+.	O
+
+Bini	O
+badebo	O
+Tribal	O
+Poets	O
+’	O
+Meet	O
+daiyo	O
+
+koklop	O
+sagwi	O
+khanaronairokni	O
+bisingo	O
+
+tongwk	O
+-	O
+Gondi	O
+kok	O
+-ni	O
+koklopnai	O
+Basant	O
+
+Kavde	O
+,	O
+Kaikadi	O
+kok	O
+-ni	O
+koklopnai	O
+Pravin	O
+
+Namdeo	O
+Pawar	O
+,	O
+Mizo	O
+kok	O
+-ni	O
+koklopnai	O
+
+Januari	O
+,	O
+Khasi	O
+kok	O
+-ni	O
+koklopnai	O
+
+Minimon	O
+Laloo	O
+,	O
+Tiwa	O
+kok	O
+-ni	O
+koklopnai	O
+
+Maitrayee	O
+Patar	O
+,	O
+Desia	O
+kok	O
+-ni	O
+koklopnai	O
+
+Ranjan	O
+Mahuria	O
+song	O
+.	O
+
+I	O
+koklop	O
+panani	O
+achokphang	O
+ongoi	O
+
+achokkha	O
+Crtstal	O
+Cornelious	O
+D	O
+.	O
+
+Marak	O
+.	O
+
+Bini	O
+badebo	O
+Cinena	O
+&	O
+Literature	O
+,	O
+
+What	O
+Freedom	O
+Means	O
+to	O
+Me	O
+,	O
+The	O
+Idea	O
+
+of	O
+India	B-LOC
+,	O
+Global	O
+Literature	O
+for	O
+
+Globalized	O
+World	O
+,	O
+Importance	O
+of	O
+
+Mother	O
+Tongues	O
+,	O
+Ecocriticism	O
+,	O
+Lite	O
+-	O
+
+rature	O
+,	O
+Doctor	O
+Prescribed	O
+,	O
+Literature	O
+
+and	O
+Nature	O
+,	O
+Ocean	O
+Literature	O
+,	O
+Songs	O
+of	O
+
+Madhya	O
+Pradesh	O
+kokbomano	O
+lagwi	O
+
+kokmalama	O
+sagwi	O
+khnarokha	O
+.	O
+
+Ibo	O
+badebo	O
+I	O
+Haiyong	O
+Kokrabai	O
+Tergo	O
+
+‘	O
+Global	O
+Literature	O
+for	O
+Globalized	O
+World	O
+’	O
+
+kokbomano	O
+lagwi	O
+kokmalama	O
+sagwi	O
+
+khnarokha	O
+Japanni	O
+kokelem-krwng	O
+
+Mami	O
+Yamada	O
+,	O
+Sri	O
+Lankani	O
+Ashok	O
+
+Ferrey	O
+,	O
+Fijini	O
+Kamlesh	O
+Shashi	O
+Prakash	O
+,	O
+
+Polandni	O
+Maria	O
+Puri	O
+,	O
+Spainni	O
+Oscar	O
+
+Pujol	O
+,	O
+Nepalni	O
+Tulasi	O
+Diwasano	O
+kosol	O
+
+haiyongni	O
+suikrwng	O
+song	O
+.	O
+
+Bangladesh	B-LOC
+,	O
+has	O
+been	O
+murdered	O
+in	O
+her	O
+
+rented	O
+house	O
+on	O
+21	B-MISC
+July	I-MISC
+2023	I-MISC
+.	O
+
+We	O
+condemn	O
+strongly	O
+the	O
+such	O
+type	O
+of	O
+
+incident	O
+as	O
+pre-planned	O
+murdered	O
+.	O
+
+We	B-ORG
+appeal	I-ORG
+to	I-ORG
+the	I-ORG
+authority	I-ORG
+of	O
+
+Bangladesh	B-LOC
+Police	O
+for	O
+the	O
+proper	O
+
+investigation	O
+and	O
+to	O
+be	O
+punished	O
+the	O
+
+culprits	O
+as	O
+per	O
+court	O
+of	O
+law	O
+.	O
+
+We	O
+heartfelt	O
+condolence	O
+to	O
+her	O
+
+bereaved	O
+family	O
+members	O
+and	O
+pray	O
+to	O
+
+God	O
+her	O
+departed	O
+soul	O
+rest	O
+in	O
+peace	O
+”	O
+.	O
+
+Iboni	O
+sakango	O
+i	O
+patimwngno	O
+
+selengmwng	O
+phunugoi	O
+aro	O
+justice	O
+biywi	O
+
+thangnai	O
+24	O
+July	O
+salmarigo	O
+Tripura	B-LOC
+
+Students	B-ORG
+’	I-ORG
+Forum	I-ORG
+,	O
+Bangladesh	B-LOC
+,	O
+Central	O
+
+Committee	B-ORG
+,	O
+26	O
+July	O
+Khagrapur	O
+Mohila	O
+
+Kalyan	O
+Somiti	O
+,	O
+Women	O
+Activist	O
+Forum	O
+,	O
+
+Women	B-ORG
+Resource	I-ORG
+Network	I-ORG
+aro	O
+YWCA	O
+
+bodol	O
+-ni	O
+bwkhaktwi	O
+,	O
+28	O
+July	O
+Bangla	O
+-	O
+
+deshni	O
+Chittagong	O
+Hill	O
+Tracts	O
+Writers	O
+’	O
+
+Union	B-ORG
+,	O
+29	O
+July	O
+Bangladesh	B-LOC
+Govt	O
+.	O
+
+Primary	B-ORG
+School	I-ORG
+Headmaster	O
+Samiti	O
+,	O
+
+Khagrachari	O
+District	O
+Branch	O
+aro	O
+
+poila	O
+balai	O
+-ni	O
+bokcho	O
+-	O
+-	O
+
+Bangladesh	B-LOC
+Primary	O
+Teacher	O
+Samiti	O
+,	O
+
+Khagrachari	O
+District	O
+Branch	O
+,	O
+30	O
+July	O
+
+CHT	B-ORG
+Women	I-ORG
+Activist	I-ORG
+Forum	I-ORG
+aro	O
+
+Progressive	O
+,	O
+SK	O
+Building	O
+,	O
+Banrupa	O
+,	O
+
+Rangama	O
+,	O
+5	O
+August	O
+‘	O
+Greater	O
+Sylhet	O
+
+Tripura	B-ORG
+Development	I-ORG
+Council	I-ORG
+’	O
+ni	O
+
+bwkhaktwi	B-ORG
+press	I-ORG
+release	O
+-ni	O
+bisingtwi	O
+
+khorang	O
+tisajakkha	O
+.	O
+
+Iswk	O
+khorang	O
+tisajakmani	O
+olobo	O
+Asha	O
+
+Tripura	B-LOC
+butharjakmani	O
+tabokbo	O
+justice	O
+
+mayakho	O
+bini	O
+nukhungni	O
+borokrok	O
+.	O
+
+Basai	O
+Uddipan	B-PER
+Tripura	I-PER
+-no	O
+Police	O
+
+romphabo	O
+iswk	O
+gamkhlai	O
+kokswngyani	O
+
+bagoi	O
+patimwngni	O
+kwbwi	O
+koktma	O
+
+akhogwi	O
+phaiyakho	O
+.	O
+
+baksaba	O
+i	O
+
+patimwngno	O
+saknangya	O
+ereng	O
+ereng	O
+
+khlai	O
+-ni	O
+bagoi	O
+rangkho-pwichani	O
+
+batailaimwngo	O
+halok	O
+bolaijakphwk	O
+
+hinoi	O
+social	O
+mediani	O
+bisingtwi	O
+barikhlai	O
+
+kok	O
+silchajakmani	O
+nujagwi	O
+tongwk	O
+.	O
+
+I	O
+patimwngno	O
+selengmwng	O
+phunugoi	O
+
+aro	O
+justice	O
+biywi	O
+haiyong	O
+gnangoi	O
+
+khorang	O
+
+tisajakmani	O
+
+olobo	O
+
+Bangladesh	B-LOC
+-ni	O
+naimwthang	O
+bodol	O
+tma	O
+
+yapri	O
+sen	O
+-o	O
+ibo	O
+tabok	O
+naiywi	O
+naithai	O
+.	O
+
+Butharjakkha	O
+Phrwngnai	O
+Yakchu	O
+Asha	B-PER
+Tripura	I-PER
+
+4	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Agartala	B-LOC
+:	O
+Tripura	B-LOC
+
+hasteni	O
+Reang	O
+ebakhlai	O
+Bru	O
+Dophani	O
+
+ama	O
+-ni	O
+kok	O
+ongkha	O
+Kaubru	O
+.	O
+
+Kokborok	B-MISC
+
+bok	O
+-ni	O
+ama	O
+-ni	O
+kokya	O
+.	O
+
+Aini	O
+bagoi	O
+Brurok	O
+
+Kaubruno	O
+hasteni	O
+kothe	O
+kok	O
+hinoi	O
+
+gosemwng	O
+biywi	O
+jora	O
+kalokma	O
+sakangni	O
+
+jiming	O
+khorang	O
+tisagoi	O
+phaika	O
+.	O
+
+Hasteni	O
+
+hastepha	O
+,	O
+
+montriokra	O
+,	O
+
+montri	B-ORG
+,	I-ORG
+
+dagephangni	O
+daiyo	O
+kokton	O
+balairokbo	O
+
+ephalai	O
+phaika	O
+,	O
+lama	O
+akhogwi	O
+khorang	O
+
+tisagwibo	O
+phaika	O
+.	O
+
+Ibo	O
+aimingya	O
+,	O
+Bharat	O
+
+hagara	O
+hapangni	O
+montrini	O
+daiyobo	O
+
+kokton	O
+suilaikha	O
+Bru	O
+dopha	O
+-ni	O
+ojama	O
+-rok	O
+.	O
+
+Tabok	O
+Kaubruni	O
+bimwng	O
+bana	O
+lamago	O
+
+siming	O
+ongliya	O
+,	O
+ibo	O
+Tripura	B-LOC
+Legislative	O
+
+Assemblygo	O
+khorang	O
+tisajakkha	O
+.	O
+
+Tripura	B-LOC
+
+kok	O
+bai	O
+Kaubru	O
+kok	O
+-ni	O
+gosemwng	O
+biywi	O
+
+Tripura	B-LOC
+Legislative	O
+Assemblyni	O
+
+laibumago	O
+poila	O
+swngmwng	O
+tisaka	O
+IPFT	O
+
+bodol	O
+-ni	O
+MLA	O
+machang	O
+Dhananjoy	O
+
+Tripura	B-LOC
+.	O
+
+Bo	O
+23	B-MISC
+March	I-MISC
+2022	I-MISC
+AD	O
+bisigo	O
+
+Assembly	B-ORG
+Session	O
+ongphugo	O
+Tripura	B-LOC
+
+kok	O
+bai	O
+Kaubru	O
+kok	O
+-ni	O
+hamkrai	O
+-ni	O
+bagoi	O
+
+kothekhlai	O
+Tripura	B-LOC
+kok	O
+aro	O
+Kaubru	O
+
+kok	B-ORG
+-ni	I-ORG
+hamkrai	I-ORG
+committee	I-ORG
+khana	O
+-ni	O
+bagoi	O
+
+khorang	O
+tisaka	O
+.	O
+
+Iboni	O
+olo	O
+thangnai	O
+13	O
+
+July	O
+2023	O
+AD	O
+bisigo	O
+BJP	O
+bodol	O
+-ni	O
+MLA	O
+
+machang	O
+Pramod	B-PER
+Reang	I-PER
+arouaisa	O
+
+Assembly	B-ORG
+Sessiongo	O
+tisaka	O
+Kaubru	O
+
+kokno	O
+lagwi	O
+.	O
+
+Thangnai	O
+7	B-MISC
+July	I-MISC
+2023	I-MISC
+
+Kaubruni	O
+Gosemwng	O
+Biywi	O
+
+Assemblygo	O
+Swngmwng	O
+
+Tisaka	O
+MLA	O
+Pramod	B-PER
+Reang	I-PER
+
+salmarigo	O
+13th	O
+Assemblyni	O
+2nd	O
+Session	O
+
+chengjagwk	O
+.	O
+
+Sessionni	O
+paithak	O
+salgono	O
+
+Tripura	B-LOC
+hasteni	O
+rwngnokrogo	O
+Bru	O
+
+Dophani	O
+srwngnairokni	O
+gamni	O
+bagoi	O
+
+Kaubruno	O
+phrwngnani	O
+bagoi	O
+Reference	O
+
+Notice	B-ORG
+twbwikha	I-ORG
+hapang	I-ORG
+BJP	I-ORG
+Bodolni	I-ORG
+
+MLA	O
+Pramod	B-PER
+Reang	I-PER
+.	O
+
+Kaubruno	O
+lagwi	O
+MLA	O
+Pramod	B-PER
+Reang	I-PER
+
+bai	O
+tisajak	O
+Reference	O
+Noticeni	O
+
+phirokmwng	O
+rwgwi	O
+rwngbedekni	O
+
+montrini	O
+barja	O
+majak	O
+ebakhlai	O
+
+montriokra	O
+Prof	O
+.	O
+
+)	O
+Manik	B-PER
+Saha	I-PER
+
+saka	O
+—	O
+“	O
+iro	O
+kabangma	O
+kok	O
+kasaka	O
+,	O
+
+Kaubru	O
+hinoi	O
+bok	O
+bimwng	O
+tisakha	O
+,	O
+
+committeebo	O
+ongkha	O
+.	O
+
+Bok	O
+Kaubruse	O
+
+naiywk	O
+hinoi	O
+bimwng	O
+tisaka	O
+,	O
+chini	O
+iro	O
+
+Manipuribo	O
+tongwk	O
+,	O
+Chakmabo	O
+
+tongwk	O
+,	O
+hinkai	O
+bok	O
+-ni	O
+Kaubru	O
+khlai	O
+tma	O
+
+jwngjal	O
+?	O
+
+Jani	O
+jani	O
+bimwng	O
+sopaikha	O
+,	O
+o	O
+
+bimwngni	O
+gothemwngde	O
+tong	O
+ibono	O
+
+chwng	B-ORG
+amjogoi	I-ORG
+nainai	I-ORG
+,	I-ORG
+committee	I-ORG
+-no	O
+
+ringnai	O
+,	O
+koksalainai	O
+”	O
+.	O
+
+Kaubruni	O
+bimwngno	O
+lagwi	O
+hasteni	O
+
+kebengnai	B-ORG
+bodol	I-ORG
+-ni	I-ORG
+ojama	I-ORG
+Animesh	I-ORG
+
+Debbarma	O
+bo	O
+kokkebengmani	O
+bisingtwi	O
+
+Kaubru	O
+kok	O
+-ni	O
+kothe	O
+bimwngno	O
+lagwi	O
+
+kabangma	O
+kok	O
+sukrugwi	O
+saka	O
+.	O
+
+Tabok	O
+
+naising	O
+naithai	O
+,	O
+Kaubru	O
+kokno	O
+gose	O
+-	O
+
+mwng	O
+roni	O
+nagoi	O
+committee	O
+khajakmani	O
+
+olo	O
+hapang	O
+tma	O
+yapri	O
+sejakno	O
+.	O
+
+5	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Khumulwng	B-LOC
+:	O
+
+TTAADCni	O
+Kokborok	B-MISC
+and	O
+Other	O
+
+Indigenous	O
+Languages	O
+tangbedekni	O
+
+chaitokmani	O
+bai	O
+tangbedekni	O
+habanok	O
+-ni	O
+
+Conference	O
+Hallgo	O
+Halam	B-PER
+,	I-PER
+Chakma	I-PER
+,	B-PER
+
+Mog	O
+,	O
+Garo	O
+aro	O
+Lushai	O
+I	O
+kaiba	O
+dopha	O
+-ni	O
+
+ama	O
+-ni	O
+kok	O
+-ni	O
+hamkrai	O
+committee	O
+-ni	O
+
+kokmalama	O
+pana	O
+songchajakkha	O
+.	O
+
+I	O
+kokmalama	O
+panano	O
+chaengoi	O
+rokha	O
+
+TTAADCni	O
+Kokborok	B-MISC
+and	O
+Other	O
+
+Indigenous	O
+Languages	O
+tangbedekni	O
+
+chariphang	O
+adong	O
+Rabindra	B-PER
+Debbarma	I-PER
+.	O
+
+Phai	O
+majakkha	O
+TTAADCni	O
+kebengnai	O
+
+bodol	O
+-ni	O
+ojama	O
+Bimal	B-PER
+Kanti	I-PER
+Chakma	I-PER
+.	O
+
+Tangbedekni	O
+kacham	O
+Principal	O
+Officer	O
+
+Binoy	B-PER
+Debbarma	I-PER
+.	O
+
+I	O
+kokmalama	O
+panago	O
+
+Halam	B-PER
+,	I-PER
+Chakma	I-PER
+,	B-PER
+Mog	O
+,	B-PER
+Garo	O
+aro	O
+Lushai	O
+
+I	O
+kaiba	O
+kok	O
+-ni	O
+hamkrai	O
+-ni	O
+bagoi	O
+panago	O
+
+phai	O
+majakjak	O
+naruai	O
+aro	O
+committee	O
+-ni	O
+
+adong	O
+-rok	O
+nangmani	O
+kok	O
+salaikha	O
+aro	O
+
+kokchaplaikha	O
+.	O
+
+I	O
+panano	O
+twidulkha	O
+o	O
+tangbedekni	O
+
+Principal	O
+Officer	B-PER
+Brijesh	I-PER
+Debbarma	I-PER
+.	O
+
+Kaiba	O
+Kok	O
+-ni	O
+Hamkrai	O
+
+Committee	B-ORG
+-ni	O
+
+Kokmalama	O
+Pana	O
+:	O
+
+TTAADC	B-ORG
+Hapang	I-ORG
+
+Kokborokni	O
+Suitai	O
+Jwngjal	O
+:	O
+Hastego	O
+Arouaisa	O
+
+Khajakkha	B-ORG
+‘	I-ORG
+Script	I-ORG
+Selection	I-ORG
+Committee	I-ORG
+’	O
+
+4	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Agartala	B-LOC
+:	O
+Tripura	B-LOC
+
+hastego	O
+Kokborok	B-MISC
+Scriptni	O
+jwngjal	O
+
+katal	O
+kokya	O
+.	O
+
+Bisi	O
+kabangma	O
+sakangni	O
+
+siming	O
+I	O
+jwngjal	O
+achaima	O
+-ni	O
+tabokbo	O
+
+paisoklaimayakho	O
+!	O
+
+Tripura	B-LOC
+hastego	O
+
+hapang	B-ORG
+slaijakmani	I-ORG
+loge	I-ORG
+loge	I-ORG
+Kokborok	I-ORG
+
+Scriptni	O
+bimwngbo	O
+slaijagwk	O
+.	O
+
+thangkai	O
+Kokborok	B-MISC
+Script	O
+tabok	O
+Tripura	B-LOC
+
+hastego	O
+jesa	O
+Political	O
+bodol	O
+-ni	O
+daiyo	O
+
+porsa	O
+thwngjaknai	O
+mandwise	O
+ongsiywk	O
+!	O
+
+Kebo	O
+sago	O
+Roman	O
+Script	O
+,	O
+kebo	O
+sago	O
+
+Bangla	O
+Script	O
+,	O
+kebo	O
+sago	O
+baithang	O
+-ni	O
+
+Script	O
+aro	O
+kebo	O
+sago	O
+Devanagri	O
+Script	O
+.	O
+
+Jani	O
+je	O
+pharitwi	O
+salailaiywk	O
+,	O
+kok	O
+
+tisalaiywk	O
+,	O
+kok	O
+khreklaiywk	O
+,	O
+koktma	O
+-	O
+
+thungnai	O
+pana	O
+ringoi	O
+aro	O
+social	O
+mediani	O
+
+bisingtwi	O
+ualailaiywk	O
+aro	O
+bimwng	O
+
+tisalaiywk	O
+.	O
+
+Cherai-okra	O
+,	O
+bura-thera	O
+
+chorokno	O
+Kokborokni	O
+Script	O
+lagwi	O
+
+janija	O
+siplai	O
+onglaimani	O
+thaklaiya	O
+.	O
+
+Soroni	O
+kokno	O
+sorolai	O
+khnanai	O
+tongsiba	O
+!	O
+
+Script	O
+lagwi	O
+yaisi	O
+singchago	O
+yakalainani	O
+
+soilaiya	O
+.	O
+
+Bwswkse	O
+minikothok	O
+!	O
+
+Mator	O
+
+i	O
+kokno	O
+gamkhlai	O
+uansogoide	O
+naikha	O
+,	O
+
+Script	O
+lagwi	O
+iswk	O
+politics	O
+thwnglaiywi	O
+
+soroni	O
+bagoi	O
+gam	O
+soroni	O
+bagoi	O
+chaiya	O
+?	O
+
+Kokborok	B-MISC
+Scriptno	O
+jwngjalno	O
+
+paironani	O
+bagoi	O
+taboksak	O
+jora	O
+Tripura	B-LOC
+
+hapangni	O
+
+phaichingtwi	O
+
+kaisa	O
+
+Committee	B-ORG
+,	I-ORG
+kainoi	I-ORG
+Bhasha	I-ORG
+Commission	I-ORG
+
+aro	O
+TTAADC	B-ORG
+hapangni	O
+phaichingtwi	O
+
+kaisa	O
+Regulations	O
+khajakmani	O
+kokthum	O
+
+chwng	O
+sagwi	O
+magwk	O
+.	O
+
+Tabok	B-PER
+Tripura	I-PER
+
+hastego	O
+Kokborok	B-MISC
+Scriptno	O
+lagwi	O
+katal	O
+
+khlaiywi	B-ORG
+arokaisa	I-ORG
+Committee	I-ORG
+khajak	O
+-	O
+
+mani	O
+kokthumbo	O
+chwng	O
+sagwi	O
+makha	O
+.	O
+
+Thangnai	O
+27	B-MISC
+June	I-MISC
+2023	I-MISC
+salmarigo	O
+
+Tripura	B-LOC
+hapangni	O
+Tribal	O
+Welfare	O
+
+tangbedekni	O
+Tribal	O
+Research	O
+&	O
+Cultural	O
+
+Institute	B-ORG
+-ni	O
+siming	O
+F	O
+.	O
+
+4	O
+(	O
+24	O
+)	O
+/	O
+TRI	O
+/	O
+
+BHASHA	O
+COM	O
+/	O
+2020	O
+/	O
+821-33	O
+,	O
+Dated	O
+,	O
+
+27th	O
+June	O
+,	O
+2023	O
+nomborni	O
+kaisa	O
+
+Notification	O
+balai	O
+karejakkha	O
+.	O
+
+notification	O
+balai	O
+-ni	O
+bisingtwi	O
+Kokborok	B-MISC
+
+Scriptni	O
+jwngjalno	O
+paironani	O
+bagoi	O
+
+arouaisa	O
+haste	O
+hapangni	O
+phaichingtwi	O
+
+‘	B-ORG
+Script	I-ORG
+Selection	I-ORG
+Committee	I-ORG
+for	O
+
+Development	O
+of	O
+Kokborok	B-MISC
+Language	O
+’	O
+
+committee	B-ORG
+khajakkha	O
+.	O
+
+Khoroktam	O
+adongno	O
+lagwi	O
+khajak	O
+I	O
+
+committee	B-ORG
+-ni	O
+achokphang	O
+chongjakkha	O
+
+kacham	O
+MLA	O
+Dr	O
+.	O
+
+Atul	B-PER
+Debbarma	I-PER
+.	O
+
+I	O
+Committeego	O
+tongnai	O
+aro	O
+chlaknoi	O
+
+adong	O
+-rok	O
+ongkha	O
+Hakutoisa	O
+amchaini	O
+
+Head	O
+Master	O
+machang	O
+Biralal	B-PER
+Tripura	I-PER
+
+aro	O
+hapangni	O
+habayakajak	O
+habaphang	O
+
+machang	O
+Dhirendra	O
+Kalai	O
+.	O
+
+I	O
+committee	O
+khajakmani	O
+olo	O
+Tipra	O
+
+Motha	O
+,	O
+Roman	O
+Scriptno	O
+hamjaknairok	O
+
+kha	O
+sajakmani	O
+kokno	O
+social	O
+media	O
+aro	O
+
+press	B-ORG
+meetni	O
+bisingtwi	O
+khorang	O
+
+tisalaikha	O
+.	O
+
+Ibo	O
+simingya	O
+hasteni	O
+
+kebengnai	B-ORG
+bodol	I-ORG
+-ni	I-ORG
+ojama	I-ORG
+Animesh	I-ORG
+
+Debbarma	B-ORG
+bobo	I-ORG
+press	I-ORG
+meet	O
+ringoi	O
+i	O
+
+committee	B-ORG
+-no	O
+sabaina	O
+bagoi	O
+haiyokkha	O
+.	O
+
+Mator	B-ORG
+hapang	I-ORG
+hapangni	I-ORG
+jegagonokho	I-ORG
+!	I-ORG
+
+Hani	O
+Kokmalama	O
+	O
+Vol	O
+.	O
+
+1	O
+	O
+Issue	O
+No	O
+.	O
+
+2	O
+	O
+13	B-MISC
+August	I-MISC
+2023	I-MISC
+	O
+Sunday	O
+	O
+Khumulwng	B-LOC
+	O
+No	O
+.	O
+
+of	O
+Pages	O
+:	O
+2	O
+	O
+Rs	O
+.	O
+
+00	O
+	O
+RNI	O
+Title	O
+Code	O
+:	O
+TRITRI00002	O
+
+Hani	O
+Kokmalama	O
+
+The	O
+Tripuri	O
+Weekly	O
+Newspaper	O
+
+Tripura	B-LOC
+Haste	O
+Gnangoi	O
+Palaijakkha	O
+Haiyong	O
+Habasarokni	O
+Sal	O
+
+TPS	O
+Officer	O
+
+Hamsarai	B-PER
+Reang	I-PER
+
+Swngchar	O
+Yakakha	O
+
+10	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Agartala	B-LOC
+:	O
+TPS	O
+
+Officer	B-PER
+Hamsarai	I-PER
+Reang	I-PER
+i	O
+swngchar	O
+-no	O
+
+yakakha	O
+.	O
+
+Thangnai	O
+6	O
+August	O
+salmarini	O
+
+phurungni	O
+11	O
+:	O
+24	O
+AM	O
+jora	O
+atlogo	O
+
+Kolkatani	O
+Tata	B-ORG
+Medical	O
+Care	O
+Hospitalgo	O
+
+bini	O
+langma	O
+chokha	O
+.	O
+
+Bo	O
+TSR	O
+6th	O
+Bn-ni	O
+
+Assistant	O
+Commandant	O
+tongmani	O
+.	O
+
+Ibotwikhlai	O
+khorokcha	O
+TPS	O
+Officer	O
+-no	O
+
+achamitini	O
+kmajakmani	O
+bai	O
+bini	O
+
+nukhungni	O
+borok	O
+aro	O
+hasteni	O
+lukurok	O
+
+barikhlai	O
+khakhamlaijak	O
+.	O
+
+Super	O
+Scheme	O
+
+Daiyo	O
+Khorokdok	O
+
+Tiprasa	O
+
+Srwngnaini	O
+Sep	O
+
+8	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Agartala	B-LOC
+:	O
+Tripura	B-LOC
+
+kokbai	O
+hatibrum	O
+rwgwi	O
+karejaknai	O
+
+koktma	O
+balai	O
+‘	O
+Hani	O
+Kokmalama	O
+’	O
+ni	O
+yapri	O
+
+himna	O
+chengkha	O
+.	O
+
+Agartala	B-LOC
+Krishnanagarni	O
+Naran	O
+
+machang	O
+
+Birendra	O
+
+Tripurani	B-ORG
+
+tongthainogo	O
+songchajak	O
+katal	O
+koktma	O
+
+balai	O
+karema	O
+panago	O
+Tripura	B-LOC
+dopha	O
+-ni	O
+
+okra	O
+NARAN	O
+machang	O
+Birendra	O
+
+Tripura	B-LOC
+,	O
+Tripura	B-LOC
+Brwi	O
+Buthu	O
+,	O
+Central	O
+
+Committee	B-ORG
+-ni	O
+twiphang	O
+machangjuk	O
+
+Rani	O
+Tripura	O
+,	O
+Tripura	O
+Writers	O
+’	O
+Forum	O
+,	O
+
+Central	B-ORG
+Committee	I-ORG
+-ni	O
+twiphang	O
+machang	O
+
+Dharinjoy	B-PER
+Tripura	I-PER
+songni	O
+manjakmani	O
+
+bagoi	O
+karegoi	O
+rojakkha	O
+‘	O
+Hani	O
+
+Kokmalama	O
+’	O
+Tripura	B-LOC
+koktma	O
+balai	O
+.	O
+
+Panani	O
+achokphang	O
+ongoi	O
+achokkha	O
+
+‘	O
+Hani	O
+Kokmalama	O
+’	O
+koktma	O
+balai	O
+-ni	O
+
+kokmithingnai	O
+,	O
+karenai	O
+aro	O
+nokphang	O
+
+machangjuk	O
+Bijali	B-PER
+Debbarma	I-PER
+(	O
+Tripura	B-LOC
+)	O
+.	O
+
+Panani	O
+poilago	O
+naruairokno	O
+Risa	O
+
+rogoi	O
+lamjomani	O
+olo	O
+koklopnaijuk	O
+
+Bipasha	B-PER
+Tripura	I-PER
+bo	O
+Tripura	B-LOC
+koklop	O
+
+thaisa	O
+loboi	O
+khnaromani	O
+bisingtwi	O
+
+panano	O
+chengoi	O
+rokha	O
+.	O
+
+Iboni	O
+olo	O
+
+phaiywi	O
+
+majakjak	O
+
+naruairokni	O
+
+yaktwikhlai	O
+karegoi	O
+rojakkha	O
+hatibrum	O
+
+Tripura	B-LOC
+kokbai	O
+koktma	O
+balai	O
+‘	O
+Hani	O
+
+Kokmalama	O
+’	O
+ni	O
+poila	O
+bwkrang	O
+-no	O
+.	O
+
+Iboni	O
+olo	O
+Tripura	B-LOC
+Brwi	O
+Buthu	O
+,	O
+Central	O
+
+Committee	B-ORG
+-ni	O
+twiphang	O
+machangjuk	O
+
+Rani	B-PER
+Tripura	I-PER
+i	O
+koktma	O
+balai	O
+karemani	O
+
+lagwi	O
+kok	O
+sagwi	O
+khanarokha	O
+.	O
+
+Iboni	O
+olo	O
+
+suikrwng	O
+aro	O
+koklopnaisa	O
+Khumpui	B-PER
+Ray	O
+
+Tripura	B-LOC
+bo	O
+Tripura	B-LOC
+koklop	O
+thaisa	O
+loboi	O
+
+khnarokha	O
+.	O
+
+Dopha	O
+hamkrai	O
+-ni	O
+bagoi	O
+,	O
+kokrabaini	O
+
+hamkrai	B-ORG
+-ni	I-ORG
+bagoi	I-ORG
+press	I-ORG
+,	O
+mediani	O
+
+nangmwng	O
+aro	O
+bini	O
+samwng-homwng	O
+-	O
+
+rokno	O
+lagwi	O
+kok	O
+sagwi	O
+khnarokha	O
+
+suikrwng	O
+Sarup	B-PER
+Tripura	I-PER
+.	O
+
+I	O
+‘	O
+hani	O
+Kokmalama	O
+’	O
+koktma	O
+balai	O
+
+karejakmani	O
+laibomani	O
+kokno	O
+rwgwi	O
+
+kok	O
+sagwi	O
+khanarokha	O
+Tripura	B-LOC
+Writers	O
+’	O
+
+Forum	B-ORG
+,	I-ORG
+Central	I-ORG
+Committee	I-ORG
+-ni	O
+twiphang	O
+
+machang	O
+Dharinjoy	B-PER
+Tripura	I-PER
+.	O
+
+Panani	O
+paithak	O
+atlogo	O
+i	O
+koktma	O
+balai	O
+
+karemani	O
+rwgwi	O
+nangsokmani	O
+kok	O
+
+sagwi	O
+khanarokha	O
+Tripura	B-LOC
+dopha	O
+-ni	O
+okra	O
+
+NARAN	O
+machang	O
+Birendra	B-PER
+Tripura	I-PER
+.	O
+
+Bo	O
+saka	O
+,	O
+kaisa	O
+dopha	O
+sinijakthani	O
+,	O
+
+mwthangjakthani	O
+koktma	O
+balai	O
+-ni	O
+
+samwng	O
+homwng	O
+bari	O
+-no	O
+gara	O
+.	O
+
+Tabok	O
+-ni	O
+
+jorago	O
+ha	O
+dopha	O
+-ni	O
+jwngjalni	O
+khorang	O
+
+ongkha	O
+koktma	O
+balai	O
+.	O
+
+I	O
+koktma	O
+balai	O
+
+karejakmani	O
+bisingtwi	O
+chorok	O
+Tiprasani	O
+
+beser-basar	O
+,	O
+
+kmajak-kchaujak	O
+,	O
+
+swkmwkjak	O
+,	O
+auairwkya	O
+koktmarok	O
+
+chorok	O
+lukurokni	O
+daiyo	O
+twbwijaknwk	O
+,	O
+
+auaijaknwk	O
+.	O
+
+Bo	O
+arobo	O
+saka	O
+,	O
+i	O
+koktma	O
+
+balai	O
+Tripura	B-LOC
+kokbai	O
+karejakphabo	O
+
+chorok	O
+Tiprasarokni	O
+jwngjalni	O
+koknobo	O
+
+suinani	O
+,	O
+auainani	O
+,	O
+khorang	O
+tisana	O
+-ni	O
+
+nangnwk	O
+.	O
+
+Bo	O
+arobo	O
+saka	O
+,	O
+hasteni	O
+
+Tiprasarokni	O
+ama	O
+-ni	O
+kok	O
+Tripura	B-LOC
+kokse	O
+
+ong	O
+-ni	O
+nangwk	O
+.	O
+
+Ibo	O
+1901	O
+,	O
+1930	O
+Swadin	O
+
+Tripura	B-LOC
+Census	O
+report	O
+daiyobo	O
+sraicha	O
+
+khlai	O
+khurchajak	O
+tongwk	O
+.	O
+
+Bini	O
+badebo	O
+
+British	O
+Political	O
+Agent	O
+ongoi	O
+Swadin	O
+
+Tripura	B-LOC
+hago	O
+phainairokni	O
+survey	O
+report	O
+
+daiyobo	O
+Tripura	B-LOC
+kok	O
+suilangjak	O
+nugwk	O
+.	O
+
+Iboni	O
+olo	O
+panani	O
+achokphang	O
+ebakhlai	O
+
+‘	O
+Hani	O
+Kokmalama	O
+’	O
+koktma	O
+balai	O
+-ni	O
+
+kokmithingnai	O
+,	O
+karenai	O
+aro	O
+nokphang	O
+
+machangjuk	O
+Bijali	B-PER
+Debbarma	I-PER
+(	O
+Tripura	B-LOC
+)	O
+
+panago	O
+phai	O
+majaknai	O
+chorok	O
+lukurokno	O
+
+kha	O
+-bai	O
+khukbai	O
+hamjakma	O
+yaphargwi	O
+
+panano	O
+mwthagoi	O
+rogwk	O
+.	O
+
+‘	O
+Hani	O
+Kokmalama	O
+’	O
+Koktma	O
+Balai	O
+Karejakkha	O
+
+9	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Agartala	B-LOC
+:	O
+Tripura	B-LOC
+haste	O
+
+gnangoi	O
+kothe	O
+kothe	O
+bodol	O
+-ni	O
+bwkhaktwi	O
+
+hohom-dodom	O
+khlai	O
+palaijakkha	O
+
+Haiyong	O
+Habasarokni	O
+Sal	O
+.	O
+
+O	O
+salno	O
+
+borom	O
+rogoi	O
+yaksibodol	O
+GMP-TYF	O
+-	O
+
+TSU-TUKCni	O
+bwkhaktwi	O
+Agartala	B-LOC
+-ni	O
+
+Muktadhara	O
+Hallgo	O
+songchajakkha	O
+
+kokmalama	O
+pana	O
+.	O
+
+Panago	O
+phai	O
+
+majakkha	O
+CPI	O
+(	O
+M	O
+)	O
+Tripura	B-LOC
+haste	O
+
+tangphang	O
+ebakhlai	O
+Adivasi	O
+Adhikar	O
+
+Rashtriya	O
+Mamchni	O
+National	O
+Convener	O
+
+ebakhlai	O
+MLA	O
+machang	O
+Jitendra	O
+
+Chaudhary	O
+,	O
+TYFni	B-PER
+Koushik	I-PER
+Debbarma	I-PER
+,	O
+
+TSU	B-ORG
+Central	I-ORG
+Committee	I-ORG
+-ni	O
+tangphang	O
+
+Sujit	O
+Tripura	O
+,	O
+kacham	O
+montri	O
+Naresh	O
+
+Jamatia	O
+song	O
+.	O
+
+I	O
+panago	O
+Tripura	B-LOC
+hani	O
+luku	O
+rachap	O
+-	O
+
+mwngni	O
+bagoi	O
+Bharat	O
+hagara	O
+hapangni	O
+
+‘	O
+Sangeet	O
+Natak	O
+Akademi	O
+sokat	O
+’	O
+mannai	O
+
+boromgnangjuk	O
+Tarubala	B-PER
+Debbarma	I-PER
+bai	O
+
+Athlete	B-PER
+Amardweep	I-PER
+Debbarma	I-PER
+-no	O
+
+borom	O
+
+yapharjakkha	O
+.	O
+
+Tarubala	O
+
+Debbarma	O
+-no	O
+borom	O
+tisagoi	O
+rokha	O
+MLA	O
+
+machang	O
+Jitendra	B-PER
+Chaudhury	I-PER
+aro	O
+
+Amardweep	B-PER
+Debbarma	I-PER
+-no	O
+borom	O
+tisagoi	O
+
+rokha	O
+kacham	O
+montri	O
+Naresh	O
+Jamatia	O
+.	O
+
+Khumulwng	B-LOC
+:	O
+ijang	O
+TTAADC	B-ORG
+
+hapangni	O
+bwkhaktwibo	O
+hohom	O
+-	O
+
+dodomni	O
+bisingtwi	O
+palaijakkha	O
+Haiyong	O
+
+Habasarokni	O
+Sal	O
+.	O
+
+I	O
+sal	O
+rwgwi	O
+Indigenous	O
+
+Youth	O
+as	O
+Agents	O
+of	O
+Change	O
+for	O
+Self	O
+-	O
+
+determination	O
+kokbomano	O
+lagwi	O
+Nuai	O
+
+Auditoriumgo	O
+songchajakkha	O
+salchani	O
+
+kokmalaima	O
+pana	O
+.	O
+
+Sare	O
+atlogo	O
+
+TTAADC-ni	B-ORG
+thwngmwng	O
+aro	O
+sikla	O
+-	O
+
+chakli	O
+bedekni	O
+chaitokmani	O
+bai	O
+Yakhili	O
+
+Academy	B-ORG
+-ni	O
+thwngkholago	O
+MLA	O
+bai	O
+
+MDCni	O
+bisingo	O
+kaisa	O
+Football	O
+
+bataimwng	O
+songchajakkha	O
+.	O
+
+I	O
+Football	O
+
+bataimwngo	O
+4	O
+goal	O
+-ni	O
+pherbai	O
+kaplai	O
+
+ongkha	O
+MDC	O
+bodol	O
+.	O
+
+Kaplai	O
+ongnai	O
+
+bodol	O
+-no	O
+trophy	O
+aro	O
+sokat	O
+tisagoi	O
+rokha	O
+
+TTAADCni	O
+achokphang	O
+Jagadish	O
+
+Debarma	O
+.	O
+
+Goal	O
+kaitham	O
+rogoi	O
+‘	O
+Man	O
+of	O
+
+the	O
+Match	O
+’	O
+ongkha	O
+MDC	O
+bodol	O
+-ni	O
+
+thwngnai	O
+EM	O
+Rajesh	B-PER
+Tripura	I-PER
+.	O
+
+sokat	O
+tisagoi	O
+rokha	O
+TTAADC-ni	B-ORG
+CEO	O
+
+K	B-PER
+Jamatia	I-PER
+,	O
+IAS	O
+.	O
+
+Dasarath	O
+Hukumu	O
+
+Srwngnogobo	B-ORG
+Joint	I-ORG
+Action	I-ORG
+Committee	I-ORG
+-ni	O
+
+bwkhaktwi	O
+i	O
+sal	O
+palaijakkha	O
+.	O
+
+Kokborokno	O
+Roman	O
+aro	O
+Bangla	O
+Script	O
+Bai	O
+Suimanai	O
+:	O
+Bikash	O
+
+11	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Jirania	B-LOC
+:	O
+thangnai	O
+
+nokha	O
+talbrwi-talba	O
+jora	O
+rwngwi	O
+Tripura	B-LOC
+
+hastego	O
+Kokborokni	O
+Script	O
+lagwi	O
+bari	O
+
+jwngjal	O
+onglai	O
+tonglaimani	O
+jorago	O
+
+Kokborokno	O
+Roman	O
+aro	O
+Bangla	O
+kainoi	O
+
+Script	O
+baino	O
+suimanai	O
+hinoi	O
+hasteni	O
+
+montri	B-ORG
+Bikash	I-ORG
+Debarmani	I-ORG
+khugo	I-ORG
+
+saklaijakmani	O
+bai	O
+Kokborokni	O
+Script	O
+
+jwngjalni	O
+ualaimani	O
+kisalai	O
+thakmanai	O
+
+9	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Agartala	B-LOC
+:	O
+2023	O
+
+rwngbisini	O
+bagoi	O
+Super	O
+sepsap	O
+
+manairokni	O
+bwmwng	O
+saklaijakkha	O
+
+hasteni	O
+Secondary	O
+Education	O
+tangbedek	O
+.	O
+
+Secondary	O
+Education	O
+tangbedekni	O
+
+dagephang	O
+Chandni	O
+Chandran	O
+,	O
+IAS	O
+
+habanok	O
+-ni	O
+N	O
+.	O
+
+13	O
+(	O
+5	O
+)	O
+SE	O
+/	O
+GL-I	O
+/	O
+2020	O
+/	O
+
+L-II	O
+,	O
+Dated	O
+,	O
+09	O
+/	O
+08	O
+/	O
+2023I	O
+nomborni	O
+
+memorandum	O
+balai	O
+karegoi	O
+saklaikha	O
+.	O
+
+I	O
+sepsapni	O
+bisingtwi	O
+Tripura	B-LOC
+hasteni	O
+
+phatargo	O
+bwmwng	O
+gnang	O
+coaching	O
+
+institute	B-ORG
+daiyo	O
+hapangni	O
+chubamwng	O
+bai	O
+
+JEE	O
+/	O
+NEETni	O
+coaching	O
+khlainani	O
+sep	O
+
+rojakkha	O
+takhlai	O
+Madhyamik	O
+pass	O
+
+khlaijak	O
+khorok	O
+noichisni	O
+(	O
+27	O
+)	O
+
+srwngnaino	O
+.	O
+
+Iboni	O
+bisingo	O
+khorokchidok	O
+
+UR	O
+,	O
+khorokba	O
+SC	O
+aro	O
+khorokdok	O
+ST	O
+.	O
+
+Khorokdok	O
+STrokni	O
+bisingo	O
+tongwk	O
+
+Sabroom	B-ORG
+Girls	I-ORG
+’	I-ORG
+School	I-ORG
+-ni	O
+Gupi	O
+Mala	O
+
+Tripura	B-LOC
+(	O
+NEET	O
+)	O
+,	O
+Sonamura	B-LOC
+Girls	O
+’	O
+
+School	B-ORG
+-ni	O
+Priya	B-PER
+Tripura	I-PER
+(	O
+JEE	O
+)	O
+,	O
+Amtali	O
+HS	O
+
+School	B-ORG
+-ni	O
+Megha	B-PER
+Koloi	I-PER
+(	O
+NEET	O
+)	O
+,	O
+Kabi	O
+-	O
+
+guru	B-ORG
+RSV	I-ORG
+HS	I-ORG
+School	I-ORG
+-ni	O
+Sunaong	O
+Mog	O
+
+(	O
+NEET	O
+)	O
+,	O
+Ludhua	O
+High	O
+School	O
+-ni	O
+Kishan	O
+
+Tripura	B-LOC
+(	O
+NEET	O
+)	O
+aro	O
+Manu	B-LOC
+Bazar	O
+HS	O
+
+School	B-ORG
+-ni	O
+Dharmendra	B-PER
+Tripura	I-PER
+(	O
+NEET	O
+)	O
+.	O
+
+hinoi	O
+kha	O
+kagwk	O
+.	O
+
+National	B-ORG
+Institute	I-ORG
+of	O
+Technology	O
+,	O
+
+Agartalago	O
+bisani	O
+Kokborok	B-MISC
+Certificate	O
+
+Courseni	O
+certoficate	O
+bakmani	O
+rwgwi	O
+
+songchajak	O
+panago	O
+naruai	O
+ongoi	O
+thangoi	O
+
+majakphugo	O
+i	O
+kokno	O
+saklaikha	O
+hasteni	O
+
+Tiprasa	B-ORG
+hamkrai	I-ORG
+bedekni	I-ORG
+montri	I-ORG
+Bikash	I-ORG
+
+Debarma	O
+.	O
+
+Mator	O
+tabokbo	O
+haste	O
+
+hapangni	O
+phaichingtwi	O
+Kokborokno	O
+bo	O
+
+Script	O
+bai	O
+suijaknai	O
+iboni	O
+paithak	O
+
+kokchapwng	O
+chapjakyakho	O
+.	O
+
+Bana	O
+khugo	O
+
+siming	O
+salai	O
+tonglaikho	O
+Kokborokno	O
+
+Roman	O
+aro	O
+Bangla	O
+bai	O
+suimanai	O
+hinoi	O
+.	O
+
+Tabok	O
+naising	O
+naithai	O
+Script	O
+lagwi	O
+tma	O
+
+yapri	O
+sen	O
+-o	O
+haste	O
+hapang	O
+.	O
+
+Centre	B-ORG
+for	O
+Rural	O
+
+and	O
+Tribal	O
+Development	O
+-ni	O
+Coordinator	O
+
+Associate	O
+Professor	B-PER
+Dr	I-PER
+.	O
+
+Deb	O
+Dulal	O
+
+Tripurabo	O
+i	O
+panago	O
+phai	O
+majakkha	O
+.	O
+
+Sikok	O
+-ni	O
+Mwngoi	O
+Butok	O
+
+Khlaijakkha	O
+Tiprasa	O
+Chakli	O
+
+11	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Agartala	B-LOC
+:	O
+purun	O
+
+sikok	O
+-ni	O
+bwmwngoi	O
+raidachaiyakhlai	O
+
+khorokcha	O
+Tiprasa	O
+chaklino	O
+butok	O
+
+khlaiywi	O
+thwimrangromani	O
+patimwng	O
+.	O
+
+I	O
+patimwng	O
+patikha	O
+Agartala	B-LOC
+Lake	O
+
+Chowmuhani	O
+yakhrai	O
+tolago	O
+(	O
+Gangail	O
+
+Road	O
+)	O
+.	O
+
+Purung	O
+sikok	O
+-ni	O
+bwmwngoi	O
+
+khorokcha	O
+Tiprasa	O
+chaklino	O
+Lake	O
+
+Chowmuhani	O
+yakhrai	O
+tolago	O
+amchaini	O
+
+lukurok	O
+kuthunglaiywi	O
+swi-uakno	O
+
+bulaitwi	O
+bulaiywi	O
+thwimrangromani	O
+
+video	B-ORG
+clip	I-ORG
+tabok	I-ORG
+social	I-ORG
+media	I-ORG
+gnangoi	O
+
+barikhlai	O
+lukjak	O
+.	O
+
+Bujaknai	O
+Tiprasa	O
+
+chaklini	O
+sinimwng	O
+tabokbo	O
+sagwi	O
+
+mayakho	O
+.	O
+
+O	O
+amchaini	O
+lukurokbo	O
+
+kaisabo	O
+bono	O
+sininai	O
+krwi	O
+.	O
+
+Khorokcha	O
+
+amchaini	O
+Tiprajwk	O
+koktmathungnaino	O
+
+saka	O
+,	O
+o	O
+cherai	O
+-no	O
+Lake	O
+Chowmuhani	O
+,	O
+
+Radhanagar	B-LOC
+amchai	O
+korekarago	O
+uaisa	O
+-	O
+
+uaisu	O
+nutrwngwk	O
+.	O
+
+Aiphabo	O
+bini	O
+
+bwmwng	O
+,	O
+bini	O
+prarok	O
+siya	O
+.	O
+
+Bo	O
+arobo	O
+saka	O
+,	O
+tomwng	O
+o	O
+chakli	O
+
+purung	O
+khogoi	O
+tongwk	O
+hinklai	O
+bono	O
+
+police	O
+-ni	O
+yago	O
+ephagwi	O
+romankhamwng	O
+,	O
+
+kerong	O
+raida	O
+-ni	O
+bisingtwi	O
+bono	O
+police	O
+
+naikani	O
+khlainai	O
+,	O
+mator	O
+ibotwikhlai	O
+
+sikok	O
+-ni	O
+bwmwngoi	O
+kuthunglaiywi	O
+swi	O
+-	O
+
+uakno	O
+bulaitwi	O
+bulaimani	O
+ibo	O
+barikhlai	O
+
+raida	O
+chaiya	O
+!	O
+
+Bono	O
+bujakmani	O
+nugoi	O
+
+barikhlai	O
+kha	O
+sajakmani	O
+kokno	O
+saka	O
+.	O
+
+Patimwngni	O
+koktma	O
+manoi	O
+police	O
+
+phaiywi	O
+bujaknaisano	O
+GBP	O
+Hospitalgo	O
+
+tlangkha	O
+.	O
+
+I	O
+patimwngno	O
+naiywi	O
+tongwk	O
+
+hinoi	O
+saka	O
+police	O
+.	O
+
+Hani	O
+Kokmalama	O
+,	O
+Vol	O
+.	O
+
+1	O
+,	O
+Issue	O
+No	O
+.	O
+
+2	O
+,	O
+13	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Sunday	O
+,	O
+Khumulwng	B-LOC
+,	O
+RNI	O
+Title	O
+Code	O
+:	O
+TRITRI00002	O
+
+Page	O
+No	O
+.	O
+
+Editor	O
+,	O
+Publisher	O
+,	O
+Printer	O
+&	O
+Owner	O
+Smt	O
+.	O
+
+Bijali	B-PER
+Debbarma	I-PER
+published	O
+from	O
+Harinath	O
+Sardar	O
+Para	O
+,	O
+Khumulwng	B-LOC
+,	O
+West	B-LOC
+Tripura	I-LOC
+,	O
+Tripura	B-LOC
+035	O
+,	O
+M	O
+:	O
++	O
+91	O
+8731956403	O
+,	O
+
+email	O
+:	O
+gairing2013dharin	O
+@	O
+gmail	O
+.	O
+
+com	O
+and	O
+Printed	O
+at	O
+Abstract	O
+Print	O
+,	O
+Krishna	O
+Nagar	O
+,	O
+Agartala	B-LOC
+,	O
+West	B-LOC
+Tripura	I-LOC
+,	O
+Tripura	B-LOC
+001	O
+,	O
+India	B-LOC
+,	O
+M	O
+:	O
++	O
+91	O
+9089722199	O
+
+Kokmithingnaini	O
+Kok	O
+
+Kaisa	O
+bodol	O
+-no	O
+mwthangoi	O
+larwknani	O
+
+hinklai	O
+o	O
+bodol	O
+-ni	O
+kokbaksa	O
+,	O
+yak	O
+baksa	O
+
+ongnani	O
+nangsogo	O
+.	O
+
+Khasamani	O
+,	O
+
+koimani	O
+,	O
+kwthalaiya	O
+ongmani	O
+tongoibo	O
+
+krwiswk	O
+khlai	O
+gothelaiywi	O
+,	O
+mililaiywi	O
+
+matonglainai	O
+.	O
+
+Ibo	O
+simingya	O
+o	O
+bodol	O
+-no	O
+
+twidulnai	O
+bodol	O
+-ni	O
+ojamarokbo	O
+sakno	O
+
+hamjaktwi	O
+bodol	O
+-no	O
+mahamjaknai	O
+,	O
+
+bodol	O
+-no	O
+borom	O
+maronai	O
+,	O
+lukurokni	O
+
+jwngjalno	O
+bijiywi	O
+khorang	O
+matisanai	O
+.	O
+
+Tabok	O
+-ni	O
+jorago	O
+dopha	O
+hamkrai	O
+-ni	O
+
+bwmwngoi	O
+social	O
+mediani	O
+bisingtwi	O
+
+kokgara-gara	O
+salaiywk	O
+,	O
+kisicha	O
+chaiya	O
+
+nukhlaino	B-ORG
+press	I-ORG
+meet	O
+,	O
+social	O
+mediani	O
+
+bisingtwi	O
+kokphiroklaiywk	O
+,	O
+phran	O
+
+phunulaiywk	O
+.	O
+
+Ibotwikhlai	O
+onglaimani	O
+
+gamni	O
+slai	O
+chaiyase	O
+arojobor	O
+bangwk	O
+.	O
+
+Ibobai	O
+bisingni	O
+huijak	O
+koktmarokse	O
+
+yaknibara	O
+aluaing	O
+khlai	O
+auaijagwk	O
+.	O
+
+Chwng	O
+tabok	O
+ibobo	O
+nugwk	O
+,	O
+lukuni	O
+,	O
+
+dopha	O
+-ni	O
+hamkrai	O
+-ni	O
+slai	O
+sak-sak	O
+social	O
+
+mediani	O
+bisingtwi	O
+auailaimani	O
+.	O
+
+adong	O
+ongmani	O
+olo	O
+voterokni	O
+kokno	O
+
+uansokyagwi	O
+sak	O
+tongthok	O
+tonglaimani	O
+,	O
+
+bodol	O
+slailaimanirok	O
+.	O
+
+Ibobo	O
+nugo	O
+,	O
+
+bodol	O
+-ni	O
+bwmwngoi	O
+sakni	O
+dopha-hodano	O
+
+kwchargo	O
+twbwiywi	O
+hamya-hamya	O
+
+koksilchamani	O
+,	O
+kokekhreklaimanirok	O
+.	O
+
+Jora	O
+tongsani	O
+iborokno	O
+slaithai	O
+.	O
+
+Kokmithingnai	O
+
+49-Chawmanugo	O
+Tipra	O
+
+Mothani	O
+Thinang	O
+Boro	O
+?	O
+
+11	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Chawmanu	O
+:	O
+
+Thangnai	O
+2023	O
+Tripura	B-LOC
+Legislative	O
+
+Assemblyni	O
+chongbarigo	O
+49-Chawmanu	O
+
+achokthai	O
+daiyo	O
+Tipra	O
+Mothani	O
+ongoi	O
+
+batainai	O
+MDC	O
+Hangsa	O
+Kumar	B-PER
+Tripura	I-PER
+
+sasaini	O
+slaibo	O
+kabang	O
+voteni	O
+pherbai	O
+
+chengwk	O
+BJPni	O
+batainaini	O
+daiyo	O
+.	O
+
+dopha	O
+-ni	O
+hamjakma	O
+-ni	O
+bagoi	O
+amchaini	O
+
+lukurok	O
+kharogoi	O
+Tipra	O
+Mothano	O
+vote	O
+
+rolaiywibo	O
+kaplai	O
+khlaimaliya	O
+.	O
+
+thangkai	O
+chongbari	O
+jorago	O
+49	O
+-	O
+
+Chawmanu	O
+amchaiyo	O
+Tipra	O
+Mothani	O
+
+phran	O
+bari	O
+krakno	O
+.	O
+
+Mator	O
+tabok	O
+49	O
+-	O
+
+Chawmanugo	O
+Tipra	O
+Mothani	O
+adong	O
+-rok	O
+
+salni	O
+slai	O
+sal	O
+bodol	O
+yakarwk-yakrwk	O
+
+ongoi	O
+tongwk	O
+.	O
+
+Thangnai	O
+12	O
+July	O
+salmarigo	O
+49	O
+-	O
+
+Chawmanu	O
+Tipra	O
+Motha	O
+Block	O
+
+Committee	B-ORG
+-ni	O
+twiphang	O
+Dilip	B-PER
+Debbarma	I-PER
+
+bodol	O
+yakakha	O
+.	O
+
+Thangnai	O
+24	O
+July	O
+
+salmarigo	O
+Chawmanu	O
+Block	O
+Commi	O
+-	O
+
+tteeni	O
+rangphang	O
+Namji	B-PER
+Debbarma	I-PER
+
+bodol	O
+yakakha	O
+.	O
+
+Chawmanuni	O
+Tipra	O
+
+Motha	O
+khlainai	O
+arobo	O
+kabangma	O
+
+tangkrarok	O
+achokthai	O
+aro	O
+bodol	O
+
+yakalaijak	O
+Bok	O
+tmwi	O
+bodol	O
+yakalailang	O
+
+iboni	O
+mwngsa	O
+phirokmwng	O
+krwi	O
+!	O
+
+Bodol	O
+
+yakanairok	O
+sakni	O
+baithang	O
+-ni	O
+jwngjal	O
+,	O
+
+nukhungni	O
+jwngjlani	O
+bagoi	O
+bodol	O
+-no	O
+jora	O
+
+romaya	O
+hinoimang	O
+yakamani	O
+kokton	O
+
+balai	O
+daiyo	O
+khurchagwi	O
+suilaiywk	O
+.	O
+
+Mator	O
+uanamasangchakhlai	O
+bodol	O
+
+yakamani	O
+koktma	O
+kasai	O
+phaika	O
+
+Chawmanu	O
+Tipra	O
+Mothani	O
+bisingo	O
+.	O
+
+Mator	O
+uanamasangchakhlai	O
+,	O
+Bru	O
+
+ebakhlai	O
+Reang	O
+rokni	O
+amanikok	O
+Kaubru	O
+
+aro	O
+Bru	O
+dopha	O
+-no	O
+borom	O
+rojakya	O
+
+khlaimani	O
+bagoi	O
+Tipra	O
+Mothani	O
+
+khoroknoi	O
+sengkrak	O
+achokthai	O
+aro	O
+
+bodol	O
+yakalaimani	O
+koktma	O
+kasagwi	O
+
+phaika	O
+49-Chawmanugo	O
+.	O
+
+11	O
+August	O
+
+salmarigo	O
+Chawmanu	O
+Youth	O
+Tipra	O
+Fed	O
+-	O
+
+eration	O
+(	O
+YTF	O
+)	O
+ni	O
+Vice-President	O
+
+Shivajoy	B-PER
+Reang	I-PER
+aro	O
+YTF	O
+IT	O
+Incharge	O
+
+&	O
+Spokesperson	B-PER
+Binanda	I-PER
+Reang	I-PER
+bok	O
+
+ama	O
+-ni	O
+kok	O
+-ni	O
+bagoi	O
+khanangjagoi	O
+bok	O
+-ni	O
+
+achokthai	O
+yakagwi	O
+rogo	O
+.	O
+
+Satai	O
+klaiywk	O
+,	O
+thangnai	O
+13	O
+July	O
+
+salmarigo	O
+13th	O
+Assemblyni	O
+2nd	O
+
+Sessionni	O
+paithak	O
+salgo	O
+Tripura	B-LOC
+hasteni	O
+
+rwngnokrogo	O
+
+Dophani	O
+
+srwngnairokni	O
+gamni	O
+bagoi	O
+Kaubruno	O
+
+phrwngnani	O
+bagoi	O
+Reference	O
+Notice	O
+
+twbwikha	B-ORG
+hapang	I-ORG
+BJP	I-ORG
+Bodolni	I-ORG
+MLA	I-ORG
+
+Pramod	B-PER
+Reang	I-PER
+.	O
+
+Hasteni	O
+montriokra	O
+
+Prof	O
+.	O
+
+)	O
+Manik	O
+Sahabo	O
+iboni	O
+gam	O
+
+phirokmwng	O
+rokha	O
+.	O
+
+Mator	O
+hasteni	O
+
+kebengnai	B-ORG
+bodol	I-ORG
+-ni	I-ORG
+ojama	I-ORG
+Animesh	I-ORG
+
+Debbarma	O
+bo	O
+i	O
+bimwngno	O
+kebeng	O
+-	O
+
+mwngni	O
+bisingtwi	O
+sukrugwi	O
+kok	O
+saka	O
+.	O
+
+Animesh	O
+
+Debbarma	O
+
+ibohaiklai	O
+
+Kaubruno	O
+lagwi	O
+kebengoi	O
+koksamanino	O
+
+hasteni	O
+Reang	O
+ebakhlai	O
+Bru	O
+dopha	O
+-ni	O
+
+lukurok	O
+chajaklailiya	O
+.	O
+
+I	O
+chajakya	O
+ongmani	O
+tabok	O
+Tipra	O
+
+Mothani	O
+bisingobo	O
+khakoilaimani	O
+
+nujakni	O
+chengkha	O
+.	O
+
+Aini	O
+bagoi	O
+kha	O
+
+nangjagoi	O
+tini	O
+Chawmanuni	O
+Tipra	O
+
+Mothani	O
+sikla-chakli	O
+bodol	O
+YTFni	O
+
+tangkrarok	O
+bodol	O
+yakalaikha	O
+.	O
+
+Ibotwi	O
+
+haiklai	O
+49-Chawmanugo	O
+kabangma	O
+
+lukurok	O
+Tipra	O
+Motha	O
+yakagwi	O
+BJP	O
+
+bodolgo	O
+
+yapri	O
+
+rolaimani	O
+
+Chawmanugo	O
+Tipra	O
+Mothani	O
+thinang	O
+
+boro	O
+aro	O
+braijati	O
+ongno	O
+,	O
+ibo	O
+tabok	O
+tlwk	O
+-	O
+
+tlwk	O
+swngmwng	O
+kasagwi	O
+tongwk	O
+!	O
+
+Kaubru	O
+:	O
+Kha	O
+Nangjagoi	O
+YTF	O
+Yakakha	O
+
+12	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Chawmanu	O
+:	O
+
+hastego	O
+haphang	O
+slaijago	O
+,	O
+katal	O
+achogo	O
+
+aro	O
+Barot	O
+hagara	O
+yokmani	O
+bisi	O
+snichiba	O
+
+laikha	O
+mator	O
+Tiprasarokni	O
+amchaini	O
+
+jwngjal	O
+kakya	O
+.	O
+
+Tabokbo	O
+huru-muru	O
+
+chajak	O
+.	O
+
+Haphang	O
+nugwibo	O
+nuyaswk	O
+,	O
+
+thulaijak	O
+kentha	O
+thauklugwi	O
+.	O
+
+Iro	O
+rojak	O
+pilik	O
+ongkha	O
+Dolai	O
+
+hangkorni	O
+Chawmanu	O
+R	O
+.	O
+
+D	O
+Blockni	O
+
+North	B-ORG
+Longtrai	I-ORG
+Village	I-ORG
+Committee	I-ORG
+-ni	O
+
+Kalpa	O
+Mohan	B-PER
+Roaja	O
+Para	O
+-ni	O
+simanglwng	O
+
+koreni	O
+lama	O
+.	O
+
+I	O
+lama	O
+jora	O
+kolokma	O
+
+rwngwi	O
+kama	O
+kukjak	O
+ha	O
+kakhlaijak	O
+.	O
+
+Ibobadebo	O
+i	O
+lama	O
+koreni	O
+arokaisa	O
+
+paccani	O
+culvertbo	O
+kakhlai	O
+paijak	O
+.	O
+
+O	O
+lamatwi	O
+sai	O
+sai	O
+lukurok	O
+thang-laiso	O
+
+khlailaiywk	O
+aro	O
+salni	O
+ra	O
+ra	O
+malkhong	O
+
+laiso-laithang	O
+khlaiywk	O
+.	O
+
+I	O
+lamatwi	O
+
+Chawmanu	O
+Hatini	O
+siming	O
+Chawmamu	O
+
+Class	B-ORG
+XII	I-ORG
+School	I-ORG
+,	O
+Chawmanu	O
+R	O
+.	O
+
+Block	O
+,	O
+Pohor	O
+English	O
+Medium	O
+School	O
+
+ongoi	O
+Kalpa	O
+Mohan	B-PER
+Roaja	O
+Para	O
+JB	O
+
+School	B-ORG
+,	O
+Longtrai	O
+Mondir	O
+ongoi	O
+arouaisa	O
+
+Chawmanu	O
+Hatigo	O
+klaiphaiywk	O
+.	O
+
+lamani	O
+tolago	O
+ongkha	O
+Longtrai	O
+Toisa	O
+.	O
+
+lamatwi	O
+thanglaiso	O
+khlaitanigo	O
+barikhlai	O
+
+Chawmanu	O
+North	O
+Longtraini	O
+Lama	O
+Kama	O
+Kukjak	O
+
+Ha	O
+Kuakjak	O
+,	O
+Haphang	O
+Nugwibo	O
+Nuyaswk	O
+Thulaijak	O
+
+jwngjalgo	O
+klaijak	O
+amchaini	O
+lukurok	O
+,	O
+
+amchaimi	O
+malkhong	O
+chalainai	O
+-rok	O
+.	O
+
+Lamabo	O
+girasa	O
+,	O
+iboni	O
+bisingose	O
+lama	O
+
+khakcha	O
+kama	O
+kukjak	O
+ha	O
+kuakjakni	O
+
+bagoi	O
+horo-salwk	O
+himtani	O
+,	O
+malkhong	O
+
+chalaithanigo	O
+jephruphano	O
+garakhlai	O
+
+patimwng	O
+ongma	O
+-no	O
+i	O
+daiyo	O
+.	O
+
+Aini	O
+bagoi	O
+
+Tripura	B-LOC
+haste	O
+haphang	O
+bai	O
+TTAADC	B-ORG
+
+haphang	O
+jora	O
+tongsini	O
+i	O
+lamano	O
+daktwino	O
+
+snamgwi	O
+ronani	O
+ongthwk	O
+hinoi	O
+jonom	O
+
+khorang	O
+
+tisalaiywk	O
+
+amchaini	O
+
+tongkosong	O
+tongnai	O
+lukurok	O
+.	O
+
+Kainoi	B-ORG
+Assemblygo	I-ORG
+Arouaisa	I-ORG
+Chongbari	I-ORG
+,	I-ORG
+
+CPI	O
+(	O
+M	O
+)	O
+,	O
+TIPRA	O
+,	O
+Congress	O
+-ni	O
+Kokchaplaimwng	O
+
+Hastego	O
+Re-Pollni	O
+Salmari	O
+Saklaikha	O
+
+Chongbari	O
+Commission	O
+,	O
+Chongbari	O
+5	O
+Sep	O
+
+8	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+New	B-LOC
+Delhi	I-LOC
+:	O
+Tripura	B-LOC
+
+hasteni	O
+Assemblyni	O
+kainoi	O
+bukcha	O
+
+achokthai	B-ORG
+daiyo	I-ORG
+arouaisa	I-ORG
+chongbari	I-ORG
+
+ongnani	O
+salmari	O
+saklaikha	O
+Bharatni	O
+
+chongbari	B-ORG
+commission	I-ORG
+.	I-ORG
+
+I	O
+kainoi	O
+Assembly	O
+bwkcha	O
+achokthai	O
+
+ongkha	O
+23-Dhanpur	O
+bai	O
+20-Boxanagar	O
+.	O
+
+23-Dhanpur	O
+achokthaiyo	O
+Central	O
+-ni	O
+
+montri	B-ORG
+Pratima	I-ORG
+Bhowmik	I-ORG
+achokthai	I-ORG
+
+yakakha	O
+aro	O
+20-Boxanagarni	O
+MLA	O
+
+Samsul	O
+Haque	O
+achamitini	O
+thwimani	O
+olo	O
+
+i	O
+kainoi	O
+achokthai	O
+bwkcha	O
+ongkha	O
+.	O
+
+Bharatni	O
+kaidok	O
+hasteni	O
+kaisni	O
+As	O
+-	O
+
+sembly	O
+achokthai	O
+daiyo	O
+arouaisa	O
+
+chongbari	O
+ongnani	O
+bagoi	O
+No	O
+.	O
+
+ECI	O
+/	O
+PN	O
+/	O
+
+47	O
+/	O
+2023	O
+,	O
+Dated	O
+,	O
+8th	O
+August	O
+,	O
+2023	O
+
+koktma	O
+auaimwngni	O
+bisingtwi	O
+saklaikha	O
+
+Bharatni	B-ORG
+chongbari	I-ORG
+commission	I-ORG
+.	I-ORG
+
+Phainai	O
+17	O
+August	O
+nomination	O
+
+ephanani	O
+paithak	O
+sal	O
+.	O
+
+18	O
+August	O
+
+nominationni	O
+Scrutiny	O
+khlaijaknai	O
+.	O
+
+August	O
+nomination	O
+rwksamwng	O
+.	O
+
+5	O
+Sep	O
+.	O
+
+chongbari	B-ORG
+songchajaknai	I-ORG
+.	I-ORG
+
+8	O
+Sep	O
+.	O
+
+thikijaknai	O
+.	O
+
+10	O
+Sep	O
+.	O
+
+ni	O
+bisingo	O
+
+chongbarini	O
+chorok	O
+samwng-homwng	O
+
+paisoknani	O
+nangnai	O
+.	O
+
+11	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Agartala	B-LOC
+:	O
+thangnai	O
+
+8	O
+August	O
+salmarigo	O
+Bharatni	O
+kaidok	O
+
+hasteni	O
+kaisni	O
+Assemblyni	O
+bwkcha	O
+
+achokthaini	O
+re-pollni	O
+salmari	O
+saklaimani	O
+
+daiyo	O
+Tripura	B-LOC
+hasteni	O
+kainoi	O
+achokthai	O
+
+bo	O
+tongwk	O
+.	O
+
+23-Dhanpur	O
+bai	O
+20	O
+-	O
+
+Boxanagar	B-LOC
+.	O
+
+Chongbarini	O
+salmari	O
+
+saklaimani	O
+loge	O
+loge	O
+Tripura	B-LOC
+hasteni	O
+
+kebengnai	O
+bodolok	O
+thainchakhlai	O
+
+batailainani	O
+bagoi	O
+kokchaplaimwngo	O
+
+achoklaikha	O
+.	O
+
+17	O
+August	O
+nominationni	O
+
+paithak	O
+sal	O
+aro	O
+5	O
+Sep	O
+.	O
+
+chongmari	O
+.	O
+
+Kebengnai	O
+bodol	O
+-ni	O
+ongoi	O
+bo	O
+bodol	O
+
+bacha	O
+-no	O
+ibo	O
+tabokbo	O
+sraicha	O
+ongyakho	O
+
+mator	O
+,	O
+chorok	O
+kebengnai	O
+bodol	O
+-rok	O
+
+naiywk	O
+i	O
+re-poll	O
+daiyo	O
+jesakhlaiphabo	O
+
+kebengnai	B-ORG
+bodol	I-ORG
+-ni	I-ORG
+vote	I-ORG
+bakjakyatwi	I-ORG
+
+kaisa	O
+jegago	O
+klainaitwi	O
+.	O
+
+Aini	O
+bagoi	O
+
+bok	O
+-ni	O
+i	O
+kokchaplaimwng	O
+.	O
+
+Iro	O
+CPI	O
+(	O
+M	O
+)	O
+Tripura	B-LOC
+haste	O
+tangphang	O
+
+ebakhlai	O
+MLA	O
+Jitendra	B-PER
+Chaudhury	I-PER
+,	O
+
+kacham	O
+montri	O
+Manik	O
+Dey	O
+bai	O
+Ratan	O
+
+Bhowmik	O
+,	O
+Tipra	O
+Mothani	O
+ongoi	O
+hasteni	O
+
+kebengnai	B-ORG
+bodol	I-ORG
+-ni	I-ORG
+ojama	I-ORG
+Animesh	I-ORG
+
+Debbarma	O
+,	O
+Congress	O
+bodol	O
+-ni	O
+ongoi	O
+
+MLA	O
+Sudip	B-PER
+Roy	I-PER
+Barman	O
+,	O
+MLA	B-PER
+Gopal	O
+
+Chandra	B-PER
+Roy	I-PER
+aro	O
+TPCCni	O
+twiphang	O
+
+Ashis	B-PER
+Kumar	I-PER
+Roy	O
+song	O
+tongbaiywk	O
+.	O
+
+Ijang	O
+phainai	O
+re-pollno	O
+lagwi	O
+Dhanpur	O
+
+achokthaini	O
+Tipra	O
+Mothani	O
+ojamarokno	O
+
+lagwi	O
+kokmalama	O
+salailaikha	O
+kebengnai	O
+
+bodol	O
+-ni	O
+ojama	O
+Animesh	B-PER
+Debbarma	I-PER
+bini	O
+
+habanogo	O
+.	O
+
+Iro	O
+thangnai	O
+Assemblygo	O
+
+Tipra	O
+Mothani	O
+ongoi	O
+Dhanpur	O
+
+achokthaiyo	O
+batainai	O
+Amiya	B-PER
+Kumar	I-PER
+
+Noatiabo	O
+phaiywi	O
+sopaijak	O
+.	O
+
+Tripura	B-LOC
+Hasteni	O
+Uani	O
+Samwng-Homwngno	O
+
+Haiyongo	O
+Pirkha	O
+Hasteni	B-PER
+Samir	I-PER
+Jamatia	I-PER
+
+12	B-MISC
+August	I-MISC
+2023	I-MISC
+,	O
+Agartala	B-LOC
+:	O
+Thangnai	O
+
+3	O
+Julygo	O
+Chinani	O
+Hangzhou	O
+daiyo	O
+
+“	O
+2023	O
+Seminar	B-ORG
+on	I-ORG
+Bamboo	I-ORG
+Industry	I-ORG
+and	I-ORG
+
+Green	O
+Economy	O
+Development	O
+for	O
+
+Developing	O
+Countries	O
+(	O
+Physical	O
+mode	O
+)	O
+”	O
+
+kokbomano	O
+lagwi	O
+kokmalaima	O
+pana	O
+
+songchajakkha	O
+.	O
+
+I	O
+kokmalaima	O
+pana	O
+
+songchathanigo	O
+chubachu	O
+rokha	O
+
+Ministry	B-ORG
+of	O
+Commerce	O
+,	O
+China	O
+aro	O
+
+songchakha	O
+China	O
+National	O
+Bamboo	O
+
+Research	B-ORG
+Center	I-ORG
+.	O
+
+Covid-19ni	O
+ibono	O
+poila	O
+sakphang	O
+
+achoklai	O
+
+kokmalaima	O
+
+songchajagwk	O
+.	O
+
+I	O
+kokmalaimwngni	O
+
+naikhomwng	O
+Bharatni	O
+Northeast	O
+
+amchaini	O
+hasterokni	O
+bisingo	O
+halok	O
+
+krwngoi	O
+uani	O
+samwng-homwngno	O
+
+charogoi	O
+tisana	O
+-ni	O
+,	O
+haiyong	O
+beremni	O
+
+halok	O
+krwngoi	O
+samwng	O
+tangna	O
+-ni	O
+sep	O
+
+snamnani	O
+.	O
+
+I	O
+kokmalaima	O
+panago	O
+India	B-LOC
+,	O
+Jordan	O
+-	O
+
+4	O
+,	O
+Panama-2	O
+,	O
+Ethiopia-5	O
+,	O
+Nigeria-4	O
+,	O
+
+Uganda	O
+-	O
+4	O
+,	O
+Nepal	O
+-	O
+4	O
+,	O
+Pakistan	O
+-	O
+1	O
+,	O
+Fiji	O
+-	O
+
+4	O
+,	O
+Venezuala-2	O
+,	O
+Togo	O
+-	O
+1	O
+,	O
+Cote	O
+d	O
+’	O
+lvoire	O
+-	O
+
+1	O
+jomangoi	O
+khorok	O
+thamchitham	O
+
+Bamboo	O
+
+Technology	O
+,	O
+
+forestry	O
+,	O
+
+environment	O
+protection	O
+,	O
+eco-tourismno	O
+
+lagwi	O
+samwng	O
+tangnairok	O
+thangoi	O
+
+majakkha	O
+.	O
+
+Iro	O
+India	B-LOC
+-ni	O
+ongoi	O
+Tripura	B-LOC
+
+hasteni	O
+Bamboo	O
+Technologist	O
+Samir	O
+
+Jamatia	O
+thangoi	O
+majakkha	O
+.	O
+
+I	O
+koktmano	O
+
+sakokha	O
+Tripura	B-LOC
+hasteni	O
+Bamboo	O
+
+Technologist	B-PER
+Samir	I-PER
+Jamatia	I-PER
+.	O
+
+Kokmalama	O
+/	O
+/	O
+Year	O
+.	O
+
+2	O
+/	O
+/	O
+No	O
+.	O
+
+45	O
+/	O
+/	O
+23	B-MISC
+October	I-MISC
+2022	I-MISC
+AD	O
+/	O
+/	O
+Sasal	O
+/	O
+/	O
+Sunday	O
+/	O
+/	O
+Khumulwng	B-LOC
+,	O
+Tripura	B-LOC
+,	O
+India	B-LOC
+/	O
+/	O
+Pages	O
+:	O
+2	O
+/	O
+/	O
+Rs	O
+.	O
+
+Published	O
+&	O
+Printed	O
+by	O
+Editor	O
+Ms	O
+.	O
+
+Bijali	B-PER
+Debbarma	I-PER
+from	O
+Khumulwng	B-LOC
+,	O
+West	B-LOC
+Tripura	I-LOC
+,	O
+Tripura	B-LOC
+035	O
+&	O
+Printed	O
+at	O
+Abstract	O
+Print	O
+,	O
+Krishna	O
+
+Nagar	O
+,	O
+Agartala	B-LOC
+,	O
+West	B-LOC
+Tripura	I-LOC
+,	O
+Tripura	B-LOC
+001	O
+,	O
+India	B-LOC
+,	O
+email	O
+:	O
+kokmalama	O
+@	O
+gmail	O
+.	O
+
+com	O
+,	O
+website	O
+:	O
+www	O
+.	O
+
+kokmalama	O
+.	O
+
+org	O
+,	O
+M	O
+:	O
+8731956403	O
+
+Kirimasangchakhlai	O
+
+Raishyanokthaigo	O
+
+Brwinoi	O
+Tanoi	O
+Buthajakkha	O
+
+Bronze	O
+Medol	O
+Majak	O
+Tiprasa	O
+Boxer	O
+Karan	O
+
+Rupinino	O
+Borom	O
+Yapharka	O
+TTAADC	B-ORG
+Haphang	O
+
+Raishyanokthai	O
+:	O
+
+Kokmalama	O
+,	O
+21	B-MISC
+October	I-MISC
+2022	I-MISC
+:	O
+
+bari	O
+kirimasangcha	O
+aro	O
+uanama	O
+-	O
+
+sangcha	O
+khlai	O
+kwthang	O
+bra-bra	O
+
+godal-rua	O
+bai	O
+brwinoi	O
+chakrajwkno	O
+
+tanoi	O
+buthaka	O
+.	O
+
+Patimwng	O
+patikha	O
+
+Dolai	O
+hangkorni	O
+Raishynokthai	O
+
+ebakhlai	O
+Raishyabari	O
+daiyo	O
+.	O
+
+Koktmago	O
+sagwi	O
+majakkha	O
+
+Raishyanokthaini	B-PER
+Maya	I-PER
+Kumar	I-PER
+
+Roaja	O
+Parago	O
+tongnai	O
+Mankriti	O
+
+Tripura	B-LOC
+(	O
+60	O
+)	O
+bai	O
+Phulanshri	B-PER
+Tripura	I-PER
+
+(	O
+55	O
+)	O
+bwmwngoi	O
+brwinoi	O
+chakrajuk	O
+
+Raishyanokthai	O
+amchaini	O
+Dinaram	O
+
+Roaja	O
+Parago	O
+jaiti-masa	O
+klainai	O
+
+Dilip	O
+Tripurani	B-LOC
+nogo	O
+abulyak	O
+
+sumani	O
+mai	O
+chai	O
+paiywi	O
+nogo	O
+kisa	O
+
+lengkhograno	O
+hinoi	O
+sakanani	O
+
+naimani	O
+ioro	O
+ongo	O
+patimwng	O
+.	O
+
+Je	O
+nogo	O
+berai	O
+-ni	O
+thango	O
+o	O
+nogo	O
+
+kaisanobo	O
+nuya	O
+bana	O
+bisi	O
+chichuku	O
+
+omorni	O
+Dhan	O
+Bikash	B-PER
+Tripura	I-PER
+-no	O
+
+siming	O
+nupho	O
+.	O
+
+Mwngsa	O
+swngyasani	O
+
+joba	O
+krwijati	O
+khlai	O
+Dhan	O
+Bikash	O
+
+Tripura	B-LOC
+bok	O
+brwinoino	O
+rua	O
+bai	O
+
+tannani	O
+
+chengo	O
+.	O
+
+Chakrajuk	O
+
+khorokcha	O
+loge-loge	O
+jegagono	O
+
+langma	O
+chokha	O
+.	O
+
+Aro	O
+khorokcha	O
+
+thwipleng-hampleng	O
+ongjak	O
+-no	O
+o	O
+
+para	O
+-ni	O
+borokrok	O
+Raishyanokthai	O
+
+PHC	O
+daiyo	O
+tlang	O
+thangmani	O
+loge	O
+-	O
+
+loge	O
+binibo	O
+langma	O
+chogo	O
+.	O
+
+Ibotwi	O
+
+haiklai	O
+brwi	O
+-no	O
+chakrajukni	O
+langma	O
+
+chogo	O
+jaiti-masani	O
+nogo	O
+berai	O
+-ni	O
+
+thangtanigo	O
+.	O
+
+Koktma	O
+manma	O
+-ni	O
+
+joratwi	O
+i	O
+patimwng	O
+bai	O
+krwngjak	O
+
+Dhan	O
+Bikash	B-PER
+Tripura	I-PER
+-no	O
+Police	O
+
+rwngkha	O
+aro	O
+Raishyanokthai	O
+PS	O
+
+daiyo	O
+twbwiywi	O
+phaika	O
+.	O
+
+Koktmago	O
+ibobo	O
+sagwi	O
+majak	O
+-	O
+
+kha	O
+,	O
+Dhan	O
+Bikash	B-PER
+Tripura	I-PER
+jora	O
+
+kalokma	O
+phekjaknai	O
+mandwi	O
+bai	O
+
+kubuljak	O
+,	O
+kobor	O
+sluk-slak	O
+cherai	O
+.	O
+
+Tannaibai	O
+tanjaknai	O
+jaiti-masase	O
+
+kaliywk	O
+hinoi	O
+koktma	O
+.	O
+
+Dhan	O
+Bikash	O
+
+Tripura	B-LOC
+twmwi	O
+ibotwikhlai	O
+bok	O
+-no	O
+
+tanoi	O
+buthaka	O
+,	O
+police	O
+-rok	O
+ibono	O
+
+naitrugwi	O
+tongo	O
+hinoi	O
+koktma	O
+.	O
+
+Tabok	O
+i	O
+patimwngno	O
+lagwi	O
+bari	O
+-	O
+
+khlai	O
+uanalaijak	O
+amchaini	O
+lukurok	O
+.	O
+
+24	O
+Oct	O
+.	O
+
+Haste	O
+Gnangoi	O
+Palaijaknai	O
+
+TSB-ni	O
+Uainoichitham	O
+Songchama	O
+Sal	O
+
+Agartala	B-LOC
+:	O
+
+Kokmalama	O
+,	O
+22	B-MISC
+October	I-MISC
+2022	I-MISC
+:	O
+
+phainai	O
+24	O
+Oct	O
+.	O
+
+salmarigo	O
+Tripura	B-LOC
+
+Swrwngnai	O
+Buthuni	O
+uainochitham	O
+
+(	O
+23	O
+)	O
+songchama	O
+sal	O
+palaijaknai	O
+
+Tripura	B-LOC
+haste	O
+gnangoi	O
+.	O
+
+O	O
+salno	O
+borom	O
+rogoi	O
+hohom	O
+-	O
+
+dodomni	O
+bisingtwi	O
+palainani	O
+
+thangoi	O
+tongwk	O
+TSB	O
+Longtrai	O
+
+Valley	B-ORG
+Divisional	I-ORG
+Committee	I-ORG
+.	O
+
+Longtrai	O
+Valley	O
+ni	O
+Govt	O
+.	O
+
+Degree	O
+
+College	B-ORG
+-ni	O
+Conference	O
+daiyo	O
+.	O
+
+Central	O
+Organizing	O
+Secretary	O
+Charu	O
+
+Kumar	B-PER
+Tripura	I-PER
+,	O
+Hakutoisa	O
+Moyalni	O
+
+Pomang	O
+Burba	O
+Mohan	B-PER
+Tripura	I-PER
+,	O
+
+Chawmanu	O
+amchaini	O
+hoda	O
+-ni	O
+
+samwng	O
+khlainai	O
+Rupa	O
+Mohan	B-PER
+
+Tripura	B-LOC
+bai	O
+Mantrijoy	B-PER
+Tripura	I-PER
+,	O
+
+UTYA	O
+Central	O
+twiphang	O
+Nabaratna	O
+
+Tripura	B-LOC
+,	O
+twiphang-yakchu	O
+Kanchan	O
+
+Tripura	B-LOC
+,	O
+
+tangphang-yakchu	O
+
+Binanda	B-PER
+Tripura	I-PER
+,	O
+TSB	O
+Central	O
+tang	O
+-	O
+
+phang-yakchu	O
+Ratanlal	B-PER
+Tripura	I-PER
+,	O
+
+TSB	O
+LTV	O
+Divisional	O
+President	O
+Hari	O
+
+Pada	O
+Tripura	O
+,	O
+TSB	O
+LTV	O
+College	O
+
+Committee	B-ORG
+-ni	O
+twiphang	O
+Satyajit	O
+
+Tripura	B-LOC
+song	O
+panago	O
+naruai	O
+ongoi	O
+
+phaiywi	O
+majaknai	O
+.	O
+
+Bini	O
+badebo	O
+TSB	O
+Gondatwisa	O
+
+Divisional	O
+
+Committee	B-ORG
+
+Gondatwisa	O
+Govt	O
+.	O
+
+Degree	B-ORG
+College	I-ORG
+
+Committee	B-ORG
+thaincha	O
+khlai	O
+i	O
+salno	O
+
+hohom-dodomkhlai	O
+palaijaknai	O
+
+Gondatwisa	B-ORG
+Class	I-ORG
+XII	I-ORG
+School	I-ORG
+-ni	O
+
+Cultural	O
+Hall	O
+daiyo	O
+.	O
+
+Takhlai	O
+bisigo	O
+
+Madhyamik	O
+
+Kuchuk	O
+
+Madhyamik	O
+amjokmwngo	O
+pass	O
+
+ongjakroknobo	O
+borom	O
+rogoi	O
+
+lamjojaknai	O
+i	O
+panago	O
+.	O
+
+I	O
+panano	O
+chengywi	O
+ronai	O
+Tripura	B-LOC
+
+dopha	O
+-ni	O
+Naran	O
+Birendra	B-PER
+Tripura	I-PER
+.	O
+
+Phaiywi	O
+majaknai	O
+kacham	O
+MLA	O
+
+ebakhlai	O
+TSB	O
+Advisory	O
+Commi	O
+-	O
+
+tteeni	O
+achokphang	O
+Dhananjoy	O
+
+Tripura	B-LOC
+.	O
+
+TSB	O
+Central	O
+tangphang	O
+
+Samir	B-PER
+Tripura	I-PER
+,	O
+TCB	O
+Gondatwisa	O
+
+Moyal	B-ORG
+Committee	I-ORG
+-ni	O
+twiphang	O
+
+Ramjoy	B-PER
+Tripura	I-PER
+,	O
+Tripura	B-LOC
+Writers	O
+’	O
+
+Forumni	O
+Central	O
+tang-phang	O
+Tayel	O
+
+Tripura	B-LOC
+,	O
+Gondatwisa	O
+Moyalni	O
+
+Pomang	O
+Saral	O
+Mohan	B-PER
+Tripura	I-PER
+,	O
+
+Raishyanokthaini	O
+Pomang	O
+Man	O
+
+Mohan	B-PER
+Tripura	I-PER
+,	O
+Tripura	B-LOC
+Brwi	O
+Buthu	O
+
+Gondatwisa	O
+Moyalni	O
+twiphang	O
+
+Satyarani	O
+
+Tripura	B-LOC
+,	O
+
+Tripura	B-LOC
+
+Employee	B-ORG
+Association	I-ORG
+Gondatwisa	O
+
+Agartala	B-LOC
+:	O
+
+Kokmalama	O
+,	O
+20	B-MISC
+October	I-MISC
+2022	I-MISC
+:	O
+
+Gujarat	B-LOC
+hastego	O
+songchajak	O
+’	O
+36th	O
+
+National	O
+Games	O
+'	O
+daiyo	O
+
+Tripura	B-LOC
+hasteni	O
+ongoi	O
+thwng	O
+-ni	O
+
+thangnai	O
+boxer	O
+Karan	O
+Rupini	O
+
+Bronze	O
+medal	O
+manoi	O
+Tripura	B-LOC
+
+hasteni	O
+makhangno	O
+kwchwng	O
+
+khlaika	O
+.	O
+
+Ibo	O
+simingya	O
+,	O
+hasteni	O
+
+Tiprasarokni	O
+
+makhangnobo	O
+
+kwchwng	O
+khlaika	O
+Karan	O
+Rupini	O
+.	O
+
+Karan	O
+Rupinini	O
+para	O
+ongkha	O
+
+Teliamura	B-LOC
+-ni	O
+Tarachand	O
+Parago	O
+.	O
+
+Bo	B-PER
+Tripura	I-PER
+hastego	O
+phaiywi	O
+
+sopaimani	O
+olo	O
+bono	O
+lamjoklaikha	O
+
+Agartalni	O
+Maharaja	B-PER
+Bir	I-PER
+Bikram	I-PER
+
+Airport	O
+daiyo	O
+.	O
+
+Iboni	O
+olo	O
+TTAADC	B-ORG
+
+Haphangni	O
+Sports	O
+&	O
+Youth	O
+Affairs	O
+
+bedekni	O
+bwkhaktwikhlai	O
+National	O
+
+Boxer	O
+Karan	O
+Rupinino	O
+khung	O
+buthu	O
+
+aro	O
+rimai	O
+baikhlai	O
+lamjogoi	O
+borom	O
+
+rokha	O
+.	O
+
+I	O
+borom	O
+roma	O
+panago	O
+
+TTAADC-ni	B-ORG
+EM	O
+Chittaranjan	O
+
+Debbarma	O
+,	O
+Suhel	B-PER
+Debbarma	I-PER
+,	O
+CEO	O
+
+K	B-PER
+Jamatia	I-PER
+,	O
+IAS	O
+,	O
+kacham	O
+EM	O
+
+Chandra	O
+
+Rupini	O
+,	O
+
+habaphang	O
+song	O
+phaiywi	O
+majakkha	O
+.	O
+
+Moyalni	O
+twiphang	O
+Sudra	O
+Mohan	B-PER
+
+Tripura	B-LOC
+,	O
+UTYA	O
+Gondatwisa	O
+
+Moyalni	O
+twiphang	O
+Kharanjoy	O
+
+Tripura	B-LOC
+,	O
+Gondatwisa	O
+Class	O
+XII	O
+
+School	B-ORG
+-ni	O
+Asst	O
+.	O
+
+HM	O
+Khajendra	O
+
+Tripura	B-LOC
+,	O
+TSB	O
+Central	O
+Cultural	O
+
+Secretary	O
+Karim	B-PER
+Tripura	I-PER
+song	O
+.	O
+
+Panani	O
+achokphang	O
+ongoi	O
+achoknai	O
+
+TSB	B-ORG
+Gondatwisa	I-ORG
+College	I-ORG
+Unitni	O
+
+twiphang	O
+Natinjoy	B-PER
+Tripura	I-PER
+.	O
+
+I	O
+koktmano	O
+sakokha	O
+TSB	O
+
+Gondatwisa	O
+Unitni	O
+twiphang	O
+
+Natinjoy	B-PER
+Tripura	I-PER
+aro	O
+tangphang	O
+
+Rupa	O
+Mohan	B-PER
+Tripura	I-PER
+.	O
+
+TSB	O
+Udaipur	B-LOC
+-ni	O
+Netaji	O
+Subhas	O
+
+Mahavidyalaya	O
+Committeebo	O
+i	O
+
+salno	O
+hohom-dodomkhlai	O
+palainani	O
+
+samwng-homwng	O
+jugalgwi	O
+tongwk	O
+
+hinoi	O
+koktma	O
+sakokha	O
+TSB	O
+NSM	O
+
+College	B-ORG
+Committee	I-ORG
+-ni	O
+twiphang	O
+
+Jensha	B-PER
+Tripura	I-PER
+bai	O
+tangphang	O
+Bipen	O
+
+Tripura	B-LOC
+.	O
+
+Sani	O
+thangklai	O
+i	O
+salno	O
+
+borom	O
+rogoi	O
+haste	O
+gnangoi	O
+hohom	O
+-	O
+
+dodomkhlai	O
+khatong-khajagwi	O
+
+palainani	O
+thangoi	O
+tongo	O
+Tripura	B-LOC
+
+dopha	O
+-ni	O
+srwngnairokni	O
+motha	O
+
+Tripura	B-LOC
+swrwngnai	O
+Buthu	O
+.	O
+
+Agartala	B-LOC
+:	O
+
+Kokmalama	O
+,	O
+21	B-MISC
+October	I-MISC
+2022	I-MISC
+:	O
+
+haste	O
+bai	O
+chongjak	O
+MDC	O
+Bidyut	O
+
+Debbarma	O
+BJP	O
+bodolgo	O
+yapri	O
+
+rokha	O
+.	O
+
+Agartala	B-LOC
+-ni	O
+Rabindra	O
+Bhawan	O
+
+daiyo	O
+songchajak	O
+BJP	O
+bodol	O
+-ni	O
+
+kokchaplaima	O
+panago	O
+hasteni	O
+
+montriokra	O
+Dr	O
+.	O
+
+Manik	B-PER
+Saha	I-PER
+,	O
+
+montriokra-yakchu	O
+Jishnu	O
+Deb	O
+-	O
+
+barma	O
+,	O
+kacham	O
+montriokra	O
+Biplab	O
+
+Kumar	O
+Deb	O
+,	O
+BJP	O
+Tripura	B-PER
+haste	O
+
+twiphang	O
+rajib	O
+Bhattacharjeeni	O
+yak	O
+
+rwngwi	O
+BJP	O
+bodol	O
+-ni	O
+bana	O
+rwngkha	O
+
+MDC	O
+Bidyut	B-PER
+Debbarma	I-PER
+.	O
+
+BJP	O
+Bodolgo	O
+MDC	O
+Bidyut	B-PER
+Debbarma	I-PER
+
+23	O
+Oct	O
+.	O
+
+Tripura	B-LOC
+Writers	O
+’	O
+
+Forumni	O
+Kokchaplaima	O
+Pana	O
+
+Agartala	B-LOC
+:	O
+
+Kokmalama	O
+,	O
+22	B-MISC
+October	I-MISC
+2022	I-MISC
+:	O
+
+phainai	O
+23	O
+October	O
+salgo	O
+Agartala	B-LOC
+
+Krishnanagargo	O
+phurungni	O
+10	O
+:	O
+30	O
+
+AM	O
+jorago	O
+Tripura	O
+Writers	O
+’	O
+Forum	O
+,	O
+
+Central	B-ORG
+Committee	I-ORG
+-ni	O
+kaisa	O
+
+kokchaplaima	O
+pana	O
+songchajaknai	O
+.	O
+
+I	O
+panago	O
+Forum	O
+bai	O
+krwngjak	O
+
+chorok	O
+adongrokno	O
+khamkano	O
+
+phaiywi	O
+majakni	O
+bagoi	O
+kha	O
+-bai	O
+
+khukbai	O
+haido	O
+klaika	O
+Forumni	O
+
+twiphang	O
+Dharinjoy	B-PER
+Tripura	I-PER
+.	O
+
+Saklaimwng	O
+
+Thangnai	O
+13	O
+Dec	O
+.	O
+
+2020	O
+-ni	O
+siming	O
+Tripura	B-LOC
+kok	O
+aro	O
+kokarabaino	O
+
+mwthangoi	O
+larwknani	O
+uansogoi	O
+‘	O
+Kokmalama	O
+’	O
+koktmablai	O
+
+karejakni	O
+chengo	O
+.	O
+
+I	O
+koktma	O
+blaini	O
+RNI	O
+Title	O
+Code	O
+gosemwng	O
+
+manma	O
+-ni	O
+bai	O
+katal	O
+bwmwng	O
+ongsinai	O
+‘	O
+HANI	O
+KOKMALAMA	O
+’	O
+.	O
+
+I	O
+bwmwng	O
+bai	O
+phainai	O
+talni	O
+siming	O
+karejaksinai	O
+.	O
+
+Kokmithingnai	O
+
+Year	O
+.	O
+
+02	O
+,	O
+No	O
+.	O
+
+45	O
+,	O
+23	B-MISC
+October	I-MISC
+2022	I-MISC
+AD	O
+,	O
+Sunday	O
+,	O
+Sasal	O
+,	O
+Khumulwng	B-LOC
+,	O
+Tripura	B-LOC
+,	O
+India	B-LOC
+/	O
+2	O
+(	O
+Noi	O
+)	O
+
+Tiprasa	O
+
+10323-ni	O
+Korego	O
+Bwchagwi	O
+Hagarani	O
+Chakrakuk	O
+
+Lawyer	O
+Kapil	O
+Sibal	O
+bai	O
+Malaikha	O
+Bobagra	O
+
+Agartala	B-LOC
+:	O
+
+Kokmalama	O
+,	O
+22	B-MISC
+October	I-MISC
+2022	I-MISC
+:	O
+
+Zango	O
+Boys	O
+Tripura	O
+aro	O
+MD	O
+
+Productiion	O
+bai	O
+snamjak	O
+muksuma	O
+
+‘	O
+Tiprasa	O
+’	O
+ni	O
+trailer	O
+karejakkha	O
+
+thangnai	O
+19	O
+October	O
+salmarigo	O
+.	O
+
+Trailer	O
+baino	O
+sagwi	O
+majakkha	O
+,	O
+
+politics	O
+-ni	O
+bwmwngoi	O
+tongkosong	O
+
+tongnai	O
+Tiprasarokno	O
+banegwi	O
+
+kusugwi	O
+
+baithang	O
+
+hamkrai	O
+
+ongmani	O
+aro	O
+sak	O
+-bai	O
+sak	O
+nailaimaya	O
+
+onglaimani	O
+.	O
+
+Ibobai	O
+hachwk-para	O
+
+amchaiyo	O
+tongkosong	O
+tongnai	O
+
+Tiprasarokni	O
+langma	O
+mwnak	O
+ongo	O
+.	O
+
+Ibono	O
+sijak-nujak	O
+chakli-sikla	O
+
+Tiprasarok	O
+thainchakhlai	O
+khorang	O
+
+tisagwi	O
+akhomani	O
+aro	O
+dopha	O
+-ni	O
+pohr	O
+
+phunumani	O
+.	O
+
+I	O
+kokbomano	O
+lagwino	O
+
+snamjakkhna	O
+i	O
+muksuma	O
+.	O
+
+I	O
+muksumani	O
+director	O
+aro	O
+
+screenplay	O
+ronai	O
+ongkha	O
+Sarat	O
+
+Reang	O
+.	O
+
+Casting	O
+khlainai	O
+-rok	O
+ongkha	O
+
+James	O
+WC	O
+Meetei	O
+bai	O
+Biva	O
+
+Jamatia	O
+.	O
+
+Muksumani	O
+kothoma	O
+
+suinai	O
+ongkha	O
+James	O
+WC	O
+Meetei	O
+.	O
+
+Producer	O
+ebakhlai	O
+rangchubanai	O
+
+ongkha	O
+Subrata	B-PER
+Tripura	I-PER
+.	O
+
+DOP	O
+aro	O
+
+Editing	O
+khlaika	O
+Manjit	B-PER
+Debbarma	I-PER
+.	O
+
+Asst	O
+.	O
+
+Director	O
+ongkha	O
+CZX	O
+Manoj	O
+
+Debbarma	O
+,	O
+Art	O
+Director	O
+ongkha	O
+
+Alex	O
+Chorei	O
+aro	O
+Production	O
+
+Managerr	O
+ongkha	O
+Tribidh	B-PER
+Chakma	I-PER
+.	O
+
+I	O
+muksuma	O
+phainai	O
+3rd	O
+December	O
+
+salmarigo	O
+karejaknai	O
+hinoi	O
+koktma	O
+.	O
+
+New	B-LOC
+Delhi	I-LOC
+:	O
+
+Kokmalama	O
+,	O
+20	O
+October	O
+
+2022	O
+:	O
+Tripura	B-LOC
+hasteni	O
+10323	O
+sebok	O
+
+kmajakjak	O
+phrwngnairokni	O
+kok	O
+-	O
+
+boma	O
+tabok	O
+bana	O
+Tripura	B-LOC
+hasteni	O
+
+simingya	O
+,	O
+hagaranibo	O
+kaisa	O
+kok	O
+-	O
+
+boma	O
+ongoi	O
+khurchajagoi	O
+tongo	O
+.	O
+
+10323	O
+no	O
+lagwi	O
+hastego	O
+
+barikhlai	O
+politics	O
+thwngmani	O
+
+nujagoi	O
+tongwk	O
+.	O
+
+Jani	O
+je	O
+pharitwi	O
+
+salaiywi	O
+.	O
+
+Mator	O
+i	O
+sebok	O
+kmajak	O
+
+phrwngnairokni	O
+korego	O
+bachagoi	O
+
+kok	O
+sanai	O
+kaisabo	O
+krwi	O
+.	O
+
+10323ni	O
+
+nukhungni	O
+borokrok	O
+braikhlai	O
+
+dukho-birman	O
+manoi	O
+tonglai	O
+ibono	O
+
+lagwi	O
+kaisa	O
+-ni	O
+khorok	O
+mitingjaknai	O
+
+krwi	O
+.	O
+
+Haphangni	O
+daiyo	O
+khorang	O
+
+tisagwi	O
+sebok	O
+phirokrodi	O
+hinoi	O
+
+lamago	O
+akhokhlaibo	O
+naimwthang	O
+-	O
+
+rok	O
+bai	O
+bu-tok	O
+,	O
+hanang-penang	O
+
+khlaijago	O
+,	O
+choprojago	O
+.	O
+
+Ibotwi	O
+jwngjalni	O
+
+jorago	O
+
+10323ni	O
+korego	O
+bwchanani	O
+yapri	O
+
+seka	O
+hani	O
+bobagra	O
+Pradyot	O
+Kishore	O
+
+Manikya	O
+.	O
+
+10323	O
+ni	O
+kwbwi	O
+justice	O
+
+ronai	O
+hinoi	O
+kokromanitwi	O
+thangnai	O
+
+talkisa	O
+sakangobo	O
+Delhigo	O
+hagarani	O
+
+kerongkrwng	O
+rok	O
+bai	O
+malaiywi	O
+
+kokmalama	O
+onglaikha	O
+bobagra	O
+.	O
+
+Kerong	O
+raida	O
+-ni	O
+bisingtwi	O
+justice	O
+
+ronani	O
+bagoi	O
+tinibo	O
+arouaisa	O
+
+Delhigo	O
+10323	O
+sebok	O
+kmajakrokno	O
+
+lagwi	O
+kokmalama	O
+onglaikha	O
+
+hagarani	O
+Chakrakuk	O
+kerongkrwng	O
+
+Lawyer	O
+Kapil	O
+Sibal	O
+bai	O
+bobagra	O
+
+Pradyot	O
+Kishore	O
+Manikya	O
+.	O
+
+Diwali	O
+Ter	B-MISC
+
+Rwgwi	O
+
+TTAADC-ni	B-ORG
+
+Khagam	O
+
+Yapharmwng	O
+
+Khumulwng	B-LOC
+:	O
+
+Kokmalama	O
+,	O
+21	B-MISC
+October	I-MISC
+2022	I-MISC
+:	O
+
+TTAADC	B-ORG
+haphangni	O
+AARC-ni	O
+
+achokphang	O
+bobagra	O
+Pradyot	O
+
+Kishore	O
+Manikya	O
+Diwali	O
+Ter	B-MISC
+
+ebakhlai	O
+Barimatai	O
+ter	O
+-no	O
+hasteni	O
+
+lukurokno	O
+khagam	O
+aro	O
+hambai	O
+
+yapharka	O
+.	O
+
+O	O
+ter	O
+-ni	O
+bisingtwi	O
+
+khorokcha	O
+bai	O
+khorokcha	O
+kathalai	O
+-	O
+
+mani	O
+bangnai	O
+.	O
+
+Diwali	O
+ter	O
+rwgwi	O
+TTAADC-ni	B-ORG
+
+achokphang	O
+Jagadish	B-PER
+Debbarma	I-PER
+
+hasteni	O
+
+lukurokno	O
+
+hambai	O
+
+yapharka	O
+.	O
+
+O	O
+ter	O
+ongkha	O
+pohrni	O
+ter	O
+
+hinoibo	O
+saka	O
+.	O
+
+O	O
+pohr	O
+haiklaino	O
+
+hasteni	O
+sirisitini	O
+kathalaimabo	O
+
+raknai	O
+hinoi	O
+saka	O
+.	O
+
+Diwali	O
+Ter	O
+rwgwi	O
+TTAADC-ni	B-ORG
+
+Chief	O
+Executive	O
+Member	O
+Purna	O
+
+Chandra	B-PER
+Jamatia	I-PER
+bobo	O
+hasteni	O
+
+chorok	O
+lukurokno	O
+khagam	O
+aro	O
+
+hamjakma	O
+yapharka	O
+aro	O
+lukurokni	O
+
+tongkachang	O
+,	O
+hamari	O
+-ni	O
+bagoi	O
+usrika	O
+
+TTAADC-ni	B-ORG
+VC	O
+Election	O
+Leromanino	O
+Khorang	O
+Tisagoi	O
+
+Chorok	O
+BDO-ni	O
+Daiyo	O
+Deputation	O
+Rokha	O
+Tipra	O
+Motha	O
+
+Agartala	B-LOC
+:	O
+
+Kokmalama	O
+,	O
+19	B-MISC
+October	I-MISC
+2022	I-MISC
+:	O
+
+Tripura	B-LOC
+High	O
+Court	O
+bai	O
+saklai	O
+-	O
+
+jakmanitwi	O
+November	O
+talni	O
+bisingo	O
+
+TAADCni	B-ORG
+Village	I-ORG
+Council	I-ORG
+chong	O
+-	O
+
+bari	O
+paisokni	O
+nangnai	O
+hinoi	O
+.	O
+
+Mator	O
+,	O
+
+haste	O
+haphang	O
+kabangma	O
+kebeng	O
+-	O
+
+mwng	O
+phunugoi	O
+chongbari	O
+ongnani	O
+
+kok	O
+tongmani	O
+-no	O
+ongroliya	O
+.	O
+
+Haste	O
+haphangni	O
+i	O
+raidano	O
+
+khorang	O
+tisaka	O
+Tipra	O
+Motha	O
+.	O
+
+bagoi	O
+bobagra	O
+Pradyot	O
+Kishore	O
+
+Manikyni	O
+social	O
+mediago	O
+“	O
+19th	O
+
+Oct	O
+,	O
+TIPRA	O
+Warriors	O
+across	O
+the	O
+
+state	O
+shall	O
+be	O
+carrying	O
+out	O
+a	O
+Protest	O
+
+Rally	O
+and	O
+Mass	O
+Deputation	O
+against	O
+
+the	O
+wrongful	O
+delay	O
+in	O
+Village	O
+
+Committee	B-ORG
+Elections	O
+at	O
+all	O
+the	O
+BDO	O
+
+Offices	O
+of	O
+the	O
+state	O
+.	O
+
+And	O
+shall	O
+also	O
+
+submit	O
+a	O
+Common	O
+Memorandum	O
+to	O
+
+all	O
+the	O
+respective	O
+BDOs	O
+,	O
+that	O
+shall	O
+
+be	O
+addressed	O
+to	O
+the	O
+Hon	O
+’	O
+ble	O
+
+Governor	O
+of	O
+Tripura	B-LOC
+”	O
+ibotwikhlai	O
+
+saklaimwng	O
+bai	O
+lukukuthungmwng	O
+-	O
+
+ni	O
+bisingtwi	O
+hasteni	O
+chorok	O
+RD	O
+
+Block	O
+daiyo	O
+deputation	O
+rogoi	O
+BDO	O
+-	O
+
+yaktwikhlai	O
+
+hastephano	O
+
+memorandum	O
+blai	O
+yapharlaikha	O
+
+Tipra	O
+Motha	O
+.	O
+
+Gondatwisa	O
+:	O
+Gondatwisani	O
+
+Tipra	O
+Mothabo	O
+kaisa	O
+kuthunglai	O
+-	O
+
+mwng	O
+himbotokni	O
+bisingtwi	O
+
+Dumbur	O
+Nagar	O
+RD	O
+Block	O
+daiyo	O
+
+deputation	O
+rogoi	O
+hastephano	O
+
+memorandum	O
+holaika	O
+.	O
+
+Iro	O
+kacham	O
+
+MLA	O
+Dhananjoy	B-PER
+Tripura	I-PER
+,	O
+EM	O
+
+Rajesh	B-PER
+Tripura	I-PER
+,	O
+YTF	O
+Working	O
+
+President	O
+Pitor	B-PER
+Dayung	I-PER
+Debbarma	I-PER
+,	O
+
+Pritam	B-PER
+Debbarma	I-PER
+song	O
+.	O
+
+Jolaibari	O
+:	O
+o	O
+salgo	O
+hasteni	O
+
+chorok	O
+amchai	O
+bai	O
+baksa	O
+Jolaibari	O
+
+D	O
+Blockni	O
+Tipra	O
+Mothabo	O
+BDO	O
+-	O
+
+ni	O
+daiyo	O
+deputation	O
+rogoi	O
+memo	O
+-	O
+
+randum	O
+blai	O
+yapharka	O
+.	O
+
+O	O
+salgo	O
+
+Jolaibari	O
+Sakgamni	O
+siming	O
+khatong	O
+-	O
+
+khajakhlai	O
+himbotokni	O
+bisingtwi	O
+
+Jolaibari	O
+RD	O
+Blockgo	O
+sopaiywi	O
+
+himbotok	O
+mwthakjago	O
+.	O
+
+Khoroksni	O
+
+adong	O
+-ni	O
+kaisa	O
+adong	O
+Blockgo	O
+
+halaika	O
+.	O
+
+BDO	O
+koroi	O
+-ni	O
+bagoi	O
+
+Additional	O
+BDO	O
+Sujit	O
+Dasni	O
+daiyo	O
+
+khatong-khajani	O
+
+bisingtwi	O
+
+kokmalama	O
+salaiywi	O
+memorandum	O
+
+yapharlaikha	O
+.	O
+
+Iro	O
+phaiywi	O
+majakkha	O
+Tipra	O
+
+Mothani	O
+Karbook	O
+Political	O
+District	O
+
+President	O
+Punilal	B-PER
+Tripura	I-PER
+,	O
+Block	O
+
+President	O
+Haramujumder	B-PER
+Tripura	I-PER
+,	O
+
+YTF	O
+President	O
+Mahi	O
+Charan	O
+
+Tripura	B-LOC
+,	O
+Vice-President	O
+Narayan	O
+
+Reang	O
+,	O
+South	O
+Hichachorani	O
+Vice	O
+-	O
+
+Chairman	O
+Bidhan	B-PER
+Tripura	I-PER
+,	O
+Sub	O
+-	O
+
+Zonalni	O
+achokphang	O
+Balison	O
+
+Tripura	B-LOC
+,	O
+aro	O
+TWF-ni	O
+Working	O
+
+President	O
+Sabita	O
+Mog	O
+.	O
+
+Bobagra	O
+‘	O
+Thwika	O
+Thwika	O
+’	O
+Hinmanino	O
+
+Sejagoi	O
+Khorang	O
+Tisaka	O
+,	O
+CTH	O
+
+Agartala	B-LOC
+:	O
+
+Kokmalama	O
+,	O
+22	B-MISC
+October	I-MISC
+2022	I-MISC
+:	O
+
+Agartala	B-LOC
+-ni	O
+Krishnanagargo	O
+Naran	O
+
+Birendra	O
+Tripurani	O
+nogo	O
+Council	O
+of	O
+
+Tiprasa	O
+Hoda	O
+-ni	O
+kaisa	O
+kokmalama	O
+
+pana	O
+salaijakkha	O
+.	O
+
+Pana	O
+paiywi	O
+CTH	O
+
+koktmathungnai	O
+pana	O
+ringywi	O
+saka	O
+,	O
+
+salkisa	O
+sakango	O
+kaisa	O
+political	O
+
+bodol	O
+-ni	O
+phaichingtwi	O
+hani	O
+bobagra	O
+-	O
+
+no	O
+‘	O
+thwika	O
+thwika	O
+’	O
+hinoi	O
+theranmani	O
+
+no	O
+sejakha	O
+CTH	O
+.	O
+
+Politicalni	O
+
+bwmwngoi	O
+hani	O
+bobagrano	O
+ibotwi	O
+-	O
+
+khlai	O
+samani	O
+hinmani	O
+bari	O
+chaiya	O
+.	O
+
+Ibo	O
+badebo	O
+salkisa	O
+sakango	O
+
+Ompigo	O
+kainoi	O
+political	O
+bodol	O
+-ni	O
+
+patimwngo	O
+lagwi	O
+Molsom-Reang	O
+
+hinoi	O
+patimwng	O
+onglaimanino	O
+
+selengmwng	O
+phunuka	O
+CTH	O
+.	O
+
+TTAADC	B-ORG
+haphang	O
+bai	O
+sebok	O
+
+tlangjakthanigo	O
+kaisa	O
+community	O
+-ni	O
+
+borokno	O
+romanino	O
+sejakha	O
+CTH	O
+.	O
+
+Merit	O
+cum	O
+needy	O
+khlai	O
+sebok	O
+roni	O
+
+ongthwk	O
+hinoi	O
+khorang	O
+tisaka	O
+CTH	O
+.	O
+
+Hasteni	O
+Tiprasa	O
+dopharokno	O
+jega	O
+
+ronani	O
+yapri	O
+semani	O
+bagoi	O
+bobagra	O
+
+aro	O
+TTAADC	B-ORG
+haphangno	O
+hambai	O
+
+yapharka	O
+CTH	O
+.	O

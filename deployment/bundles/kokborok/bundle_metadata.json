@@ -1,0 +1,36 @@
+{
+  "language": "kokborok",
+  "bundle_version": "v1",
+  "created_at": "2026-09-25T09:53:39.859994+00:00",
+  "status": "VERIFIED_COMPATIBLE",
+  "artifacts": {
+    "model": {
+      "filename": "model.pt",
+      "original_source": "checkpoints\\final_kokborok.pt",
+      "sha256": "4858a64eda5bb554e55ffb74c1b515f4415937b1198aa69d38813d96d1b1fab3",
+      "word_vocab_size": 95291,
+      "char_vocab_size": 13022,
+      "word_embedding_dim": 100,
+      "char_embedding_dim": 50,
+      "num_languages": 4,
+      "crf_config": "per_language"
+    },
+    "config": {
+      "filename": "config.yaml",
+      "original_source": "configs\\final_kokborok.yaml",
+      "sha256": "496a565ef629d562186f306bdb4f7642106ef5356ff197b01c9ad087a81de003"
+    },
+    "word_vocab": {
+      "filename": "word_vocab.json",
+      "original_source": "data\\processed\\multilingual_4lang\\word_vocab.json",
+      "sha256": "29f6fb43245ccb5782d8d7635dc3877d3f510c4c76ac7ae5fe0fa3a923955788",
+      "vocab_size": 95291
+    },
+    "char_vocab": {
+      "filename": "char_vocab.json",
+      "original_source": "data\\processed\\multilingual_4lang\\char_vocab.json",
+      "sha256": "94c2b909cc9db704293f0c74ecf6909de5af4bef1e1c15b780c6b208c4f5895a",
+      "vocab_size": 13022
+    }
+  }
+}

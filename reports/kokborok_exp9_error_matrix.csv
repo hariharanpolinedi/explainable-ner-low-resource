@@ -1,0 +1,3 @@
+sentence_index,error_type,entity_span,predicted_type,gold_type,local_context,error_category,full_sentence
+7,FP,agartala,LOC,O,Norok ICEU agartala ni advance Christmas,possible annotation issue (unannotated lowercase toponym in gold),Norok ICEU agartala ni advance Christmas ni swkang pairwikha chanai
+103,FP,agartala,LOC,O,phai jak already agartala o now,possible annotation issue (unannotated lowercase toponym in gold),Em Mam chung phai jak already agartala o now

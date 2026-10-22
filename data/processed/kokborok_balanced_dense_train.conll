@@ -1,0 +1,12722 @@
+Nini	O
+sakham	O
+khe	O
+tongnani	O
+biyamni	O
+lama	O
+tamo	O
+?	O
+
+Phaidi	O
+kaisa	O
+kwcham	O
+khwnathok	O
+rwchapmungni	O
+bwtang	O
+swnamlai	O
+anw	O
+.	O
+
+Kokborok	B-ORG
+Language	I-ORG
+Division	I-ORG
+ni	O
+bisingtwi	O
+Birendra	B-PER
+Kishore	I-PER
+kok	O
+sahikha	O
+.	O
+
+Ani	O
+operating	O
+system	O
+ni	O
+notes	O
+bo	O
+borojani	O
+tongjak	O
+kha	O
+
+Bir	B-PER
+Bikram	I-PER
+TTAADC	B-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Tripura	B-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+TIT	B-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Bohrokni	O
+khoroknwi	O
+bwsa	O
+chwla	O
+wngjakha	O
+,	O
+Rajiv	B-PER
+tei	O
+Sanjay	B-PER
+.	O
+
+Longthorai	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Ani	O
+house	O
+owner	O
+cannot	O
+do	O
+anything	O
+
+Ang	O
+party	O
+bai	O
+khe	O
+kurwi	O
+please	O
+chaya	O
+swijak	O
+tong	O
+khe	O
+please	O
+ano	O
+nakardi	O
+
+Tini	O
+hair	O
+cut	O
+makhai	O
+nai	O
+its	O
+getting	O
+longer	O
+and	O
+longer	O
+day	O
+by	O
+day	O
+
+Tini	O
+le	O
+ang	O
+wait	O
+khaimai	O
+ya	O
+do	O
+you	O
+have	O
+to	O
+come	O
+alone	O
+
+Rajiv	B-PER
+Supreme	B-ORG
+Court	I-ORG
+o	O
+kam	O
+khlaio	O
+.	O
+
+Jotono	O
+injure	O
+ongjak	O
+it	O
+will	O
+take	O
+time	O
+to	O
+cure	O
+him	O
+
+Galo	B-PER
+Kokborok	B-ORG
+Tei	I-ORG
+Hukumu	I-ORG
+Mission	I-ORG
+o	O
+kam	O
+khlaio	O
+.	O
+
+Nwng	O
+waisa	O
+phano	O
+cake	O
+swnamwi	O
+da	O
+naikha	O
+?	O
+
+Tripuri	B-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Borok	B-ORG
+Peoples	I-ORG
+Council	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Change	O
+the	O
+topic	O
+ang	O
+chajak	O
+ya	O
+abo	O
+topics	O
+discussion	O
+
+Kaitor	O
+bini	O
+disciples	O
+rok	O
+no	O
+hamjako	O
+
+Kokborok	B-MISC
+Day	I-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+try	O
+khai	O
+di	O
+to	O
+prove	O
+them	O
+that	O
+you	O
+are	O
+telling	O
+the	O
+truth	O
+
+I	O
+am	O
+sending	O
+those	O
+answer	O
+which	O
+are	O
+not	O
+in	O
+books	O
+nai	O
+di	O
+and	O
+informed	O
+me	O
+
+All	B-ORG
+Tripura	I-ORG
+Indigenous	I-ORG
+Students	I-ORG
+Association	I-ORG
+ni	O
+kotorma	O
+nok	O
+Tripura	B-LOC
+o	O
+tongo	O
+.	O
+
+Question	O
+nuk	O
+khano	O
+I	O
+got	O
+angry	O
+
+Abo	O
+thief	O
+ba	O
+chini	O
+borok	O
+se	O
+ble	O
+
+TIT	B-ORG
+ni	O
+kotorma	O
+nok	O
+Jampui	B-LOC
+o	O
+tongo	O
+.	O
+
+Kisa	O
+naising	O
+di	O
+scope	O
+phai	O
+nai	O
+
+Still	O
+chung	O
+manage	O
+khainai	O
+
+Indian	B-ORG
+Supreme	I-ORG
+Court	I-ORG
+Santirbazar	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+Kok	O
+khe	O
+haise	O
+chini	O
+fellowship	O
+tei	O
+GBS	O
+tonglak	O
+DTC	O
+camp	O
+ni	O
+bagwi	O
+
+Tini	O
+ani	O
+room	O
+mate	O
+accident	O
+ong	O
+pho	O
+tabuk	O
+sa	O
+ang	O
+news	O
+mayakho	O
+
+Supreme	B-ORG
+Court	I-ORG
+ni	O
+kotorma	O
+nok	O
+Dashamighat	B-LOC
+o	O
+tongo	O
+.	O
+
+Khwna	O
+sir	O
+no	O
+sanai	O
+to	O
+explain	O
+me	O
+again	O
+
+Two	O
+days	O
+ni	O
+besing	O
+o	O
+complete	O
+khai	O
+di	O
+
+Total	O
+collection	O
+bwswk	O
+phaikha	O
+
+All	B-ORG
+Tripura	I-ORG
+Indigenous	I-ORG
+Students	I-ORG
+Association	I-ORG
+ni	O
+bisingtwi	O
+Animesh	B-PER
+Debbarma	I-PER
+kok	O
+sahikha	O
+.	O
+
+Internet	O
+belaino	O
+doya	O
+wngjak	O
+tabukno	O
+.	O
+
+Bishalgarh	B-LOC
+ni	O
+borokrog	O
+Hojagiri	B-MISC
+Dance	I-MISC
+maniyo	O
+.	O
+
+last	O
+time	O
+khaiwi	O
+hingni	O
+le	O
+tai	O
+waisa	O
+khai	O
+ya	O
+ta	O
+
+Teliamura	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Phaidi	O
+kaisa	O
+lenglama	O
+salni	O
+bwtang	O
+swnam	O
+laianw	O
+mungsawk	O
+khwlaijaknaino	O
+twiwi	O
+.	O
+
+Ani	O
+emang	O
+khe	O
+to	O
+be	O
+a	O
+great	O
+leader	O
+
+Paa	O
+nokya	O
+baluk	O
+kha	O
+ble	O
+where	O
+have	O
+you	O
+being	O
+
+I	O
+don	O
+'	O
+t	O
+want	O
+to	O
+see	O
+you	O
+please	O
+ta	O
+phai	O
+di	O
+
+Phaidi	O
+kwcham	O
+manwi	O
+phalmani	O
+phalnogo	O
+thanglai	O
+anw	O
+.	O
+
+Nwng	O
+kaham	O
+kheno	O
+thukhana	O
+ble	O
+?	O
+
+Ram	B-PER
+jora	O
+kolok	O
+bagwi	O
+siring	O
+wng	O
+tongkha	O
+.	O
+
+Tripura	B-ORG
+Legislative	I-ORG
+Assembly	I-ORG
+Howrah	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+Kisa	O
+passion	O
+khai	O
+di	O
+hope	O
+he	O
+stuck	O
+on	O
+his	O
+way	O
+
+Jotono	O
+no	O
+call	O
+khai	O
+di	O
+tabuk	O
+to	O
+come	O
+in	O
+the	O
+field	O
+
+O	O
+committee	O
+song	O
+bai	O
+manlainani	O
+society	O
+ni	O
+kuno	O
+programme	O
+de	O
+tong	O
+
+Ang	O
+salbrum	O
+no	O
+wansukmani	O
+no	O
+loi	O
+khwlainani	O
+chengnani	O
+nangnai	O
+.	O
+
+Ani	O
+ama	O
+bi	O
+beni	O
+father	O
+both	O
+are	O
+brother	O
+and	O
+sister	O
+
+Sarikni	O
+diporo	O
+ani	O
+borokbai	O
+malaina	O
+tongo	O
+.	O
+
+Phaidi	O
+phainai	O
+talo	O
+beraina	O
+thanglai	O
+anw	O
+.	O
+
+Sometimes	O
+haino	O
+chawoi	O
+thang	O
+wo	O
+
+Noatia	B-PER
+tei	O
+Indira	B-PER
+Gandhi	I-PER
+Khumpui	B-LOC
+o	O
+phaikha	O
+.	O
+
+Norok	O
+busy	O
+ong	O
+tongphoro	O
+ang	O
+khe	O
+mostan	O
+gurio	O
+aphoro	O
+tah	O
+brother	O
+
+Sobo	O
+question	O
+set	O
+khai	O
+kha	O
+jani	O
+
+Feroze	B-PER
+Gandhi	I-PER
+Congress	B-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Indian	B-ORG
+Supreme	I-ORG
+Court	I-ORG
+ni	O
+kotorma	O
+nok	O
+Santirbazar	B-LOC
+o	O
+tongo	O
+.	O
+
+Biplab	B-PER
+Kumar	I-PER
+Deb	I-PER
+ni	O
+nok	O
+Dashamighat	B-LOC
+o	O
+tongo	O
+.	O
+
+Feni	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Ram	B-PER
+saimankha	O
+watwitwi	O
+thummung	O
+,	O
+watwini	O
+twino	O
+rungmani	O
+tei	O
+khatiani	O
+kaisa	O
+kwlai	O
+tei	O
+sosol	O
+lama	O
+.	O
+
+Nini	O
+judgement	O
+le	O
+tamo	O
+who	O
+is	O
+right	O
+and	O
+wrong	O
+
+Teliamura	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Bini	O
+location	O
+boro	O
+can	O
+any	O
+one	O
+tell	O
+me	O
+
+Nini	O
+room	O
+mate	O
+bo	O
+para	O
+niba	O
+
+Phaidi	O
+hachuk	O
+o	O
+himna	O
+thanglai	O
+anw	O
+o	O
+hatio	O
+.	O
+
+correction	O
+sa	O
+khaiwi	O
+pailiya	O
+tabuk	O
+phono	O
+
+Jubilee	O
+ni	O
+convener	O
+tamo	O
+sa	O
+kisa	O
+khnalai	O
+di	O
+
+Bijoy	B-PER
+Kumar	I-PER
+Hrangkhawl	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Assam	B-LOC
+ni	O
+borokrog	O
+Tripuri	B-MISC
+maniyo	O
+.	O
+
+Reang	B-PER
+ni	O
+nok	O
+Gandacherra	B-LOC
+o	O
+tongo	O
+.	O
+
+Nwng	O
+ano	O
+Computer	O
+swnamnani	O
+chubaida	O
+mano	O
+?	O
+
+Manikya	B-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Congress	B-ORG
+India	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+Chwng	O
+jolimano	O
+chorwi	O
+tonna	O
+bagwi	O
+kwbangma	O
+manwi	O
+khlaywi	O
+manu	B-LOC
+,	O
+aborok	O
+wngkha	O
+:	O
+
+Sindoor	B-MISC
+Khela	I-MISC
+Ter	I-MISC
+Agartalao	B-LOC
+bo	O
+thongthokthok	O
+khe	O
+palailaikha	O
+.	O
+
+Ram	B-PER
+muani	O
+chajakma	O
+hai	O
+wngwi	O
+thangkha	O
+.	O
+
+Today	O
+special	O
+curry	O
+with	O
+pon	O
+bokhorok	O
+and	O
+bobok	O
+
+Abo	O
+nai	O
+di	O
+2012	O
+case	O
+registered	O
+wongjak	O
+taisa	O
+hearing	O
+start	O
+wonh	O
+kha	O
+
+Kirit	B-PER
+Pradyot	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Soft	O
+copy	O
+kwrwi	O
+hard	O
+copy	O
+say	O
+am	O
+obo	O
+noko	O
+say	O
+ma	O
+naitugnai	O
+
+Hojagiri	B-MISC
+salo	O
+Dashamighat	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Kubang	O
+ma	O
+except	O
+khai	O
+tongo	O
+
+Chini	O
+village	O
+o	O
+visit	O
+khai	O
+phai	O
+di	O
+
+Every	O
+matters	O
+o	O
+involve	O
+ta	O
+ongdi	O
+
+Buisu	B-MISC
+salo	O
+Feni	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Khumpui	B-LOC
+ni	O
+borokrog	O
+Tripuri	B-MISC
+maniyo	O
+.	O
+
+Nono	O
+girls	O
+hostel	O
+ni	O
+warden	O
+khai	O
+senai	O
+
+Jotono	O
+no	O
+senior	O
+bus	O
+o	O
+
+Murasing	B-PER
+Ambassa	B-LOC
+o	O
+thangkha	O
+.	O
+
+Ram	B-PER
+tabok	O
+Longthorai	B-LOC
+o	O
+tongo	O
+.	O
+
+Kirit	B-PER
+Pradyot	I-PER
+ni	O
+nok	O
+Khumpui	B-LOC
+o	O
+tongo	O
+.	O
+
+Chopa	O
+come	O
+here	O
+come	O
+her	O
+papa	O
+
+Tai	O
+kisa	O
+discount	O
+rekha	O
+chakha	O
+mung	O
+
+Radha	B-PER
+Kishore	I-PER
+TIT	B-ORG
+o	O
+kam	O
+khlaio	O
+.	O
+
+Jamatia	B-PER
+ni	O
+nok	O
+Gomati	B-LOC
+o	O
+tongo	O
+.	O
+
+Reang	B-PER
+Tripura	B-LOC
+o	O
+thangkha	O
+.	O
+
+belai	O
+gentleman	O
+ong	O
+mo	O
+bo	O
+chaya	O
+do	O
+
+Laithangnai	O
+bisirokni	O
+bising	O
+,	O
+Barot	B-LOC
+haphang	O
+nukhung	O
+chaplaimani	O
+bwkhak	O
+teibo	O
+swkangnainai	O
+yaprirok	O
+naharkha	O
+.	O
+
+Step	O
+by	O
+step	O
+khlai	O
+di	O
+don	O
+'	O
+t	O
+be	O
+hurry	O
+
+Indira	B-PER
+Gandhi	I-PER
+Indian	B-ORG
+Supreme	I-ORG
+Court	I-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Poito	O
+khlaimannai	O
+bayap	O
+eba	O
+sakhamya	O
+nainairok	O
+bai	O
+koksa	O
+'	O
+ui	O
+chini	O
+jolimano	O
+sithani	O
+tei	O
+sakderamung	O
+kwrwi	O
+lamroktwi	O
+abono	O
+phunuknani	O
+bagwi	O
+chubai	O
+'	O
+ui	O
+manu	B-LOC
+.	O
+
+Kharchi	B-MISC
+Puja	I-MISC
+salo	O
+Khumpui	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+They	O
+are	O
+very	O
+kind	O
+to	O
+me	O
+ang	O
+sawi	O
+mang	O
+no	O
+
+Hojagiri	B-MISC
+Dance	I-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Chung	O
+jaka	O
+phono	O
+final	O
+o	O
+thongni	O
+any	O
+how	O
+
+Start	O
+khai	O
+sedi	O
+time	O
+le	O
+naisingwi	O
+tong	O
+ya	O
+
+Sanjay	B-PER
+tabok	O
+Akhaura	B-LOC
+o	O
+tongo	O
+.	O
+
+Case	O
+mang	O
+ongwoi	O
+tongo	O
+
+Boh	O
+bolong	O
+bising	O
+twi	O
+himwi	O
+tong	O
+phuru	O
+,	O
+Rajiv	B-PER
+phangsa	O
+siniya	O
+-	O
+nukya	O
+buphangno	O
+nukha	O
+.	O
+
+Hrangkhawl	B-PER
+ni	O
+nok	O
+Battala	B-LOC
+o	O
+tongo	O
+.	O
+
+Thai	O
+kisa	O
+khe	O
+mangjak	O
+kha	O
+mo	O
+yesterday	O
+
+Buisu	B-MISC
+salo	O
+Santirbazar	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Every	O
+week	O
+no	O
+check	O
+khaio	O
+tabuk	O
+
+THFC	B-ORG
+ni	O
+kotorma	O
+nok	O
+Sabroom	B-LOC
+o	O
+tongo	O
+.	O
+
+Phaidi	O
+manwi	O
+khwnwi	O
+paina	O
+bagwi	O
+phalnogo	O
+thanglai	O
+anw	O
+.	O
+
+Tini	O
+dream	O
+o	O
+tamo	O
+nok	O
+kha	O
+sadi	O
+teer	O
+matang	O
+nai	O
+ble	O
+
+Please	O
+blame	O
+haino	O
+ta	O
+redi	O
+without	O
+knowing	O
+anything	O
+
+Tripura	B-ORG
+University	I-ORG
+ni	O
+kotorma	O
+nok	O
+Belonia	B-LOC
+o	O
+tongo	O
+.	O
+
+Nini	O
+naithok	O
+no	O
+kebo	O
+bai	O
+compare	O
+khai	O
+mai	O
+ya	O
+
+Atharamura	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Borok	B-ORG
+Peoples	I-ORG
+Council	I-ORG
+Amarpur	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+Ang	O
+tabuk	O
+phono	O
+samung	O
+paiya	O
+kho	O
+still	O
+doing	O
+
+Bijoy	B-PER
+Kumar	I-PER
+Hrangkhawl	I-PER
+MBB	B-ORG
+College	I-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Nini	O
+maiya	O
+no	O
+ang	O
+bugikha	O
+thank	O
+you	O
+so	O
+much	O
+
+Nini	O
+restaurant	O
+ba	O
+customer	O
+rokda	O
+phai	O
+
+Tripura	B-ORG
+Legislative	I-ORG
+Assembly	I-ORG
+ni	O
+bisingtwi	O
+Biplab	B-PER
+Kumar	I-PER
+Deb	I-PER
+kok	O
+sahikha	O
+.	O
+
+Bidhan	B-PER
+Tripura	I-PER
+Congress	B-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+I	O
+am	O
+not	O
+interest	O
+abo	O
+kisa	O
+room	O
+chekon	O
+
+I	O
+think	O
+we	O
+should	O
+move	O
+ahead	O
+tai	O
+bo	O
+phai	O
+glak	O
+
+Chung	O
+no	O
+borok	O
+play	O
+khaiwi	O
+tongo	O
+
+Rajiv	B-PER
+Gandhi	I-PER
+ni	O
+nok	O
+Longthorai	B-LOC
+o	O
+tongo	O
+.	O
+
+Town	O
+o	O
+tongkhe	O
+town	O
+ni	O
+borokno	O
+chubadi	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+to	O
+spread	O
+his	O
+holy	O
+message	O
+to	O
+the	O
+world	O
+
+Buisu	B-MISC
+salo	O
+Dharmanagar	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+High	B-ORG
+Court	I-ORG
+of	I-ORG
+Tripura	I-ORG
+ni	O
+bisingtwi	O
+Darlong	B-PER
+kok	O
+sahikha	O
+.	O
+
+Tabuk	O
+le	O
+style	O
+khai	O
+mangya	O
+kho	O
+
+Chakma	B-PER
+Kanchanpur	B-LOC
+o	O
+thangkha	O
+.	O
+
+Ram	B-PER
+All	B-ORG
+Tripura	I-ORG
+Indigenous	I-ORG
+Students	I-ORG
+Association	I-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Nini	O
+thokjakmani	O
+ice	O
+cream	O
+tamo	O
+?	O
+
+Murasing	B-PER
+tabok	O
+Sabroom	B-LOC
+o	O
+tongo	O
+.	O
+
+Belaino	O
+samong	O
+kaham	O
+tangkha	O
+kok	O
+Tripura	B-ORG
+channel	I-ORG
+chini	O
+takhuk	O
+kamal	O
+koloi	O
+
+Kirit	B-PER
+Pradyot	I-PER
+Tripura	B-ORG
+Legislative	I-ORG
+Assembly	I-ORG
+o	O
+kam	O
+khlaio	O
+.	O
+
+Battala	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Joto	O
+present	O
+tong	O
+kha	O
+chanai	O
+
+What	O
+to	O
+say	O
+kono	O
+ong	O
+ya	O
+
+Almost	O
+all	O
+common	O
+no	O
+klainai	O
+nai	O
+di	O
+
+Ang	O
+sak	O
+kur	O
+naikolnani	O
+bagwi	O
+jora	O
+chengna	O
+nangsinai	O
+.	O
+
+Ihi	O
+tabuk	O
+buya	O
+.	O
+Kahamda	O
+abo	O
+?	O
+
+Load	O
+sading	O
+mang	O
+tamo	O
+khai	O
+nai	O
+kha	O
+
+Rupini	B-PER
+ni	O
+nok	O
+Gandacherra	B-LOC
+o	O
+tongo	O
+.	O
+
+Kaitor	O
+bini	O
+disciples	O
+rok	O
+no	O
+sao	O
+cast	O
+out	O
+demons	O
+
+Ang	O
+kaisa	O
+chapmung	O
+bwtang	O
+khwlaina	O
+nangnai	O
+tini	O
+khwlaijaknai	O
+samungni	O
+bagwi	O
+.	O
+
+Chakma	B-PER
+ni	O
+nok	O
+Kailashahar	B-LOC
+o	O
+tongo	O
+.	O
+
+Very	O
+poor	O
+condition	O
+o	O
+tongo	O
+borok	O
+
+Office	O
+ni	O
+work	O
+paiyakhu	O
+
+Secretary	O
+nobo	O
+invite	O
+khlai	O
+khe	O
+chanai	O
+
+What	O
+is	O
+your	O
+problem	O
+Joto	O
+jagao	O
+no	O
+involve	O
+
+Battala	B-LOC
+ni	O
+borokrog	O
+Wangala	B-MISC
+maniyo	O
+.	O
+
+Misplaced	O
+ong	O
+khana	O
+ta	O
+may	O
+be	O
+somewhere	O
+
+High	B-ORG
+Court	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Nini	O
+imangni	O
+naharmung	O
+tamo	O
+?	O
+
+Bikash	B-PER
+Tripura	I-PER
+ni	O
+nok	O
+Delhi	B-LOC
+o	O
+tongo	O
+.	O
+
+Nini	O
+phone	O
+o	O
+Riyani	O
+number	O
+da	O
+tong	O
+
+Phiya	O
+Rajiv	B-PER
+belai	O
+kheno	O
+okhuijak	O
+,	O
+tei	O
+boh	O
+ah	O
+buphangni	O
+kokno	O
+khwnaliya	O
+.	O
+
+Chini	O
+defence	O
+belai	O
+no	O
+kaham	O
+khe	O
+tong	O
+kha	O
+
+Debbarma	B-PER
+tabok	O
+Gomati	B-LOC
+o	O
+tongo	O
+.	O
+
+Birendra	B-PER
+Kishore	I-PER
+Supreme	B-ORG
+Court	I-ORG
+o	O
+kam	O
+khlaio	O
+.	O
+
+Nini	O
+quotation	O
+belai	O
+khe	O
+no	O
+high	O
+ong	O
+kha	O
+
+Nini	O
+class	O
+tai	O
+buphuri	O
+simi	O
+start	O
+ongnai	O
+
+A	O
+jorarok	O
+belaino	O
+mirik	O
+tongmani	O
+.	O
+
+THB	B-ORG
+ni	O
+kotorma	O
+nok	O
+Belonia	B-LOC
+o	O
+tongo	O
+.	O
+
+TTAADC	B-ORG
+ni	O
+kotorma	O
+nok	O
+Barot	B-LOC
+o	O
+tongo	O
+.	O
+
+Belaino	O
+kaham	O
+.	O
+Phaidi	O
+sarigo	O
+malai	O
+coffee	O
+nunglai	O
+anw	O
+.	O
+
+borok	O
+nono	O
+believe	O
+khai	O
+nai	O
+if	O
+you	O
+tell	O
+them	O
+nicely	O
+
+This	O
+time	O
+chini	O
+department	O
+recruit	O
+khai	O
+nai	O
+
+TTAADC	B-ORG
+ni	O
+kotorma	O
+nok	O
+Bishalgarh	B-LOC
+o	O
+tongo	O
+.	O
+
+Ang	O
+khe	O
+pilot	O
+say	O
+ong	O
+nai	O
+
+Bikash	B-PER
+Tripura	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Water	O
+supply	O
+bufru	O
+phainai	O
+chini	O
+parao	O
+
+Nwng	O
+waisa	O
+phano	O
+haktorni	O
+phataro	O
+thade	O
+thangkha	O
+?	O
+
+Soino	O
+!	O
+Tamo	O
+nini	O
+swngmung	O
+.	O
+
+Khumpui	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Ani	O
+gold	O
+ni	O
+ring	O
+boro	O
+thangkha	O
+sa	O
+
+Data	O
+se	O
+collect	O
+khlaiwi	O
+mangya	O
+kho	O
+
+What	O
+is	O
+your	O
+problem	O
+Kisa	O
+sawoi	O
+da	O
+mang	O
+no	O
+
+Birendra	B-PER
+Kishore	I-PER
+tabok	O
+Dhalai	B-LOC
+o	O
+tongo	O
+.	O
+
+Ker	B-MISC
+Puja	I-MISC
+salo	O
+Kanchanpur	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Indira	B-PER
+Gandhi	I-PER
+ni	O
+nok	O
+Khowai	B-LOC
+o	O
+tongo	O
+.	O
+
+Ani	O
+keyboard	O
+bai	O
+mouse	O
+work	O
+khailiya	O
+I	O
+think	O
+I	O
+need	O
+to	O
+buy	O
+the	O
+new	O
+one	O
+
+TFTC	B-ORG
+ni	O
+bisingtwi	O
+Indira	B-PER
+Gandhi	I-PER
+kok	O
+sahikha	O
+.	O
+
+Phiaidi	O
+tini	O
+kaisa	O
+kwtal	O
+mung	O
+songlai	O
+anw	O
+.	O
+
+Phaidi	O
+o	O
+lenglama	O
+hatio	O
+Athukiri	O
+nailai	O
+anw	O
+.	O
+
+Phiyaba	O
+kisa	O
+backward	O
+history	O
+ni	O
+chapter	O
+naidi	O
+
+Baramura	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Bir	B-PER
+Bikram	I-PER
+NSS	B-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Kokborok	B-ORG
+Sahitya	I-ORG
+Sabha	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Bimal	B-PER
+Debbarma	I-PER
+Congress	B-ORG
+o	O
+kam	O
+khlaio	O
+.	O
+
+Reang	B-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Hambai	O
+nono	O
+nini	O
+chubamungni	O
+bagwi	O
+!	O
+
+Kokborok	B-ORG
+Sahitya	I-ORG
+Sabha	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+we	O
+have	O
+to	O
+face	O
+trials	O
+and	O
+temptations	O
+
+Chakma	B-PER
+Gandacherra	B-LOC
+o	O
+thangkha	O
+.	O
+
+Tripuri	B-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Longthorai	B-LOC
+ni	O
+borokrog	O
+Garia	B-MISC
+Puja	I-MISC
+maniyo	O
+.	O
+
+Bwrui	O
+ni	O
+simi	O
+chaya	O
+ya	O
+buma	O
+buphani	O
+bo	O
+chaya	O
+tongo	O
+both	O
+are	O
+same	O
+
+Chwng	O
+sak	O
+-	O
+sakni	O
+bwkha	O
+pherrwna	O
+bagwi	O
+mungsaswk	O
+samungrokbo	O
+khlaywi	O
+manu	B-LOC
+,	O
+abo	O
+rwchapmung	O
+khwnanani	O
+phano	O
+wngwi	O
+mano	O
+eba	O
+kaisa	O
+himwi	O
+namani	O
+phano	O
+wngwi	O
+manu	B-LOC
+.	O
+
+last	O
+time	O
+khaiwi	O
+hingwi	O
+suspect	O
+ta	O
+khai	O
+di	O
+ta	O
+
+First	O
+rule	O
+and	O
+regulation	O
+sawoi	O
+marinai	O
+borokno	O
+
+High	B-ORG
+Court	I-ORG
+ni	O
+kotorma	O
+nok	O
+Agartala	B-LOC
+o	O
+tongo	O
+.	O
+
+Nini	O
+O	O
+hatirok	O
+bahai	O
+?	O
+
+Phung	O
+kaham	O
+!	O
+Nwng	O
+bahai	O
+tong	O
+?	O
+
+Bo	O
+nono	O
+respect	O
+khaio	O
+
+Aro	O
+parking	O
+ta	O
+khwlaidi	O
+
+Garia	B-MISC
+Puja	I-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+nung	O
+honest	O
+khaiwi	O
+sa	O
+tong	O
+ya	O
+hing	O
+khe	O
+
+Animesh	B-PER
+Debbarma	I-PER
+Dashamighat	B-LOC
+o	O
+thangkha	O
+.	O
+
+Ani	O
+cherai	O
+pass	O
+ong	O
+kha	O
+first	O
+division	O
+o	O
+praise	O
+the	O
+Lord	O
+
+bulaitoklai	O
+kisa	O
+khwlaina	O
+bagwi	O
+Sekrakrokni	O
+bagwi	O
+swbaimano	O
+kisa	O
+ma	O
+khwlaithai	O
+.	O
+
+Nini	O
+parents	O
+bahai	O
+wngkha	O
+sagar	O
+
+TTAADC	B-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Bimal	B-PER
+Debbarma	I-PER
+tabok	O
+Manu	B-LOC
+o	O
+tongo	O
+.	O
+
+Tabuk	O
+tamo	O
+khai	O
+nai	O
+decide	O
+se	O
+khai	O
+pai	O
+kha	O
+
+phaidi	O
+juda	O
+lama	O
+romlai	O
+anw	O
+.	O
+
+Abo	O
+state	O
+government	O
+ni	O
+kuno	O
+clear	O
+direction	O
+kwrwi	O
+kho	O
+
+Aroni	O
+bokhorok	O
+borok	O
+bai	O
+belai	O
+maju	O
+'	O
+ui	O
+manu	B-LOC
+,	O
+tei	O
+ang	O
+kubuino	O
+bini	O
+tekto	O
+tei	O
+kiyormungrokno	O
+bai	O
+khanangwi	O
+mankha	O
+.	O
+
+Noatia	B-PER
+THB	B-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Tripura	B-ORG
+Legislative	I-ORG
+Assembly	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Athlete	B-PER
+Amardweep	I-PER
+Debbarma	I-PER
+tabok	O
+Teliamura	B-LOC
+o	O
+tongo	O
+.	O
+
+Buisu	B-MISC
+salo	O
+India	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Galo	B-PER
+Kokborok	B-ORG
+Language	I-ORG
+Division	I-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Bahai	O
+manage	O
+khai	O
+nai	O
+with	O
+this	O
+little	O
+amount	O
+
+Bipasha	B-PER
+Tripura	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Ang	O
+pass	O
+khai	O
+woi	O
+phunuk	O
+khe	O
+ong	O
+na	O
+ble	O
+
+Treat	O
+rwbaisidi	O
+what	O
+a	O
+good	O
+news	O
+
+Tabok	O
+khe	O
+khaklap	O
+ni	O
+pocket	O
+sodo	O
+se	O
+pong	O
+glak	O
+kha	O
+
+Wangala	B-MISC
+salo	O
+Jampui	B-LOC
+Hills	I-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Musuk	O
+rok	O
+tai	O
+borok	O
+ongliya	O
+tai	O
+point	O
+o	O
+phaileya	O
+
+Tai	O
+waisa	O
+ong	O
+khe	O
+I	O
+will	O
+see	O
+him	O
+
+Blood	O
+donation	O
+ni	O
+camp	O
+bufru	O
+ongnai	O
+
+African	O
+-	O
+ni	O
+poito	O
+Khristan	O
+rokbai	O
+kwthai	O
+tongnani	O
+eba	O
+Sak	O
+sak	O
+thangwi	O
+tongo	O
+.	O
+
+Dara	O
+achuk	O
+emang	O
+ta	O
+nukdi	O
+Hinke	O
+nini	O
+hair	O
+colour	O
+taisa	O
+white	O
+ong	O
+nai	O
+sa	O
+dara	O
+
+Rajiv	B-PER
+Gandhi	I-PER
+tei	O
+Athlete	B-PER
+Amardweep	I-PER
+Debbarma	I-PER
+Jampui	B-LOC
+o	O
+phaikha	O
+.	O
+
+Kokborok	B-ORG
+Language	I-ORG
+Division	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Ang	O
+tabuk	O
+phono	O
+busy	O
+kho	O
+
+Ang	O
+think	O
+khlai	O
+tong	O
+mani	O
+ongliya	O
+ta	O
+
+Kaitor	O
+chung	O
+no	O
+warned	O
+khaio	O
+not	O
+to	O
+involved	O
+with	O
+sinners	O
+
+Tripura	B-ORG
+University	I-ORG
+Teliamura	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+Tamo	O
+problem	O
+ongjak	O
+nung	O
+ani	O
+style	O
+bai	O
+
+gentleman	O
+sa	O
+ble	O
+looking	O
+very	O
+nice	O
+
+Issues	O
+forward	O
+khai	O
+di	O
+principal	O
+no	O
+tini	O
+
+Platinum	O
+jubilee	O
+ni	O
+tamo	O
+dress	O
+kamkhe	O
+chano	O
+
+Radha	B-PER
+Kishore	I-PER
+tei	O
+Bijoy	B-PER
+Kumar	I-PER
+Hrangkhawl	I-PER
+Barot	B-LOC
+o	O
+phaikha	O
+.	O
+
+Sonamura	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+to	O
+pray	O
+secretly	O
+so	O
+that	O
+only	O
+your	O
+fathers	O
+knows	O
+
+Kirit	B-PER
+Pradyot	I-PER
+TIT	B-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Bo	O
+manwi	O
+naipaikha	O
+go	O
+home	O
+
+Tripurani	B-LOC
+Hukbar	O
+khwlainairok	O
+Bithi	O
+kwrwi	O
+Hukbar	O
+khwlainani	O
+lamano	O
+hamjakmung	O
+phunuk	O
+kha	O
+.	O
+
+Ang	O
+doctorni	O
+saknaijakna	O
+bagwi	O
+mung	O
+swina	O
+nangnai	O
+.	O
+
+Santirbazar	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Kharchi	B-MISC
+Puja	I-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Ram	B-PER
+Kokborok	B-ORG
+Language	I-ORG
+Division	I-ORG
+o	O
+kam	O
+khlaio	O
+.	O
+
+maimui	O
+songmao	O
+chubadi	O
+/	O
+yak	O
+rwphaidi	O
+.	O
+
+Tini	O
+salhapma	O
+belaino	O
+naithok	O
+.	O
+
+Athlete	B-PER
+Amardweep	I-PER
+Debbarma	I-PER
+tabok	O
+Kanchanpur	B-LOC
+o	O
+tongo	O
+.	O
+
+Kharchi	B-MISC
+Puja	I-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Ang	O
+kuno	O
+participate	O
+khaiya	O
+I	O
+will	O
+just	O
+seat	O
+and	O
+watch	O
+the	O
+program	O
+
+what	O
+is	O
+your	O
+expectation	O
+kisa	O
+sawi	O
+da	O
+mangno	O
+
+Hojagiri	B-MISC
+Dance	I-MISC
+salo	O
+Jampui	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+THFC	B-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+All	B-ORG
+Tripura	I-ORG
+Indigenous	I-ORG
+Students	I-ORG
+Association	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+High	B-ORG
+Court	I-ORG
+ni	O
+kotorma	O
+nok	O
+Tripura	B-LOC
+o	O
+tongo	O
+.	O
+
+Nini	O
+relationship	O
+no	O
+kaham	O
+khe	O
+swnamdi	O
+
+Ani	O
+emang	O
+khe	O
+to	O
+be	O
+a	O
+good	O
+teacher	O
+in	O
+the	O
+society	O
+
+Tripura	B-PER
+THB	B-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Kirit	B-PER
+Pradyot	I-PER
+Tripura	B-ORG
+Legislative	I-ORG
+Assembly	I-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Tini	O
+shops	O
+rok	O
+day	O
+khulok	O
+no	O
+second	O
+Saturday	O
+ba	O
+
+correction	O
+tai	O
+khaina	O
+tong	O
+kho	O
+
+Chini	O
+group	O
+ni	O
+mung	O
+khe	O
+james	O
+group	O
+
+Chongjak	O
+sor	O
+bwlap	O
+swnamnani	O
+tei	O
+wansukjak	O
+lama	O
+.	O
+
+Phaidi	O
+palbaksa	O
+khe	O
+kwtal	O
+kok	O
+swrwngna	O
+chaitok	O
+lai	O
+anw	O
+.	O
+
+Promise	O
+khai	O
+mang	O
+tong	O
+wo	O
+tini	O
+renai	O
+khna	O
+renai	O
+
+Kabang	O
+ma	O
+business	O
+tongo	O
+you	O
+can	O
+do	O
+
+Sobo	O
+sobo	O
+thang	O
+nai	O
+recording	O
+khai	O
+nani	O
+
+Nwng	O
+chade	O
+hamjak	O
+coffee	O
+?	O
+
+TIT	B-ORG
+Khumpui	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+Ani	O
+own	O
+brother	O
+say	O
+angno	O
+help	O
+khai	O
+ya	O
+kha	O
+nono	O
+behai	O
+khe	O
+help	O
+khai	O
+nai	O
+ba	O
+
+Kokborok	B-ORG
+Language	I-ORG
+Division	I-ORG
+Boxanagar	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+India	B-LOC
+ni	O
+kwbangma	O
+borokrokno	O
+contraception	O
+ni	O
+juda	O
+-	O
+juda	O
+raidarokno	O
+saimanyakhu	O
+,	O
+eba	O
+bohrok	O
+abo	O
+samungo	O
+phwnangnani	O
+phano	O
+kirijagwimanu	O
+.	O
+
+Total	O
+I	O
+think	O
+hundred	O
+rok	O
+ongna	O
+I	O
+hope	O
+
+Stricker	O
+bo	O
+chance	O
+mangkha	O
+score	O
+sa	O
+khaimaiya	O
+
+TTAADC	B-ORG
+ni	O
+kotorma	O
+nok	O
+Atharamura	B-LOC
+o	O
+tongo	O
+.	O
+
+Ang	O
+o	O
+bijap	O
+poriwi	O
+painani	O
+nangnai	O
+.	O
+
+Binoy	B-PER
+Debbarma	I-PER
+tabok	O
+Gandacherra	B-LOC
+o	O
+tongo	O
+.	O
+
+Teliamura	B-LOC
+ni	O
+borokrog	O
+Tripuri	B-MISC
+maniyo	O
+.	O
+
+Man	O
+power	O
+kwrui	O
+masa	O
+leave	O
+najak	O
+next	O
+time	O
+thangnai	O
+
+I	O
+,	O
+Ahaino	O
+,	O
+Samung	O
+kisa	O
+pailaiyano	O
+.	O
+
+Nini	O
+rang	O
+bai	O
+ang	O
+chaya	O
+its	O
+my	O
+money	O
+
+Ani	O
+emang	O
+khe	O
+to	O
+be	O
+a	O
+pastor	O
+so	O
+that	O
+I	O
+can	O
+save	O
+them	O
+from	O
+all	O
+their	O
+sin	O
+
+Wangala	B-MISC
+salo	O
+Dhalai	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Durga	B-MISC
+Puja	I-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+expectation	O
+khaiwi	O
+kuno	O
+mang	O
+glak	O
+do	O
+
+Tini	O
+ni	O
+outcome	O
+tamo	O
+ong	O
+kha	O
+please	O
+someone	O
+tell	O
+me	O
+
+I	O
+was	O
+waiting	O
+you	O
+bufru	O
+phainai	O
+hingwi	O
+
+Koloi	B-PER
+ni	O
+nok	O
+Sabroom	B-LOC
+o	O
+tongo	O
+.	O
+
+Bipasha	B-PER
+Tripura	I-PER
+Supreme	B-ORG
+Court	I-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+muitu	O
+da	O
+tong	O
+a	O
+jorano	O
+jephuru	O
+chwng	O
+mwnwimani	O
+.	O
+
+Koloi	B-PER
+Congress	B-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Money	O
+ni	O
+kuno	O
+value	O
+koroi	O
+tabuk	O
+
+Come	O
+tomorrow	O
+tini	O
+ang	O
+twido	O
+thang	O
+tongo	O
+
+Hambai	O
+yaphaya	O
+nono	O
+but	O
+kuti	O
+kuti	O
+salute	O
+se	O
+rio	O
+brother	O
+
+I	O
+will	O
+stay	O
+here	O
+ulo	O
+ang	O
+blame	O
+khai	O
+nai	O
+se	O
+
+Next	O
+time	O
+akran	O
+committee	O
+sure	O
+
+TIT	B-ORG
+ni	O
+kotorma	O
+nok	O
+India	B-LOC
+o	O
+tongo	O
+.	O
+
+Wangala	B-MISC
+salo	O
+Agartala	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Jaga	O
+jaga	O
+o	O
+miser	O
+bo	O
+ongna	O
+nango	O
+
+Chini	O
+club	O
+ni	O
+bumung	O
+no	O
+chung	O
+recognize	O
+makhai	O
+nai	O
+
+Ang	O
+bo	O
+hino	O
+think	O
+khaio	O
+
+Blame	O
+khai	O
+jak	O
+bono	O
+for	O
+his	O
+careless	O
+
+Nini	O
+cherai	O
+belai	O
+no	O
+over	O
+smart	O
+as	O
+well	O
+as	O
+talented	O
+
+Nung	O
+miser	O
+ong	O
+khe	O
+nini	O
+cherai	O
+bo	O
+nung	O
+haino	O
+ong	O
+gano	O
+
+Abtwiya	O
+hwnkha	O
+health	O
+loan	O
+nauimano	O
+
+Drug	O
+test	O
+Screening	O
+bodolroknom	O
+no	O
+Drug	O
+testing	O
+Panel	O
+hunu	O
+.	O
+
+Bikash	B-PER
+Tripura	I-PER
+ni	O
+nok	O
+Battala	B-LOC
+o	O
+tongo	O
+.	O
+
+Puja	B-MISC
+chanda	O
+riyani	O
+bagwi	O
+chini	O
+adong	O
+khorksa	O
+auto	O
+driver	O
+serial	O
+number	O
+manya	O
+
+Khna	O
+ni	O
+program	O
+tamo	O
+tamo	O
+tong	O
+
+Rajiv	B-PER
+Kokborok	B-ORG
+Sahitya	I-ORG
+Sabha	I-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+High	B-ORG
+Court	I-ORG
+of	I-ORG
+Tripura	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+After	O
+water	O
+supply	O
+next	O
+tamo	O
+demand	O
+khlainai	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+never	O
+forsake	O
+his	O
+name	O
+
+Bura	O
+bo	O
+hogra	O
+bo	O
+jotono	O
+present	O
+matong	O
+nai	O
+
+Garia	B-MISC
+Puja	I-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Apply	O
+CL	O
+nungba	O
+nijisi	O
+doctor	O
+hinkhe	O
+kaisa	O
+khoroksamani	O
+ni	O
+report	O
+swnamui	O
+nini	O
+boss	O
+no	O
+rodi	O
+
+Bomo	O
+nokia	O
+ni	O
+day	O
+na	O
+Samsung	O
+ni	O
+
+Upset	O
+no	O
+beni	O
+bowya	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+I	O
+am	O
+the	O
+vine	O
+you	O
+are	O
+the	O
+branches	O
+
+I	O
+have	O
+come	O
+across	O
+many	O
+problems	O
+in	O
+my	O
+life	O
+tabuk	O
+bo	O
+
+Bipasha	B-PER
+Tripura	I-PER
+MBB	B-ORG
+College	I-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+India	B-LOC
+o	O
+,	O
+phunukmari	O
+phunugwi	O
+,	O
+lekhakhe	O
+bisi	O
+thwgwi	O
+10	O
+,	O
+000	O
+chuwaiinai	O
+rok	O
+saksak	O
+no	O
+bwtharo	O
+.	O
+
+Supreme	B-ORG
+Court	I-ORG
+ni	O
+kotorma	O
+nok	O
+Sonamura	B-LOC
+o	O
+tongo	O
+.	O
+
+Jamatia	B-PER
+Deo	B-LOC
+o	O
+thangkha	O
+.	O
+
+Chini	O
+game	O
+next	O
+bwofru	O
+ong	O
+nai	O
+
+Think	O
+khai	O
+wi	O
+samung	O
+tang	O
+di	O
+
+Agi	O
+phuru	O
+,	O
+khoroksa	O
+sikla	O
+tongo	O
+bwmung	O
+Rajiv	B-PER
+bo	O
+kaisa	O
+kami	O
+bwsatete	O
+'	O
+o	O
+tongjao	O
+.	O
+
+Kharchi	B-MISC
+Puja	I-MISC
+salo	O
+Longthorai	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Kaitor	O
+sao	O
+he	O
+will	O
+forgive	O
+our	O
+sins	O
+
+Ang	O
+bujiyakhu	O
+repeat	O
+khwlai	O
+gradi	O
+
+You	O
+are	O
+waisting	O
+my	O
+time	O
+dakti	O
+khai	O
+di	O
+
+Phaidi	O
+Kwcham	O
+manwi	O
+phalma	O
+hatio	O
+thanglai	O
+anw	O
+.	O
+
+Kami	O
+amchairogo	O
+,	O
+nukhung	O
+chaplainani	O
+sakhamnokrok	O
+kaisa	O
+-	O
+kusu	O
+eba	O
+kwrwi	O
+swchwkno	O
+hwnwi	O
+manu	B-LOC
+.	O
+
+Chung	O
+same	O
+no	O
+division	O
+bo	O
+mang	O
+no	O
+
+Jawaharlal	B-PER
+Nehru	I-PER
+tabok	O
+Atharamura	B-LOC
+o	O
+tongo	O
+.	O
+
+Tripuri	B-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Good	O
+night	O
+ata	O
+uken	O
+and	O
+friends	O
+
+Podcasts	O
+khwnani	O
+ang	O
+belai	O
+hamjago	O
+.	O
+
+High	B-ORG
+Court	I-ORG
+ni	O
+bisingtwi	O
+Bipasha	B-PER
+Tripura	I-PER
+kok	O
+sahikha	O
+.	O
+
+Congress	B-ORG
+ni	O
+kotorma	O
+nok	O
+Radhapur	B-LOC
+o	O
+tongo	O
+.	O
+
+Kharchi	B-MISC
+Puja	I-MISC
+salo	O
+Jampui	B-LOC
+Hills	I-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Bufru	O
+press	O
+meeting	O
+bo	O
+jagao	O
+
+Tabuk	O
+tamo	O
+khai	O
+nai	O
+have	O
+you	O
+thought	O
+of	O
+it	O
+
+kaitor	O
+chung	O
+no	O
+sao	O
+you	O
+are	O
+the	O
+light	O
+of	O
+the	O
+world	O
+
+Tamo	O
+khai	O
+kha	O
+no	O
+any	O
+news	O
+
+Joto	O
+side	O
+o	O
+no	O
+chini	O
+lost	O
+
+Bisi	O
+2010	O
+'	O
+o	O
+,	O
+haphang	O
+National	O
+Family	O
+Planning	O
+tangbwtang	O
+chengkha	O
+,	O
+aboni	O
+bisingtwi	O
+jotto	O
+barot	B-LOC
+haniborokrokno	O
+magwnang	O
+suta	O
+oknangya	O
+khlaima	O
+tei	O
+bwchwlwi	O
+bwtharma	O
+sebukrok	O
+bakjakha	O
+.	O
+
+Uchoi	B-PER
+ni	O
+nok	O
+Ambassa	B-LOC
+o	O
+tongo	O
+.	O
+
+"	O
+Norok	O
+tamo	O
+khlai	O
+tong	O
+?	O
+"	O
+hwnwi	O
+Ram	B-PER
+swngkha	O
+.	O
+
+Salsa	O
+,	O
+Ram	B-PER
+kami	O
+twih	O
+himwi	O
+thang	O
+tongphuru	O
+,	O
+chwlarok	O
+bodol	O
+kaisano	O
+,	O
+kotorma	O
+hakorkutugo	O
+samung	O
+tangwi	O
+tongma	O
+nugo	O
+.	O
+
+Animesh	B-PER
+Debbarma	I-PER
+ni	O
+nok	O
+England	B-LOC
+o	O
+tongo	O
+.	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+be	O
+truthful	O
+
+December	O
+o	O
+say	O
+watoi	O
+rok	O
+really	O
+change	O
+
+At	O
+the	O
+young	O
+age	O
+bo	O
+thoikha	O
+
+Ang	O
+ani	O
+Digital	O
+files	O
+rokno	O
+chapna	O
+nangnai	O
+.	O
+
+Nini	O
+dress	O
+asuk	O
+lasting	O
+ong	O
+glak	O
+na	O
+
+Very	O
+clever	O
+fox	O
+busuk	O
+clever	O
+ang	O
+bo	O
+nainai	O
+
+Chwng	O
+paithak	O
+malaimani	O
+belaino	O
+kwdwk	O
+sal	O
+wngkha	O
+.	O
+
+Nwngbai	O
+kok	O
+sawi	O
+belai	O
+khakchangkha	O
+.	O
+
+Galo	B-PER
+tabok	O
+Chabimura	B-LOC
+o	O
+tongo	O
+.	O
+
+Darlong	B-PER
+ni	O
+nok	O
+Barot	B-LOC
+o	O
+tongo	O
+.	O
+
+Chini	O
+cultural	O
+no	O
+ba	O
+maphnunai	O
+ble	O
+
+Jolimung	O
+kaisa	O
+sokomorthok	O
+khanangmung	O
+wngwi	O
+manu	B-LOC
+.	O
+
+Bomotwi	O
+wansokmung	O
+sir	O
+can	O
+you	O
+explain	O
+please	O
+
+kaitor	O
+chung	O
+no	O
+sao	O
+care	O
+each	O
+others	O
+
+Nwng	O
+tamo	O
+chajak	O
+Cha	O
+da	O
+coffee	O
+?	O
+
+Omo	O
+hai	O
+getharing	O
+khailai	O
+khe	O
+understand	O
+phai	O
+wo	O
+
+Bipasha	B-PER
+Tripura	I-PER
+Tripura	B-ORG
+University	I-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Ang	O
+samung	O
+rwng	O
+kwtal	O
+swrwngna	O
+muchungo	O
+.	O
+
+I	O
+am	O
+searching	O
+for	O
+a	O
+partner	O
+kebo	O
+thani	O
+news	O
+rok	O
+tong	O
+khe	O
+please	O
+informed	O
+me	O
+
+Hrangkhawl	B-PER
+TIT	B-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Boni	O
+loge	O
+je	O
+greetings	O
+ni	O
+message	O
+rau	O
+no	O
+pho	O
+samung	O
+row	O
+chamsti	O
+
+Khna	O
+early	O
+morning	O
+bachawi	O
+marketing	O
+makhai	O
+nai	O
+
+Indira	B-PER
+Gandhi	I-PER
+Barot	B-LOC
+tei	O
+England	B-LOC
+hao	O
+rwngswrwngkha	O
+tei	O
+bisi	O
+1942	O
+'	O
+o	O
+Feroze	B-PER
+Gandhi	I-PER
+bai	O
+kaijakha	O
+.	O
+
+Data	O
+de	O
+collect	O
+khlaikha	O
+
+Manikya	B-PER
+ni	O
+nok	O
+Gandacherra	B-LOC
+o	O
+tongo	O
+.	O
+
+India	B-LOC
+ni	O
+baksa	O
+-	O
+baksa	O
+bwkhago	O
+,	O
+kwbangma	O
+bwsarok	O
+tongmani	O
+kaisa	O
+tongboromni	O
+mari	O
+haikhese	O
+naisikjago	O
+.	O
+
+Miya	O
+Ang	O
+ani	O
+rang	O
+sola	O
+kwmajago	O
+.	O
+
+Nung	O
+bo	O
+kaham	O
+khe	O
+tong	O
+khase	O
+otherwise	O
+see	O
+
+All	B-ORG
+Tripura	I-ORG
+Indigenous	I-ORG
+Students	I-ORG
+Association	I-ORG
+ni	O
+bisingtwi	O
+Murasing	B-PER
+kok	O
+sahikha	O
+.	O
+
+Ex	O
+president	O
+ba	O
+wet	O
+Bengali	O
+ni	O
+sa	O
+bla	O
+sa	O
+
+Kwtal	O
+twi	O
+rwmani	O
+bisingtwi	O
+Salthang	O
+Tripurani	B-LOC
+Hukbar	O
+khwlainairok	O
+hamchakha	O
+.	O
+
+Until	O
+farther	O
+order	O
+phaiya	O
+sak	O
+
+Kokborok	B-ORG
+Sahitya	I-ORG
+Sabha	I-ORG
+ni	O
+bisingtwi	O
+Chakma	B-PER
+kok	O
+sahikha	O
+.	O
+
+TFTC	B-ORG
+Akhaura	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+Ang	O
+no	O
+traditional	O
+dance	O
+maphnu	O
+nai	O
+
+Ang	O
+actually	O
+somsomoi	O
+kwbaya	O
+
+Ani	O
+nog	O
+gana	O
+twi	O
+say	O
+norok	O
+thang	O
+lai	O
+sorry	O
+ang	O
+tini	O
+nog	O
+kwrwi	O
+ba	O
+
+Kwcharo	O
+tei	O
+Ukolokni	O
+Khorang	O
+panairok	O
+aborok	O
+kwbangma	O
+channel	O
+kwcharo	O
+simise	O
+samung	O
+khwlaio	O
+.	O
+
+Next	O
+month	O
+o	O
+ang	O
+1000	O
+pocket	O
+money	O
+nango	O
+
+Saimankha	O
+!	O
+Ang	O
+ani	O
+assignmentno	O
+online	O
+da	O
+rwi	O
+mano	O
+?	O
+
+Tripura	B-ORG
+University	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Sak	O
+bisingni	O
+Fatty	O
+acid-binding	O
+protein	O
+ni	O
+simung	O
+lorimungni	O
+swrwngmung	O
+ni	O
+nukmung	O
+.	O
+
+Bidhan	B-PER
+Tripura	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Brother	O
+nwng	O
+bo	O
+tuition	O
+rok	O
+phrung	O
+phailiya	O
+hwn	O
+khe	O
+
+Ang	O
+kaham	O
+chamung	O
+loi	O
+khwlainani	O
+nangnai	O
+.	O
+
+Very	O
+poor	O
+result	O
+ani	O
+this	O
+time	O
+
+kaitor	O
+chung	O
+no	O
+sao	O
+never	O
+fall	O
+in	O
+sins	O
+
+Phaidi	O
+kwtal	O
+mwsamung	O
+swrwnglai	O
+anw	O
+.	O
+
+Tamo	O
+reason	O
+tong	O
+to	O
+go	O
+there	O
+
+Nini	O
+car	O
+insurance	O
+da	O
+khaijak	O
+kha	O
+
+Tripura	B-ORG
+University	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Chwng	O
+teibo	O
+kaham	O
+khe	O
+Client	O
+bai	O
+kwrwngmung	O
+tongnani	O
+nangnai	O
+.	O
+
+Tripuri	B-MISC
+salo	O
+Battala	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Aboni	O
+bisingtwi	O
+phaidi	O
+chwng	O
+swrwnglainai	O
+tei	O
+kuchuk	O
+kalai	B-PER
+nai	O
+.	O
+
+Ani	O
+Bell	O
+bo	O
+hamleya	O
+baba	O
+ang	O
+no	O
+ketal	O
+pairidi	O
+do	O
+
+Noatia	B-PER
+tabok	O
+Kumarghat	B-LOC
+o	O
+tongo	O
+.	O
+
+Ang	O
+ani	O
+beraimani	O
+mangplirikno	O
+chapna	O
+nangnai	O
+.	O
+
+Kirit	B-PER
+Pradyot	I-PER
+THB	B-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Angle	O
+surrender	O
+kaio	O
+month	O
+ni	O
+bagwi	O
+
+TFTC	B-ORG
+ni	O
+bisingtwi	O
+Jawaharlal	B-PER
+Nehru	I-PER
+kok	O
+sahikha	O
+.	O
+
+Matter	O
+no	O
+serious	O
+tana	O
+di	O
+please	O
+
+TIT	B-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+pray	O
+from	O
+the	O
+heart	O
+
+Morning	O
+ni	O
+break	O
+fast	O
+de	O
+khai	O
+kha	O
+
+For	O
+press	O
+meeting	O
+sabo	O
+sabo	O
+kok	O
+sanai	O
+
+Murasing	B-PER
+Manu	B-LOC
+o	O
+thangkha	O
+.	O
+
+All	B-ORG
+Tripura	I-ORG
+Indigenous	I-ORG
+Students	I-ORG
+Association	I-ORG
+ni	O
+kotorma	O
+nok	O
+Jampui	B-LOC
+o	O
+tongo	O
+.	O
+
+Ani	O
+friend	O
+bo	O
+dance	O
+renai	O
+pho	O
+sobo	O
+ni	O
+yak	O
+o	O
+bumung	O
+renai	O
+
+Phaidi	O
+malmata	O
+rima	O
+thaio	O
+thanglai	O
+anw	O
+.	O
+
+Tini	O
+sal	O
+/	O
+tongkhor	O
+belai	O
+kwchwng	O
+/	O
+thongthok	O
+.	O
+
+expect	O
+khaiwi	O
+mangya	O
+khe	O
+bwkha	O
+baio	O
+
+Last	O
+year	O
+ni	O
+test	O
+paper	O
+bo	O
+nango	O
+
+Ambedkar	O
+kaisa	O
+Dalit	O
+ni	O
+nukhungo	O
+achayo	O
+,	O
+kaisa	O
+borok	O
+bodol	O
+je	O
+tangwimanya	O
+hwnwi	O
+wansukjago	O
+India	B-LOC
+ni	O
+khil	O
+lam	O
+bai	O
+.	O
+
+Sanjay	B-PER
+tei	O
+Darlong	B-PER
+Radhapur	B-LOC
+o	O
+phaikha	O
+.	O
+
+kesa	O
+room	O
+chekon	O
+khe	O
+ang	O
+naya	O
+
+Ani	O
+bwkha	O
+sa	O
+belai	O
+no	O
+weak	O
+
+Phaidi	O
+laibuma	O
+kwrwngjak	O
+berai	O
+khiri	O
+kamiyungo	O
+.	O
+
+nwng	O
+ano	O
+bwsate	O
+nokni	O
+bwlwng	O
+swnamnani	O
+bagwi	O
+chubaide	O
+mano	O
+?	O
+
+Bir	B-PER
+Bikram	I-PER
+tei	O
+Indira	B-PER
+Gandhi	I-PER
+Khowai	B-LOC
+o	O
+phaikha	O
+.	O
+
+I	O
+cannot	O
+give	O
+you	O
+anymore	O
+money	O
+amo	O
+bai	O
+manage	O
+khai	O
+di	O
+
+Saboni	O
+yago	O
+phone	O
+number	O
+tong	O
+call	O
+se	O
+khaisi	O
+di	O
+
+THFC	B-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Hojagiri	B-MISC
+salo	O
+Deo	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Ta	O
+tang	O
+di	O
+abo	O
+you	O
+will	O
+get	O
+hurt	O
+
+Kaitor	O
+chung	O
+no	O
+phurango	O
+not	O
+to	O
+love	O
+the	O
+world	O
+
+Nini	O
+husband	O
+khe	O
+bomo	O
+Ang	O
+bai	O
+picture	O
+o	O
+tong	O
+nai	O
+
+Hopeless	O
+time	O
+waste	O
+khai	O
+khe	O
+tini	O
+
+Nini	O
+best	O
+items	O
+tamo	O
+
+Indira	B-PER
+Gandhi	I-PER
+NSS	B-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Tripuri	B-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Birendra	B-PER
+Kishore	I-PER
+Congress	B-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Timing	O
+fixed	O
+ong	O
+yak	O
+ho	O
+we	O
+will	O
+let	O
+you	O
+know	O
+later	O
+
+Same	O
+same	O
+chana	O
+nibo	O
+selakha	O
+
+Chikon	O
+chikon	O
+matter	O
+no	O
+issue	O
+khai	O
+laio	O
+
+Abo	O
+haikheno	O
+borok	O
+thansa	O
+khe	O
+naikoljak	O
+rang	O
+rwmani	O
+percentage	O
+lekhakha	O
+!	O
+
+Boroke	O
+standerd	O
+follow	O
+khaio	O
+
+College	O
+o	O
+ba	O
+students	O
+say	O
+kroi	O
+ble	O
+
+Debbarma	B-PER
+Tripura	B-ORG
+University	I-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Radha	B-PER
+Kishore	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Bini	O
+swijak	O
+koktwmao	O
+,	O
+Sikla	B-PER
+Washington	I-PER
+bini	O
+kha	O
+mithikma	O
+kokno	O
+sakha	O
+.	O
+
+Office	O
+wo	O
+kisa	O
+celebration	O
+khaima	O
+bai	O
+sa	O
+bono	O
+suspend	O
+khaiwi	O
+rekha	O
+
+Indian	B-ORG
+Supreme	I-ORG
+Court	I-ORG
+ni	O
+kotorma	O
+nok	O
+Kanchanpur	B-LOC
+o	O
+tongo	O
+.	O
+
+Feroze	B-PER
+Gandhi	I-PER
+ni	O
+nok	O
+Kumarghat	B-LOC
+o	O
+tongo	O
+.	O
+
+Nini	O
+oroni	O
+profit	O
+ni	O
+kisa	O
+amount	O
+marinai	O
+do	O
+
+Chini	O
+sajwk	O
+kwplai	O
+khwlaikha	O
+bini	O
+English	B-MISC
+swrwngmao	O
+.	O
+
+Bishalgarh	B-LOC
+ni	O
+borokrog	O
+Wangala	B-MISC
+maniyo	O
+.	O
+
+Prokshid	O
+rwdi	O
+ani	O
+bagwi	O
+
+Indeginous	O
+meaning	O
+tamo	O
+
+Still	O
+pending	O
+tamo	O
+problems	O
+kabo	O
+sawoi	O
+mangya	O
+
+Tripura	B-LOC
+ni	O
+total	O
+borok	O
+bangmani	O
+busuk	O
+
+Noatia	B-PER
+tei	O
+Rajiv	B-PER
+Kanchanpur	B-LOC
+o	O
+phaikha	O
+.	O
+
+Nongni	O
+classo	O
+khorok	O
+bwswk	O
+students	O
+tong	O
+
+Taibo	O
+tongnai	O
+it	O
+is	O
+just	O
+started	O
+
+Kirit	B-PER
+Pradyot	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Barot	B-LOC
+ni	O
+kwbangma	O
+hiksainwirok	O
+poito	O
+khlayo	O
+jeswk	O
+mansak	O
+chwrai	O
+khlainani	O
+abo	O
+borokni	O
+khlaithaise	O
+hwnwi	O
+.	O
+
+Waisa	O
+le	O
+manjak	O
+nai	O
+that	O
+time	O
+I	O
+will	O
+not	O
+leave	O
+him	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+whoever	O
+wants	O
+to	O
+save	O
+their	O
+life	O
+will	O
+lost	O
+it	O
+
+Bono	O
+wait	O
+khai	O
+khe	O
+ang	O
+late	O
+ong	O
+nai	O
+
+Koloi	B-PER
+Tripura	B-ORG
+University	I-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Richumrok	O
+tabuk	O
+kisikhu	O
+.	O
+
+This	O
+month	O
+o	O
+lay	O
+kisa	O
+crisis	O
+ong	O
+nai	O
+do	O
+try	O
+to	O
+manage	O
+
+I	O
+will	O
+not	O
+leave	O
+him	O
+tai	O
+waisa	O
+ong	O
+gatho	O
+
+Khwna	O
+odomos	O
+phulnani	O
+advertisement	O
+khlainani	O
+bagwi	O
+khoroksa	O
+lady	O
+nangnai	O
+ble	O
+
+Tripura	B-ORG
+Legislative	I-ORG
+Assembly	I-ORG
+ni	O
+kotorma	O
+nok	O
+Jampui	B-LOC
+o	O
+tongo	O
+.	O
+
+kesa	O
+room	O
+kotor	O
+khe	O
+chakha	O
+mung	O
+
+Ang	O
+belaino	O
+wanajak	O
+belaino	O
+kisa	O
+manjaknairok	O
+ni	O
+bagwi	O
+.	O
+
+Ang	O
+jotono	O
+request	O
+khai	O
+o	O
+puja	O
+o	O
+koi	O
+no	O
+ta	O
+lamok	O
+thung	O
+
+nwng	O
+khoroksa	O
+belai	O
+kiching	O
+kaham	O
+.	O
+
+Nwng	O
+kothomayung	O
+porinada	O
+hamjak	O
+?	O
+
+Limit	O
+o	O
+kisa	O
+chadi	O
+
+Amtwi	O
+haibo	O
+Borokni	O
+sakni	O
+hamjakma	O
+borokni	O
+mang	O
+kwthwino	O
+yachakna	O
+bagwi	O
+mana	O
+khwlaijak	O
+kha	O
+.	O
+
+Kainwi-phan	O
+swrwngmani	O
+bekreng	O
+tei	O
+plaque	O
+ermano	O
+kwlai	O
+khwlaikha	O
+.	O
+
+Kokborok	B-ORG
+Sahitya	I-ORG
+Sabha	I-ORG
+ni	O
+bisingtwi	O
+Sanjay	B-PER
+kok	O
+sahikha	O
+.	O
+
+Kharchi	B-MISC
+Puja	I-MISC
+salo	O
+Feni	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Kanchanpur	B-LOC
+ni	O
+borokrog	O
+Ker	B-MISC
+Puja	I-MISC
+maniyo	O
+.	O
+
+Ani	O
+buphangrokno	O
+twi	O
+luna	O
+nangwi	O
+tongkha	O
+.	O
+
+Nwng	O
+Phataro	O
+tamo	O
+khwlaina	O
+hamajak	O
+kuk	O
+?	O
+
+Tata	B-ORG
+Technoligies	I-ORG
+bai	O
+Tripura	B-ORG
+kaisa	O
+MoA	B-MISC
+gosimung	O
+rwlaikha	O
+.	O
+
+Nung	O
+bahai	O
+khe	O
+long	O
+journey	O
+khaiwi	O
+mang	O
+
+THB	B-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+TTAADC	B-ORG
+Muhuri	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+Ani	O
+schooty	O
+bai	O
+mobile	O
+khowoi	O
+tlang	O
+thang	O
+kha	O
+bo	O
+
+Nwng	O
+Elumelu	O
+no	O
+thepanani	O
+da	O
+hamjak	O
+?	O
+
+Sanjay	B-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+THFC	B-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Khoroksa	O
+chaluknai	O
+wngwi	O
+,	O
+ang	O
+nukha	O
+puilayak	O
+ah	O
+bigra	O
+sago	O
+kwlaima	O
+India	B-LOC
+bising	O
+.	O
+
+Recruitment	O
+khai	O
+nai	O
+hingwi	O
+tabuk	O
+phono	O
+khai	O
+yak	O
+ho	O
+
+Chini	O
+bosongo	O
+kaboni	O
+pressure	O
+kroi	O
+
+How	O
+are	O
+you	O
+Ang	O
+kaham	O
+no	O
+
+Coming	O
+Sunday	O
+chini	O
+advent	O
+Christmas	B-MISC
+celebration	O
+tongo	O
+
+Borok	O
+bini	O
+issue	O
+sinuamwi	O
+bono	O
+suspend	O
+khai	O
+wo	O
+
+I	O
+!	O
+abono	O
+Google	O
+Classroom	O
+o	O
+upload	O
+khwlainani	O
+koijao	O
+.	O
+
+Bir	B-PER
+Bikram	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Ramatul	O
+bai	O
+out	O
+khai	O
+rwjak	O
+nai	O
+
+India	B-LOC
+ni	O
+borokrog	O
+Tripuri	B-MISC
+maniyo	O
+.	O
+
+Next	O
+week	O
+ni	O
+simi	O
+exam	O
+please	O
+kindly	O
+pray	O
+for	O
+me	O
+
+Boro	O
+group	O
+o	O
+say	O
+massage	O
+khaio	O
+
+Appointment	O
+advance	O
+lana	O
+nago	O
+
+Manikya	B-PER
+Kokborok	B-ORG
+Language	I-ORG
+Division	I-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Ker	B-MISC
+Puja	I-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Ang	O
+kaisa	O
+kwtal	O
+diary	O
+paina	O
+nangnai	O
+.	O
+
+Bo	O
+sawoi	O
+sa	O
+mangya	O
+kho	O
+what	O
+I	O
+can	O
+do	O
+
+Ang	O
+painai	O
+nini	O
+scooty	O
+tell	O
+me	O
+the	O
+price	O
+
+Everyday	O
+morning	O
+o	O
+bo	O
+tuition	O
+thango	O
+
+Kalai	B-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Biplab	B-PER
+Kumar	I-PER
+Deb	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Music	O
+ni	O
+style	O
+bo	O
+angno	O
+renai	O
+
+Jamatia	B-PER
+ni	O
+nok	O
+Khowai	B-LOC
+o	O
+tongo	O
+.	O
+
+Bijoy	B-PER
+Kumar	I-PER
+Hrangkhawl	I-PER
+TTAADC	B-ORG
+o	O
+kam	O
+khlaio	O
+.	O
+
+Nwng	O
+saimanglak	O
+nung	O
+face	O
+khwlaiya	O
+ble	O
+
+Hrangkhawl	B-PER
+Kokborok	B-ORG
+Language	I-ORG
+Division	I-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Kokborok	B-ORG
+Language	I-ORG
+Division	I-ORG
+ni	O
+kotorma	O
+nok	O
+Jampui	B-LOC
+o	O
+tongo	O
+.	O
+
+Ram	B-PER
+khoroksa	O
+siyangwnang	O
+tei	O
+khatungjak	O
+chwrai	O
+,	O
+tei	O
+boh	O
+bini	O
+yaksiyagra	O
+hayungni	O
+bagwi	O
+swrwngna	O
+belai	O
+hamjago	O
+.	O
+
+Very	O
+important	O
+say	O
+abobo	O
+
+Chwng	O
+beraina	O
+bagwi	O
+boro	O
+thangkhe	O
+chano	O
+?	O
+
+Murasing	B-PER
+High	B-ORG
+Court	I-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Issues	O
+forward	O
+khai	O
+di	O
+dean	O
+no	O
+by	O
+today	O
+
+Coming	O
+December	O
+o	O
+ani	O
+nok	O
+o	O
+panda	O
+tongo	O
+jotono	O
+no	O
+invite	O
+kahio	O
+manhjak	O
+nani	O
+bagui	O
+
+Nwng	O
+bobo	O
+hai	O
+bwtwino	O
+chajak	O
+?	O
+
+I	O
+will	O
+not	O
+do	O
+that	O
+ulo	O
+ang	O
+blame	O
+manai	O
+se	O
+
+Chini	O
+group	O
+dance	O
+say	O
+best	O
+ongkha	O
+pho	O
+jotono	O
+sao	O
+
+Asha	B-PER
+Tripura	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Ker	B-MISC
+Puja	I-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+TSF	B-ORG
+central	O
+committee	O
+ni	O
+Ex-president	O
+borom	O
+gwnang	O
+Prasanta	B-PER
+Debbarma	I-PER
+o	O
+swngchar	O
+no	O
+yakarlang	O
+kha	O
+
+Rajiv	B-PER
+Gandhi	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+never	O
+disobey	O
+your	O
+parents	O
+and	O
+elders	O
+
+I	O
+think	O
+you	O
+forgot	O
+me	O
+belai	O
+no	O
+hambai	O
+nono	O
+Everyone	O
+has	O
+a	O
+time	O
+
+Hambai	O
+kahamkhe	O
+civil	O
+exam	O
+ni	O
+bagwi	O
+preparation	O
+khlaidi	O
+
+Bo	O
+kunu	O
+problem	O
+khaiya	O
+
+Chwng	O
+daktino	O
+takhuk-bukhuk	O
+bai	O
+malaina	O
+nangthai	O
+.	O
+
+elevator	O
+samung	O
+khwlai	O
+liya	O
+.	O
+
+High	B-ORG
+Court	I-ORG
+of	I-ORG
+Tripura	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Kaisa	O
+meme	O
+tongo	O
+aro	O
+pohorni	O
+biphiring	O
+yakchu	O
+haktorpha	O
+tei	O
+masa	O
+yonglaio	O
+kwthawi	O
+thango	O
+.	O
+
+Kharchi	B-MISC
+Puja	I-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+NSS	B-ORG
+ni	O
+kotorma	O
+nok	O
+Baramura	B-LOC
+o	O
+tongo	O
+.	O
+
+Indira	B-PER
+Gandhi	I-PER
+ni	O
+nok	O
+Jampui	B-LOC
+o	O
+tongo	O
+.	O
+
+Change	O
+your	O
+status	O
+naitok	O
+ya	O
+khnatok	O
+ya	O
+abo	O
+
+Ani	O
+list	O
+o	O
+nini	O
+bumung	O
+tongo	O
+
+Different	O
+types	O
+of	O
+traditional	O
+dance	O
+tong	O
+wo	O
+
+nini	O
+expectation	O
+belai	O
+no	O
+high	O
+
+India	B-LOC
+ni	O
+kwbang	O
+achaimungni	O
+ungkulugo	O
+kwbangma	O
+kokbubak	O
+tongu	O
+.	O
+
+Kisa	O
+rang	O
+shortage	O
+ni	O
+bagwi	O
+khai	O
+mangliya	O
+
+One	O
+year	O
+kono	O
+problem	O
+kroi	O
+still	O
+time	O
+is	O
+there	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+with	O
+God	O
+all	O
+things	O
+are	O
+possible	O
+
+Last	O
+month	O
+o	O
+no	O
+nok	O
+shift	O
+khlaikha	O
+
+Silchar	O
+ni	O
+tamo	O
+news	O
+tong	O
+tini	O
+
+Kailashahar	B-LOC
+ni	O
+borokrog	O
+Hojagiri	B-MISC
+maniyo	O
+.	O
+
+Tini	O
+o	O
+group	O
+o	O
+kebh	O
+wakbahan	O
+bai	O
+mai	O
+chanai	O
+rag	O
+da	O
+tong	O
+
+THB	B-ORG
+ni	O
+kotorma	O
+nok	O
+Kailashahar	B-LOC
+o	O
+tongo	O
+.	O
+
+Broy	O
+bai	O
+chla	O
+friends	O
+sa	O
+ongmaiya	O
+
+Beni	O
+bo	O
+respect	O
+tongo	O
+hai	O
+no	O
+blame	O
+ta	O
+khai	O
+di	O
+
+Ani	O
+palni	O
+pharmarcy	O
+shop	O
+tongo	O
+
+Kokborok	B-MISC
+Day	I-MISC
+salo	O
+Dharmanagar	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Kaitor	O
+bini	O
+disciples	O
+rok	O
+no	O
+sao	O
+cleanse	O
+the	O
+lepers	O
+
+Galo	B-PER
+TTAADC	B-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Bini	O
+achukthaino	O
+bini	O
+bwsla	O
+Rajiv	B-PER
+Gandhi	I-PER
+naharkha	O
+.	O
+
+Total	O
+busuk	O
+blood	O
+donate	O
+khainai	O
+tong	O
+
+And	O
+phai	O
+manliya	O
+norogni	O
+logio	O
+due	O
+to	O
+some	O
+issues	O
+
+William	O
+I	O
+of	O
+England	B-LOC
+
+Tei	O
+kaisa	O
+Clean	O
+India	B-LOC
+Campaign	O
+song	O
+samung	O
+khwlai	O
+ma	O
+khe	O
+bohrok	O
+manwi	O
+hamya	O
+tonijaknai	O
+bago	O
+bohrokni	O
+kamino	O
+kwchwng	O
+khwlai	O
+thanio	O
+chukthwng	O
+hwnwi	O
+.	O
+
+Every	O
+conner	O
+o	O
+mathong	O
+lai	O
+nai	O
+
+Supreme	B-ORG
+Court	I-ORG
+ni	O
+kotorma	O
+nok	O
+Dashamighat	B-LOC
+o	O
+tongo	O
+.	O
+
+Ang	O
+tabuk	O
+phono	O
+samung	O
+paire	O
+mangya	O
+kho	O
+I	O
+am	O
+doing	O
+
+Animesh	B-PER
+Debbarma	I-PER
+TTAADC	B-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Ang	O
+kisa	O
+khata	O
+kolom	O
+paina	O
+nangnai	O
+.	O
+
+Jotono	O
+ri	O
+khay	O
+I	O
+am	O
+ready	O
+too	O
+
+Boroni	O
+seminar	O
+tongo	O
+next	O
+week	O
+
+Fridge	O
+bukcha	O
+wngtwtwi	O
+.	O
+
+Bikash	B-PER
+Tripura	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Kaitor	O
+ang	O
+no	O
+hold	O
+khai	O
+di	O
+
+Sanjay	B-PER
+tabok	O
+Atharamura	B-LOC
+o	O
+tongo	O
+.	O
+
+Ani	O
+charge	O
+tini	O
+no	O
+paikha	O
+
+Ang	O
+nono	O
+ulo	O
+ringanw	O
+.	O
+
+Really	O
+belai	O
+no	O
+bwkha	O
+tongthok	O
+kha	O
+
+Nini	O
+budget	O
+busuk	O
+tong	O
+I	O
+think	O
+you	O
+may	O
+need	O
+more	O
+
+Its	O
+seems	O
+nung	O
+belai	O
+no	O
+upset	O
+tamo	O
+ong	O
+
+Kirit	B-PER
+Pradyot	I-PER
+Khowai	B-LOC
+o	O
+thangkha	O
+.	O
+
+Tamo	O
+point	O
+bai	O
+bono	O
+false	O
+khai	O
+nai	O
+
+gosijak	O
+stock	O
+ni	O
+level	O
+no	O
+narwkdi	O
+tei	O
+paijak	O
+stock	O
+no	O
+kaham	O
+khe	O
+naikoldi	O
+.	O
+
+Hukbar	O
+khwlainairik	O
+Soi	O
+mojomo	O
+Morokmung	O
+ni	O
+bagwi	O
+choba	O
+khwlaikha	O
+.	O
+
+Sorry	O
+brother	O
+ang	O
+phai	O
+mangliya	O
+
+Kokborok	B-ORG
+Language	I-ORG
+Division	I-ORG
+ni	O
+kotorma	O
+nok	O
+Kolkata	B-LOC
+o	O
+tongo	O
+.	O
+
+Sabo	O
+tini	O
+Agartala	B-LOC
+thangnai	O
+
+Eko	O
+this	O
+are	O
+the	O
+peoples	O
+
+November	O
+talni	O
+25	O
+salmario	O
+naisingrwi	O
+tonjaknai	O
+sannairokno	O
+yachakjagwi	O
+tongmani	O
+kokno	O
+saklaijak	O
+kha	O
+.	O
+
+Nini	O
+curry	O
+tobe	O
+di	O
+we	O
+can	O
+eat	O
+together	O
+
+Kanchanpur	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Ang	O
+jorsa	O
+yakwlap	O
+kwtal	O
+nangwi	O
+tongkha	O
+.	O
+
+Commando	O
+haise	O
+nokse	O
+ble	O
+ang	O
+ba	O
+nono	O
+really	O
+
+Sabroom	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Asha	B-PER
+Tripura	I-PER
+ni	O
+nok	O
+Udaipur	B-LOC
+o	O
+tongo	O
+.	O
+
+Darlong	B-PER
+tabok	O
+Feni	B-LOC
+o	O
+tongo	O
+.	O
+
+Wrong	O
+location	O
+say	O
+sawi	O
+tongo	O
+
+Norokni	O
+aro	O
+ang	O
+phaiwi	O
+tongo	O
+to	O
+collect	O
+some	O
+data	O
+
+This	O
+time	O
+nung	O
+over	O
+all	O
+incharge	O
+na	O
+sedi	O
+
+Rajiv	B-PER
+tabok	O
+Dharmanagar	B-LOC
+o	O
+tongo	O
+.	O
+
+Nwng	O
+ano	O
+omo	O
+haikhe	O
+chubaida	O
+mano	O
+?	O
+
+College	O
+ni	O
+matter	O
+college	O
+o	O
+no	O
+tong	O
+tho	O
+
+Hero	O
+sitra	O
+se	O
+naithok	O
+kurui	O
+de	O
+
+Phaidi	O
+Kotor	O
+o	O
+Sorai	O
+laigana	O
+.	O
+
+Nini	O
+gan	O
+composed	O
+day	O
+phai	O
+kha	O
+Kisa	O
+rechap	O
+woi	O
+khnari	O
+gradi	O
+please	O
+
+Bisi	O
+1976	O
+'	O
+o	O
+,	O
+Barot	B-LOC
+haphang	O
+ah	O
+kokbanglaijaknai	O
+National	O
+Emergency	O
+Act	O
+Passed	O
+khlaikha	O
+,	O
+aboni	O
+twywi	O
+chwla	O
+tei	O
+bwrwirokni	O
+sakao	O
+bohrokni	O
+muchungma	O
+kwrwi	O
+twtwi	O
+bwchwlwi	O
+bwtharma	O
+tangbwtang	O
+phwnangjakha	O
+.	O
+
+TFTC	B-ORG
+Akhaura	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+Biplab	B-PER
+Kumar	I-PER
+Deb	I-PER
+India	B-LOC
+o	O
+thangkha	O
+.	O
+
+Kokborok	B-ORG
+Sahitya	I-ORG
+Sabha	I-ORG
+ni	O
+kotorma	O
+nok	O
+Akhaura	B-LOC
+o	O
+tongo	O
+.	O
+
+Kharchi	B-MISC
+Puja	I-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Practice	O
+kisa	O
+makhailai	O
+nai	O
+so	O
+that	O
+we	O
+can	O
+understand	O
+each	O
+others	O
+
+Chakma	B-PER
+NSS	B-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+phaidi	O
+malkhung	O
+chalokna	O
+thanglai	O
+anw	O
+.	O
+
+Shamson	O
+khai	O
+kanti	O
+sen	O
+ni	O
+aro	O
+thang	O
+kha	O
+declare	O
+khai	O
+khe	O
+no	O
+
+Bir	B-PER
+Bikram	I-PER
+Kokborok	B-ORG
+Language	I-ORG
+Division	I-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Tuesday	O
+bai	O
+Thursday	O
+simi	O
+say	O
+chini	O
+tuition	O
+
+Kharchi	B-MISC
+Puja	I-MISC
+salo	O
+Bishalgarh	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Reang	B-PER
+ni	O
+nok	O
+Sabroom	B-LOC
+o	O
+tongo	O
+.	O
+
+Tripura	B-ORG
+University	I-ORG
+Amarpur	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+High	B-ORG
+Court	I-ORG
+Agartala	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+Ang	O
+registration	O
+fee	O
+rekha	O
+do	O
+
+Chini	O
+simi	O
+se	O
+cancel	O
+ong	O
+ya	O
+kho	O
+
+Nini	O
+chong	O
+mung	O
+tamo	O
+can	O
+you	O
+tell	O
+us	O
+
+Blame	O
+hai	O
+no	O
+takhai	O
+di	O
+do	O
+
+Feni	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Bipasha	B-PER
+Tripura	I-PER
+ni	O
+nok	O
+India	B-LOC
+o	O
+tongo	O
+.	O
+
+This	O
+time	O
+ang	O
+mistake	O
+khai	O
+kha	O
+
+tini	O
+nono	O
+except	O
+khai	O
+tong	O
+mani	O
+
+Nwng	O
+expert	O
+wngkha	O
+
+Driver	O
+kok	O
+sa	O
+khana	O
+yable	O
+belai	O
+khe	O
+fast	O
+
+High	B-ORG
+Court	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Reang	B-PER
+Supreme	B-ORG
+Court	I-ORG
+o	O
+kam	O
+khlaio	O
+.	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+love	O
+one	O
+another	O
+
+Feroze	B-PER
+Gandhi	I-PER
+tei	O
+Darlong	B-PER
+Sabroom	B-LOC
+o	O
+phaikha	O
+.	O
+
+Mungsa	O
+wngya	O
+kotor	O
+thung	O
+chikon	O
+thung	O
+,	O
+khumbwlwng	O
+wngkha	O
+kaisa	O
+thai	O
+aro	O
+khoroksa	O
+lengla	O
+'	O
+ui	O
+tei	O
+hapharni	O
+naithokmungno	O
+naywi	O
+tongthogwi	O
+manu	B-LOC
+.	O
+
+Garia	B-MISC
+Puja	I-MISC
+salo	O
+Jampui	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Nini	O
+question	O
+paper	O
+day	O
+tong	O
+kho	O
+
+Salthang	O
+European	O
+Hakotorogo	O
+kotor	O
+kotor	O
+hatini	O
+borok	O
+tongo	O
+.	O
+
+Bijoy	B-PER
+Kumar	I-PER
+Hrangkhawl	I-PER
+Gomati	B-LOC
+o	O
+thangkha	O
+.	O
+
+Ang	O
+ani	O
+kwcham	O
+rang	O
+sola	O
+swlaina	O
+nangsinai	O
+.	O
+
+THFC	B-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Tamo	O
+ni	O
+asuk	O
+pressure	O
+ongjak	O
+
+Radhapur	B-LOC
+ni	O
+borokrog	O
+Tripuri	B-MISC
+maniyo	O
+.	O
+
+ang	O
+khe	O
+bono	O
+se	O
+suspect	O
+khaio	O
+
+Bini	O
+question	O
+ni	O
+system	O
+omohai	O
+no	O
+
+I	O
+didn	O
+'	O
+t	O
+cook	O
+today	O
+nini	O
+aro	O
+say	O
+chasenai	O
+
+Jampui	B-LOC
+ni	O
+borokrog	O
+Wangala	B-MISC
+maniyo	O
+.	O
+
+Time	O
+belai	O
+no	O
+nangnai	O
+he	O
+knows	O
+
+Tripura	B-ORG
+University	I-ORG
+ni	O
+bisingtwi	O
+Rajiv	B-PER
+Gandhi	I-PER
+kok	O
+sahikha	O
+.	O
+
+Murasing	B-PER
+TTAADC	B-ORG
+o	O
+kam	O
+khlaio	O
+.	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+glorify	O
+your	O
+father	O
+in	O
+heaven	O
+
+Wangala	B-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Akhaura	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+At	O
+the	O
+young	O
+age	O
+bo	O
+kaijak	O
+kha	O
+
+Sorry	O
+brother	O
+kisa	O
+pho	O
+sa	O
+moito	O
+mangliya	O
+
+India	B-LOC
+o	O
+phirokma	O
+olo	O
+,	O
+Ambedkar	O
+khoroksa	O
+lekhathaih	O
+dagimung	O
+wngkha	O
+Indian	O
+yokmung	O
+ninangrimung	O
+thayo	O
+.	O
+
+Its	O
+sure	O
+Manoj	O
+bai	O
+druken	O
+state	O
+ashi	O
+that	O
+,	O
+s	O
+why	O
+he	O
+cannot	O
+recognize	O
+me	O
+
+Hrangkhawl	B-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Sobo	O
+ni	O
+jagao	O
+water	O
+supply	O
+ni	O
+tanki	O
+kainai	O
+
+Next	O
+time	O
+ridi	O
+ata	O
+no	O
+problem	O
+
+Next	O
+ni	O
+agenda	O
+tamo	O
+tamo	O
+tong	O
+
+Battala	B-LOC
+ni	O
+borokrog	O
+Hojagiri	B-MISC
+maniyo	O
+.	O
+
+Nini	O
+dress	O
+change	O
+khai	O
+se	O
+di	O
+abo	O
+mang	O
+tani	O
+dress	O
+kroi	O
+day	O
+nini	O
+
+Howrah	B-LOC
+ni	O
+borokrog	O
+Hojagiri	B-MISC
+Dance	I-MISC
+maniyo	O
+.	O
+
+Nwng	O
+ano	O
+chubaide	O
+mano	O
+ani	O
+pali	O
+khwlaijaknai	O
+samungni	O
+bagwi	O
+?	O
+
+Ani	O
+phungni	O
+Damchi	O
+jorao	O
+kuthum	O
+jaknai	O
+tongo	O
+,	O
+
+Tamo	O
+ni	O
+asuk	O
+negative	O
+mang	O
+
+Dharmanagar	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Nini	O
+curry	O
+no	O
+test	O
+khainai	O
+
+Negative	O
+ya	O
+ble	O
+first	O
+ni	O
+answer	O
+its	O
+positive	O
+
+Chop	O
+out	O
+the	O
+list	O
+first	O
+discuss	O
+khai	O
+ya	O
+ni	O
+sekang	O
+
+Nini	O
+program	O
+change	O
+mung	O
+ongwi	O
+tongo	O
+
+Murasing	B-PER
+Kokborok	B-ORG
+Language	I-ORG
+Division	I-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+TIT	B-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Relation	O
+tongo	O
+kisale	O
+otherwise	O
+not	O
+possible	O
+
+Christmas	B-MISC
+ni	O
+program	O
+schedule	O
+da	O
+mankha	O
+
+Ang	O
+porithai	O
+kaham	O
+kaisa	O
+rutukna	O
+nangnai	O
+.	O
+
+Chikon	O
+ni	O
+simi	O
+chengwi	O
+kotor	O
+khachongnani	O
+,	O
+hamjakma	O
+tei	O
+samung	O
+.	O
+
+Kebono	O
+hide	O
+ta	O
+khai	O
+di	O
+do	O
+
+Film	O
+festival	O
+ni	O
+bagui	O
+chong	O
+haino	O
+hai	O
+gwdal	O
+laijak	O
+jotoni	O
+chobamong	O
+nango	O
+
+Jamatia	B-PER
+THB	B-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+India	B-LOC
+ni	O
+chikonsa	O
+kamio	O
+,	O
+Ram	B-PER
+mungwi	O
+chwrai	O
+khoroksa	O
+tongmani	O
+.	O
+
+Sir	O
+no	O
+nukgwi	O
+Manipur	O
+nini	O
+conclave	O
+of	O
+manitex	O
+belai	O
+tongthokha	O
+
+Who	O
+who	O
+are	O
+coming	O
+kisa	O
+informed	O
+khai	O
+di	O
+in	O
+advance	O
+I	O
+need	O
+to	O
+prepared	O
+something	O
+
+Diporni	O
+chamungni	O
+bagwi	O
+nwng	O
+boro	O
+thangna	O
+muchung	O
+?	O
+
+Hojagiri	B-MISC
+Dance	I-MISC
+salo	O
+Gandacherra	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+High	B-ORG
+Court	I-ORG
+of	I-ORG
+Tripura	I-ORG
+ni	O
+kotorma	O
+nok	O
+Kumarghat	B-LOC
+o	O
+tongo	O
+.	O
+
+Asha	B-PER
+Tripura	I-PER
+Indian	B-ORG
+Supreme	I-ORG
+Court	I-ORG
+o	O
+kam	O
+khlaio	O
+.	O
+
+Samung	O
+tang	O
+ni	O
+rau	O
+ni	O
+list	O
+pho	O
+khai	O
+khe	O
+hanai	O
+
+Kaitor	O
+chung	O
+no	O
+warned	O
+khaio	O
+not	O
+to	O
+still	O
+and	O
+kill	O
+others	O
+
+Blame	O
+khai	O
+jak	O
+bono	O
+for	O
+his	O
+roude	O
+behavior	O
+
+Always	O
+family	O
+o	O
+isor	O
+no	O
+first	O
+place	O
+o	O
+tong	O
+di	O
+
+Project	O
+is	O
+done	O
+na	O
+phai	O
+de	O
+
+Kharchi	B-MISC
+Puja	I-MISC
+salo	O
+Kailashahar	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Total	O
+busuk	O
+village	O
+tong	O
+uchoi	O
+parao	O
+
+Chini	O
+training	O
+paiya	O
+kho	O
+still	O
+going	O
+on	O
+
+Tabuk	O
+phono	O
+mama	O
+ni	O
+case	O
+phai	O
+ya	O
+kho	O
+I	O
+don	O
+'	O
+t	O
+know	O
+what	O
+is	O
+the	O
+problem	O
+with	O
+the	O
+high	O
+court	O
+
+phaidi	O
+khwna	O
+paina	O
+thanglai	O
+anw	O
+.	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+never	O
+kill	O
+others	O
+
+Koloi	B-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Ang	O
+nini	O
+laptop	O
+no	O
+kisa	O
+jorani	O
+bagwi	O
+naiwi	O
+de	O
+mano	O
+?	O
+
+Tai	O
+discount	O
+mang	O
+glak	O
+do	O
+
+Bo	O
+1917	O
+bisio	O
+kaisa	O
+munggwnang	O
+thwnggwrwng	O
+nukhungo	O
+achaikha	O
+,	O
+tei	O
+bupha	O
+Jawaharlal	B-PER
+Nehru	I-PER
+,	O
+bono	O
+Barot	B-LOC
+hani	O
+puila	O
+Montri	O
+Bokhorok	O
+.	O
+
+Chakma	B-PER
+Assam	B-LOC
+o	O
+thangkha	O
+.	O
+
+Nono	O
+search	O
+khlai	O
+mangno	O
+time	O
+thangkha	O
+
+Ihi	O
+khwlaiyakhu	O
+.	O
+Ang	O
+chongwi	O
+tongo	O
+kisa	O
+bon	O
+chanani	O
+.	O
+
+Once	O
+ong	O
+kha	O
+no	O
+more	O
+mistake	O
+
+Indira	B-PER
+Gandhi	I-PER
+ni	O
+nok	O
+Howrah	B-LOC
+o	O
+tongo	O
+.	O
+
+MBB	B-ORG
+College	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Durga	B-MISC
+Puja	I-MISC
+salo	O
+Delhi	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Tumungno	O
+chwng	O
+amo	O
+khlaywi	O
+mankha	O
+hwnkhe	O
+,	O
+chwng	O
+ah	O
+khanangmungni	O
+chaya	O
+thaimungrokno	O
+sakpherwi	O
+manu	B-LOC
+.	O
+
+Tamo	O
+ni	O
+traditional	O
+dance	O
+
+Wait	O
+khai	O
+di	O
+bono	O
+
+Congress	B-ORG
+ni	O
+bisingtwi	O
+Darlong	B-PER
+kok	O
+sahikha	O
+.	O
+
+Kokborok	B-ORG
+Sahitya	I-ORG
+Sabha	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+nung	O
+honest	O
+tongwi	O
+phonukdi	O
+
+Tamo	O
+ni	O
+bo	O
+asuk	O
+less	O
+payment	O
+khai	O
+
+Hojagiri	B-MISC
+salo	O
+England	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Tini	O
+translation	O
+klailaiphruni	O
+mangpli	O
+
+First	O
+half	O
+o	O
+no	O
+score	O
+khaina	O
+nang	O
+nai	O
+
+Nini	O
+life	O
+no	O
+kaham	O
+khe	O
+set	O
+kai	O
+di	O
+from	O
+now	O
+
+Promise	O
+ni	O
+value	O
+nung	O
+sawoi	O
+day	O
+mang	O
+
+I	O
+am	O
+still	O
+wondering	O
+bobai	O
+tamo	O
+khai	O
+mo	O
+cha	O
+
+Norok	O
+ni	O
+date	O
+tabuk	O
+phono	O
+fixed	O
+ong	O
+yak	O
+kho	O
+day	O
+
+Nwng	O
+koktisalni	O
+phungni	O
+jorano	O
+bahai	O
+khe	O
+katinani	O
+hamjak	O
+?	O
+
+Nini	O
+ani	O
+tai	O
+relation	O
+kroi	O
+kha	O
+I	O
+am	O
+done	O
+
+Birendra	B-PER
+Kishore	I-PER
+THB	B-ORG
+o	O
+kam	O
+khlaio	O
+.	O
+
+Ang	O
+next	O
+week	O
+o	O
+phai	O
+nai	O
+informed	O
+khai	O
+di	O
+kisa	O
+chini	O
+incharge	O
+no	O
+
+Ani	O
+Phone	O
+thuklupjaknai	O
+swlaina	O
+nangnai	O
+.	O
+
+September	O
+talno	O
+suwi	O
+naikhe	O
+,	O
+phalmani	O
+mari	O
+8	O
+parcent	O
+kwbang	O
+wngkha	O
+.	O
+
+Ram	B-PER
+tei	O
+Rajiv	B-PER
+Gandhi	I-PER
+Agartala	B-LOC
+o	O
+phaikha	O
+.	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+to	O
+turn	O
+away	O
+from	O
+wrong	O
+
+Faculty	O
+ni	O
+matter	O
+say	O
+tamo	O
+ong	O
+kha	O
+no	O
+news	O
+
+Please	O
+tai	O
+waisa	O
+kisa	O
+kaham	O
+khe	O
+check	O
+khai	O
+gadi	O
+
+Ang	O
+bo	O
+sawoi	O
+mangya	O
+tamo	O
+tamo	O
+traditional	O
+dance	O
+tong	O
+nai	O
+tini	O
+
+Tripura	B-PER
+tei	O
+Kirit	B-PER
+Pradyot	I-PER
+Kumarghat	B-LOC
+o	O
+phaikha	O
+.	O
+
+NSS	B-ORG
+ni	O
+bisingtwi	O
+Radha	B-PER
+Kishore	I-PER
+kok	O
+sahikha	O
+.	O
+
+Ang	O
+muitu	O
+bwlairokno	O
+thumnani	O
+hamjago	O
+.	O
+
+Asha	B-PER
+Tripura	I-PER
+NSS	B-ORG
+o	O
+kam	O
+khlaio	O
+.	O
+
+Chini	O
+requirement	O
+tabuk	O
+phono	O
+full	O
+fill	O
+ongya	O
+kho	O
+
+Program	O
+setting	O
+chaya	O
+kho	O
+
+Internet	O
+wngkha	O
+Facebook	O
+chat	O
+,	O
+twitter	O
+memes	O
+,	O
+tei	O
+instagram	O
+mangpili	O
+swlaibo	O
+teibo	O
+kotor	O
+.	O
+
+Kokboroko	O
+bo	O
+PH	O
+.	O
+D	O
+khlai	O
+mankha	O
+haida	O
+tabuk	O
+Yes	O
+brother	O
+from	O
+this	O
+year	O
+
+Kaitor	O
+chung	O
+no	O
+phurango	O
+to	O
+watch	O
+and	O
+pray	O
+so	O
+that	O
+we	O
+may	O
+not	O
+fall	O
+into	O
+temptation	O
+
+Bimal	B-PER
+Debbarma	I-PER
+Barot	B-LOC
+o	O
+thangkha	O
+.	O
+
+High	B-ORG
+Court	I-ORG
+of	I-ORG
+Tripura	I-ORG
+ni	O
+kotorma	O
+nok	O
+Deo	B-LOC
+o	O
+tongo	O
+.	O
+
+What	O
+to	O
+do	O
+tamo	O
+khai	O
+nai	O
+kha	O
+tabuk	O
+rang	O
+bo	O
+koroi	O
+
+Business	O
+ni	O
+kok	O
+angno	O
+tasa	O
+di	O
+
+Problem	O
+create	O
+khaiwi	O
+tamo	O
+mangnai	O
+
+Garia	B-MISC
+Puja	I-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Galo	B-PER
+All	B-ORG
+Tripura	I-ORG
+Indigenous	I-ORG
+Students	I-ORG
+Association	I-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Jamatia	B-PER
+ni	O
+nok	O
+Radhapur	B-LOC
+o	O
+tongo	O
+.	O
+
+Elizabeth	O
+I	O
+of	O
+England	B-LOC
+
+Rang	O
+kroi	O
+kha	O
+withdraw	O
+makhai	O
+nai	O
+tini	O
+
+Tamo	O
+khainai	O
+pressure	O
+rewi	O
+no	O
+any	O
+used	O
+
+Tini	O
+BCF	O
+rau	O
+worship	O
+khelai	O
+phai	O
+me	O
+
+Ter-ni	O
+sajukmarok	O
+belaino	O
+naithok	O
+.	O
+
+Kirit	B-PER
+Pradyot	I-PER
+Sabroom	B-LOC
+o	O
+thangkha	O
+.	O
+
+Gandacherra	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Ang	O
+wait	O
+khaisok	O
+kha	O
+tai	O
+ang	O
+wait	O
+khaimang	O
+glak	O
+
+Darlong	B-PER
+ni	O
+nok	O
+Assam	B-LOC
+o	O
+tongo	O
+.	O
+
+Ang	O
+Sandwich	O
+tei	O
+Coffee	O
+nawanw	O
+.	O
+
+Kabo	O
+sadi	O
+tamo	O
+mistake	O
+khai	O
+kha	O
+ang	O
+
+"	O
+Ang	O
+poito	O
+khwlaywi	O
+manya	O
+chwng	O
+tini	O
+India	B-LOC
+ni	O
+chamungrokno	O
+songnani	O
+maswrwngnai	O
+"	O
+hwnwi	O
+bisi	O
+10	O
+omorni	O
+Priya	O
+tongthokjagwi	O
+sakha	O
+.	O
+
+O	O
+achukthai	O
+belaino	O
+achukthogo	O
+.	O
+
+Kharchi	B-MISC
+Puja	I-MISC
+salo	O
+Kumarghat	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Delhi	O
+police	O
+ni	O
+recruitment	O
+twlang	O
+ma	O
+jaga	O
+caste	O
+certificates	O
+attested	O
+sanuh	O
+adgui	O
+ta	O
+
+Hojagiri	B-MISC
+Dance	I-MISC
+salo	O
+Muhuri	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Equal	O
+hing	O
+mani	O
+tamo	O
+sena	O
+ble	O
+
+Ah	O
+tangbwtangni	O
+bisingtwi	O
+Barot	B-LOC
+haktorni	O
+bwsa	O
+chuwi	O
+manmungni	O
+wngmarino	O
+khaithani	O
+bwthai	O
+kahamno	O
+mankha	O
+,	O
+haiphano	O
+tabukbo	O
+obo	O
+jwngjal	O
+bai	O
+kwrangjakhu	O
+,	O
+sana	O
+thangkhe	O
+omoni	O
+twywi	O
+awaimung	O
+tei	O
+seb	O
+-	O
+sab	O
+mannani	O
+lamarok	O
+aswk	O
+kwrwi	O
+.	O
+
+Bebagwi	O
+,	O
+ani	O
+wansukmatwi	O
+omo	O
+kaisa	O
+kahamkhe	O
+swnamjak	O
+toke	O
+waisale	O
+naijagwi	O
+manu	B-LOC
+.	O
+
+"	O
+Abo	O
+kaisa	O
+mwibwtwi	O
+haise	O
+India	B-LOC
+'	O
+o	O
+belai	O
+chajago	O
+.	O
+"	O
+
+Common	O
+borokrog	O
+call	O
+khwlaikhe	O
+yachakna	O
+time	O
+kwrwi	O
+wngjak	O
+mano	O
+
+Tai	O
+college	O
+ni	O
+days	O
+mang	O
+glak	O
+
+High	B-ORG
+Court	I-ORG
+of	I-ORG
+Tripura	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Massage	O
+khaima	O
+ni	O
+busuk	O
+charge	O
+khai	O
+bo	O
+
+Oh	O
+tangbwtangrok	O
+belaino	O
+sejajakha	O
+paithago	O
+abo	O
+Indian	B-ORG
+Supreme	I-ORG
+Court	I-ORG
+bai	O
+rosai	O
+naharjakha	O
+.	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+to	O
+follow	O
+his	O
+ten	O
+commements	O
+
+ang	O
+bono	O
+suspect	O
+khai	O
+mani	O
+abo	O
+no	O
+ong	O
+kha	O
+
+Nini	O
+shirt	O
+no	O
+clean	O
+khaiwi	O
+tong	O
+di	O
+
+Phaidi	O
+Kami	O
+amchai	O
+bwkha	O
+drive	O
+khwlai	O
+lai	O
+anw	O
+.	O
+
+Ang	O
+civil	O
+service	O
+say	O
+ong	O
+nai	O
+
+Bahaikhe	O
+ang	O
+ganani	O
+bus	O
+bathakmani	O
+thai	O
+manwi	O
+man	O
+?	O
+
+Jawaharlal	B-PER
+Nehru	I-PER
+Congress	B-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Bimal	B-PER
+Debbarma	I-PER
+tei	O
+Murasing	B-PER
+Barot	B-LOC
+o	O
+phaikha	O
+.	O
+
+Ani	O
+jaga	O
+o	O
+kisa	O
+visit	O
+khai	O
+lainai	O
+
+Nwng	O
+saiwide	O
+mano	O
+kaisa	O
+kaham	O
+samung	O
+nangnai	O
+bijap	O
+?	O
+
+Durga	B-MISC
+Puja	I-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Respected	O
+group	O
+friends	O
+rok	O
+kisa	O
+song	O
+upload	O
+khai	O
+gra	O
+di	O
+
+Last	O
+session	O
+tamo	O
+khai	O
+lainai	O
+tini	O
+
+Abo	O
+belaikheno	O
+khasotonnai	O
+nukmung	O
+.	O
+
+Swrwngnairok	O
+,	O
+Tini	O
+ni	O
+Swrwngmao	O
+Ani	O
+kaisa	O
+swngmung	O
+tongo	O
+.	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+that	O
+he	O
+came	O
+not	O
+to	O
+be	O
+served	O
+but	O
+to	O
+serve	O
+
+Good	O
+next	O
+time	O
+taibo	O
+kaham	O
+score	O
+khwlaina	O
+naidi	O
+
+Phungkaham	O
+jotono	O
+all	O
+the	O
+best	O
+tri	O
+tini	O
+ni	O
+samungrok	O
+no	O
+almighty	O
+God	O
+chubathung	O
+
+Jamatia	B-PER
+High	B-ORG
+Court	I-ORG
+of	I-ORG
+Tripura	I-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Bini	O
+time	O
+table	O
+se	O
+set	O
+khai	O
+jak	O
+bo	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+blessed	O
+are	O
+you	O
+when	O
+people	O
+insult	O
+you	O
+
+Next	O
+week	O
+tai	O
+phailiya	O
+do	O
+
+Blame	O
+khai	O
+jak	O
+bono	O
+for	O
+doing	O
+that	O
+
+Football	O
+tournament	O
+start	O
+wngnai	O
+next	O
+week	O
+
+Payment	O
+khaiwi	O
+paikha	O
+send	O
+me	O
+the	O
+details	O
+
+Uchoi	B-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Water	O
+supply	O
+kaham	O
+khe	O
+phaiya	O
+
+Bir	B-PER
+Bikram	I-PER
+tabok	O
+Atharamura	B-LOC
+o	O
+tongo	O
+.	O
+
+Binoy	B-PER
+Debbarma	I-PER
+tabok	O
+Kanchanpur	B-LOC
+o	O
+tongo	O
+.	O
+
+Drive	O
+slow	O
+watoi	O
+phaio	O
+tongo	O
+
+Ang	O
+football	O
+say	O
+kisa	O
+interest	O
+nangjak	O
+wo	O
+
+Phaidi	O
+phungo	O
+khabrumna	O
+thanglai	O
+anw	O
+.	O
+
+Wai	O
+thamchichar	O
+North-east	O
+Sikla	B-MISC
+Ter	I-MISC
+Tripura	B-LOC
+songchakha	O
+.	O
+
+India	B-LOC
+'	O
+o	O
+Nukhung	O
+chaplanani	O
+kokno	O
+pirnani	O
+bagwi	O
+kwbangma	O
+kasumung	O
+tongo	O
+.	O
+
+Nwng	O
+waisaphano	O
+palirok	O
+phulwi	O
+da	O
+naikha	O
+?	O
+
+Please	O
+kisa	O
+massage	O
+day	O
+khaiwi	O
+mang	O
+no	O
+ang	O
+no	O
+
+Nini	O
+quotation	O
+de	O
+senumb	O
+kha	O
+
+Nwng	O
+Riswngwi	O
+tongmani	O
+twda	O
+tongthokjak	O
+kha	O
+?	O
+
+Unnecessary	O
+suspend	O
+khai	O
+jak	O
+kha	O
+bo	O
+
+Debbarma	B-PER
+THFC	B-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+THFC	B-ORG
+ni	O
+bisingtwi	O
+Asha	B-PER
+Tripura	I-PER
+kok	O
+sahikha	O
+.	O
+
+Tripura	B-ORG
+Tata	B-ORG
+bai	O
+khwlai	O
+khungchichuku	O
+ITIs	B-ORG
+phuwarnai	O
+.	O
+
+Omo	O
+khe	O
+ani	O
+suggestion	O
+nung	O
+khe	O
+tamo	O
+sa	O
+
+Nakardi	O
+,	O
+Ganani	O
+ATM	O
+boro	O
+?	O
+
+Tamo	O
+ni	O
+bono	O
+blame	O
+khai	O
+jak	O
+kha	O
+
+Belai	O
+no	O
+hambai	O
+for	O
+understand	O
+my	O
+problem	O
+
+By	O
+next	O
+month	O
+ang	O
+clear	O
+kahi	O
+nai	O
+do	O
+
+Ani	O
+khotolno	O
+ang	O
+sajukna	O
+nango	O
+.	O
+
+Family	O
+khaipai	O
+khe	O
+tension	O
+belai	O
+tongo	O
+
+Ah	O
+puila	O
+saknainokrok	O
+India	B-LOC
+,	O
+China	O
+,	O
+tei	O
+Greece	O
+bising	O
+songchajakha	O
+.	O
+
+Nini	O
+location	O
+exect	O
+boro	O
+sadi	O
+we	O
+are	O
+coming	O
+
+Ang	O
+kaisa	O
+siring	O
+siring	O
+thai	O
+rutukna	O
+nangnai	O
+porina	O
+bagwi	O
+.	O
+
+Manikya	B-PER
+Tripura	B-LOC
+o	O
+thangkha	O
+.	O
+
+Hojagiri	B-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Chamoni	O
+kok	O
+atleast	O
+chini	O
+kok	O
+khnakha	O
+
+Thang	O
+di	O
+don	O
+'	O
+t	O
+come	O
+here	O
+
+Kokborok	B-MISC
+Day	I-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Nini	O
+responsibility	O
+no	O
+nwng	O
+sakthardi	O
+
+Bo	O
+jorarogo	O
+nwng	O
+bachajak	O
+?	O
+
+Nwng	O
+rwchamung	O
+khwnanada	O
+hamjak	O
+?	O
+
+Angbo	O
+tini	O
+belonia	O
+Christian	O
+fellowship	O
+ni	O
+kwtal	O
+chongjak	O
+committee	O
+ni	O
+adongsongno	O
+ani	O
+nok	O
+bhara	O
+lamsogmankha	O
+tei	O
+bohrokni	O
+planning	O
+rokno	O
+khurchalaiui	O
+kaitor	O
+no	O
+hambai	O
+yapharlaikha	O
+
+Kirit	B-PER
+Pradyot	I-PER
+tei	O
+Bir	B-PER
+Bikram	I-PER
+Radhapur	B-LOC
+o	O
+phaikha	O
+.	O
+
+Radhapur	B-LOC
+ni	O
+borokrog	O
+Kokborok	B-MISC
+Day	I-MISC
+maniyo	O
+.	O
+
+Hrangkhawl	B-PER
+ni	O
+nok	O
+Agartala	B-LOC
+o	O
+tongo	O
+.	O
+
+Norok	O
+ni	O
+return	O
+ticket	O
+bufuru	O
+
+Arrange	O
+khai	O
+mani	O
+ongya	O
+kho	O
+keep	O
+in	O
+order	O
+
+Tamo	O
+no	O
+wait	O
+khai	O
+tong	O
+
+Sobo	O
+chung	O
+no	O
+phunai	O
+sa	O
+cultural	O
+dance	O
+
+Belai	O
+no	O
+chirikhok	O
+wui	O
+kabna	O
+muchungo	O
+very	O
+disgusting	O
+
+Kalai	B-PER
+TFTC	B-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Chini	O
+chongmung	O
+belai	O
+no	O
+hamya	O
+tabuk	O
+this	O
+days	O
+
+Rajiv	B-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Borok	B-ORG
+Peoples	I-ORG
+Council	I-ORG
+Kailashahar	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+Hrangkhawl	B-PER
+TIT	B-ORG
+o	O
+kam	O
+khlaio	O
+.	O
+
+Date	O
+fixed	O
+khai	O
+se	O
+di	O
+very	O
+less	O
+time	O
+
+Reang	B-PER
+tei	O
+Rajiv	B-PER
+Agartala	B-LOC
+o	O
+phaikha	O
+.	O
+
+Misunderstanding	O
+phai	O
+khe	O
+chaya	O
+ongnai	O
+
+Kebono	O
+wait	O
+ta	O
+khai	O
+di	O
+
+Ker	B-MISC
+Puja	I-MISC
+salo	O
+Deo	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Tini	O
+ani	O
+samung	O
+chaliya	O
+bad	O
+luck	O
+
+Rajiv	B-PER
+THB	B-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Up	O
+and	O
+down	O
+belai	O
+khe	O
+cost	O
+
+Best	O
+instruction	O
+renani	O
+naidi	O
+
+O	O
+lamao	O
+belaino	O
+Traffic	O
+.	O
+
+Blame	O
+khai	O
+jak	O
+bono	O
+because	O
+some	O
+machine	O
+got	O
+lost	O
+from	O
+his	O
+lab	O
+
+Total	O
+bwswk	O
+program	O
+collect	O
+wngkha	O
+
+Aboni	O
+bagwino	O
+ions	O
+ni	O
+kwthamung	O
+kwbang	O
+wngo	O
+,	O
+abo	O
+bai	O
+conductivity	O
+kwbang	O
+wngo	O
+.	O
+
+Biplab	B-PER
+Kumar	I-PER
+Deb	I-PER
+tabok	O
+Baramura	B-LOC
+o	O
+tongo	O
+.	O
+
+Sanjay	B-PER
+tabok	O
+Kumarghat	B-LOC
+o	O
+tongo	O
+.	O
+
+Dharmanagar	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Nini	O
+bank	O
+account	O
+toibi	O
+di	O
+
+Suddenly	O
+decide	O
+khai	O
+woi	O
+chaliya	O
+
+Nothing	O
+madam	O
+Bumung	O
+riyakheno	O
+chao	O
+
+Johnson	O
+swkango	O
+Amchaini	O
+Bokhorok	O
+Tangphang	O
+ni	O
+samung	O
+tangwi	O
+tongmani	O
+.	O
+
+Ang	O
+kwtal	O
+Sakkur	O
+kaham	O
+wngnai	O
+manwi	O
+phulwi	O
+naina	O
+nagnai	O
+.	O
+
+Uchoi	B-PER
+tabok	O
+Tripura	B-LOC
+o	O
+tongo	O
+.	O
+
+Phataro	O
+ongkhorna	O
+swkang	O
+ani	O
+samung	O
+pairwna	O
+nangnai	O
+.	O
+
+Kok	O
+khe	O
+haise	O
+khwna	O
+chwng	O
+fund	O
+raise	O
+project	O
+ni	O
+bagwi	O
+samung	O
+khlailaina	O
+thangwi	O
+tongo	O
+aboni	O
+bagwi	O
+
+Ang	O
+belai	O
+no	O
+depressed	O
+ong	O
+jak	O
+
+Ang	O
+saboni	O
+malkung	O
+o	O
+kanaiba	O
+come	O
+in	O
+my	O
+car	O
+brother	O
+
+Tauyong	O
+kho	O
+mondoli	O
+ni	O
+group	O
+song	O
+upload	O
+khlai	O
+gra	O
+di	O
+
+Nini	O
+chajak	O
+kukmani	O
+lenglama	O
+lama	O
+tamo	O
+?	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+you	O
+are	O
+my	O
+child	O
+
+Ani	O
+cell	O
+phone	O
+used	O
+khwlai	O
+manliya	O
+
+Nini	O
+chwrai	O
+jorani	O
+chajakamni	O
+thwngjaknai	O
+tamo	O
+?	O
+
+There	O
+are	O
+many	O
+issues	O
+in	O
+hostel	O
+ang	O
+khai	O
+maiya	O
+
+Bijoy	B-PER
+Kumar	I-PER
+Hrangkhawl	I-PER
+tei	O
+Jamatia	B-PER
+Tripura	B-LOC
+o	O
+phaikha	O
+.	O
+
+Hrangkhawl	B-PER
+tei	O
+Bimal	B-PER
+Debbarma	I-PER
+Belonia	B-LOC
+o	O
+phaikha	O
+.	O
+
+Please	O
+ang	O
+no	O
+blame	O
+takhai	O
+di	O
+
+Phaidi	O
+Berailwngo	O
+picnic	O
+ni	O
+bagwi	O
+thanglai	O
+anw	O
+.	O
+
+Manikya	B-PER
+ni	O
+nok	O
+Kumarghat	B-LOC
+o	O
+tongo	O
+.	O
+
+MBB	B-ORG
+College	I-ORG
+ni	O
+bisingtwi	O
+Athlete	B-PER
+Amardweep	I-PER
+Debbarma	I-PER
+kok	O
+sahikha	O
+.	O
+
+Barot	B-LOC
+ni	O
+borokrog	O
+Ker	B-MISC
+Puja	I-MISC
+maniyo	O
+.	O
+
+Ani	O
+sajla	O
+chwla	O
+kaham	O
+good	O
+boy	O
+
+Beni	O
+mathematics	O
+ni	O
+marks	O
+bai	O
+ani	O
+English	B-MISC
+marks	O
+same	O
+
+Kubwi	O
+kok	O
+no	O
+sakha	O
+brother	O
+you	O
+are	O
+great	O
+
+THB	B-ORG
+ni	O
+kotorma	O
+nok	O
+Jampui	B-LOC
+Hills	I-LOC
+o	O
+tongo	O
+.	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+to	O
+be	O
+kind	O
+and	O
+compassionate	O
+
+Phaidi	O
+haching	O
+lwngo	O
+picnic	O
+ni	O
+bagwi	O
+kok	O
+chaplai	O
+anw	O
+.	O
+
+Vegetables	O
+bo	O
+jotono	O
+abono	O
+abo	O
+
+Commando	O
+ni	O
+dress	O
+haisa	O
+ble	O
+nini	O
+dress	O
+
+Someday	O
+ang	O
+nono	O
+revange	O
+na	O
+nai	O
+
+Indian	B-ORG
+Supreme	I-ORG
+Court	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Bilonia-o	B-LOC
+Twitorma	B-LOC
+ni	O
+yokmung	O
+ni	O
+bagwi	O
+hukbar	O
+khwlainairok	O
+naisnglaijak	O
+.	O
+
+All	O
+programme	O
+ni	O
+photo	O
+rog	O
+kisa	O
+upload	O
+khaidi	O
+
+Bikash	B-PER
+Tripura	I-PER
+All	B-ORG
+Tripura	I-ORG
+Indigenous	I-ORG
+Students	I-ORG
+Association	I-ORG
+o	O
+kam	O
+khlaio	O
+.	O
+
+Noatia	B-PER
+MBB	B-ORG
+College	I-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Kebo	O
+ni	O
+arok	O
+ni	O
+help	O
+nang	O
+ya	O
+we	O
+can	O
+do	O
+with	O
+our	O
+fund	O
+
+Ani	O
+Alarm	O
+tini	O
+puse	O
+pungliya	O
+.	O
+
+Tini	O
+world	O
+environment	O
+day	O
+palaijakmani	O
+jampuijala	O
+o	O
+
+Agartala	B-LOC
+Station-o	I-LOC
+Khoroksara	O
+Bangladeshirok	B-MISC
+romjak	O
+kha	O
+.	O
+
+Nwng	O
+ano	O
+o	O
+sola	O
+twithani	O
+chubai	O
+da	O
+mano	O
+?	O
+
+Radha	B-PER
+Kishore	I-PER
+tei	O
+Rajiv	B-PER
+Teliamura	B-LOC
+o	O
+phaikha	O
+.	O
+
+ani	O
+kok	O
+no	O
+se	O
+nung	O
+khanliya	O
+khe	O
+ba	O
+now	O
+you	O
+have	O
+to	O
+face	O
+this	O
+problem	O
+
+Rajiv	B-PER
+tei	O
+Kirit	B-PER
+Pradyot	I-PER
+Assam	B-LOC
+o	O
+phaikha	O
+.	O
+
+Ani	O
+nok	O
+decorasion	O
+nungwi	O
+tong	O
+kha	O
+its	O
+getting	O
+odd	O
+day	O
+by	O
+day	O
+
+Ani	O
+family	O
+o	O
+problem	O
+ong	O
+tongo	O
+
+Nini	O
+thinking	O
+belai	O
+no	O
+complicated	O
+
+Rang	O
+mangkhe	O
+I	O
+will	O
+send	O
+sure	O
+
+Durga	B-MISC
+Puja	I-MISC
+salo	O
+Dhalai	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Bohrokno	O
+naituknani	O
+belai	O
+tugwi	O
+manu	B-LOC
+tei	O
+jotto	O
+borokni	O
+thani	O
+manthokya	O
+bo	O
+wngwi	O
+manu	B-LOC
+.	O
+
+Borok	O
+jotono	O
+think	O
+khai	O
+wi	O
+decision	O
+na	O
+kha	O
+
+Binoy	B-PER
+Debbarma	I-PER
+tabok	O
+Battala	B-LOC
+o	O
+tongo	O
+.	O
+
+Nini	O
+bagwi	O
+all	O
+ready	O
+sit	O
+kaisa	O
+narwkjak	O
+brother	O
+
+Rajiv	B-PER
+Gandhi	I-PER
+Atharamura	B-LOC
+o	O
+thangkha	O
+.	O
+
+Garia	B-MISC
+Puja	I-MISC
+salo	O
+Assam	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Kokborok	B-ORG
+Sahitya	I-ORG
+Sabha	I-ORG
+ni	O
+bisingtwi	O
+Koloi	B-PER
+kok	O
+sahikha	O
+.	O
+
+Kharchi	B-MISC
+Puja	I-MISC
+salo	O
+Atharamura	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Further	O
+information	O
+ni	O
+bagwi	O
+naishing	O
+wo	O
+tongo	O
+
+Biplab	B-PER
+Kumar	I-PER
+Deb	I-PER
+tei	O
+Feroze	B-PER
+Gandhi	I-PER
+Agartala	B-LOC
+o	O
+phaikha	O
+.	O
+
+Teer	O
+tong	O
+mani	O
+hamya	O
+bad	O
+habit	O
+abo	O
+yakar	O
+di	O
+
+Meeting	O
+bai	O
+ongliya	O
+
+India	B-LOC
+'	O
+o	O
+bisi	O
+kwdwkma	O
+romwi	O
+no	O
+nukhung	O
+chaplainani	O
+kok	O
+kaisa	O
+kokbanglaimung	O
+ni	O
+kokhak	O
+wngwi	O
+phai	O
+tongu	O
+.	O
+
+Last	O
+day	O
+celebration	O
+tai	O
+phai	O
+glak	O
+
+Ang	O
+question	O
+paper	O
+say	O
+collect	O
+khai	O
+yak	O
+ho	O
+
+MBB	B-ORG
+College	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Next	O
+time	O
+phai	O
+phedi	O
+with	O
+family	O
+alone	O
+with	O
+your	O
+wife	O
+and	O
+children	O
+do	O
+
+Athlete	B-PER
+Amardweep	I-PER
+Debbarma	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Sir	O
+no	O
+sadi	O
+question	O
+paper	O
+kisa	O
+regadi	O
+
+Kalai	B-PER
+tabok	O
+Kanchanpur	B-LOC
+o	O
+tongo	O
+.	O
+
+He	O
+think	O
+he	O
+is	O
+too	O
+big	O
+ang	O
+bai	O
+baksa	O
+sai	O
+
+Debbarma	B-PER
+ni	O
+nok	O
+Jampui	B-LOC
+Hills	I-LOC
+o	O
+tongo	O
+.	O
+
+Both	O
+are	O
+equal	O
+ang	O
+sawoi	O
+mang	O
+no	O
+
+Bijoy	B-PER
+Kumar	I-PER
+Hrangkhawl	I-PER
+ni	O
+nok	O
+Delhi	B-LOC
+o	O
+tongo	O
+.	O
+
+Binoy	B-PER
+Debbarma	I-PER
+tei	O
+Sanjay	B-PER
+Manu	B-LOC
+o	O
+phaikha	O
+.	O
+
+Nono	O
+lamsokjago	O
+!	O
+Sadi	O
+ano	O
+nini	O
+bagwi	O
+ang	O
+tamo	O
+khwlai	O
+man	O
+.	O
+
+Ani	O
+jora	O
+tongo	O
+.	O
+Bo	O
+thaio	O
+chwng	O
+malainai	O
+?	O
+
+Tini	O
+no	O
+first	O
+time	O
+ang	O
+cook	O
+khaio	O
+
+Limit	O
+cross	O
+khai	O
+khe	O
+chaya	O
+
+Borok	B-ORG
+Peoples	I-ORG
+Council	I-ORG
+Dharmanagar	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+I	O
+really	O
+need	O
+your	O
+help	O
+kisa	O
+help	O
+day	O
+kahiwi	O
+mangno	O
+
+Nwng	O
+kaisa	O
+rwchapmung	O
+kaham	O
+saide	O
+mano	O
+?	O
+
+Nwng	O
+sa	O
+chaphaiya	O
+bla	O
+very	O
+clever	O
+
+Taklai	O
+le	O
+msa	O
+jona	O
+delegates	O
+kthumha	O
+la	O
+
+Koloi	B-PER
+Supreme	B-ORG
+Court	I-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Nwng	O
+kaham	O
+kaisa	O
+online	O
+course	O
+khwlaijaknai	O
+saiwi	O
+de	O
+mano	O
+?	O
+
+Kokborok	B-ORG
+Language	I-ORG
+Division	I-ORG
+Deo	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+Durga	B-MISC
+Puja	I-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Suddenly	O
+Ata	O
+joutham	O
+stoke	O
+ong	O
+thang	O
+kha	O
+please	O
+pray	O
+for	O
+him	O
+
+Nung	O
+exam	O
+ni	O
+form	O
+fill	O
+up	O
+da	O
+khwalaikha	O
+
+Ang	O
+kaisa	O
+salbrumni	O
+journal	O
+chengna	O
+nagsinai	O
+.	O
+
+Jawaharlal	B-PER
+Nehru	I-PER
+Borok	B-ORG
+Peoples	I-ORG
+Council	I-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Agartala	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Koloi	B-PER
+Indian	B-ORG
+Supreme	I-ORG
+Court	I-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Nwng	O
+Phungni	O
+chamungda	O
+chakha	O
+?	O
+
+Nwng	O
+sarik	O
+diporni	O
+watwini	O
+ulo	O
+jorano	O
+bahaikhe	O
+katiwi	O
+rohona	O
+chajak	O
+?	O
+
+Maximum	O
+prise	O
+busuk	O
+rok	O
+ong	O
+no	O
+
+Chini	O
+budget	O
+la	O
+omg	O
+day	O
+
+Ang	O
+select	O
+wngkha	O
+
+Ang	O
+tini	O
+nono	O
+suihorma	O
+khe	O
+clean	O
+India	B-LOC
+Campaign	O
+ni	O
+samung	O
+khwlaimano	O
+twywi	O
+sana	O
+bagwise	O
+.	O
+
+Phaidi	O
+o	O
+talo	O
+kaisa	O
+hukumu	O
+ter	O
+o	O
+thanglai	O
+anw	O
+.	O
+
+Advance	O
+booking	O
+khaiwi	O
+tong	O
+di	O
+
+Kebo	O
+tongna	O
+kabita	O
+ni	O
+friend	O
+
+Bimal	B-PER
+Debbarma	I-PER
+Atharamura	B-LOC
+o	O
+thangkha	O
+.	O
+
+bono	O
+sobo	O
+suspect	O
+khai	O
+
+Sabroom	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+India	B-LOC
+ni	O
+borokrog	O
+Ker	B-MISC
+Puja	I-MISC
+maniyo	O
+.	O
+
+Mwnai	O
+masa	O
+documents	O
+attested	O
+khai	O
+rui	O
+maya	O
+wong	O
+tong	O
+kha	O
+
+MBB	B-ORG
+College	I-ORG
+ni	O
+kotorma	O
+nok	O
+Howrah	B-LOC
+o	O
+tongo	O
+.	O
+
+Tripura	B-ORG
+University	I-ORG
+ni	O
+bisingtwi	O
+Kalai	B-PER
+kok	O
+sahikha	O
+.	O
+
+Kaitor	O
+chung	O
+no	O
+prayer	O
+khai	O
+di	O
+hingwi	O
+sao	O
+
+kwbangma	O
+horni	O
+katina	O
+bagwi	O
+Code	O
+saimanjak	O
+tei	O
+jai	O
+jai	O
+khe	O
+tonani	O
+belaikheno	O
+nangkugo	O
+.	O
+
+O	O
+achukthai	O
+norna	O
+bagwi	O
+ano	O
+nwng	O
+chubaida	O
+mano	O
+?	O
+
+Reang	B-PER
+Gomati	B-LOC
+o	O
+thangkha	O
+.	O
+
+Bo	O
+khoroksa	O
+Indian	O
+National	O
+Congress	B-ORG
+ni	O
+adong	O
+wngjak	O
+,	O
+phiya	O
+paithago	O
+bodol	O
+bai	O
+kagwi	O
+thangpaikha	O
+tei	O
+bini	O
+sakni	O
+thwngrwngrwk	O
+motha	O
+swnamkha	O
+,	O
+Scheduled	O
+Castes	O
+Federation	O
+.	O
+
+Phaidi	O
+hachinglwng	O
+sapsutra	O
+khwlaimani	O
+pandao	O
+thanglai	O
+anw	O
+.	O
+
+Senior	O
+ba	O
+borok	O
+phaikha	O
+ta	O
+
+Ani	O
+continuous	O
+post	O
+regarding	O
+kokborok	O
+ni	O
+kisa	O
+effect	O
+klaikhna	O
+No	O
+comments	O
+
+Phaidi	O
+bwkhabising	O
+kwplwng	O
+khe	O
+siringsorop	O
+khe	O
+nailai	O
+anw	O
+.	O
+
+Feroze	B-PER
+Gandhi	I-PER
+TTAADC	B-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+phaidi	O
+ice	O
+cream	O
+chailaigana	O
+.	O
+
+Ang	O
+no	O
+kisa	O
+massage	O
+khai	O
+ga	O
+di	O
+
+Nini	O
+chajakma	O
+charok	O
+bobo	O
+hai	O
+?	O
+
+Radha	B-PER
+Kishore	I-PER
+tei	O
+Galo	B-PER
+Amarpur	B-LOC
+o	O
+phaikha	O
+.	O
+
+I	O
+was	O
+confused	O
+nung	O
+tamo	O
+saka	O
+
+Borok	B-ORG
+Peoples	I-ORG
+Council	I-ORG
+ni	O
+kotorma	O
+nok	O
+Kolkata	B-LOC
+o	O
+tongo	O
+.	O
+
+Birendra	B-PER
+Kishore	I-PER
+TIT	B-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Rupini	B-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Binoy	B-PER
+Debbarma	I-PER
+Borok	B-ORG
+Peoples	I-ORG
+Council	I-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Omo	O
+chwngno	O
+khakamung	O
+,	O
+phan	O
+,	O
+tei	O
+tongkwchang	O
+rwui	O
+manu	B-LOC
+.	O
+
+Animesh	B-PER
+Debbarma	I-PER
+THB	B-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Kharchi	B-MISC
+Puja	I-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Chabimura	B-LOC
+ni	O
+borokrog	O
+Tripuri	B-MISC
+maniyo	O
+.	O
+
+Kabo	O
+ni	O
+omo	O
+hai	O
+courage	O
+kroi	O
+
+Ani	O
+babu	O
+ni	O
+bo	O
+pressure	O
+tongo	O
+
+Ja	O
+bugiya	O
+problems	O
+tong	O
+ma	O
+no	O
+toibe	O
+de	O
+do	O
+I	O
+will	O
+explain	O
+again	O
+
+Two	O
+two	O
+kheya	O
+group	O
+o	O
+tong	O
+lainai	O
+
+Abo	O
+se	O
+tini	O
+hearing	O
+Assam	O
+sanmiliti	O
+mahasangha	O
+
+Cover	O
+day	O
+khai	O
+woi	O
+mangno	O
+only	O
+few	O
+months	O
+left	O
+
+Delhi	B-LOC
+ni	O
+borokrog	O
+Durga	B-MISC
+Puja	I-MISC
+maniyo	O
+.	O
+
+India	B-LOC
+ni	O
+tongraida	O
+bebak	O
+borokno	O
+no	O
+tongbaksa	O
+khwlayo	O
+,	O
+bohrokni	O
+dopha	O
+,	O
+tongk	O
+'	O
+thar	O
+,	O
+eba	O
+sir	O
+no	O
+naiya	O
+.	O
+
+Chung	O
+jotono	O
+chini	O
+dopha	O
+no	O
+hamjako	O
+kebo	O
+deeply	O
+kebo	O
+saka	O
+saka	O
+
+Khumpui	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Jamatia	B-PER
+tei	O
+Bimal	B-PER
+Debbarma	I-PER
+Khumpui	B-LOC
+o	O
+phaikha	O
+.	O
+
+High	B-ORG
+Court	I-ORG
+of	I-ORG
+Tripura	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Abo	O
+thikno	O
+but	O
+bono	O
+sabo	O
+screenshot	O
+rohor	O
+
+Nwng	O
+postcards	O
+rohorna	O
+chade	O
+chajak	O
+?	O
+
+Muitu	O
+narwkna	O
+bagwi	O
+,	O
+O	O
+Company	O
+laithangjak	O
+October	O
+talo	O
+34-inch	O
+mukhphaijak	O
+thwngjaknai	O
+naijaknai	O
+ongkhor	O
+rwmani	O
+.	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+respect	O
+your	O
+elders	O
+
+Last	O
+year	O
+bo	O
+cancel	O
+khai	O
+kha	O
+
+Mail	O
+twi	O
+rohorjagwi	O
+tongo	O
+,	O
+Maintains	O
+Files	O
+,	O
+orders	O
+supllies	O
+,	O
+tei	O
+ships	O
+package	O
+rok	O
+.	O
+
+Ambedkar	O
+wngkha	O
+khoroksa	O
+berepkhong	O
+lekhathaih	O
+India	B-LOC
+ni	O
+raidabwchap	O
+koksongsagramung	O
+khai	O
+thani	O
+.	O
+
+nono	O
+bo	O
+!	O
+
+three	O
+idiots	O
+film	O
+da	O
+naikha	O
+
+Clean	O
+India	B-LOC
+Campaign	O
+khwlai	O
+mani	O
+bwthai	O
+wng	O
+kha	O
+,	O
+chini	O
+kamirok	O
+tei	O
+khithairok	O
+swkang	O
+ni	O
+slai	O
+chwngkuk	O
+kha	O
+.	O
+
+Kaitor	O
+chung	O
+no	O
+phurango	O
+to	O
+test	O
+the	O
+spirits	O
+
+Abo	O
+Saijaknai	O
+eba	O
+Sukrubjaknai	O
+phano	O
+wngwi	O
+mano	O
+.	O
+
+Yes	O
+ang	O
+sawi	O
+mang	O
+no	O
+that	O
+you	O
+are	O
+good	O
+
+Don	O
+'	O
+t	O
+run	O
+more	O
+tai	O
+waisa	O
+hurt	O
+ong	O
+gano	O
+
+Principal	O
+ni	O
+behavior	O
+hamya	O
+bono	O
+change	O
+khai	O
+di	O
+
+Animesh	B-PER
+Debbarma	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Onam	O
+Barot	B-LOC
+haktorni	O
+Kerala	O
+haste	O
+'	O
+o	O
+palaijaknai	O
+kaisa	O
+maital	O
+tisama	O
+ter	O
+.	O
+
+College	O
+ni	O
+chaptain	O
+sabo	O
+
+Others	O
+paper	O
+kaham	O
+khe	O
+ongliya	O
+khe	O
+le	O
+
+O	O
+rwchapmung	O
+bwtangrok	O
+belaino	O
+kwchang	O
+kwchang	O
+.	O
+
+Radha	B-PER
+Kishore	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Pheknai	O
+jak	O
+tablet	O
+paiwi	O
+tong	O
+di	O
+
+CM	O
+Manik	O
+Saha	O
+3800	O
+rwjaknok	O
+rangmari	O
+swbainani	O
+sakwlaikha	O
+.	O
+
+Radhapur	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Feni	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Ang	O
+car	O
+drive	O
+khai	O
+khe	O
+slow	O
+no	O
+cholaiwo	O
+
+Nini	O
+requirement	O
+tamo	O
+tamo	O
+tong	O
+
+The	O
+most	O
+important	O
+khe	O
+guide	O
+and	O
+support	O
+
+High	B-ORG
+Court	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Hambai	O
+rwjaknai	O
+bwtangrog	O
+tongkhe	O
+o	O
+group	O
+o	O
+send	O
+khai	O
+horwi	O
+manu	O
+eba	O
+personal	O
+phano	O
+
+Kaham	O
+khe	O
+check	O
+khai	O
+di	O
+everything	O
+is	O
+there	O
+or	O
+not	O
+
+Jawaharlal	B-PER
+Nehru	I-PER
+Deo	B-LOC
+o	O
+thangkha	O
+.	O
+
+Birendra	B-PER
+Kishore	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Kisa	O
+help	O
+nang	O
+woi	O
+tong	O
+kha	O
+coding	O
+sa	O
+ongliya	O
+
+Nwng	O
+ano	O
+ani	O
+nokni	O
+manwi	O
+khwnwi	O
+tonthani	O
+chubaida	O
+mano	O
+?	O
+
+Tripura	B-ORG
+University	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Bimal	B-PER
+Debbarma	I-PER
+NSS	B-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Date	O
+change	O
+khai	O
+khe	O
+day	O
+chano	O
+what	O
+you	O
+all	O
+say	O
+
+Time	O
+doesn	O
+'	O
+t	O
+wait	O
+for	O
+everyone	O
+time	O
+naising	O
+woi	O
+tong	O
+ya	O
+
+Mobile	O
+ketal	O
+paiwi	O
+redi	O
+next	O
+month	O
+o	O
+by	O
+any	O
+how	O
+ang	O
+saimang	O
+ya	O
+
+Brother	O
+chini	O
+camp	O
+wngnai	O
+ratannagar	O
+anganwadi	O
+tei	O
+DM	O
+dhalai	O
+songni	O
+khai	O
+dolopoti	O
+o	O
+wngnai	O
+pho	O
+
+O	O
+mosok	O
+jat	O
+sawo	O
+chung	O
+Burma	O
+ni	O
+300	O
+years	O
+swkang	O
+phaio	O
+hwnei	O
+
+Feroze	B-PER
+Gandhi	I-PER
+ni	O
+nok	O
+Assam	B-LOC
+o	O
+tongo	O
+.	O
+
+High	B-ORG
+Court	I-ORG
+of	I-ORG
+Tripura	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Solution	O
+se	O
+khai	O
+di	O
+don	O
+'	O
+t	O
+run	O
+away	O
+
+Mind	O
+your	O
+own	O
+language	O
+thang	O
+di	O
+
+Ang	O
+dream	O
+kubui	O
+ongkhe	O
+chakha	O
+mung	O
+
+Bini	O
+question	O
+khe	O
+belai	O
+no	O
+tough	O
+ongo	O
+
+correction	O
+khaiwi	O
+paikhe	O
+when	O
+are	O
+you	O
+coming	O
+for	O
+collecting	O
+
+Tamo	O
+cherai	O
+tamo	O
+bura	O
+everyone	O
+should	O
+participate	O
+
+O	O
+mui	O
+songnai	O
+belaino	O
+kwlai	O
+.	O
+
+Aming	O
+no	O
+chamung	O
+chrwkhada	O
+.	O
+
+ani	O
+luck	O
+se	O
+gothaya	O
+joto	O
+jagao	O
+no	O
+ani	O
+bumung	O
+
+College	O
+o	O
+problems	O
+create	O
+takhai	O
+di	O
+
+Binoy	B-PER
+Debbarma	I-PER
+Longthorai	B-LOC
+o	O
+thangkha	O
+.	O
+
+Nwng	O
+ano	O
+o	O
+manwi	O
+swnamthani	O
+chubaide	O
+mano	O
+?	O
+
+Discount	O
+rewoi	O
+tong	O
+pho	O
+Christmas	B-MISC
+ni	O
+
+Radha	B-PER
+Kishore	I-PER
+ni	O
+nok	O
+Feni	B-LOC
+o	O
+tongo	O
+.	O
+
+Kirit	B-PER
+Pradyot	I-PER
+Kokborok	B-ORG
+Language	I-ORG
+Division	I-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Kalai	B-PER
+THFC	B-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Norok	O
+boro	O
+Are	O
+you	O
+all	O
+coming	O
+today	O
+
+What	O
+sadi	O
+tamo	O
+ong	O
+kha	O
+
+Ani	O
+samung	O
+kwbangma	O
+khwlaijaknai	O
+tongo	O
+tini	O
+.	O
+
+Jawaharlal	B-PER
+Nehru	I-PER
+tei	O
+Bidhan	B-PER
+Tripura	I-PER
+Ambassa	B-LOC
+o	O
+phaikha	O
+.	O
+
+Bo	O
+belai	O
+khe	O
+no	O
+massage	O
+khai	O
+na	O
+kurung	O
+
+phaidi	O
+Nukhungno	O
+twiwi	O
+movie	O
+nailai	O
+anw	O
+.	O
+
+Salhapma	O
+nukjakmani	O
+naithothok	O
+.	O
+
+Girls	O
+hostel	O
+ni	O
+mass	O
+fee	O
+sobo	O
+no	O
+renai	O
+
+Actually	O
+ani	O
+department	O
+o	O
+samung	O
+amswk	O
+kwrui	O
+haino	O
+achukgui	O
+hospital	O
+mwrwkna	O
+simi	O
+si	O
+
+Asha	B-PER
+Tripura	I-PER
+tabok	O
+Agartala	B-LOC
+o	O
+tongo	O
+.	O
+
+Assam	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Nwng	O
+Koktwma	O
+swinani	O
+chade	O
+chajak	O
+?	O
+
+Radha	B-PER
+Kishore	I-PER
+ni	O
+nok	O
+Bishalgarh	B-LOC
+o	O
+tongo	O
+.	O
+
+Second	O
+ni	O
+khe	O
+negative	O
+answer	O
+
+O	O
+tokeni	O
+naijak	O
+kotor	O
+kokpirjak	O
+tongo	O
+.	O
+
+Nwng	O
+bari	O
+khwlaiwi	O
+tongthok	O
+khada	O
+?	O
+
+Boroni	O
+surename	O
+tubui	O
+phaikha	O
+sedo	O
+
+Next	O
+time	O
+ang	O
+lanai	O
+
+Rajiv	B-PER
+Gandhi	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Kharchi	B-MISC
+Puja	I-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Nini	O
+samung	O
+nini	O
+khai	O
+di	O
+don	O
+'	O
+t	O
+consitrate	O
+this	O
+side	O
+mind	O
+your	O
+own	O
+business	O
+
+Tripura	B-PER
+Kokborok	B-ORG
+Tei	I-ORG
+Hukumu	I-ORG
+Mission	I-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Bijoy	B-PER
+Kumar	I-PER
+Hrangkhawl	I-PER
+Kokborok	B-ORG
+Tei	I-ORG
+Hukumu	I-ORG
+Mission	I-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Nini	O
+kok	O
+belai	O
+chaya	O
+
+Ang	O
+tabuk	O
+phono	O
+out	O
+of	O
+station	O
+kho	O
+
+But	O
+amohai	O
+wngkheto	O
+wrong	O
+
+Oh	O
+buphang	O
+rangchak	O
+ni	O
+apples	O
+bai	O
+kupulwng	O
+,	O
+tei	O
+omo	O
+twi	O
+buphangrokno	O
+waisa	O
+phano	O
+Rajiv	B-PER
+nukya	O
+kho	O
+.	O
+
+Voting	O
+rights	O
+cancelled	O
+khi	O
+man	O
+khe	O
+sabo	O
+rule	O
+man	O
+nai	O
+sadi	O
+
+Jawaharlal	B-PER
+Nehru	I-PER
+Tripura	B-ORG
+University	I-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Tamo	O
+tabok	O
+ompio	O
+current	O
+kwrei	O
+da	O
+
+Thirty	O
+minutes	O
+ni	O
+ulo	O
+lunch	O
+break	O
+wngnai	O
+
+Kokborok	B-ORG
+Language	I-ORG
+Division	I-ORG
+Ambassa	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+Kokborok	B-ORG
+Tei	I-ORG
+Hukumu	I-ORG
+Mission	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Unnecessary	O
+waist	O
+takhai	O
+di	O
+do	O
+
+Nung	O
+bai	O
+tai	O
+promise	O
+khai	O
+liya	O
+ang	O
+
+Radha	B-PER
+Kishore	I-PER
+tei	O
+Jamatia	B-PER
+Delhi	B-LOC
+o	O
+phaikha	O
+.	O
+
+Noatia	B-PER
+Kokborok	B-ORG
+Sahitya	I-ORG
+Sabha	I-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Jotonono	O
+hambai	O
+tei	O
+chibai	O
+yapharu	O
+Christmas	B-MISC
+ni	O
+bagwi	O
+
+NSS	B-ORG
+ni	O
+bisingtwi	O
+Sanjay	B-PER
+kok	O
+sahikha	O
+.	O
+
+Glass	O
+tikhwlai	O
+jagliya	O
+three	O
+days	O
+
+Indira	B-PER
+Gandhi	I-PER
+Borok	B-ORG
+Peoples	I-ORG
+Council	I-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Nwngbo	O
+sio	O
+,	O
+Clean	O
+India	B-LOC
+Campaign	O
+khwlai	O
+mani	O
+abo	O
+India	B-LOC
+ha	O
+gwnangwi	O
+kwchwng	O
+khe	O
+tongnani	O
+tei	O
+khithairogno	O
+kwchwng	O
+khe	O
+tongnani	O
+abono	O
+twywise	O
+samung	O
+khwlai	O
+jago	O
+.	O
+
+Radha	B-PER
+Kishore	I-PER
+Bishalgarh	B-LOC
+o	O
+thangkha	O
+.	O
+
+Nwng	O
+belai	O
+careless	O
+
+Phaidi	O
+o	O
+hatio	O
+beraina	O
+thanglai	O
+anw	O
+.	O
+
+Depachara	O
+area	O
+ni	O
+church	O
+secretary	O
+rau	O
+hioye	O
+nrau	O
+ni	O
+church	O
+ni	O
+blood	O
+donors	O
+list	O
+angno	O
+immediately	O
+rimaikhe	O
+hamnai	O
+
+Guard	O
+makhai	O
+nai	O
+ble	O
+from	O
+next	O
+week	O
+
+Hopeless	O
+kuno	O
+samung	O
+se	O
+ongya	O
+
+Ofcourse	O
+chini	O
+sister	O
+Anindita	O
+bo	O
+oh	O
+list	O
+o	O
+tongo	O
+
+Oho	O
+Dakti	O
+yak	O
+yakung	O
+subaidi	O
+tai	O
+prime	O
+time	O
+ni	O
+news	O
+naidi	O
+
+Norok	O
+tini	O
+porainai	O
+da	O
+Confirm	O
+khlai	O
+di	O
+
+Radha	B-PER
+Kishore	I-PER
+ni	O
+nok	O
+Manu	B-LOC
+o	O
+tongo	O
+.	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+be	O
+faithful	O
+
+Manikya	B-PER
+NSS	B-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Twi	O
+rukung	O
+da	O
+Hathairokno	O
+chajaka	O
+nwng	O
+.	O
+
+MBB	B-ORG
+College	I-ORG
+ni	O
+kotorma	O
+nok	O
+Kumarghat	B-LOC
+o	O
+tongo	O
+.	O
+
+Bohrok	O
+samung	O
+khwlai	O
+twtwi	O
+,	O
+bohrokni	O
+thokjakukmani	O
+chamungrogno	O
+twywi	O
+tei	O
+India	B-LOC
+ni	O
+chamungno	O
+bo	O
+chanai	O
+nayano	O
+hwnwi	O
+salaikha	O
+.	O
+
+Berepjak	O
+-	O
+samungno	O
+sijak	O
+kwrwngmung	O
+twidulnani	O
+phunukjak	O
+kha	O
+.	O
+
+Pressure	O
+ni	O
+bagui	O
+tini	O
+ang	O
+phailiya	O
+do	O
+
+Ani	O
+last	O
+memorial	O
+day	O
+tini	O
+
+Rupini	B-PER
+tei	O
+Jawaharlal	B-PER
+Nehru	I-PER
+Atharamura	B-LOC
+o	O
+phaikha	O
+.	O
+
+First	O
+payment	O
+redi	O
+I	O
+will	O
+do	O
+
+Akhaura	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Very	O
+lucky	O
+beni	O
+kupal	O
+kaham	O
+
+Oh	O
+jwngjalrokni	O
+bisingo	O
+bo	O
+Barot	B-LOC
+haphang	O
+barotni	O
+haniborokrokno	O
+nukhung	O
+chaplainani	O
+seb	O
+-	O
+sabrokno	O
+manthokrwnani	O
+bwkhak	O
+kwrakhe	O
+saktharjak	O
+.	O
+
+Ang	O
+ani	O
+samung	O
+khwlaimani	O
+jorarokno	O
+pairwna	O
+nangnai	O
+?	O
+
+Hojagiri	B-MISC
+salo	O
+England	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Khwlai	O
+manyakhu	O
+dara	O
+exam	O
+wngwi	O
+tongbai	O
+jora	O
+rwi	O
+manya	O
+wngwi	O
+tonglaikha	O
+
+Sapulwi	O
+tongphuru	O
+nini	O
+Elaichi	O
+tei	O
+Cocoa	O
+kwsapno	O
+dalukdi	O
+.	O
+
+Garia	B-MISC
+Puja	I-MISC
+salo	O
+Jampui	B-LOC
+Hills	I-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Garia	B-MISC
+Puja	I-MISC
+salo	O
+Kumarghat	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Bo	O
+media	O
+no	O
+wring	O
+nai	O
+bebak	O
+no	O
+da	O
+informed	O
+khai	O
+nai	O
+
+Khunani	O
+camp	O
+team	O
+o	O
+kebo	O
+bwrwi	O
+volunteers	O
+kwrwi	O
+tabuksak	O
+kebo	O
+muchungwi	O
+tongkhe	O
+sahordi	O
+
+Tabuk	O
+ni	O
+young	O
+star	O
+rok	O
+only	O
+album	O
+album	O
+kono	O
+chukya	O
+
+O	O
+bijap	O
+kubuino	O
+khasotono	O
+.	O
+
+O	O
+jora	O
+horni	O
+chamungni	O
+bagwi	O
+.	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+to	O
+follow	O
+him	O
+
+I	O
+think	O
+something	O
+is	O
+wrong	O
+hayada	O
+
+Waisa	O
+chwng	O
+chini	O
+jolimungni	O
+khilirok	O
+romwiman	O
+hwnkhe	O
+,	O
+chwng	O
+oh	O
+tongremrokni	O
+yakni	O
+pherwimanu	O
+eba	O
+aboni	O
+yakni	O
+kokna	O
+bagwi	O
+sak	O
+-	O
+sakno	O
+narwgwimannai	O
+khanangmungrok	O
+swnamwi	O
+manu	B-LOC
+.	O
+
+Kerongrok	O
+,	O
+borok	O
+chongjakrok	O
+tei	O
+chongmarini	O
+slmari	O
+twiwi	O
+no	O
+nukhung	O
+tei	O
+kiching	O
+songbai	O
+koksalaimani	O
+.	O
+
+Longthorai	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Nini	O
+chajakmani	O
+mol	O
+tamo	O
+?	O
+
+Very	O
+good	O
+amono	O
+ang	O
+naiwi	O
+tongo	O
+
+Ang	O
+tini	O
+manwi	O
+khwnwi	O
+phalnogo	O
+thana	O
+nango	O
+.	O
+
+siyansimung	O
+twiwitongnai	O
+halok	O
+,	O
+kwbang	O
+khwlai	O
+technical	O
+ni	O
+simungno	O
+yapharo	O
+.	O
+
+Submit	O
+khai	O
+jak	O
+time	O
+nang	O
+nai	O
+hunwi	O
+bar	O
+bar	O
+kiphil	O
+hor	O
+jak	O
+tong	O
+kha	O
+
+Really	O
+I	O
+cannot	O
+remember	O
+kisa	O
+saga	O
+di	O
+tai	O
+waisa	O
+
+Reang	B-PER
+tei	O
+Biplab	B-PER
+Kumar	I-PER
+Deb	I-PER
+Gomati	B-LOC
+o	O
+phaikha	O
+.	O
+
+Radha	B-PER
+Kishore	I-PER
+MBB	B-ORG
+College	I-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Bimal	B-PER
+Debbarma	I-PER
+tei	O
+Feroze	B-PER
+Gandhi	I-PER
+England	B-LOC
+o	O
+phaikha	O
+.	O
+
+Kisa	O
+cultural	O
+dance	O
+makhai	O
+nai	O
+pho	O
+chung	O
+
+Boxanagar	B-LOC
+ni	O
+borokrog	O
+Hojagiri	B-MISC
+Dance	I-MISC
+maniyo	O
+.	O
+
+Year	O
+lost	O
+ta	O
+khai	O
+di	O
+you	O
+must	O
+try	O
+again	O
+
+Fog	O
+tamajak	O
+di	O
+you	O
+will	O
+get	O
+cold	O
+and	O
+cough	O
+
+MBB	B-ORG
+College	I-ORG
+ni	O
+bisingtwi	O
+Rajiv	B-PER
+kok	O
+sahikha	O
+.	O
+
+How	O
+was	O
+the	O
+program	O
+kaham	O
+no	O
+ongkha	O
+na	O
+ble	O
+
+NSS	B-ORG
+ni	O
+bisingtwi	O
+Jamatia	B-PER
+kok	O
+sahikha	O
+.	O
+
+Rajiv	B-PER
+Gandhi	I-PER
+Congress	B-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Congress	B-ORG
+ni	O
+kotorma	O
+nok	O
+Akhaura	B-LOC
+o	O
+tongo	O
+.	O
+
+Phaidi	O
+o	O
+hatio	O
+Zoo	O
+o	O
+thanglai	O
+anw	O
+.	O
+
+Ker	B-MISC
+Puja	I-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Asha	B-PER
+Tripura	I-PER
+MBB	B-ORG
+College	I-ORG
+ni	O
+kaisa	O
+dophani	O
+borok	O
+.	O
+
+Previous	O
+ni	O
+question	O
+paper	O
+pora	O
+khe	O
+ongo	O
+
+Nini	O
+classni	O
+note	O
+ano	O
+kisa	O
+rwida	O
+mano	O
+
+Khowai	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Tamo	O
+khai	O
+nai	O
+tamo	O
+khai	O
+ya	O
+need	O
+to	O
+discuss	O
+the	O
+matter	O
+
+Bijoy	B-PER
+Kumar	I-PER
+Hrangkhawl	I-PER
+tei	O
+Galo	B-PER
+Jampui	B-LOC
+o	O
+phaikha	O
+.	O
+
+Credit	O
+kabang	O
+ma	O
+ong	O
+tong	O
+kha	O
+ani	O
+I	O
+have	O
+to	O
+pay	O
+it	O
+
+Haiphano	O
+,	O
+bo	O
+khoroksa	O
+bumung	O
+gwnang	O
+ojama	O
+bo	O
+hwnjagu	O
+tei	O
+Barot	B-LOC
+hano	O
+kwtalkhe	O
+swnamnani	O
+tei	O
+oh	O
+hani	O
+borokrokni	O
+langmano	O
+hamsarwmani	O
+bagwi	O
+borombo	O
+rwjago	O
+.	O
+
+Muhuri	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Ani	O
+thinking	O
+bo	O
+hamliya	O
+I	O
+know	O
+its	O
+not	O
+good	O
+to	O
+think	O
+that	O
+way	O
+
+Tamo	O
+ungkha	O
+siya	O
+no	O
+any	O
+information	O
+
+Compare	O
+ta	O
+khwlaidi	O
+
+Nwng	O
+ano	O
+rwchapmung	O
+bwtang	O
+swnamna	O
+bagwi	O
+chubaide	O
+mano	O
+porina	O
+bagwi	O
+?	O
+
+Nukjak	O
+kha	O
+,	O
+Bo	O
+Albumno	O
+belaino	O
+hamjak	O
+kha	O
+tei	O
+sakno	O
+kaisa	O
+aboni	O
+kosol	O
+pai	O
+nakha	O
+.	O
+
+Kebono	O
+hurt	O
+ta	O
+khai	O
+di	O
+do	O
+
+Graphic	O
+swnamnai	O
+wngwi	O
+bini	O
+rwngmungni	O
+bisingtwi	O
+Marc	O
+kaitorno	O
+monna	O
+khwlaithaini	O
+nangkumano	O
+saimankha	O
+.	O
+
+All	B-ORG
+Tripura	I-ORG
+Indigenous	I-ORG
+Students	I-ORG
+Association	I-ORG
+Deo	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+Promise	O
+khai	O
+ma	O
+ni	O
+tamo	O
+outcome	O
+ong	O
+kha	O
+
+ani	O
+suspect	O
+correct	O
+no	O
+ong	O
+kha	O
+
+Ram	B-PER
+Amarpur	B-LOC
+o	O
+thangkha	O
+.	O
+
+Bimal	B-PER
+Debbarma	I-PER
+TTAADC	B-ORG
+o	O
+kam	O
+khlaio	O
+.	O
+
+No	O
+chance	O
+except	O
+ta	O
+khaidi	O
+
+Go	O
+away	O
+Aro	O
+ta	O
+phaidi	O
+
+Bikash	B-PER
+Tripura	I-PER
+MBB	B-ORG
+College	I-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Ang	O
+ah	O
+rikwrwng	O
+bwkhak	O
+gurikha	O
+,	O
+khoroksa	O
+chwla	O
+sikla	O
+ram	B-PER
+mungwi	O
+,	O
+"	O
+nwng	O
+takmani	O
+mase	O
+ma	O
+mwthaknai	O
+,	O
+"	O
+ang	O
+sakha	O
+.	O
+
+Birendra	B-PER
+Kishore	I-PER
+Battala	B-LOC
+o	O
+thangkha	O
+.	O
+
+Kaitor	O
+sao	O
+chung	O
+no	O
+that	O
+you	O
+and	O
+I	O
+are	O
+one	O
+
+Montly	O
+twenty	O
+thousands	O
+bai	O
+ong	O
+ya	O
+tabuk	O
+
+Indira	B-PER
+Gandhi	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Phaidi	O
+baithang	O
+thwngmung	O
+nailai	O
+anw	O
+.	O
+
+Bishalgarh	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Tini	O
+belai	O
+no	O
+watoi	O
+rekha	O
+still	O
+going	O
+on	O
+
+Next	O
+time	O
+kisa	O
+discount	O
+khaidi	O
+
+Bidhan	B-PER
+Tripura	I-PER
+ni	O
+nok	O
+Akhaura	B-LOC
+o	O
+tongo	O
+.	O
+
+Phainai	O
+Tang	O
+salose	O
+a	O
+jora	O
+khwlaijakha	O
+.	O
+
+Chabimura	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Nini	O
+rang	O
+tong	O
+day	O
+tong	O
+ang	O
+sena	O
+muchung	O
+ya	O
+go	O
+your	O
+way	O
+
+Richard	O
+I	O
+of	O
+England	B-LOC
+
+Laithangjak	O
+bisirok	O
+bising	O
+,	O
+ah	O
+khil	O
+lam	O
+sokomorna	O
+bwkhak	O
+chaitokmarok	O
+aro	O
+wngkha	O
+,	O
+phiya	O
+amo	O
+kaisa	O
+India	B-LOC
+bising	O
+kubui	O
+kebengmung	O
+torwkma	O
+.	O
+
+Horhapung	O
+phatimung	O
+ni	O
+tormung	O
+tei	O
+phan	O
+belai	O
+phrwi	O
+manu	B-LOC
+.	O
+
+Kharchi	B-MISC
+Puja	I-MISC
+salo	O
+Battala	B-LOC
+o	O
+belai	O
+haba	O
+kotorma	O
+wngkha	O
+.	O
+
+Nwng	O
+ano	O
+abo	O
+thepanani	O
+chubaida	O
+mano	O
+.	O
+
+Chwng	O
+kuthao	O
+pali	O
+phulna	O
+nango	O
+.	O
+
+Kokborok	B-ORG
+Language	I-ORG
+Division	I-ORG
+Santirbazar	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+Multiple	O
+choice	O
+da	O
+rwiphaikha	O
+
+Jawaharlal	B-PER
+Nehru	I-PER
+Kokborok	B-ORG
+Tei	I-ORG
+Hukumu	I-ORG
+Mission	I-ORG
+o	O
+kam	O
+khlaio	O
+.	O
+
+Supreme	B-ORG
+Court	I-ORG
+Agartala	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+Manikya	B-PER
+ni	O
+nok	O
+Deo	B-LOC
+o	O
+tongo	O
+.	O
+
+Kaitor	O
+bini	O
+disciples	O
+no	O
+sao	O
+raise	O
+the	O
+dead	O
+in	O
+my	O
+name	O
+
+Nwng	O
+waisa	O
+phano	O
+Mokol	O
+baithang	O
+rwchaplaima	O
+panda	O
+de	O
+manjak	O
+kha	O
+?	O
+
+Obo	O
+whatsapp	O
+number	O
+ya	O
+tani	O
+kisa	O
+sa	O
+
+TIT	B-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Bini	O
+khlaimunga	O
+wngkha	O
+tangmanjak	O
+,	O
+tei	O
+India	B-LOC
+bini	O
+yokjakamani	O
+1947	O
+bising	O
+mano	O
+.	O
+
+correction	O
+khaiwi	O
+paikhe	O
+he	O
+will	O
+informed	O
+me	O
+
+Pressure	O
+mung	O
+rijak	O
+o	O
+to	O
+finished	O
+as	O
+early	O
+as	O
+possible	O
+
+Kumui	O
+nung	O
+tabuk	O
+free	O
+da	O
+
+Need	O
+some	O
+rest	O
+belai	O
+no	O
+langkha	O
+
+Kebo	O
+chubana	O
+muchungkhe	O
+ano	O
+contact	O
+kahi	O
+manu	O
+
+Manikya	B-PER
+ni	O
+nok	O
+Boxanagar	B-LOC
+o	O
+tongo	O
+.	O
+
+All	B-ORG
+Tripura	I-ORG
+Indigenous	I-ORG
+Students	I-ORG
+Association	I-ORG
+ni	O
+kotorma	O
+nok	O
+Dashamighat	B-LOC
+o	O
+tongo	O
+.	O
+
+Fb	O
+o	O
+viral	O
+ongui	O
+tongkha	O
+hinui	O
+ang	O
+tabuk	O
+si	O
+saimano	O
+
+Radhapur	B-LOC
+ni	O
+borokrog	O
+Buisu	B-MISC
+maniyo	O
+.	O
+
+Don	O
+'	O
+t	O
+be	O
+hurry	O
+chong	O
+sok	O
+wi	O
+samung	O
+khai	O
+di	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+behold	O
+I	O
+stand	O
+at	O
+the	O
+door	O
+
+Bidhan	B-PER
+Tripura	I-PER
+tei	O
+Hrangkhawl	B-PER
+Longthorai	B-LOC
+o	O
+phaikha	O
+.	O
+
+Kirit	B-PER
+Pradyot	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+Manikya	B-PER
+tabok	O
+Howrah	B-LOC
+o	O
+tongo	O
+.	O
+
+Next	O
+week	O
+ni	O
+reserve	O
+khai	O
+kha	O
+do	O
+
+Borok	B-ORG
+Peoples	I-ORG
+Council	I-ORG
+Manu	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+Ram	B-PER
+ano	O
+uanama	O
+bising	O
+naisikkha	O
+"	O
+nini	O
+kokma	O
+tamo	O
+abo	O
+?	O
+"	O
+bo	O
+swngkha	O
+"	O
+Ani	O
+takmarok	O
+wngkha	O
+kaisa	O
+langmani	O
+ni	O
+terkhlaimani	O
+.	O
+"	O
+
+Lion	O
+club	O
+hingwi	O
+bumung	O
+redi	O
+
+Omo	O
+khulni	O
+swnamkhor	O
+o	O
+rang	O
+tongmung	O
+bai	O
+twidolma	O
+bangkha	O
+,	O
+kwtal	O
+khaimani	O
+bai	O
+haktor	O
+o	O
+songchajak	O
+mani	O
+ahai	O
+India	B-LOC
+bai	O
+china	O
+.	O
+
+Nwng	O
+ano	O
+saiwida	O
+mano	O
+kaisa	O
+kaham	O
+beraimani	O
+Blog	O
+?	O
+
+Phaidi	O
+kwtal	O
+kaisa	O
+restaurant	O
+o	O
+nailai	O
+anw	O
+.	O
+
+Kokborok	B-MISC
+Day	I-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Ani	O
+soup	O
+bo	O
+phaina	O
+nai	O
+kha	O
+I	O
+have	O
+to	O
+buy	O
+
+Rajiv	B-PER
+Gandhi	I-PER
+tei	O
+Koloi	B-PER
+Jampui	B-LOC
+Hills	I-LOC
+o	O
+phaikha	O
+.	O
+
+gentleman	O
+boro	O
+thang	O
+nai	O
+sa	O
+
+Ani	O
+necktie	O
+bo	O
+hamliya	O
+I	O
+think	O
+I	O
+have	O
+to	O
+get	O
+the	O
+new	O
+one	O
+
+NSS	B-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Kutal	O
+vegetables	O
+sa	O
+nukya	O
+
+Phaidi	O
+Chamung	O
+Online	O
+twi	O
+naha	O
+lai	O
+anw	O
+.	O
+
+Bo	O
+lama	O
+bebakni	O
+swlai	O
+kahamkuk	O
+jorano	O
+bahaikhe	O
+samungo	O
+phwnang	O
+thani	O
+kaham	O
+khwlainani	O
+.	O
+
+I	O
+am	O
+not	O
+good	O
+ang	O
+direct	O
+no	O
+sao	O
+
+Nwng	O
+Kothomayung	O
+porinada	O
+hamjak	O
+?	O
+
+Gandhi	O
+India	B-LOC
+ni	O
+phiyokjakma	O
+ninangrimung	O
+twih	O
+walaiya	O
+kasoma	O
+bwkhak	O
+twlangkha	O
+.	O
+
+Total	O
+bwswk	O
+question	O
+tongkhamo	O
+
+Nini	O
+rent	O
+house	O
+bo	O
+side	O
+o	O
+sa	O
+
+Ani	O
+presentation	O
+wongya	O
+kho	O
+hingwi	O
+tai	O
+waisa	O
+presentation	O
+mari	O
+nai	O
+pho	O
+
+Senior	O
+no	O
+manner	O
+rewoi	O
+kok	O
+sadi	O
+
+Kirit	B-PER
+Pradyot	I-PER
+Barot	B-LOC
+o	O
+thangkha	O
+.	O
+
+Principal	O
+no	O
+change	O
+khai	O
+na	O
+nang	O
+kha	O
+he	O
+is	O
+not	O
+good	O
+
+phaidi	O
+thansakhe	O
+mangpilirok	O
+nalaigrana	O
+.	O
+
+Radha	B-PER
+Kishore	I-PER
+ni	O
+nok	O
+Muhuri	B-LOC
+o	O
+tongo	O
+.	O
+
+Naitong	O
+baitongs	O
+are	O
+dangerously	O
+dangerous	O
+
+Anju	O
+wngkha	O
+khoroksa	O
+bwrwima	O
+sikli	O
+India	B-LOC
+ni	O
+kaisa	O
+chikonsa	O
+kami	O
+ni	O
+simi	O
+.	O
+
+Congress	B-ORG
+Manu	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+Nini	O
+matter	O
+da	O
+solve	O
+ongkha	O
+
+Athlete	B-PER
+Amardweep	I-PER
+Debbarma	I-PER
+Tripura	B-ORG
+University	I-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Lenglama	O
+salni	O
+bagwi	O
+nini	O
+mungsaswk	O
+khwlaina	O
+chongjak	O
+de	O
+tong	O
+?	O
+
+Belai	O
+no	O
+lost	O
+ong	O
+kha	O
+ani	O
+
+Ang	O
+kwtal	O
+thai	O
+berainai	O
+nainai	O
+hamjago	O
+.	O
+
+Kaitor	O
+chung	O
+no	O
+sao	O
+let	O
+your	O
+light	O
+shine	O
+before	O
+others	O
+
+Ani	O
+rang	O
+kroi	O
+kha	O
+kisa	O
+lend	O
+khai	O
+ga	O
+di	O
+I	O
+need	O
+by	O
+tomorrow	O
+
+Puja	B-MISC
+ni	O
+dress	O
+kha	O
+paikha	O
+
+Nini	O
+cricket	O
+bed	O
+regadi	O
+chung	O
+tong	O
+gana	O
+
+Omo	O
+chwngno	O
+buino	O
+nakarnani	O
+tei	O
+sak	O
+-	O
+sakno	O
+hamjaknani	O
+chubai	O
+manu	B-LOC
+.	O
+
+Kokborok	B-ORG
+Language	I-ORG
+Division	I-ORG
+ni	O
+kotorma	O
+nok	O
+Kumarghat	B-LOC
+o	O
+tongo	O
+.	O
+
+Khil	O
+wngkha	O
+kaisa	O
+hodarwk	O
+lam	O
+India	B-LOC
+bising	O
+boro	O
+borokrok	O
+kwrak	O
+hodarwk	O
+rwngremrok	O
+bising	O
+bakjakha	O
+,	O
+khilrok	O
+hwnwi	O
+ringjakha	O
+.	O
+
+Abobaino	O
+,	O
+bangrwrwk	O
+wngmabai	O
+manthaini	O
+khatimung	O
+nangsogo	O
+India	B-LOC
+o	O
+bebakno	O
+baksa	O
+khwlaina	O
+bagwi	O
+.	O
+
+Discount	O
+khai	O
+woi	O
+mang	O
+kha	O
+
+Salsa	O
+,	O
+Rajiv	B-PER
+chamung	O
+rutukna	O
+bagwi	O
+bolongo	O
+thangnai	O
+hwnwi	O
+khao	O
+chabkha	O
+.	O
+
+Thangnani	O
+swkang	O
+another	O
+sunghornani	O
+nangmani	O
+
+Baksa	O
+borok	O
+judakhe	O
+wansugu	O
+.	O
+
+Proud	O
+tawong	O
+di	O
+stay	O
+simple	O
+
+Ang	O
+daktino	O
+bachana	O
+nangnai	O
+ani	O
+birkhung	O
+romnani	O
+.	O
+
+Kaitor	O
+chung	O
+no	O
+phurango	O
+to	O
+be	O
+spiritual	O
+always	O
+
+Chini	O
+college	O
+ni	O
+timining	O
+belai	O
+no	O
+chaya	O
+
+Buisu	B-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Da	O
+Ranjit	O
+nini	O
+kok	O
+bhalai	O
+meaningful	O
+
+Bidhan	B-PER
+Tripura	I-PER
+tei	O
+Feroze	B-PER
+Gandhi	I-PER
+Gandacherra	B-LOC
+o	O
+phaikha	O
+.	O
+
+Tripura	B-ORG
+University	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+What	O
+is	O
+the	O
+matter	O
+kebo	O
+sawi	O
+day	O
+mang	O
+
+Rupini	B-PER
+Kokborok	B-ORG
+Sahitya	I-ORG
+Sabha	I-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+College	O
+ni	O
+matter	O
+college	O
+no	O
+solve	O
+khai	O
+nai	O
+
+Football	O
+tournament	O
+ong	O
+nai	O
+chini	O
+para	O
+o	O
+
+Doctor	O
+naijakna	O
+bagwi	O
+ang	O
+jora	O
+swnamna	O
+nango	O
+.	O
+
+Murasing	B-PER
+Kokborok	B-ORG
+Tei	I-ORG
+Hukumu	I-ORG
+Mission	I-ORG
+ni	O
+chuchundok	O
+wngkha	O
+.	O
+
+Tripura	B-ORG
+Legislative	I-ORG
+Assembly	I-ORG
+ni	O
+bisingtwi	O
+Darlong	B-PER
+kok	O
+sahikha	O
+.	O
+
+Care	O
+khaimang	O
+bokhroke	O
+kawoi	O
+thang	O
+kha	O
+bo	O
+
+Nwng	O
+selerma	O
+salrokno	O
+bahai	O
+khwlai	O
+katiwi	O
+rohor	O
+?	O
+
+Tripura	B-ORG
+University	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Understanding	O
+khai	O
+woi	O
+kisa	O
+samung	O
+khai	O
+laikha	O
+chanai	O
+
+Chini	O
+tamo	O
+mistake	O
+tong	O
+
+Blood	O
+donation	O
+khlai	O
+nani	O
+application	O
+da	O
+rejak	O
+kha	O
+
+Nokni	O
+tala	O
+lock	O
+khwlaijak	O
+chabi	O
+boro	O
+
+Nini	O
+watch	O
+second	O
+hand	O
+da	O
+
+1994	O
+o	O
+,	O
+bo	O
+ah	O
+African	O
+National	O
+Congress	B-ORG
+(	O
+ANC	O
+)	O
+manjukha	O
+,	O
+kaisa	O
+thwngrwngrwk	O
+motharok	O
+je	O
+apartheid	O
+kebengwi	O
+bulaimani	O
+chobakhaimani	O
+wngkha	O
+.	O
+
+Ang	O
+kaisa	O
+phono	O
+sa	O
+solved	O
+khaiwi	O
+mangya	O
+
+Ang	O
+tabuk	O
+phono	O
+office	O
+o	O
+kho	O
+
+Tubuphano	O
+,	O
+bakjak	O
+tamo	O
+haino	O
+raida	O
+tei	O
+raidano	O
+twida	O
+tong	O
+?	O
+
+Chwng	O
+buino	O
+tektorwma	O
+kok	O
+tei	O
+samung	O
+bo	O
+khlaijaktwi	O
+wngwi	O
+manu	B-LOC
+,	O
+abobai	O
+halokrokni	O
+bisingo	O
+khekmungrok	O
+tubui	O
+manu	B-LOC
+,	O
+tei	O
+abono	O
+thamukna	O
+phano	O
+tei	O
+thamugwi	O
+mangwlak	O
+.	O
+
+Public	O
+place	O
+oh	O
+bini	O
+bumung	O
+najak	O
+
+THFC	B-ORG
+Barot	B-LOC
+o	O
+kaisa	O
+kotorma	O
+mwsamung	O
+khlaikha	O
+.	O
+
+Nung	O
+hai	O
+helpful	O
+person	O
+manani	O
+belai	O
+no	O
+tuk	O
+o	O
+tabuk	O
+
+Phaidi	O
+kaisa	O
+tongthothok	O
+berailwngo	O
+thanglai	O
+anw	O
+.	O
+
+Sarik	O
+kaham	O
+Sir	O
+tai	O
+Mam	O
+no	O
+bo	O
+
+Noatia	B-PER
+Kokborok	B-ORG
+Language	I-ORG
+Division	I-ORG
+o	O
+kam	O
+khlaio	O
+.	O
+
+Hojagiri	B-MISC
+chini	O
+kotor	O
+sal	O
+.	O
+
+Correction	O
+khai	O
+nai	O
+day	O
+ata	O
+
+MBB	B-ORG
+College	I-ORG
+ni	O
+kotorma	O
+nok	O
+Kanchanpur	B-LOC
+o	O
+tongo	O
+.	O
+
+Mwsamung	O
+kaisa	O
+sakno	O
+twywi	O
+tangmung	O
+wngwi	O
+mano	O
+,	O
+phiya	O
+omo	O
+kaisa	O
+khaphang	O
+tei	O
+khanangjakma	O
+bo	O
+wngwi	O
+manu	B-LOC
+.	O
+
+Bebakni	O
+slai	O
+hamkuk	O
+mani	O
+Clean	O
+India	B-LOC
+Campaign	O
+song	O
+samung	O
+khwlai	O
+ma	O
+khe	O
+kwchwng	O
+khe	O
+tongmani	O
+abo	O
+bwswk	O
+joratwi	O
+nang	O
+abono	O
+simung	O
+rwna	O
+naima	O
+se	O
+.	O
+
+Phaidi	O
+phainai	O
+tabwlani	O
+lama	O
+berainai	O
+bagwi	O
+chaplai	O
+anw	O
+.	O
+
+Rajiv	B-PER
+Gandhi	I-PER
+tabok	O
+Kailashahar	B-LOC
+o	O
+tongo	O
+.	O
+
+Chini	O
+tini	O
+ni	O
+speakers	O
+turn	O
+up	O
+khai	O
+mangliya	O
+pho	O
+
+Athlete	B-PER
+Amardweep	I-PER
+Debbarma	I-PER
+belai	O
+kotor	O
+borok	O
+.	O
+
+NSS	B-ORG
+ni	O
+bisingtwi	O
+Bipasha	B-PER
+Tripura	I-PER
+kok	O
+sahikha	O
+.	O
+
+Second	O
+ni	O
+khe	O
+tamo	O
+answer	O
+
+Lumjak	O
+kaham	O
+kheno	O
+surgical	O
+drainage	O
+tei	O
+antibiotic	O
+administration	O
+khwlaijak	O
+kha	O
+.	O
+
+Phaidi	O
+cookies	O
+swnam	O
+lai	O
+anw	O
+.	O
+
+Please	O
+kisa	O
+clear	O
+khai	O
+ga	O
+di	O
+I	O
+need	O
+it	O
+badly	O
+
+Very	O
+poor	O
+omo	O
+family	O
+day	O
+to	O
+day	O
+chana	O
+sa	O
+kroi	O
+
+Bijoy	B-PER
+Kumar	I-PER
+Hrangkhawl	I-PER
+tei	O
+Chakma	B-PER
+Akhaura	B-LOC
+o	O
+phaikha	O
+.	O
+
+Longthorai	B-LOC
+belai	O
+naithok	O
+thaio	O
+.	O
+
+Abo	O
+wngkha	O
+kaisa	O
+Legendary	O
+Mwnwikothok	O
+.	O
+
+Borok	B-ORG
+Peoples	I-ORG
+Council	I-ORG
+kotor	O
+kaisa	O
+tongkhorok	O
+.	O
+
+Kaitor	O
+ang	O
+no	O
+help	O
+khai	O
+di	O
+
+Ata	O
+where	O
+are	O
+you	O
+going	O
+
+Nini	O
+logio	O
+charger	O
+da	O
+tong	O
+?	O
+
+Venue	O
+khe	O
+boro	O
+ong	O
+nai	O
+
+Trust	O
+khai	O
+khe	O
+chanai	O
+otherwise	O
+we	O
+cannot	O
+do	O
+
+Chwng	O
+daktino	O
+jorano	O
+romlai	O
+anw	O
+.	O
+
+Indoor	O
+games	O
+belai	O
+no	O
+bouring	O
+
+India	B-LOC
+'	O
+o	O
+khorok	O
+1	O
+.	O
+3	O
+rarwjakni	O
+slai	O
+phano	O
+kwbangkuk	O
+borokrok	O
+tongu	O
+,	O
+tei	O
+abo	O
+hayungni	O
+bising	O
+jottnislai	O
+kwbangkuk	O
+borok	O
+bangthani	O
+nwi	O
+beremo	O
+kwlayu	O
+.	O
+

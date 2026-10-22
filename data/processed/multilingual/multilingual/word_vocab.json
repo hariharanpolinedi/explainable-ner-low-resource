@@ -1,0 +1,20 @@
+{
+  "special_tokens": [
+    "<PAD>",
+    "<UNK>",
+    "<BOS>",
+    "<EOS>"
+  ],
+  "vocab_size": 4,
+  "languages": [
+    "konkani",
+    "assamese",
+    "sinhala"
+  ],
+  "token_to_id": {
+    "<PAD>": 0,
+    "<UNK>": 1,
+    "<BOS>": 2,
+    "<EOS>": 3
+  }
+}

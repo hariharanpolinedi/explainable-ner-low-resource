@@ -1,0 +1,276 @@
+project:
+  name: "explainable-ner-lowres"
+  languages:
+    - "konkani"
+    - "assamese"
+    - "sinhala"
+
+seed: 42
+
+logging:
+  backend: "csv"
+  log_dir: "reports/experiment_logs/"
+
+data_collection:
+  min_sentence_length: 3
+  script_purity_threshold: 0.90
+  dedup_method: "sha256"
+  max_articles_per_wiki: 5000
+  sources:
+    konkani:
+      wiki_code: "gom"
+      script_name: "devanagari"
+      script_range:
+        - [2304, 2431]
+      news_feeds:
+        - "https://www.heraldgoa.in"
+        - "https://www.bhaangarbhuin.com"
+      other_sources:
+        - "https://raw.githubusercontent.com/indicnlp/indicnlp-corpus/master/konkani"
+    assamese:
+      wiki_code: "as"
+      script_name: "bengali_assamese"
+      script_range:
+        - [2432, 2559]
+      news_feeds:
+        - "https://asomiya.pratidintime.com"
+        - "https://www.niyomiyabarta.com"
+      other_sources:
+        - "https://raw.githubusercontent.com/indicnlp/indicnlp-corpus/master/assamese"
+    sinhala:
+      wiki_code: "si"
+      script_name: "sinhala"
+      script_range:
+        - [3456, 3583]
+      news_feeds:
+        - "https://sinhala.adaderana.lk"
+        - "https://www.dinamina.lk"
+      other_sources:
+        - "https://raw.githubusercontent.com/indicnlp/indicnlp-corpus/master/sinhala"
+
+preprocessing:
+  unicode_normalization: "NFC"
+  min_word_freq: 2
+  max_vocab_size: 30000
+  char_min_freq: 1
+  abbreviations:
+    konkani:
+      - "डॉ."
+      - "प्रा."
+      - "श्री."
+      - "श्रीमती."
+      - "पं."
+      - "इ."
+      - "उदा."
+    assamese:
+      - "ড°"
+      - "ডাঃ"
+      - "শ্ৰী"
+      - "শ্ৰীমতী"
+      - "প্ৰাঃ"
+      - "ইত্যাদি"
+      - "উদাঃ"
+    sinhala:
+      - "ඩොක්ටර්"
+      - "මහාචාර්ය"
+      - "ගරු"
+      - "පූජ්‍ය"
+      - "පෙ.ව."
+      - "ප.ව."
+      - "ආදී"
+
+annotation:
+  target_sentence_count: 1000
+  split_ratios:
+    train: 0.60
+    dev: 0.20
+    test: 0.20
+  kappa_threshold: 0.75
+  overlap_sample_size: 100
+  tagset:
+    - "O"
+    - "B-PER"
+    - "I-PER"
+    - "B-LOC"
+    - "I-LOC"
+    - "B-ORG"
+    - "I-ORG"
+    - "B-MISC"
+    - "I-MISC"
+
+weak_supervision:
+  gazetteer_match_mode: "exact"
+  aggregation_method: "weighted_majority_vote"
+  min_precision_threshold: 0.70
+  target_volume_multiplier: 12
+  stoplist:
+    konkani:
+      - "हो"
+      - "तो"
+      - "आहे"
+      - "एक"
+      - "दोन"
+      - "आनी"
+      - "पुण"
+      - "ना"
+    assamese:
+      - "এই"
+      - "সেই"
+      - "হয়"
+      - "এক"
+      - "দুটা"
+      - "আৰু"
+      - "নহয়"
+    sinhala:
+      - "මේ"
+      - "එය"
+      - "වේ"
+      - "එක"
+      - "දෙක"
+      - "සහ"
+      - "නැත"
+
+model:
+  word_embedding_dim: 100
+  bilstm_hidden_dim: 128
+  bilstm_layers: 2
+  dropout: 0.3
+  use_crf: true
+
+char_cnn:
+  char_embedding_dim: 50
+  filter_widths:
+    - 3
+    - 4
+    - 5
+  filters_per_width: 30
+  char_dropout: 0.3
+  concat_dropout: 0.3
+
+attention:
+  num_heads: 4
+  num_attention_blocks: 1
+  attention_dropout: 0.1
+  warmup_steps: 100
+
+multilingual:
+  lang_embedding_dim: 16
+  crf_config: "shared"
+  sampling_strategy: "uniform"
+  num_languages: 3
+
+finetune:
+  learning_rate: 0.0002
+  unfreeze_epoch: 4
+  schedule: "phased"
+
+self_training:
+  initial_threshold: 0.90
+  per_type_thresholds:
+    PER: 0.90
+    LOC: 0.90
+    ORG: 0.75
+    MISC: 0.85
+    O: 0.90
+  threshold_step: 0.02
+  max_rounds: 4
+  volume_cap_multiplier: 3.0
+  learning_rate: 0.0001
+  batch_size: 32
+  max_epochs_per_round: 15
+  patience: 4
+
+augmentation:
+  multiplier: 1
+  check_agreement: true
+  org_oversample_ratio: 3.0
+  include_multi_entity_lists: true
+  num_multi_entity_lists: 200
+  loss_variant: "standard"
+  focal_gamma: 2.0
+  learning_rate: 0.0001
+  batch_size: 32
+  max_epochs: 10
+  patience: 3
+
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  max_epochs: 30
+  early_stopping_patience: 5
+  use_silver_data: true
+  device: "auto"
+  use_class_weights: false
+
+search:
+  budget: 15
+  hidden_dims:
+    - 128
+    - 192
+    - 256
+  num_heads:
+    - 4
+    - 8
+  num_attention_blocks:
+    - 1
+    - 2
+  dropouts:
+    - 0.3
+    - 0.4
+    - 0.5
+  learning_rates:
+    - 0.0005
+    - 0.001
+    - 0.002
+  lang_embedding_dims:
+    - 8
+    - 16
+    - 32
+  batch_sizes:
+    - 16
+    - 32
+  target_stage: "multilingual_joint"
+
+ablation:
+  components:
+    - "no_char_cnn"
+    - "no_attention"
+    - "no_crf"
+    - "no_joint_warmstart"
+    - "no_selftraining"
+    - "no_augmentation"
+    - "tokenization_bpe"
+
+explainability:
+  erasure_top_k:
+    - 1
+    - 2
+    - 3
+  faithfulness_sample_size: 100
+  significance_threshold: 0.05
+  gallery_samples_per_type: 5
+
+deployment:
+  host: "127.0.0.1"
+  port: 8000
+  batch_size: 1
+  device_fallback: true
+  bundle_version: "v1"
+  bundles_dir: "deployment/bundles"
+
+patch_v2:
+  composite_score_weights:
+    org_f1: 0.40
+    long_bucket_f1: 0.40
+    overall_f1: 0.20
+  divergence_gate:
+    min_pct_changed: 1.0
+    min_l2_diff: 0.01
+  gold_expansion:
+    target_org_instances: 20
+    target_middle_instances: 20
+    eval_slice_path: "data/gold/{lang}/long_multientity_eval.conll"
+
+
+
+

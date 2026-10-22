@@ -1,0 +1,36 @@
+model:
+  word_embedding_dim: 100
+  bilstm_hidden_dim: 128
+  bilstm_layers: 2
+  dropout: 0.3
+  use_char_cnn: true
+  use_attention: true
+  use_crf: true
+char_cnn:
+  char_embedding_dim: 50
+  filter_widths:
+  - 3
+  - 4
+  - 5
+  filters_per_width: 30
+  char_dropout: 0.3
+  concat_dropout: 0.3
+attention:
+  num_heads: 4
+  num_attention_blocks: 1
+  attention_dropout: 0.1
+  extract_weights: true
+multilingual:
+  lang_embedding_dim: 16
+  crf_config: per_language
+  num_languages: 4
+training:
+  batch_size: 16
+  learning_rate: 0.002
+  optimizer: AdamW
+  weight_decay: 0.0001
+  max_grad_norm: 5.0
+status: LOCKED_FOR_PHASE_14
+language: kokborok
+locked_gold_dev_f1: 61.54%
+locked_gold_test_f1: 68.97%

@@ -90,3 +90,5 @@ Every candidate was verified against `checkpoints/improved_assamese_v2.pt` via `
 | `cycle2_assamese_reinforced_weight2x.pt` | **PASSED** | 1,380,681 / 10,596,571 | **13.03%** | **1.9822** | 0.0063 |
 
 All runs represent genuine retrained weights and pass the divergence threshold with $>12\%$ parameters modified and $L_2 \ge 1.86$.
+
+

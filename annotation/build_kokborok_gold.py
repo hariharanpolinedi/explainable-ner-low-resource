@@ -48,9 +48,12 @@ GOLD_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def load_gazetteers() -> dict[str, set[str]]:
-    places = {l.strip() for l in open(GAZ_DIR / "places.txt", encoding="utf-8") if l.strip()}
-    persons = {l.strip() for l in open(GAZ_DIR / "persons.txt", encoding="utf-8") if l.strip()}
-    orgs = {l.strip() for l in open(GAZ_DIR / "orgs.txt", encoding="utf-8") if l.strip()}
+    with open(GAZ_DIR / "places.txt", encoding="utf-8") as f:
+        places = {l.strip() for l in f if l.strip()}
+    with open(GAZ_DIR / "persons.txt", encoding="utf-8") as f:
+        persons = {l.strip() for l in f if l.strip()}
+    with open(GAZ_DIR / "orgs.txt", encoding="utf-8") as f:
+        orgs = {l.strip() for l in f if l.strip()}
     misc = {
         "Kharchi Puja", "Garia Puja", "Ker Puja", "MoA", "MoU", "Bangladeshirok",
         "Kokborok Sal", "Kokborok", "Tripura Merger Agreement", "Sindoor Khela Ter",

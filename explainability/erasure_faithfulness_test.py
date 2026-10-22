@@ -111,9 +111,12 @@ def get_token_confidence(
         lstm_hidden = model.encoder(combined, mask=mask, return_hidden=True)
         if model.use_attention and model.attention is not None:
             attended, _ = model.attention(lstm_hidden, mask=mask)
+        if hasattr(model, "fc_heads") and model.fc_heads is not None and extractor.lang_id is not None:
+            emissions = model.fc_heads[extractor.lang_id](attended)[0]
+        elif hasattr(model, "fc_shared") and model.fc_shared is not None:
+            emissions = model.fc_shared(attended)[0]  # (seq_len, num_tags)
         else:
-            attended = lstm_hidden
-        emissions = model.fc_shared(attended)[0]  # (seq_len, num_tags)
+            raise RuntimeError("Model has neither valid fc_heads nor fc_shared.")
         probs = torch.softmax(emissions[token_idx], dim=-1)
         return float(probs[target_tag_id].item())
 

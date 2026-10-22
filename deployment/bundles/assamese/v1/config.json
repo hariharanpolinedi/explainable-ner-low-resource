@@ -1,0 +1,10 @@
+{
+  "num_languages": 3,
+  "crf_config": "shared",
+  "hidden_dim": 128,
+  "num_tags": 9,
+  "model_type": "NERMultilingualModel",
+  "word_vocab_size": 89196,
+  "char_vocab_size": 13022,
+  "language": "assamese"
+}

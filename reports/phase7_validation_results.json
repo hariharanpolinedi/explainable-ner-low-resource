@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-23 16:32:27",
+  "precheck_a_embedding_provenance_passed": true,
+  "precheck_b_baseline_reproduction_passed": true,
+  "sample_identity_test_passed": true,
+  "paired_comparison_complete": true,
+  "original_sentences_retested": true,
+  "fresh_sentences_non_overlap_verified": true,
+  "test_set_isolation_passed": true,
+  "verdicts": {
+    "konkani": "UNCHANGED",
+    "assamese": "UNCHANGED",
+    "sinhala": "MEASURABLY REDUCED"
+  }
+}

@@ -55,7 +55,7 @@ class NERMultilingualModel(nn.Module if nn else object):
         word_vocab_size: int,
         char_vocab_size: int,
         num_tags: int = 9,
-        num_languages: int = 3,
+        num_languages: int = 4,
         word_embedding_dim: int = 100,
         char_embedding_dim: int = 50,
         lang_embedding_dim: int = 16,

@@ -114,3 +114,28 @@ Per the Cycle 2 Step 2 technical decision rules:
 | #99 | `শৰ্মাই` | 16 | `O` $\to$ **`I-PER`** | "...আৰু ফণী শৰ্মাই ।..." | Surname of Phani Sarma (Guidelines Section 2.1) |
 | #104 | `ভাৰতৰ` | 3 | `O` $\to$ **`B-LOC`** | "...মহাকাব্য আৰু ভাৰতৰ সংবিধান দুয়োটাতে উল্লেখ..." | Inflected location noun for India (ভাৰতৰ) (Guidelines Section 2.2 & Section 3) |
 | #110 | `বিশ্ববিদ্যালয়ৰ` | 1 | `O` $\to$ **`I-ORG`** | "...গুৱাহাটী বিশ্ববিদ্যালয়ৰ প্ৰথম উপাচাৰ্য..." | University institutional body following named institution stem (Guidelines Section 2.3) |
+
+---
+
+## 5. Step 2c Addendum: Evaluation Benchmark Adjudication (Sentence #200)
+
+> **Context**: Reliability Cycle 2 Step 2c verified Sentence #200 of `long_multientity_eval_v2.conll`.  
+> **Source Benchmark**: `data/gold/assamese/long_multientity_eval_v2.conll` (SHA-256: `bce6d69071a26e3180eae58f54e9e22cf66a9bd6389ca5aa51f26fbb5106b17c`).  
+> **Adjudicated Versioned Benchmark**: `data/gold/assamese/long_multientity_eval_v2_s200_adjudicated.conll` (SHA-256: `e51942e8ba1cda0d3b86af11e6f2fb0bf64bbadfe63d3f677422179e72414d04`).  
+> **Baseline Benchmark Status**: Preserved unmodified; baseline lockfile record unchanged.
+
+### Adjudication Table for Sentence #200 Tokens 8–20:
+
+| Token Index | Token | Original Gold Tag | Adjudicated Gold Tag | Real-World Referent / Entity | Annotation Guideline Section & Justification |
+| :---: | :--- | :---: | :---: | :--- | :--- |
+| **8** | `ভাৰতীয়` | `B-LOC` | **`B-ORG`** | Reserve Bank of India (ভাৰতীয় ৰিজাৰ্ভ বেংক) | Guidelines Section 1.1 & 2.3: Initial constituent of compound commercial/central bank entity. Must not be fragmented into LOC. |
+| **9** | `ৰিজাৰ্ভ` | `O` | **`I-ORG`** | Reserve Bank of India (ভাৰতীয় ৰিজাৰ্ভ বেংক) | Guidelines Section 1.1: Maximal non-overlapping span; inner tokens must not be dropped to non-entity O. |
+| **10** | `বেংক` | `B-ORG` | **`I-ORG`** | Reserve Bank of India (ভাৰতীয় ৰিজাৰ্ভ বেংক) | Guidelines Section 1.1: Continuation of compound organization span, not a separate standalone entity. |
+| **12** | `ভাৰতীয়` | `B-LOC` | **`B-ORG`** | State Bank of India (ভাৰতীয় ষ্টেট বেংক) | Guidelines Section 1.1 & 2.3: Initial constituent of compound public banking entity. Must not be segmented into LOC. |
+| **13** | `ষ্টেট` | `O` | **`I-ORG`** | State Bank of India (ভাৰতীয় ষ্টেট বেংক) | Guidelines Section 1.1: Maximal non-overlapping span; constituent noun must not be dropped to O. |
+| **14** | `বেংক` | `B-ORG` | **`I-ORG`** | State Bank of India (ভাৰতীয় ষ্টেট বেংক) | Guidelines Section 1.1: Continuation of compound organization span, not a separate standalone entity. |
+| **16** | `ভাৰতীয়` | `B-LOC` | **`B-ORG`** | Life Insurance Corporation of India (ভাৰতীয় জীৱন বিমা নিগম) | Guidelines Section 1.1 & 2.3: Initial constituent of statutory corporation entity. Must not be segmented into LOC. |
+| **17** | `জীৱন` | `O` | **`I-ORG`** | Life Insurance Corporation of India (ভাৰতীয় জীৱন বিমা নিগম) | Guidelines Section 1.1: Constituent noun of corporate title must not be dropped to O. |
+| **18** | `বিমা` | `O` | **`I-ORG`** | Life Insurance Corporation of India (ভাৰতীয় জীৱন বিমা নিগম) | Guidelines Section 1.1: Constituent noun of corporate title must not be dropped to O. |
+| **19** | `নিগম` | `B-ORG` | **`I-ORG`** | Life Insurance Corporation of India (ভাৰতীয় জীৱন বিমা নিগম) | Guidelines Section 1.1: Continuation of compound organization span, not a separate standalone entity. |
+

@@ -6,6 +6,7 @@ Akhaura
 Amarpur
 Ambassa
 Atharamura
+Bangladesh
 Baramura
 Battala
 Belonia
@@ -25,8 +26,10 @@ Feni
 Gandacherra
 Gomati
 Gomati Twima
+Gujarat
 Howrah
 Howrah Twima
+India
 Jampui
 Jampui Hills
 Jirania
@@ -39,6 +42,9 @@ Kasba
 Khowai
 Khowai Twima
 Khumpui Academy
+Khumulwng
+Khumulwng-o
+Khumulwngo
 Kumarghat
 Longtharai
 Manu
@@ -47,6 +53,7 @@ Melaghar
 Mohanpur
 Muhuri
 Neermahal
+New Delhi
 North Tripura
 Panisagar
 Pilak
@@ -64,6 +71,20 @@ Tripura Sundari
 Tripurao
 Udaipur
 Udaipuro
-Ujjayanta Palace
 Unakoti
+Suryamaninagar
 West Tripura
+Lunglei
+Lunglei-o
+Agratala
+Agratalao
+Gomati River
+Rudrasagar Lake
+Dumboor Lake
+Trishna Wildlife Sanctuary
+Sepahijala Wildlife Sanctuary
+Feni River
+Chittagong Port
+Maharaja Bir Bikram Airport
+Maharaja Bir Bikram Stadium
+Maharaja Bir Bikram College

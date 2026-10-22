@@ -52,12 +52,12 @@ logger = logging.getLogger("ner_api")
 class PredictRequest(BaseModel):
     sentence: str = Field(
         ...,
-        description="Raw input sentence in Konkani (Devanagari), Assamese, or Sinhala",
+        description="Raw input sentence in Konkani (Devanagari), Assamese, Sinhala, or Kokborok",
         example="ताचो जल्म नावेली साश्ट गोंय हांगा जालो .",
     )
     language: str = Field(
         ...,
-        description="Target language code or name ('konkani', 'assamese', 'sinhala')",
+        description="Target language code or name ('konkani', 'assamese', 'sinhala', 'kokborok')",
         example="konkani",
     )
     include_attribution: bool = Field(

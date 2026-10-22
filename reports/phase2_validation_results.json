@@ -1,0 +1,91 @@
+{
+  "test1_length_derived_buckets": {
+    "pass": true,
+    "cutoffs": [
+      12,
+      22,
+      34
+    ],
+    "rationale": "Empirical sample quartiles Q1=12, Median=22, Q3=34 documented."
+  },
+  "test2_stratified_reliability": {
+    "pass": true,
+    "fragile_cells_count": 0,
+    "fragile_cells": []
+  },
+  "test3_collapse_triage_evidence": {
+    "pass": true,
+    "total_triaged": 72,
+    "all_backed_by_evidence": true
+  },
+  "test4_middle_entity_test": {
+    "pass": true,
+    "by_language": {
+      "konkani": {
+        "n_sentences": 25,
+        "first": {
+          "hits": 14,
+          "total": 25,
+          "recall": 56.00000000000001
+        },
+        "middle": {
+          "hits": 19,
+          "total": 56,
+          "recall": 33.92857142857143
+        },
+        "last": {
+          "hits": 18,
+          "total": 25,
+          "recall": 72.0
+        },
+        "edge_vs_middle_gap": 30.07142857142857
+      },
+      "assamese": {
+        "n_sentences": 50,
+        "first": {
+          "hits": 41,
+          "total": 50,
+          "recall": 82.0
+        },
+        "middle": {
+          "hits": 130,
+          "total": 162,
+          "recall": 80.24691358024691
+        },
+        "last": {
+          "hits": 38,
+          "total": 50,
+          "recall": 76.0
+        },
+        "edge_vs_middle_gap": -1.2469135802469111
+      },
+      "sinhala": {
+        "n_sentences": 37,
+        "first": {
+          "hits": 32,
+          "total": 37,
+          "recall": 86.48648648648648
+        },
+        "middle": {
+          "hits": 61,
+          "total": 70,
+          "recall": 87.14285714285714
+        },
+        "last": {
+          "hits": 34,
+          "total": 37,
+          "recall": 91.8918918918919
+        },
+        "edge_vs_middle_gap": 2.0463320463320542
+      }
+    }
+  },
+  "test5_test_set_isolation": {
+    "pass": true,
+    "hashes": {
+      "konkani": "bd08ebbf60e048d4fce5d9f5fd233f7dbdeb5bf1f066ee0718eb4b04404ab2d1",
+      "assamese": "2a49321609716b38a893d7b7ca5aa3c27ba0c90863fbca8ac0d4aa87d143c070",
+      "sinhala": "47cf890b0e9c76e235e17355806b521f8925525e80256bf6667b2835a16854d0"
+    }
+  }
+}

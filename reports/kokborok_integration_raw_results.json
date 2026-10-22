@@ -1,0 +1,440 @@
+{
+  "pre_integration_baselines": {
+    "konkani": 96.69,
+    "assamese": 97.18,
+    "sinhala": 96.3
+  },
+  "option_b_standalone": {
+    "option": "Option (b) Standalone",
+    "checkpoint": "standalone_kokborok_optionB.pt",
+    "kokborok_dev_f1": 0.0,
+    "kokborok_dev_precision": 0.0,
+    "kokborok_dev_recall": 0.0,
+    "konkani_dev_f1": 96.69,
+    "assamese_dev_f1": 97.18,
+    "sinhala_dev_f1": 96.3,
+    "divergence": {
+      "total_params": 1638376,
+      "changed_params": 1152803,
+      "pct_changed": 70.3625,
+      "l2_diff": 5.829751,
+      "max_diff": 0.02065
+    },
+    "metrics": {
+      "entity_f1": 0.0,
+      "entity_precision": 0.0,
+      "entity_recall": 0.0,
+      "token_accuracy": 98.7,
+      "by_type": {
+        "PER": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2
+        },
+        "LOC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 9
+        },
+        "ORG": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2
+        },
+        "MISC": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 4
+        }
+      }
+    }
+  },
+  "option_a_shared_uniform": {
+    "option": "Option (a) Joint (shared_uniform)",
+    "results": {
+      "konkani": {
+        "entity_f1": 87.5,
+        "entity_precision": 81.69,
+        "entity_recall": 94.4
+      },
+      "assamese": {
+        "entity_f1": 89.54,
+        "entity_precision": 82.04,
+        "entity_recall": 98.56
+      },
+      "sinhala": {
+        "entity_f1": 87.04,
+        "entity_precision": 78.0,
+        "entity_recall": 98.47
+      },
+      "kokborok": {
+        "entity_f1": 61.54,
+        "entity_precision": 88.89,
+        "entity_recall": 47.06
+      }
+    },
+    "macro_f1": 81.41,
+    "divergence": {
+      "pct_changed": 98.91,
+      "l2_diff": 63.25
+    }
+  },
+  "option_a_per_language_uniform": {
+    "option": "Option (a) Joint (per_language_uniform)",
+    "results": {
+      "konkani": {
+        "entity_f1": 87.73,
+        "entity_precision": 81.94,
+        "entity_recall": 94.4,
+        "token_accuracy": 98.71,
+        "by_type": {
+          "PER": {
+            "precision": 0.9444,
+            "recall": 0.85,
+            "f1": 0.8947,
+            "tp": 17,
+            "fp": 1,
+            "fn": 3
+          },
+          "LOC": {
+            "precision": 0.5472,
+            "recall": 0.9355,
+            "f1": 0.6905,
+            "tp": 29,
+            "fp": 24,
+            "fn": 2
+          },
+          "ORG": {
+            "precision": 0.9722,
+            "recall": 0.9459,
+            "f1": 0.9589,
+            "tp": 35,
+            "fp": 1,
+            "fn": 2
+          },
+          "MISC": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 37,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      "assamese": {
+        "entity_f1": 89.54,
+        "entity_precision": 82.04,
+        "entity_recall": 98.56,
+        "token_accuracy": 99.05,
+        "by_type": {
+          "PER": {
+            "precision": 0.9474,
+            "recall": 1.0,
+            "f1": 0.973,
+            "tp": 18,
+            "fp": 1,
+            "fn": 0
+          },
+          "LOC": {
+            "precision": 0.729,
+            "recall": 0.9873,
+            "f1": 0.8387,
+            "tp": 78,
+            "fp": 29,
+            "fn": 1
+          },
+          "ORG": {
+            "precision": 1.0,
+            "recall": 0.9333,
+            "f1": 0.9655,
+            "tp": 14,
+            "fp": 0,
+            "fn": 1
+          },
+          "MISC": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 27,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      "sinhala": {
+        "entity_f1": 86.87,
+        "entity_precision": 77.71,
+        "entity_recall": 98.47,
+        "token_accuracy": 98.56,
+        "by_type": {
+          "PER": {
+            "precision": 0.973,
+            "recall": 0.973,
+            "f1": 0.973,
+            "tp": 36,
+            "fp": 1,
+            "fn": 1
+          },
+          "LOC": {
+            "precision": 0.52,
+            "recall": 1.0,
+            "f1": 0.6842,
+            "tp": 39,
+            "fp": 36,
+            "fn": 0
+          },
+          "ORG": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 28,
+            "fp": 0,
+            "fn": 0
+          },
+          "MISC": {
+            "precision": 1.0,
+            "recall": 0.963,
+            "f1": 0.9811,
+            "tp": 26,
+            "fp": 0,
+            "fn": 1
+          }
+        }
+      },
+      "kokborok": {
+        "entity_f1": 61.54,
+        "entity_precision": 88.89,
+        "entity_recall": 47.06,
+        "token_accuracy": 99.19,
+        "by_type": {
+          "PER": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 2
+          },
+          "LOC": {
+            "precision": 0.8,
+            "recall": 0.4444,
+            "f1": 0.5714,
+            "tp": 4,
+            "fp": 1,
+            "fn": 5
+          },
+          "ORG": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 2
+          },
+          "MISC": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 4,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      }
+    },
+    "macro_f1": 81.42,
+    "divergence": {
+      "total_params": 11213323,
+      "changed_params": 11091432,
+      "pct_changed": 98.913,
+      "l2_diff": 62.837306,
+      "max_diff": 0.293324
+    }
+  },
+  "option_c_staged": {
+    "option": "Option (c) Staged Protected",
+    "results": {
+      "konkani": {
+        "entity_f1": 96.69,
+        "entity_precision": 100.0,
+        "entity_recall": 93.6,
+        "token_accuracy": 99.59,
+        "by_type": {
+          "PER": {
+            "precision": 1.0,
+            "recall": 0.85,
+            "f1": 0.9189,
+            "tp": 17,
+            "fp": 0,
+            "fn": 3
+          },
+          "LOC": {
+            "precision": 1.0,
+            "recall": 0.871,
+            "f1": 0.931,
+            "tp": 27,
+            "fp": 0,
+            "fn": 4
+          },
+          "ORG": {
+            "precision": 1.0,
+            "recall": 0.973,
+            "f1": 0.9863,
+            "tp": 36,
+            "fp": 0,
+            "fn": 1
+          },
+          "MISC": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 37,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      "assamese": {
+        "entity_f1": 98.55,
+        "entity_precision": 99.27,
+        "entity_recall": 97.84,
+        "token_accuracy": 99.83,
+        "by_type": {
+          "PER": {
+            "precision": 0.9474,
+            "recall": 1.0,
+            "f1": 0.973,
+            "tp": 18,
+            "fp": 1,
+            "fn": 0
+          },
+          "LOC": {
+            "precision": 1.0,
+            "recall": 0.9747,
+            "f1": 0.9872,
+            "tp": 77,
+            "fp": 0,
+            "fn": 2
+          },
+          "ORG": {
+            "precision": 1.0,
+            "recall": 0.9333,
+            "f1": 0.9655,
+            "tp": 14,
+            "fp": 0,
+            "fn": 1
+          },
+          "MISC": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 27,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      "sinhala": {
+        "entity_f1": 97.38,
+        "entity_precision": 95.59,
+        "entity_recall": 99.24,
+        "token_accuracy": 99.73,
+        "by_type": {
+          "PER": {
+            "precision": 0.973,
+            "recall": 0.973,
+            "f1": 0.973,
+            "tp": 36,
+            "fp": 1,
+            "fn": 1
+          },
+          "LOC": {
+            "precision": 0.8864,
+            "recall": 1.0,
+            "f1": 0.9398,
+            "tp": 39,
+            "fp": 5,
+            "fn": 0
+          },
+          "ORG": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 28,
+            "fp": 0,
+            "fn": 0
+          },
+          "MISC": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 27,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      },
+      "kokborok": {
+        "entity_f1": 50.0,
+        "entity_precision": 85.71,
+        "entity_recall": 35.29,
+        "token_accuracy": 99.07,
+        "by_type": {
+          "PER": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 2
+          },
+          "LOC": {
+            "precision": 0.6667,
+            "recall": 0.2222,
+            "f1": 0.3333,
+            "tp": 2,
+            "fp": 1,
+            "fn": 7
+          },
+          "ORG": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 2
+          },
+          "MISC": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 4,
+            "fp": 0,
+            "fn": 0
+          }
+        }
+      }
+    },
+    "kokborok_dev_f1": 50.0,
+    "divergence": {
+      "total_params": 11213323,
+      "changed_params": 7352500,
+      "pct_changed": 65.5693,
+      "l2_diff": 12.05826,
+      "max_diff": 0.278142
+    }
+  }
+}

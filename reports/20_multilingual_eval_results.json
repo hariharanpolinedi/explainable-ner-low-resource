@@ -1,0 +1,3258 @@
+[
+  {
+    "language": "sinhala",
+    "id": "SI_S1",
+    "title": "Sinhala 1: Colombo University Summit",
+    "sentence": "2026 සැප්තැම්බර් 18 වන දින කොළඹ විශ්වවිද්යාලයේ පැවති සමුළුවට මහාචාර්ය නදීකා පෙරේරා, ආචාර්ය කසුන් ජයවර්ධන, ආචාර්ය චතුරංග සිල්වා, සමන් කුමාර සහ රවිඳු සේනානායක සහභාගී වූ අතර කොළඹ, මහනුවර, ගාල්ල, යාපනය සහ අනුරාධපුරයෙන් පැමිණි පර්යේෂකයන් Google Research, Microsoft Research, AI4Bharat සහ මොරටුව විශ්වවිද්යාලය සමඟ කෘත්රිම බුද්ධිය සහ ස්වාභාවික භාෂා සැකසීම පිළිබඳ සාකච්ඡා කළහ.",
+    "expected_count": 18,
+    "predicted_count": 18,
+    "matched_count": 18,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "2026 සැප්තැම්බර් 18",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 19
+      },
+      {
+        "type": "ORG",
+        "text": "කොළඹ විශ්වවිද්‍යාලයේ",
+        "start_token": 5,
+        "end_token": 7,
+        "start_char": 27,
+        "end_char": 47
+      },
+      {
+        "type": "PER",
+        "text": "මහාචාර්ය නදීකා පෙරේරා",
+        "start_token": 9,
+        "end_token": 12,
+        "start_char": 62,
+        "end_char": 83
+      },
+      {
+        "type": "PER",
+        "text": "ආචාර්ය කසුන් ජයවර්ධන",
+        "start_token": 13,
+        "end_token": 16,
+        "start_char": 85,
+        "end_char": 105
+      },
+      {
+        "type": "PER",
+        "text": "ආචාර්ය චතුරංග සිල්වා",
+        "start_token": 17,
+        "end_token": 20,
+        "start_char": 107,
+        "end_char": 127
+      },
+      {
+        "type": "PER",
+        "text": "සමන් කුමාර",
+        "start_token": 21,
+        "end_token": 23,
+        "start_char": 129,
+        "end_char": 139
+      },
+      {
+        "type": "PER",
+        "text": "රවිඳු සේනානායක",
+        "start_token": 24,
+        "end_token": 26,
+        "start_char": 143,
+        "end_char": 157
+      },
+      {
+        "type": "LOC",
+        "text": "කොළඹ",
+        "start_token": 29,
+        "end_token": 30,
+        "start_char": 172,
+        "end_char": 176
+      },
+      {
+        "type": "LOC",
+        "text": "මහනුවර",
+        "start_token": 31,
+        "end_token": 32,
+        "start_char": 178,
+        "end_char": 184
+      },
+      {
+        "type": "LOC",
+        "text": "ගාල්ල",
+        "start_token": 33,
+        "end_token": 34,
+        "start_char": 186,
+        "end_char": 191
+      },
+      {
+        "type": "LOC",
+        "text": "යාපනය",
+        "start_token": 35,
+        "end_token": 36,
+        "start_char": 193,
+        "end_char": 198
+      },
+      {
+        "type": "LOC",
+        "text": "අනුරාධපුරයෙන්",
+        "start_token": 37,
+        "end_token": 38,
+        "start_char": 202,
+        "end_char": 215
+      },
+      {
+        "type": "ORG",
+        "text": "Google Research",
+        "start_token": 40,
+        "end_token": 42,
+        "start_char": 234,
+        "end_char": 249
+      },
+      {
+        "type": "ORG",
+        "text": "Microsoft Research",
+        "start_token": 43,
+        "end_token": 45,
+        "start_char": 251,
+        "end_char": 269
+      },
+      {
+        "type": "ORG",
+        "text": "AI4Bharat",
+        "start_token": 46,
+        "end_token": 47,
+        "start_char": 271,
+        "end_char": 280
+      },
+      {
+        "type": "ORG",
+        "text": "මොරටුව විශ්වවිද්‍යාලය",
+        "start_token": 48,
+        "end_token": 50,
+        "start_char": 284,
+        "end_char": 305
+      },
+      {
+        "type": "MISC",
+        "text": "කෘත්‍රිම බුද්ධිය",
+        "start_token": 51,
+        "end_token": 53,
+        "start_char": 310,
+        "end_char": 326
+      },
+      {
+        "type": "MISC",
+        "text": "ස්වාභාවික භාෂා සැකසීම",
+        "start_token": 54,
+        "end_token": 57,
+        "start_char": 330,
+        "end_char": 351
+      }
+    ]
+  },
+  {
+    "language": "sinhala",
+    "id": "SI_S2",
+    "title": "Sinhala 2: Moratuwa University Presentation",
+    "sentence": "2027 ජනවාරි 12 වන දින මොරටුව විශ්වවිද්යාලයේදී ආචාර්ය අමන්දා ප්රනාන්දු, මහාචාර්ය සුනිල් පෙරේරා, නිමල් ජයසේකර සහ චතුරංග ද සිල්වා විසින් ශ්රී ලංකාව, ඉන්දියාව, බංග්ලාදේශය සහ නේපාලය නියෝජනය කළ පර්යේෂකයන් සමඟ සිංහල, දෙමළ, හින්දි සහ බෙංගාලි භාෂා සඳහා Named Entity Recognition, Machine Translation සහ Explainable AI පිළිබඳ පර්යේෂණ ඉදිරිපත් කරන ලදී.",
+    "expected_count": 17,
+    "predicted_count": 17,
+    "matched_count": 17,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "2027 ජනවාරි 12",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 14
+      },
+      {
+        "type": "ORG",
+        "text": "මොරටුව විශ්වවිද්‍යාලයේදී",
+        "start_token": 5,
+        "end_token": 8,
+        "start_char": 22,
+        "end_char": 46
+      },
+      {
+        "type": "PER",
+        "text": "ආචාර්ය අමන්දා ප්‍රනාන්දු",
+        "start_token": 8,
+        "end_token": 11,
+        "start_char": 47,
+        "end_char": 71
+      },
+      {
+        "type": "PER",
+        "text": "සුනිල් පෙරේරා",
+        "start_token": 13,
+        "end_token": 15,
+        "start_char": 82,
+        "end_char": 95
+      },
+      {
+        "type": "PER",
+        "text": "නිමල් ජයසේකර",
+        "start_token": 16,
+        "end_token": 18,
+        "start_char": 97,
+        "end_char": 109
+      },
+      {
+        "type": "PER",
+        "text": "ද සිල්වා",
+        "start_token": 20,
+        "end_token": 22,
+        "start_char": 120,
+        "end_char": 128
+      },
+      {
+        "type": "LOC",
+        "text": "ශ්‍රී ලංකාව",
+        "start_token": 23,
+        "end_token": 25,
+        "start_char": 136,
+        "end_char": 147
+      },
+      {
+        "type": "LOC",
+        "text": "ඉන්දියාව",
+        "start_token": 26,
+        "end_token": 27,
+        "start_char": 149,
+        "end_char": 157
+      },
+      {
+        "type": "LOC",
+        "text": "බංග්ලාදේශය",
+        "start_token": 28,
+        "end_token": 29,
+        "start_char": 159,
+        "end_char": 169
+      },
+      {
+        "type": "LOC",
+        "text": "නේපාලය",
+        "start_token": 30,
+        "end_token": 31,
+        "start_char": 173,
+        "end_char": 179
+      },
+      {
+        "type": "MISC",
+        "text": "සිංහල",
+        "start_token": 35,
+        "end_token": 36,
+        "start_char": 206,
+        "end_char": 211
+      },
+      {
+        "type": "MISC",
+        "text": "දෙමළ",
+        "start_token": 37,
+        "end_token": 38,
+        "start_char": 213,
+        "end_char": 217
+      },
+      {
+        "type": "MISC",
+        "text": "හින්දි",
+        "start_token": 39,
+        "end_token": 40,
+        "start_char": 219,
+        "end_char": 225
+      },
+      {
+        "type": "MISC",
+        "text": "බෙංගාලි",
+        "start_token": 41,
+        "end_token": 42,
+        "start_char": 229,
+        "end_char": 236
+      },
+      {
+        "type": "MISC",
+        "text": "Named Entity Recognition",
+        "start_token": 44,
+        "end_token": 47,
+        "start_char": 247,
+        "end_char": 271
+      },
+      {
+        "type": "MISC",
+        "text": "Machine Translation",
+        "start_token": 48,
+        "end_token": 50,
+        "start_char": 273,
+        "end_char": 292
+      },
+      {
+        "type": "MISC",
+        "text": "Explainable AI",
+        "start_token": 51,
+        "end_token": 53,
+        "start_char": 296,
+        "end_char": 310
+      }
+    ]
+  },
+  {
+    "language": "sinhala",
+    "id": "SI_S3",
+    "title": "Sinhala 3: BMICH Colombo Results",
+    "sentence": "2027 මාර්තු 5 වන දින බණ්ඩාරනායක අනුස්මරණ ජාත්යන්තර සම්මන්ත්රණ ශාලාවේදී කොළඹ විශ්වවිද්යාලය, ජයවර්ධනපුර විශ්වවිද්යාලය, ශ්රී ලංකා තොරතුරු තාක්ෂණ ආයතනය, Google සහ NVIDIA හි පර්යේෂකයන් වන ආචාර්ය රිමාල් පෙරේරා, කවිඳු ජයවර්ධන, මාලිනී සිල්වා සහ සචින් ප්රනාන්දු විසින් සිංහල සහ දෙමළ Natural Language Processing ව්යාපෘති පිළිබඳ නව ප්රතිඵල ඉදිරිපත් කළහ.",
+    "expected_count": 14,
+    "predicted_count": 14,
+    "matched_count": 14,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "2027 මාර්තු 5",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 13
+      },
+      {
+        "type": "ORG",
+        "text": "බණ්ඩාරනායක අනුස්මරණ ජාත්‍යන්තර සම්මන්ත්‍රණ ශාලාවේදී",
+        "start_token": 5,
+        "end_token": 10,
+        "start_char": 21,
+        "end_char": 72
+      },
+      {
+        "type": "ORG",
+        "text": "කොළඹ විශ්වවිද්‍යාලය",
+        "start_token": 10,
+        "end_token": 12,
+        "start_char": 73,
+        "end_char": 92
+      },
+      {
+        "type": "ORG",
+        "text": "ජයවර්ධනපුර විශ්වවිද්‍යාලය",
+        "start_token": 13,
+        "end_token": 15,
+        "start_char": 94,
+        "end_char": 119
+      },
+      {
+        "type": "ORG",
+        "text": "ශ්‍රී ලංකා තොරතුරු තාක්ෂණ ආයතනය",
+        "start_token": 16,
+        "end_token": 21,
+        "start_char": 121,
+        "end_char": 152
+      },
+      {
+        "type": "ORG",
+        "text": "Google",
+        "start_token": 22,
+        "end_token": 23,
+        "start_char": 154,
+        "end_char": 160
+      },
+      {
+        "type": "ORG",
+        "text": "NVIDIA",
+        "start_token": 24,
+        "end_token": 25,
+        "start_char": 164,
+        "end_char": 170
+      },
+      {
+        "type": "PER",
+        "text": "ආචාර්ය රිමාල් පෙරේරා",
+        "start_token": 28,
+        "end_token": 31,
+        "start_char": 188,
+        "end_char": 208
+      },
+      {
+        "type": "PER",
+        "text": "කවිඳු ජයවර්ධන",
+        "start_token": 32,
+        "end_token": 34,
+        "start_char": 210,
+        "end_char": 223
+      },
+      {
+        "type": "PER",
+        "text": "මාලිනී සිල්වා",
+        "start_token": 35,
+        "end_token": 37,
+        "start_char": 225,
+        "end_char": 238
+      },
+      {
+        "type": "PER",
+        "text": "සචින් ප්‍රනාන්දු",
+        "start_token": 38,
+        "end_token": 40,
+        "start_char": 242,
+        "end_char": 258
+      },
+      {
+        "type": "MISC",
+        "text": "සිංහල",
+        "start_token": 41,
+        "end_token": 42,
+        "start_char": 266,
+        "end_char": 271
+      },
+      {
+        "type": "MISC",
+        "text": "දෙමළ",
+        "start_token": 43,
+        "end_token": 44,
+        "start_char": 275,
+        "end_char": 279
+      },
+      {
+        "type": "MISC",
+        "text": "Natural Language Processing",
+        "start_token": 44,
+        "end_token": 47,
+        "start_char": 280,
+        "end_char": 307
+      }
+    ]
+  },
+  {
+    "language": "sinhala",
+    "id": "SI_S4",
+    "title": "Sinhala 4: Jaffna University Workshop",
+    "sentence": "2027 අප්රේල් 22 වන දින යාපනය විශ්වවිද්යාලයේ පැවති තාක්ෂණික වැඩමුළුවකට මහාචාර්ය අරුණ කුමාර, ආචාර්ය දිනේෂ් රාජපක්ෂ, රුවින් ජයවර්ධන සහ නදීෂා පෙරේරා සමඟ ඉන්දියාවේ චෙන්නායි, බැංගලෝර් සහ නවදිල්ලියෙන් පැමිණි පර්යේෂකයන් සහභාගී වී Artificial Intelligence, Machine Learning, Computer Vision සහ Multilingual NLP පිළිබඳ පුහුණුවක් ලබා දුන්හ.",
+    "expected_count": 14,
+    "predicted_count": 14,
+    "matched_count": 14,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "2027 අප්‍රේල් 22",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 16
+      },
+      {
+        "type": "ORG",
+        "text": "යාපනය විශ්වවිද්‍යාලයේ",
+        "start_token": 5,
+        "end_token": 7,
+        "start_char": 24,
+        "end_char": 45
+      },
+      {
+        "type": "PER",
+        "text": "මහාචාර්ය අරුණ කුමාර",
+        "start_token": 10,
+        "end_token": 13,
+        "start_char": 72,
+        "end_char": 91
+      },
+      {
+        "type": "PER",
+        "text": "ආචාර්ය දිනේෂ් රාජපක්ෂ",
+        "start_token": 14,
+        "end_token": 17,
+        "start_char": 93,
+        "end_char": 114
+      },
+      {
+        "type": "PER",
+        "text": "රුවින් ජයවර්ධන",
+        "start_token": 18,
+        "end_token": 20,
+        "start_char": 116,
+        "end_char": 130
+      },
+      {
+        "type": "PER",
+        "text": "නදීෂා පෙරේරා",
+        "start_token": 21,
+        "end_token": 23,
+        "start_char": 134,
+        "end_char": 146
+      },
+      {
+        "type": "LOC",
+        "text": "ඉන්දියාවේ",
+        "start_token": 24,
+        "end_token": 25,
+        "start_char": 151,
+        "end_char": 160
+      },
+      {
+        "type": "LOC",
+        "text": "චෙන්නායි",
+        "start_token": 25,
+        "end_token": 26,
+        "start_char": 161,
+        "end_char": 169
+      },
+      {
+        "type": "LOC",
+        "text": "බැංගලෝර්",
+        "start_token": 27,
+        "end_token": 28,
+        "start_char": 171,
+        "end_char": 179
+      },
+      {
+        "type": "LOC",
+        "text": "නවදිල්ලියෙන්",
+        "start_token": 29,
+        "end_token": 30,
+        "start_char": 183,
+        "end_char": 195
+      },
+      {
+        "type": "MISC",
+        "text": "Artificial Intelligence",
+        "start_token": 34,
+        "end_token": 36,
+        "start_char": 224,
+        "end_char": 247
+      },
+      {
+        "type": "MISC",
+        "text": "Machine Learning",
+        "start_token": 37,
+        "end_token": 39,
+        "start_char": 249,
+        "end_char": 265
+      },
+      {
+        "type": "MISC",
+        "text": "Computer Vision",
+        "start_token": 40,
+        "end_token": 42,
+        "start_char": 267,
+        "end_char": 282
+      },
+      {
+        "type": "MISC",
+        "text": "Multilingual NLP",
+        "start_token": 43,
+        "end_token": 45,
+        "start_char": 286,
+        "end_char": 302
+      }
+    ]
+  },
+  {
+    "language": "sinhala",
+    "id": "SI_S5",
+    "title": "Sinhala 5: Galle Joint Assembly",
+    "sentence": "2027 ජූනි 10 වන දින ගාල්ලේදී ශ්රී ලංකා රජය, කොළඹ විශ්වවිද්යාලය, මොරටුව විශ්වවිද්යාලය, AI4Bharat, University of Dhaka සහ Indian Institute of Technology Madras එක්ව සංවිධානය කළ සමුළුවේදී ආචාර්ය රිෂාන් ප්රනාන්දු, මහාචාර්ය කසුන් සිල්වා, අනුරාධා පෙරේරා සහ සුරංග ජයසේකර විසින් සිංහල, බෙංගාලි, හින්දි සහ දෙමළ භාෂාවල අඩු සම්පත් දත්ත කට්ටල පිළිබඳ පර්යේෂණ ඉදිරිපත් කළහ.",
+    "expected_count": 16,
+    "predicted_count": 16,
+    "matched_count": 16,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "2027 ජූනි 10",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 12
+      },
+      {
+        "type": "LOC",
+        "text": "ගාල්ලේදී",
+        "start_token": 5,
+        "end_token": 7,
+        "start_char": 20,
+        "end_char": 28
+      },
+      {
+        "type": "ORG",
+        "text": "ශ්‍රී ලංකා රජය",
+        "start_token": 7,
+        "end_token": 10,
+        "start_char": 29,
+        "end_char": 43
+      },
+      {
+        "type": "ORG",
+        "text": "කොළඹ විශ්වවිද්‍යාලය",
+        "start_token": 11,
+        "end_token": 13,
+        "start_char": 45,
+        "end_char": 64
+      },
+      {
+        "type": "ORG",
+        "text": "මොරටුව විශ්වවිද්‍යාලය",
+        "start_token": 14,
+        "end_token": 16,
+        "start_char": 66,
+        "end_char": 87
+      },
+      {
+        "type": "ORG",
+        "text": "AI4Bharat",
+        "start_token": 17,
+        "end_token": 18,
+        "start_char": 89,
+        "end_char": 98
+      },
+      {
+        "type": "ORG",
+        "text": "University of Dhaka",
+        "start_token": 19,
+        "end_token": 22,
+        "start_char": 100,
+        "end_char": 119
+      },
+      {
+        "type": "ORG",
+        "text": "Indian Institute of Technology Madras",
+        "start_token": 23,
+        "end_token": 28,
+        "start_char": 123,
+        "end_char": 160
+      },
+      {
+        "type": "PER",
+        "text": "ආචාර්ය රිෂාන් ප්‍රනාන්දු",
+        "start_token": 32,
+        "end_token": 35,
+        "start_char": 188,
+        "end_char": 212
+      },
+      {
+        "type": "PER",
+        "text": "මහාචාර්ය කසුන් සිල්වා",
+        "start_token": 36,
+        "end_token": 39,
+        "start_char": 214,
+        "end_char": 235
+      },
+      {
+        "type": "PER",
+        "text": "අනුරාධා පෙරේරා",
+        "start_token": 40,
+        "end_token": 42,
+        "start_char": 237,
+        "end_char": 251
+      },
+      {
+        "type": "PER",
+        "text": "සුරංග ජයසේකර",
+        "start_token": 43,
+        "end_token": 45,
+        "start_char": 255,
+        "end_char": 267
+      },
+      {
+        "type": "MISC",
+        "text": "සිංහල",
+        "start_token": 46,
+        "end_token": 47,
+        "start_char": 275,
+        "end_char": 280
+      },
+      {
+        "type": "MISC",
+        "text": "බෙංගාලි",
+        "start_token": 48,
+        "end_token": 49,
+        "start_char": 282,
+        "end_char": 289
+      },
+      {
+        "type": "MISC",
+        "text": "හින්දි",
+        "start_token": 50,
+        "end_token": 51,
+        "start_char": 291,
+        "end_char": 297
+      },
+      {
+        "type": "MISC",
+        "text": "දෙමළ",
+        "start_token": 52,
+        "end_token": 53,
+        "start_char": 301,
+        "end_char": 305
+      }
+    ]
+  },
+  {
+    "language": "konkani",
+    "id": "KO_S1",
+    "title": "Konkani 1: Panaji International Conference",
+    "sentence": "18 सप्टेंबर 2026 दिसा पणजींत गोंय विद्यापीठांत जाल्ल्या आंतरराष्ट्रीय परिषदेंत प्रा. अनिल नायक, डॉ. कविता काकोडकर, रोहन शेट, माया नाईक आनी सुरज गांवकर हांणी भारत, श्रीलंका, बांगलादेश आनी नेपाळांतल्यान आयिल्ल्या संशोधकां कडेन कोंकणी, मराठी, हिंदी आनी इंग्लीश भाशे खातीर Natural Language Processing, Named Entity Recognition आनी Artificial Intelligence विशीं चर्चा केली.",
+    "expected_count": 19,
+    "predicted_count": 19,
+    "matched_count": 19,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "18 सप्टेंबर 2026",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 16
+      },
+      {
+        "type": "LOC",
+        "text": "पणजींत",
+        "start_token": 4,
+        "end_token": 6,
+        "start_char": 22,
+        "end_char": 28
+      },
+      {
+        "type": "ORG",
+        "text": "गोंय विद्यापीठांत",
+        "start_token": 6,
+        "end_token": 8,
+        "start_char": 29,
+        "end_char": 46
+      },
+      {
+        "type": "PER",
+        "text": "अनिल नायक",
+        "start_token": 13,
+        "end_token": 15,
+        "start_char": 85,
+        "end_char": 94
+      },
+      {
+        "type": "PER",
+        "text": "डॉ. कविता काकोडकर",
+        "start_token": 16,
+        "end_token": 20,
+        "start_char": 96,
+        "end_char": 113
+      },
+      {
+        "type": "PER",
+        "text": "रोहन शेट",
+        "start_token": 21,
+        "end_token": 23,
+        "start_char": 115,
+        "end_char": 123
+      },
+      {
+        "type": "PER",
+        "text": "माया नाईक",
+        "start_token": 24,
+        "end_token": 26,
+        "start_char": 125,
+        "end_char": 134
+      },
+      {
+        "type": "PER",
+        "text": "सुरज गांवकर",
+        "start_token": 27,
+        "end_token": 29,
+        "start_char": 139,
+        "end_char": 150
+      },
+      {
+        "type": "LOC",
+        "text": "भारत",
+        "start_token": 30,
+        "end_token": 31,
+        "start_char": 157,
+        "end_char": 161
+      },
+      {
+        "type": "LOC",
+        "text": "श्रीलंका",
+        "start_token": 32,
+        "end_token": 33,
+        "start_char": 163,
+        "end_char": 171
+      },
+      {
+        "type": "LOC",
+        "text": "बांगलादेश",
+        "start_token": 34,
+        "end_token": 35,
+        "start_char": 173,
+        "end_char": 182
+      },
+      {
+        "type": "LOC",
+        "text": "नेपाळांतल्यान",
+        "start_token": 36,
+        "end_token": 38,
+        "start_char": 187,
+        "end_char": 200
+      },
+      {
+        "type": "MISC",
+        "text": "कोंकणी",
+        "start_token": 41,
+        "end_token": 42,
+        "start_char": 225,
+        "end_char": 231
+      },
+      {
+        "type": "MISC",
+        "text": "मराठी",
+        "start_token": 43,
+        "end_token": 44,
+        "start_char": 233,
+        "end_char": 238
+      },
+      {
+        "type": "MISC",
+        "text": "हिंदी",
+        "start_token": 45,
+        "end_token": 46,
+        "start_char": 240,
+        "end_char": 245
+      },
+      {
+        "type": "MISC",
+        "text": "इंग्लीश",
+        "start_token": 47,
+        "end_token": 48,
+        "start_char": 250,
+        "end_char": 257
+      },
+      {
+        "type": "MISC",
+        "text": "Natural Language Processing",
+        "start_token": 50,
+        "end_token": 53,
+        "start_char": 269,
+        "end_char": 296
+      },
+      {
+        "type": "MISC",
+        "text": "Named Entity Recognition",
+        "start_token": 54,
+        "end_token": 57,
+        "start_char": 298,
+        "end_char": 322
+      },
+      {
+        "type": "MISC",
+        "text": "Artificial Intelligence",
+        "start_token": 58,
+        "end_token": 60,
+        "start_char": 327,
+        "end_char": 350
+      }
+    ]
+  },
+  {
+    "language": "konkani",
+    "id": "KO_S2",
+    "title": "Konkani 2: IIT Bombay & Goa University Technology Summit",
+    "sentence": "12 जानेवारी 2027 दिसा गोंय विद्यापीठ, IIT Bombay, Google Research, Microsoft Research आनी AI4Bharat हांणी पणजींत आयोजित केल्ल्या तंत्रज्ञान परिषदेंत डॉ. रोहित कामत, प्रिया नाईक, अमित शेट, कविता फर्नांडिस आनी राहुल गांवकर हांणी गोंय, महाराष्ट्र, कर्नाटक, केरळ आनी नवी दिल्लींतल्यान आयिल्ल्या विद्यार्थ्यांक Machine Learning, Computer Vision, Machine Translation आनी Explainable AI विशीं प्रशिक्षण दिलें.",
+    "expected_count": 21,
+    "predicted_count": 21,
+    "matched_count": 21,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "12 जानेवारी 2027",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 16
+      },
+      {
+        "type": "ORG",
+        "text": "गोंय विद्यापीठ",
+        "start_token": 4,
+        "end_token": 6,
+        "start_char": 22,
+        "end_char": 36
+      },
+      {
+        "type": "ORG",
+        "text": "IIT Bombay",
+        "start_token": 7,
+        "end_token": 9,
+        "start_char": 38,
+        "end_char": 48
+      },
+      {
+        "type": "ORG",
+        "text": "Google Research",
+        "start_token": 10,
+        "end_token": 12,
+        "start_char": 50,
+        "end_char": 65
+      },
+      {
+        "type": "ORG",
+        "text": "Microsoft Research",
+        "start_token": 13,
+        "end_token": 15,
+        "start_char": 67,
+        "end_char": 85
+      },
+      {
+        "type": "ORG",
+        "text": "AI4Bharat",
+        "start_token": 16,
+        "end_token": 17,
+        "start_char": 90,
+        "end_char": 99
+      },
+      {
+        "type": "LOC",
+        "text": "पणजींत",
+        "start_token": 18,
+        "end_token": 20,
+        "start_char": 106,
+        "end_char": 112
+      },
+      {
+        "type": "PER",
+        "text": "रोहित कामत",
+        "start_token": 26,
+        "end_token": 28,
+        "start_char": 153,
+        "end_char": 163
+      },
+      {
+        "type": "PER",
+        "text": "प्रिया नाईक",
+        "start_token": 29,
+        "end_token": 31,
+        "start_char": 165,
+        "end_char": 176
+      },
+      {
+        "type": "PER",
+        "text": "अमित शेट",
+        "start_token": 32,
+        "end_token": 34,
+        "start_char": 178,
+        "end_char": 186
+      },
+      {
+        "type": "PER",
+        "text": "कविता फर्नांडिस",
+        "start_token": 35,
+        "end_token": 37,
+        "start_char": 188,
+        "end_char": 203
+      },
+      {
+        "type": "PER",
+        "text": "राहुल गांवकर",
+        "start_token": 38,
+        "end_token": 40,
+        "start_char": 208,
+        "end_char": 220
+      },
+      {
+        "type": "LOC",
+        "text": "गोंय",
+        "start_token": 41,
+        "end_token": 42,
+        "start_char": 227,
+        "end_char": 231
+      },
+      {
+        "type": "LOC",
+        "text": "महाराष्ट्र",
+        "start_token": 43,
+        "end_token": 44,
+        "start_char": 233,
+        "end_char": 243
+      },
+      {
+        "type": "LOC",
+        "text": "कर्नाटक",
+        "start_token": 45,
+        "end_token": 46,
+        "start_char": 245,
+        "end_char": 252
+      },
+      {
+        "type": "LOC",
+        "text": "केरळ",
+        "start_token": 47,
+        "end_token": 48,
+        "start_char": 254,
+        "end_char": 258
+      },
+      {
+        "type": "LOC",
+        "text": "नवी दिल्लींतल्यान",
+        "start_token": 49,
+        "end_token": 52,
+        "start_char": 263,
+        "end_char": 280
+      },
+      {
+        "type": "MISC",
+        "text": "Machine Learning",
+        "start_token": 54,
+        "end_token": 56,
+        "start_char": 306,
+        "end_char": 322
+      },
+      {
+        "type": "MISC",
+        "text": "Computer Vision",
+        "start_token": 57,
+        "end_token": 59,
+        "start_char": 324,
+        "end_char": 339
+      },
+      {
+        "type": "MISC",
+        "text": "Machine Translation",
+        "start_token": 60,
+        "end_token": 62,
+        "start_char": 341,
+        "end_char": 360
+      },
+      {
+        "type": "MISC",
+        "text": "Explainable AI",
+        "start_token": 63,
+        "end_token": 65,
+        "start_char": 365,
+        "end_char": 379
+      }
+    ]
+  },
+  {
+    "language": "konkani",
+    "id": "KO_S3",
+    "title": "Konkani 3: Margao Konkani Bhasha Mandal Program",
+    "sentence": "5 मार्च 2027 दिसा मडगांवांत कोंकणी भाशा मंडळान आयोजीत केल्ल्या संशोधन कार्यक्रमांत प्राध्यापक संजय नायक, डॉ. रिमा शिरोडकर, अमोल काकोडकर, निशा राणे आनी सुमित फर्नांडिस हांणी कोंकणी, मराठी, हिंदी, कन्नड आनी मल्याळम भाशांचें multilingual dataset तयार करप, annotation करप आनी Named Entity Recognition मॉडेल तपासप ह्या विशयांचेर सादरीकरण केलें.",
+    "expected_count": 14,
+    "predicted_count": 14,
+    "matched_count": 14,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "5 मार्च 2027",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 12
+      },
+      {
+        "type": "LOC",
+        "text": "मडगांवांत",
+        "start_token": 4,
+        "end_token": 5,
+        "start_char": 18,
+        "end_char": 27
+      },
+      {
+        "type": "ORG",
+        "text": "कोंकणी भाशा मंडळान",
+        "start_token": 5,
+        "end_token": 8,
+        "start_char": 28,
+        "end_char": 46
+      },
+      {
+        "type": "PER",
+        "text": "संजय नायक",
+        "start_token": 13,
+        "end_token": 15,
+        "start_char": 94,
+        "end_char": 103
+      },
+      {
+        "type": "PER",
+        "text": "डॉ. रिमा शिरोडकर",
+        "start_token": 16,
+        "end_token": 20,
+        "start_char": 105,
+        "end_char": 121
+      },
+      {
+        "type": "PER",
+        "text": "अमोल काकोडकर",
+        "start_token": 21,
+        "end_token": 23,
+        "start_char": 123,
+        "end_char": 135
+      },
+      {
+        "type": "PER",
+        "text": "निशा राणे",
+        "start_token": 24,
+        "end_token": 26,
+        "start_char": 137,
+        "end_char": 146
+      },
+      {
+        "type": "PER",
+        "text": "सुमित फर्नांडिस",
+        "start_token": 27,
+        "end_token": 29,
+        "start_char": 151,
+        "end_char": 166
+      },
+      {
+        "type": "MISC",
+        "text": "कोंकणी",
+        "start_token": 30,
+        "end_token": 31,
+        "start_char": 173,
+        "end_char": 179
+      },
+      {
+        "type": "MISC",
+        "text": "मराठी",
+        "start_token": 32,
+        "end_token": 33,
+        "start_char": 181,
+        "end_char": 186
+      },
+      {
+        "type": "MISC",
+        "text": "हिंदी",
+        "start_token": 34,
+        "end_token": 35,
+        "start_char": 188,
+        "end_char": 193
+      },
+      {
+        "type": "MISC",
+        "text": "कन्नड",
+        "start_token": 36,
+        "end_token": 37,
+        "start_char": 195,
+        "end_char": 200
+      },
+      {
+        "type": "MISC",
+        "text": "मल्याळम",
+        "start_token": 38,
+        "end_token": 39,
+        "start_char": 205,
+        "end_char": 212
+      },
+      {
+        "type": "MISC",
+        "text": "Named Entity Recognition",
+        "start_token": 48,
+        "end_token": 51,
+        "start_char": 272,
+        "end_char": 296
+      }
+    ]
+  },
+  {
+    "language": "konkani",
+    "id": "KO_S4",
+    "title": "Konkani 4: IIT Delhi New Delhi Colloquium",
+    "sentence": "22 एप्रिल 2027 दिसा नवी दिल्लींत Indian Institute of Technology Delhi, Ministry of Electronics and Information Technology, Google, NVIDIA आनी AI4Bharat हांच्या प्रतिनिधींनी डॉ. राजेश नाईक, माया शेट, रोहन कामत आनी स्नेहा गांवकर हांका भारत, गोंय, महाराष्ट्र, कर्नाटक आनी आसामांतल्या low-resource language research खातीर नव्या Artificial Intelligence प्रकल्पांचेर मार्गदर्शन दिलें.",
+    "expected_count": 17,
+    "predicted_count": 17,
+    "matched_count": 17,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "22 एप्रिल 2027",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 14
+      },
+      {
+        "type": "LOC",
+        "text": "नवी दिल्लींत",
+        "start_token": 4,
+        "end_token": 6,
+        "start_char": 20,
+        "end_char": 32
+      },
+      {
+        "type": "ORG",
+        "text": "Indian Institute of Technology Delhi",
+        "start_token": 6,
+        "end_token": 11,
+        "start_char": 33,
+        "end_char": 69
+      },
+      {
+        "type": "ORG",
+        "text": "Ministry of Electronics and Information Technology",
+        "start_token": 12,
+        "end_token": 18,
+        "start_char": 71,
+        "end_char": 121
+      },
+      {
+        "type": "ORG",
+        "text": "Google",
+        "start_token": 19,
+        "end_token": 20,
+        "start_char": 123,
+        "end_char": 129
+      },
+      {
+        "type": "ORG",
+        "text": "NVIDIA",
+        "start_token": 21,
+        "end_token": 22,
+        "start_char": 131,
+        "end_char": 137
+      },
+      {
+        "type": "ORG",
+        "text": "AI4Bharat",
+        "start_token": 23,
+        "end_token": 24,
+        "start_char": 142,
+        "end_char": 151
+      },
+      {
+        "type": "PER",
+        "text": "डॉ. राजेश नाईक",
+        "start_token": 26,
+        "end_token": 30,
+        "start_char": 173,
+        "end_char": 187
+      },
+      {
+        "type": "PER",
+        "text": "माया शेट",
+        "start_token": 31,
+        "end_token": 33,
+        "start_char": 189,
+        "end_char": 197
+      },
+      {
+        "type": "PER",
+        "text": "रोहन कामत",
+        "start_token": 34,
+        "end_token": 36,
+        "start_char": 199,
+        "end_char": 208
+      },
+      {
+        "type": "PER",
+        "text": "स्नेहा गांवकर",
+        "start_token": 37,
+        "end_token": 39,
+        "start_char": 213,
+        "end_char": 226
+      },
+      {
+        "type": "LOC",
+        "text": "भारत",
+        "start_token": 40,
+        "end_token": 41,
+        "start_char": 233,
+        "end_char": 237
+      },
+      {
+        "type": "LOC",
+        "text": "गोंय",
+        "start_token": 42,
+        "end_token": 43,
+        "start_char": 239,
+        "end_char": 243
+      },
+      {
+        "type": "LOC",
+        "text": "महाराष्ट्र",
+        "start_token": 44,
+        "end_token": 45,
+        "start_char": 245,
+        "end_char": 255
+      },
+      {
+        "type": "LOC",
+        "text": "कर्नाटक",
+        "start_token": 46,
+        "end_token": 47,
+        "start_char": 257,
+        "end_char": 264
+      },
+      {
+        "type": "LOC",
+        "text": "आसामांतल्या",
+        "start_token": 48,
+        "end_token": 49,
+        "start_char": 269,
+        "end_char": 280
+      },
+      {
+        "type": "MISC",
+        "text": "Artificial Intelligence",
+        "start_token": 56,
+        "end_token": 58,
+        "start_char": 324,
+        "end_char": 347
+      }
+    ]
+  },
+  {
+    "language": "konkani",
+    "id": "KO_S5",
+    "title": "Konkani 5: Panaji Multilingual NLP Assembly",
+    "sentence": "10 जून 2027 दिसा पणजींत गोंय विद्यापीठ, अखिल भारतीय कोंकणी परिषद, IIT Bombay, University of Colombo आनी University of Dhaka हांणी एकठांय घडयल्ल्या आंतरराष्ट्रीय परिषदेंत प्रा. सुनील कामत, डॉ. अंजली नाईक, विकास शेट, रवींद्र काकोडकर आनी नेहा फर्नांडिस हांणी कोंकणी, सिंहला, बंगाली, हिंदी आनी इंग्लीश भाशांत machine translation, sentiment analysis, information extraction आनी explainable artificial intelligence विशीं संशोधन सादर केलें.",
+    "expected_count": 21,
+    "predicted_count": 21,
+    "matched_count": 21,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "10 जून 2027",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 11
+      },
+      {
+        "type": "LOC",
+        "text": "पणजींत",
+        "start_token": 4,
+        "end_token": 6,
+        "start_char": 17,
+        "end_char": 23
+      },
+      {
+        "type": "ORG",
+        "text": "गोंय विद्यापीठ",
+        "start_token": 6,
+        "end_token": 8,
+        "start_char": 24,
+        "end_char": 38
+      },
+      {
+        "type": "ORG",
+        "text": "अखिल भारतीय कोंकणी परिषद",
+        "start_token": 9,
+        "end_token": 13,
+        "start_char": 40,
+        "end_char": 64
+      },
+      {
+        "type": "ORG",
+        "text": "IIT Bombay",
+        "start_token": 14,
+        "end_token": 16,
+        "start_char": 66,
+        "end_char": 76
+      },
+      {
+        "type": "ORG",
+        "text": "University of Colombo",
+        "start_token": 17,
+        "end_token": 20,
+        "start_char": 78,
+        "end_char": 99
+      },
+      {
+        "type": "ORG",
+        "text": "University of Dhaka",
+        "start_token": 21,
+        "end_token": 24,
+        "start_char": 104,
+        "end_char": 123
+      },
+      {
+        "type": "PER",
+        "text": "प्रा. सुनील कामत",
+        "start_token": 29,
+        "end_token": 33,
+        "start_char": 170,
+        "end_char": 186
+      },
+      {
+        "type": "PER",
+        "text": "अंजली नाईक",
+        "start_token": 36,
+        "end_token": 38,
+        "start_char": 192,
+        "end_char": 202
+      },
+      {
+        "type": "PER",
+        "text": "विकास शेट",
+        "start_token": 39,
+        "end_token": 41,
+        "start_char": 204,
+        "end_char": 213
+      },
+      {
+        "type": "PER",
+        "text": "रवींद्र काकोडकर",
+        "start_token": 42,
+        "end_token": 44,
+        "start_char": 215,
+        "end_char": 230
+      },
+      {
+        "type": "PER",
+        "text": "नेहा फर्नांडिस",
+        "start_token": 45,
+        "end_token": 47,
+        "start_char": 235,
+        "end_char": 249
+      },
+      {
+        "type": "MISC",
+        "text": "कोंकणी",
+        "start_token": 48,
+        "end_token": 49,
+        "start_char": 256,
+        "end_char": 262
+      },
+      {
+        "type": "MISC",
+        "text": "सिंहला",
+        "start_token": 50,
+        "end_token": 51,
+        "start_char": 264,
+        "end_char": 270
+      },
+      {
+        "type": "MISC",
+        "text": "बंगाली",
+        "start_token": 52,
+        "end_token": 53,
+        "start_char": 272,
+        "end_char": 278
+      },
+      {
+        "type": "MISC",
+        "text": "हिंदी",
+        "start_token": 54,
+        "end_token": 55,
+        "start_char": 280,
+        "end_char": 285
+      },
+      {
+        "type": "MISC",
+        "text": "इंग्लीश",
+        "start_token": 56,
+        "end_token": 57,
+        "start_char": 290,
+        "end_char": 297
+      },
+      {
+        "type": "MISC",
+        "text": "machine translation",
+        "start_token": 59,
+        "end_token": 61,
+        "start_char": 305,
+        "end_char": 324
+      },
+      {
+        "type": "MISC",
+        "text": "sentiment analysis",
+        "start_token": 62,
+        "end_token": 64,
+        "start_char": 326,
+        "end_char": 344
+      },
+      {
+        "type": "MISC",
+        "text": "information extraction",
+        "start_token": 65,
+        "end_token": 67,
+        "start_char": 346,
+        "end_char": 368
+      },
+      {
+        "type": "MISC",
+        "text": "explainable artificial intelligence",
+        "start_token": 68,
+        "end_token": 71,
+        "start_char": 373,
+        "end_char": 408
+      }
+    ]
+  },
+  {
+    "language": "assamese",
+    "id": "AS_S1",
+    "title": "Assamese 1: Gauhati University Summit",
+    "sentence": "১৮ ছেপ্টেম্বৰ ২০২৬ তাৰিখে গুৱাহাটী বিশ্ববিদ্যালয়ত অনুষ্ঠিত আন্তঃৰাষ্ট্ৰীয় সন্মিলনত অধ্যাপক অনুপম শইকীয়া, ড° ৰীণা দত্ত, ৰাহুল বৰা, মায়া গগৈ আৰু অমিত কলিতাই ভাৰত, বাংলাদেশ, নেপাল আৰু শ্ৰীলংকাৰ পৰা অহা গৱেষকসকলৰ সৈতে অসমীয়া, বাংলা, হিন্দী আৰু ইংৰাজী ভাষাৰ Natural Language Processing, Named Entity Recognition আৰু Explainable AI সম্পৰ্কে আলোচনা কৰে।",
+    "expected_count": 18,
+    "predicted_count": 18,
+    "matched_count": 18,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "১৮ ছেপ্টেম্বৰ ২০২৬",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 18
+      },
+      {
+        "type": "ORG",
+        "text": "গুৱাহাটী বিশ্ববিদ্যালয়ত",
+        "start_token": 4,
+        "end_token": 6,
+        "start_char": 26,
+        "end_char": 50
+      },
+      {
+        "type": "PER",
+        "text": "অধ্যাপক অনুপম শইকীয়া",
+        "start_token": 9,
+        "end_token": 12,
+        "start_char": 85,
+        "end_char": 106
+      },
+      {
+        "type": "PER",
+        "text": "ৰীণা দত্ত",
+        "start_token": 15,
+        "end_token": 17,
+        "start_char": 111,
+        "end_char": 120
+      },
+      {
+        "type": "PER",
+        "text": "ৰাহুল বৰা",
+        "start_token": 18,
+        "end_token": 20,
+        "start_char": 122,
+        "end_char": 131
+      },
+      {
+        "type": "PER",
+        "text": "মায়া গগৈ",
+        "start_token": 21,
+        "end_token": 23,
+        "start_char": 133,
+        "end_char": 142
+      },
+      {
+        "type": "PER",
+        "text": "অমিত কলিতাই",
+        "start_token": 24,
+        "end_token": 26,
+        "start_char": 147,
+        "end_char": 158
+      },
+      {
+        "type": "LOC",
+        "text": "ভাৰত",
+        "start_token": 26,
+        "end_token": 27,
+        "start_char": 159,
+        "end_char": 163
+      },
+      {
+        "type": "LOC",
+        "text": "বাংলাদেশ",
+        "start_token": 28,
+        "end_token": 29,
+        "start_char": 165,
+        "end_char": 173
+      },
+      {
+        "type": "LOC",
+        "text": "নেপাল",
+        "start_token": 30,
+        "end_token": 31,
+        "start_char": 175,
+        "end_char": 180
+      },
+      {
+        "type": "LOC",
+        "text": "শ্ৰীলংকাৰ",
+        "start_token": 32,
+        "end_token": 33,
+        "start_char": 185,
+        "end_char": 194
+      },
+      {
+        "type": "MISC",
+        "text": "অসমীয়া",
+        "start_token": 37,
+        "end_token": 38,
+        "start_char": 218,
+        "end_char": 225
+      },
+      {
+        "type": "MISC",
+        "text": "বাংলা",
+        "start_token": 39,
+        "end_token": 40,
+        "start_char": 227,
+        "end_char": 232
+      },
+      {
+        "type": "MISC",
+        "text": "হিন্দী",
+        "start_token": 41,
+        "end_token": 42,
+        "start_char": 234,
+        "end_char": 240
+      },
+      {
+        "type": "MISC",
+        "text": "ইংৰাজী",
+        "start_token": 43,
+        "end_token": 44,
+        "start_char": 245,
+        "end_char": 251
+      },
+      {
+        "type": "MISC",
+        "text": "Natural Language Processing",
+        "start_token": 45,
+        "end_token": 48,
+        "start_char": 258,
+        "end_char": 285
+      },
+      {
+        "type": "MISC",
+        "text": "Named Entity Recognition",
+        "start_token": 49,
+        "end_token": 52,
+        "start_char": 287,
+        "end_char": 311
+      },
+      {
+        "type": "MISC",
+        "text": "Explainable AI",
+        "start_token": 53,
+        "end_token": 55,
+        "start_char": 316,
+        "end_char": 330
+      }
+    ]
+  },
+  {
+    "language": "assamese",
+    "id": "AS_S2",
+    "title": "Assamese 2: IIT Guwahati & Tezpur Workshop",
+    "sentence": "১২ জানুৱাৰী ২০২৭ তাৰিখে Indian Institute of Technology Guwahati, Tezpur University, AI4Bharat, Google Research আৰু Microsoft Research-এ গুৱাহাটীত আয়োজন কৰা কৰ্মশালাত ড° অনিল দাস, প্ৰিয়া শইকীয়া, সুমন বৰ্মন, ৰীতা গগৈ আৰু বিকাশ কলিতাই অসম, ত্ৰিপুৰা, মণিপুৰ, মিজোৰাম আৰু মেঘালয়ৰ শিক্ষাৰ্থীসকলক Artificial Intelligence, Machine Learning আৰু Computer Vision সম্পৰ্কে প্ৰশিক্ষণ দিয়ে।",
+    "expected_count": 20,
+    "predicted_count": 20,
+    "matched_count": 20,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "১২ জানুৱাৰী ২০২৭",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 16
+      },
+      {
+        "type": "ORG",
+        "text": "Indian Institute of Technology Guwahati",
+        "start_token": 4,
+        "end_token": 9,
+        "start_char": 24,
+        "end_char": 63
+      },
+      {
+        "type": "ORG",
+        "text": "Tezpur University",
+        "start_token": 10,
+        "end_token": 12,
+        "start_char": 65,
+        "end_char": 82
+      },
+      {
+        "type": "ORG",
+        "text": "AI4Bharat",
+        "start_token": 13,
+        "end_token": 14,
+        "start_char": 84,
+        "end_char": 93
+      },
+      {
+        "type": "ORG",
+        "text": "Google Research",
+        "start_token": 15,
+        "end_token": 17,
+        "start_char": 95,
+        "end_char": 110
+      },
+      {
+        "type": "ORG",
+        "text": "Microsoft Research",
+        "start_token": 18,
+        "end_token": 20,
+        "start_char": 115,
+        "end_char": 133
+      },
+      {
+        "type": "LOC",
+        "text": "গুৱাহাটীত",
+        "start_token": 22,
+        "end_token": 23,
+        "start_char": 136,
+        "end_char": 145
+      },
+      {
+        "type": "PER",
+        "text": "অনিল দাস",
+        "start_token": 28,
+        "end_token": 30,
+        "start_char": 170,
+        "end_char": 178
+      },
+      {
+        "type": "PER",
+        "text": "প্ৰিয়া শইকীয়া",
+        "start_token": 31,
+        "end_token": 33,
+        "start_char": 180,
+        "end_char": 195
+      },
+      {
+        "type": "PER",
+        "text": "সুমন বৰ্মন",
+        "start_token": 34,
+        "end_token": 36,
+        "start_char": 197,
+        "end_char": 207
+      },
+      {
+        "type": "PER",
+        "text": "ৰীতা গগৈ",
+        "start_token": 37,
+        "end_token": 39,
+        "start_char": 209,
+        "end_char": 217
+      },
+      {
+        "type": "PER",
+        "text": "বিকাশ কলিতাই",
+        "start_token": 40,
+        "end_token": 42,
+        "start_char": 222,
+        "end_char": 234
+      },
+      {
+        "type": "LOC",
+        "text": "অসম",
+        "start_token": 42,
+        "end_token": 43,
+        "start_char": 235,
+        "end_char": 238
+      },
+      {
+        "type": "LOC",
+        "text": "ত্ৰিপুৰা",
+        "start_token": 44,
+        "end_token": 45,
+        "start_char": 240,
+        "end_char": 248
+      },
+      {
+        "type": "LOC",
+        "text": "মণিপুৰ",
+        "start_token": 46,
+        "end_token": 47,
+        "start_char": 250,
+        "end_char": 256
+      },
+      {
+        "type": "LOC",
+        "text": "মিজোৰাম",
+        "start_token": 48,
+        "end_token": 49,
+        "start_char": 258,
+        "end_char": 265
+      },
+      {
+        "type": "LOC",
+        "text": "মেঘালয়ৰ",
+        "start_token": 50,
+        "end_token": 51,
+        "start_char": 270,
+        "end_char": 278
+      },
+      {
+        "type": "MISC",
+        "text": "Artificial Intelligence",
+        "start_token": 52,
+        "end_token": 54,
+        "start_char": 294,
+        "end_char": 317
+      },
+      {
+        "type": "MISC",
+        "text": "Machine Learning",
+        "start_token": 55,
+        "end_token": 57,
+        "start_char": 319,
+        "end_char": 335
+      },
+      {
+        "type": "MISC",
+        "text": "Computer Vision",
+        "start_token": 58,
+        "end_token": 60,
+        "start_char": 340,
+        "end_char": 355
+      }
+    ]
+  },
+  {
+    "language": "assamese",
+    "id": "AS_S3",
+    "title": "Assamese 3: Tezpur University Multilingual Research",
+    "sentence": "৫ মাৰ্চ ২০২৭ তাৰিখে তেজপুৰ বিশ্ববিদ্যালয়ত অধ্যাপক দেৱজিত শৰ্মা, ড° নন্দিতা বৰা, অমিত গগৈ, ৰোহিত দাস আৰু কাব্য শইকীয়াই Assam Literary Society, AI4Bharat, Indian Institute of Technology Guwahati আৰু Google Research-ৰ গৱেষকসকলৰ সৈতে অসমীয়া, বড়ো, বাংলা আৰু হিন্দী ভাষাৰ multilingual dataset, machine translation আৰু information extraction সম্পৰ্কে নতুন গৱেষণা উপস্থাপন কৰে।",
+    "expected_count": 17,
+    "predicted_count": 17,
+    "matched_count": 17,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "৫ মাৰ্চ ২০২৭",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 12
+      },
+      {
+        "type": "ORG",
+        "text": "তেজপুৰ বিশ্ববিদ্যালয়ত",
+        "start_token": 4,
+        "end_token": 6,
+        "start_char": 20,
+        "end_char": 42
+      },
+      {
+        "type": "PER",
+        "text": "অধ্যাপক দেৱজিত শৰ্মা",
+        "start_token": 6,
+        "end_token": 9,
+        "start_char": 43,
+        "end_char": 63
+      },
+      {
+        "type": "PER",
+        "text": "নন্দিতা বৰা",
+        "start_token": 12,
+        "end_token": 14,
+        "start_char": 68,
+        "end_char": 79
+      },
+      {
+        "type": "PER",
+        "text": "অমিত গগৈ",
+        "start_token": 15,
+        "end_token": 17,
+        "start_char": 81,
+        "end_char": 89
+      },
+      {
+        "type": "PER",
+        "text": "ৰোহিত দাস",
+        "start_token": 18,
+        "end_token": 20,
+        "start_char": 91,
+        "end_char": 100
+      },
+      {
+        "type": "PER",
+        "text": "কাব্য শইকীয়াই",
+        "start_token": 21,
+        "end_token": 23,
+        "start_char": 105,
+        "end_char": 119
+      },
+      {
+        "type": "ORG",
+        "text": "Assam Literary Society",
+        "start_token": 23,
+        "end_token": 26,
+        "start_char": 120,
+        "end_char": 142
+      },
+      {
+        "type": "ORG",
+        "text": "AI4Bharat",
+        "start_token": 27,
+        "end_token": 28,
+        "start_char": 144,
+        "end_char": 153
+      },
+      {
+        "type": "ORG",
+        "text": "Indian Institute of Technology Guwahati",
+        "start_token": 29,
+        "end_token": 34,
+        "start_char": 155,
+        "end_char": 194
+      },
+      {
+        "type": "ORG",
+        "text": "Google Research",
+        "start_token": 35,
+        "end_token": 37,
+        "start_char": 199,
+        "end_char": 214
+      },
+      {
+        "type": "MISC",
+        "text": "অসমীয়া",
+        "start_token": 41,
+        "end_token": 42,
+        "start_char": 232,
+        "end_char": 239
+      },
+      {
+        "type": "MISC",
+        "text": "বড়ো",
+        "start_token": 43,
+        "end_token": 44,
+        "start_char": 241,
+        "end_char": 245
+      },
+      {
+        "type": "MISC",
+        "text": "বাংলা",
+        "start_token": 45,
+        "end_token": 46,
+        "start_char": 247,
+        "end_char": 252
+      },
+      {
+        "type": "MISC",
+        "text": "হিন্দী",
+        "start_token": 47,
+        "end_token": 48,
+        "start_char": 257,
+        "end_char": 263
+      },
+      {
+        "type": "MISC",
+        "text": "machine translation",
+        "start_token": 52,
+        "end_token": 54,
+        "start_char": 292,
+        "end_char": 311
+      },
+      {
+        "type": "MISC",
+        "text": "information extraction",
+        "start_token": 55,
+        "end_token": 57,
+        "start_char": 316,
+        "end_char": 338
+      }
+    ]
+  },
+  {
+    "language": "assamese",
+    "id": "AS_S4",
+    "title": "Assamese 4: Rabindra Bhavan Technology Forum",
+    "sentence": "২২ এপ্ৰিল ২০২৭ তাৰিখে ৰবীন্দ্ৰ ভৱনত অনুষ্ঠিত ভাষা প্ৰযুক্তি সন্মিলনত ড° মৃণাল দত্ত, অধ্যাপক সীমা কলিতা, ৰঞ্জিত বৰা, নেহা গগৈ আৰু প্ৰণৱ শইকীয়াই গুৱাহাটী, যোৰহাট, ডিব্ৰুগড়, মাজুলী আৰু শিলঘাটৰ পৰা অহা গৱেষকসকলৰ সৈতে অসমীয়া ভাষাৰ Named Entity Recognition, Sentiment Analysis, Machine Learning আৰু Explainable Artificial Intelligence সম্পৰ্কে আলোচনা কৰে।",
+    "expected_count": 17,
+    "predicted_count": 17,
+    "matched_count": 17,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "২২ এপ্ৰিল ২০২৭",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 14
+      },
+      {
+        "type": "ORG",
+        "text": "ৰবীন্দ্ৰ ভৱনত",
+        "start_token": 4,
+        "end_token": 6,
+        "start_char": 22,
+        "end_char": 35
+      },
+      {
+        "type": "PER",
+        "text": "মৃণাল দত্ত",
+        "start_token": 12,
+        "end_token": 14,
+        "start_char": 72,
+        "end_char": 82
+      },
+      {
+        "type": "PER",
+        "text": "অধ্যাপক সীমা কলিতা",
+        "start_token": 15,
+        "end_token": 18,
+        "start_char": 84,
+        "end_char": 102
+      },
+      {
+        "type": "PER",
+        "text": "ৰঞ্জিত বৰা",
+        "start_token": 19,
+        "end_token": 21,
+        "start_char": 104,
+        "end_char": 114
+      },
+      {
+        "type": "PER",
+        "text": "নেহা গগৈ",
+        "start_token": 22,
+        "end_token": 24,
+        "start_char": 116,
+        "end_char": 124
+      },
+      {
+        "type": "PER",
+        "text": "প্ৰণৱ শইকীয়াই",
+        "start_token": 25,
+        "end_token": 27,
+        "start_char": 129,
+        "end_char": 143
+      },
+      {
+        "type": "LOC",
+        "text": "গুৱাহাটী",
+        "start_token": 27,
+        "end_token": 28,
+        "start_char": 144,
+        "end_char": 152
+      },
+      {
+        "type": "LOC",
+        "text": "যোৰহাট",
+        "start_token": 29,
+        "end_token": 30,
+        "start_char": 154,
+        "end_char": 160
+      },
+      {
+        "type": "LOC",
+        "text": "ডিব্ৰুগড়",
+        "start_token": 31,
+        "end_token": 32,
+        "start_char": 162,
+        "end_char": 171
+      },
+      {
+        "type": "LOC",
+        "text": "মাজুলী",
+        "start_token": 33,
+        "end_token": 34,
+        "start_char": 173,
+        "end_char": 179
+      },
+      {
+        "type": "LOC",
+        "text": "শিলঘাটৰ",
+        "start_token": 35,
+        "end_token": 37,
+        "start_char": 184,
+        "end_char": 191
+      },
+      {
+        "type": "MISC",
+        "text": "অসমীয়া",
+        "start_token": 41,
+        "end_token": 42,
+        "start_char": 215,
+        "end_char": 222
+      },
+      {
+        "type": "MISC",
+        "text": "Named Entity Recognition",
+        "start_token": 43,
+        "end_token": 46,
+        "start_char": 229,
+        "end_char": 253
+      },
+      {
+        "type": "MISC",
+        "text": "Sentiment Analysis",
+        "start_token": 47,
+        "end_token": 49,
+        "start_char": 255,
+        "end_char": 273
+      },
+      {
+        "type": "MISC",
+        "text": "Machine Learning",
+        "start_token": 50,
+        "end_token": 52,
+        "start_char": 275,
+        "end_char": 291
+      },
+      {
+        "type": "MISC",
+        "text": "Explainable Artificial Intelligence",
+        "start_token": 53,
+        "end_token": 56,
+        "start_char": 296,
+        "end_char": 331
+      }
+    ]
+  },
+  {
+    "language": "assamese",
+    "id": "AS_S5",
+    "title": "Assamese 5: Guwahati Mega Research Conference",
+    "sentence": "১০ জুন ২০২৭ তাৰিখে ভাৰত চৰকাৰ, গৌহাটী বিশ্ববিদ্যালয়, তেজপুৰ বিশ্ববিদ্যালয়, AI4Bharat, University of Dhaka আৰু Indian Institute of Technology Madras-ৰ সহযোগিতাত গুৱাহাটীত অনুষ্ঠিত বৃহৎ গৱেষণা সন্মিলনত অধ্যাপক সুশান্ত বৰ্মন, ড° ৰিমা দাস, অনুপম কলিতা, প্ৰিয়া গগৈ আৰু ৰাহুল শইকীয়াই অসমীয়া, বাংলা, হিন্দী, তামিল আৰু তেলুগু ভাষাৰ low-resource NLP, multilingual NER আৰু attention-based explainability সম্পৰ্কে গৱেষণা ফলাফল উপস্থাপন কৰে।",
+    "expected_count": 19,
+    "predicted_count": 19,
+    "matched_count": 19,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "১০ জুন ২০২৭",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 11
+      },
+      {
+        "type": "ORG",
+        "text": "ভাৰত চৰকাৰ",
+        "start_token": 4,
+        "end_token": 6,
+        "start_char": 19,
+        "end_char": 29
+      },
+      {
+        "type": "ORG",
+        "text": "গৌহাটী বিশ্ববিদ্যালয়",
+        "start_token": 7,
+        "end_token": 9,
+        "start_char": 31,
+        "end_char": 52
+      },
+      {
+        "type": "ORG",
+        "text": "তেজপুৰ বিশ্ববিদ্যালয়",
+        "start_token": 10,
+        "end_token": 12,
+        "start_char": 54,
+        "end_char": 75
+      },
+      {
+        "type": "ORG",
+        "text": "AI4Bharat",
+        "start_token": 13,
+        "end_token": 14,
+        "start_char": 77,
+        "end_char": 86
+      },
+      {
+        "type": "ORG",
+        "text": "University of Dhaka",
+        "start_token": 15,
+        "end_token": 18,
+        "start_char": 88,
+        "end_char": 107
+      },
+      {
+        "type": "ORG",
+        "text": "Indian Institute of Technology Madras",
+        "start_token": 19,
+        "end_token": 24,
+        "start_char": 112,
+        "end_char": 149
+      },
+      {
+        "type": "LOC",
+        "text": "গুৱাহাটীত",
+        "start_token": 27,
+        "end_token": 28,
+        "start_char": 162,
+        "end_char": 171
+      },
+      {
+        "type": "PER",
+        "text": "অধ্যাপক সুশান্ত বৰ্মন",
+        "start_token": 32,
+        "end_token": 35,
+        "start_char": 202,
+        "end_char": 223
+      },
+      {
+        "type": "PER",
+        "text": "ৰিমা দাস",
+        "start_token": 38,
+        "end_token": 40,
+        "start_char": 228,
+        "end_char": 236
+      },
+      {
+        "type": "PER",
+        "text": "অনুপম কলিতা",
+        "start_token": 41,
+        "end_token": 43,
+        "start_char": 238,
+        "end_char": 249
+      },
+      {
+        "type": "PER",
+        "text": "প্ৰিয়া গগৈ",
+        "start_token": 44,
+        "end_token": 46,
+        "start_char": 251,
+        "end_char": 262
+      },
+      {
+        "type": "PER",
+        "text": "ৰাহুল শইকীয়াই",
+        "start_token": 47,
+        "end_token": 49,
+        "start_char": 267,
+        "end_char": 281
+      },
+      {
+        "type": "MISC",
+        "text": "অসমীয়া",
+        "start_token": 49,
+        "end_token": 50,
+        "start_char": 282,
+        "end_char": 289
+      },
+      {
+        "type": "MISC",
+        "text": "বাংলা",
+        "start_token": 51,
+        "end_token": 52,
+        "start_char": 291,
+        "end_char": 296
+      },
+      {
+        "type": "MISC",
+        "text": "হিন্দী",
+        "start_token": 53,
+        "end_token": 54,
+        "start_char": 298,
+        "end_char": 304
+      },
+      {
+        "type": "MISC",
+        "text": "তামিল",
+        "start_token": 55,
+        "end_token": 56,
+        "start_char": 306,
+        "end_char": 311
+      },
+      {
+        "type": "MISC",
+        "text": "তেলুগু",
+        "start_token": 57,
+        "end_token": 58,
+        "start_char": 316,
+        "end_char": 322
+      },
+      {
+        "type": "MISC",
+        "text": "NER",
+        "start_token": 65,
+        "end_token": 66,
+        "start_char": 360,
+        "end_char": 363
+      }
+    ]
+  },
+  {
+    "language": "kokborok",
+    "id": "KB_S1",
+    "title": "Kokborok 1: Tripura University International Conference",
+    "sentence": "18 September 2026-ot Agartala-ao Tripura University-ao anusthito international conference-ao Professor Debashis Jamatia, Dr. Rina Debbarma, Dr. Anupam Chakma, Suman Reang aru Priya Jamatia-ni Tripura, Assam, Mizoram, Manipur aru Bangladesh-ni researchers-mani logot Kokborok, Assamese, Bengali aru Hindi language-ni Natural Language Processing, Named Entity Recognition aru Explainable AI-ni upor research discussion khorok.",
+    "expected_count": 20,
+    "predicted_count": 20,
+    "matched_count": 20,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "18 September 2026",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 17
+      },
+      {
+        "type": "LOC",
+        "text": "Agartala",
+        "start_token": 4,
+        "end_token": 5,
+        "start_char": 21,
+        "end_char": 29
+      },
+      {
+        "type": "ORG",
+        "text": "Tripura University",
+        "start_token": 6,
+        "end_token": 8,
+        "start_char": 33,
+        "end_char": 51
+      },
+      {
+        "type": "PER",
+        "text": "Professor Debashis Jamatia",
+        "start_token": 13,
+        "end_token": 16,
+        "start_char": 93,
+        "end_char": 119
+      },
+      {
+        "type": "PER",
+        "text": "Dr. Rina Debbarma",
+        "start_token": 17,
+        "end_token": 21,
+        "start_char": 121,
+        "end_char": 138
+      },
+      {
+        "type": "PER",
+        "text": "Dr. Anupam Chakma",
+        "start_token": 22,
+        "end_token": 26,
+        "start_char": 140,
+        "end_char": 157
+      },
+      {
+        "type": "PER",
+        "text": "Suman Reang",
+        "start_token": 27,
+        "end_token": 29,
+        "start_char": 159,
+        "end_char": 170
+      },
+      {
+        "type": "PER",
+        "text": "Priya Jamatia",
+        "start_token": 30,
+        "end_token": 32,
+        "start_char": 175,
+        "end_char": 188
+      },
+      {
+        "type": "LOC",
+        "text": "Tripura",
+        "start_token": 33,
+        "end_token": 34,
+        "start_char": 192,
+        "end_char": 199
+      },
+      {
+        "type": "LOC",
+        "text": "Assam",
+        "start_token": 35,
+        "end_token": 36,
+        "start_char": 201,
+        "end_char": 206
+      },
+      {
+        "type": "LOC",
+        "text": "Mizoram",
+        "start_token": 37,
+        "end_token": 38,
+        "start_char": 208,
+        "end_char": 215
+      },
+      {
+        "type": "LOC",
+        "text": "Manipur",
+        "start_token": 39,
+        "end_token": 40,
+        "start_char": 217,
+        "end_char": 224
+      },
+      {
+        "type": "LOC",
+        "text": "Bangladesh",
+        "start_token": 41,
+        "end_token": 42,
+        "start_char": 229,
+        "end_char": 239
+      },
+      {
+        "type": "MISC",
+        "text": "Kokborok",
+        "start_token": 45,
+        "end_token": 46,
+        "start_char": 266,
+        "end_char": 274
+      },
+      {
+        "type": "MISC",
+        "text": "Assamese",
+        "start_token": 47,
+        "end_token": 48,
+        "start_char": 276,
+        "end_char": 284
+      },
+      {
+        "type": "MISC",
+        "text": "Bengali",
+        "start_token": 49,
+        "end_token": 50,
+        "start_char": 286,
+        "end_char": 293
+      },
+      {
+        "type": "MISC",
+        "text": "Hindi",
+        "start_token": 51,
+        "end_token": 52,
+        "start_char": 298,
+        "end_char": 303
+      },
+      {
+        "type": "MISC",
+        "text": "Natural Language Processing",
+        "start_token": 54,
+        "end_token": 57,
+        "start_char": 316,
+        "end_char": 343
+      },
+      {
+        "type": "MISC",
+        "text": "Named Entity Recognition",
+        "start_token": 58,
+        "end_token": 61,
+        "start_char": 345,
+        "end_char": 369
+      },
+      {
+        "type": "MISC",
+        "text": "Explainable AI",
+        "start_token": 62,
+        "end_token": 64,
+        "start_char": 374,
+        "end_char": 388
+      }
+    ]
+  },
+  {
+    "language": "kokborok",
+    "id": "KB_S2",
+    "title": "Kokborok 2: MBB University Training Program",
+    "sentence": "12 January 2027-ot Agartala-ao Maharaja Bir Bikram University-ao AI4Bharat, Indian Institute of Technology Guwahati, Google Research aru Microsoft Research-ni collaboration-ao Dr. Rakesh Debbarma, Professor Maya Jamatia, Rahul Reang, Ananya Chakma aru Suman Debbarma-ni Tripura, Assam, Meghalaya, Manipur aru Mizoram-ni students-mani karone Artificial Intelligence, Machine Learning, Computer Vision aru Machine Translation-ni upor training program organize khorok.",
+    "expected_count": 21,
+    "predicted_count": 21,
+    "matched_count": 21,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "12 January 2027-ot",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 18
+      },
+      {
+        "type": "LOC",
+        "text": "Agartala",
+        "start_token": 3,
+        "end_token": 4,
+        "start_char": 19,
+        "end_char": 27
+      },
+      {
+        "type": "ORG",
+        "text": "Maharaja Bir Bikram University",
+        "start_token": 5,
+        "end_token": 9,
+        "start_char": 31,
+        "end_char": 61
+      },
+      {
+        "type": "ORG",
+        "text": "AI4Bharat",
+        "start_token": 10,
+        "end_token": 11,
+        "start_char": 65,
+        "end_char": 74
+      },
+      {
+        "type": "ORG",
+        "text": "Indian Institute of Technology Guwahati",
+        "start_token": 12,
+        "end_token": 17,
+        "start_char": 76,
+        "end_char": 115
+      },
+      {
+        "type": "ORG",
+        "text": "Google Research",
+        "start_token": 18,
+        "end_token": 20,
+        "start_char": 117,
+        "end_char": 132
+      },
+      {
+        "type": "ORG",
+        "text": "Microsoft Research",
+        "start_token": 21,
+        "end_token": 23,
+        "start_char": 137,
+        "end_char": 155
+      },
+      {
+        "type": "PER",
+        "text": "Dr. Rakesh Debbarma",
+        "start_token": 25,
+        "end_token": 29,
+        "start_char": 176,
+        "end_char": 195
+      },
+      {
+        "type": "PER",
+        "text": "Professor Maya Jamatia",
+        "start_token": 30,
+        "end_token": 33,
+        "start_char": 197,
+        "end_char": 219
+      },
+      {
+        "type": "PER",
+        "text": "Rahul Reang",
+        "start_token": 34,
+        "end_token": 36,
+        "start_char": 221,
+        "end_char": 232
+      },
+      {
+        "type": "PER",
+        "text": "Ananya Chakma",
+        "start_token": 37,
+        "end_token": 39,
+        "start_char": 234,
+        "end_char": 247
+      },
+      {
+        "type": "PER",
+        "text": "Suman Debbarma",
+        "start_token": 40,
+        "end_token": 42,
+        "start_char": 252,
+        "end_char": 266
+      },
+      {
+        "type": "LOC",
+        "text": "Tripura",
+        "start_token": 43,
+        "end_token": 44,
+        "start_char": 270,
+        "end_char": 277
+      },
+      {
+        "type": "LOC",
+        "text": "Assam",
+        "start_token": 45,
+        "end_token": 46,
+        "start_char": 279,
+        "end_char": 284
+      },
+      {
+        "type": "LOC",
+        "text": "Meghalaya",
+        "start_token": 47,
+        "end_token": 48,
+        "start_char": 286,
+        "end_char": 295
+      },
+      {
+        "type": "LOC",
+        "text": "Manipur",
+        "start_token": 49,
+        "end_token": 50,
+        "start_char": 297,
+        "end_char": 304
+      },
+      {
+        "type": "LOC",
+        "text": "Mizoram",
+        "start_token": 51,
+        "end_token": 52,
+        "start_char": 309,
+        "end_char": 316
+      },
+      {
+        "type": "MISC",
+        "text": "Artificial Intelligence",
+        "start_token": 55,
+        "end_token": 57,
+        "start_char": 341,
+        "end_char": 364
+      },
+      {
+        "type": "MISC",
+        "text": "Machine Learning",
+        "start_token": 58,
+        "end_token": 60,
+        "start_char": 366,
+        "end_char": 382
+      },
+      {
+        "type": "MISC",
+        "text": "Computer Vision",
+        "start_token": 61,
+        "end_token": 63,
+        "start_char": 384,
+        "end_char": 399
+      },
+      {
+        "type": "MISC",
+        "text": "Machine Translation-ni",
+        "start_token": 64,
+        "end_token": 66,
+        "start_char": 404,
+        "end_char": 426
+      }
+    ]
+  },
+  {
+    "language": "kokborok",
+    "id": "KB_S3",
+    "title": "Kokborok 3: Dharmanagar Language Workshop",
+    "sentence": "5 March 2027-ot Dharmanagar-ao anusthito language technology workshop-ao Professor Sushanta Debbarma, Dr. Rina Chakma, Amit Jamatia, Priya Reang aru David Debbarma-ni Tripura University, AI4Bharat, Google Research aru Indian Institute of Technology Guwahati-ni researchers-mani logot Kokborok, Assamese, Bengali, Hindi aru English language-ni multilingual dataset, sentiment analysis, information extraction aru Named Entity Recognition-ni bishoyot notun research presentation dai.",
+    "expected_count": 19,
+    "predicted_count": 19,
+    "matched_count": 19,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "5 March 2027-ot",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 15
+      },
+      {
+        "type": "LOC",
+        "text": "Dharmanagar-ao",
+        "start_token": 3,
+        "end_token": 4,
+        "start_char": 16,
+        "end_char": 30
+      },
+      {
+        "type": "PER",
+        "text": "Professor Sushanta Debbarma",
+        "start_token": 8,
+        "end_token": 11,
+        "start_char": 73,
+        "end_char": 100
+      },
+      {
+        "type": "PER",
+        "text": "Dr. Rina Chakma",
+        "start_token": 12,
+        "end_token": 16,
+        "start_char": 102,
+        "end_char": 117
+      },
+      {
+        "type": "PER",
+        "text": "Amit Jamatia",
+        "start_token": 17,
+        "end_token": 19,
+        "start_char": 119,
+        "end_char": 131
+      },
+      {
+        "type": "PER",
+        "text": "Priya Reang",
+        "start_token": 20,
+        "end_token": 22,
+        "start_char": 133,
+        "end_char": 144
+      },
+      {
+        "type": "PER",
+        "text": "David Debbarma",
+        "start_token": 23,
+        "end_token": 25,
+        "start_char": 149,
+        "end_char": 163
+      },
+      {
+        "type": "ORG",
+        "text": "Tripura University",
+        "start_token": 26,
+        "end_token": 28,
+        "start_char": 167,
+        "end_char": 185
+      },
+      {
+        "type": "ORG",
+        "text": "AI4Bharat",
+        "start_token": 29,
+        "end_token": 30,
+        "start_char": 187,
+        "end_char": 196
+      },
+      {
+        "type": "ORG",
+        "text": "Google Research",
+        "start_token": 31,
+        "end_token": 33,
+        "start_char": 198,
+        "end_char": 213
+      },
+      {
+        "type": "ORG",
+        "text": "Indian Institute of Technology Guwahati-ni",
+        "start_token": 34,
+        "end_token": 39,
+        "start_char": 218,
+        "end_char": 260
+      },
+      {
+        "type": "MISC",
+        "text": "Kokborok",
+        "start_token": 41,
+        "end_token": 42,
+        "start_char": 284,
+        "end_char": 292
+      },
+      {
+        "type": "MISC",
+        "text": "Assamese",
+        "start_token": 43,
+        "end_token": 44,
+        "start_char": 294,
+        "end_char": 302
+      },
+      {
+        "type": "MISC",
+        "text": "Bengali",
+        "start_token": 45,
+        "end_token": 46,
+        "start_char": 304,
+        "end_char": 311
+      },
+      {
+        "type": "MISC",
+        "text": "Hindi",
+        "start_token": 47,
+        "end_token": 48,
+        "start_char": 313,
+        "end_char": 318
+      },
+      {
+        "type": "MISC",
+        "text": "English",
+        "start_token": 49,
+        "end_token": 50,
+        "start_char": 323,
+        "end_char": 330
+      },
+      {
+        "type": "MISC",
+        "text": "sentiment analysis",
+        "start_token": 55,
+        "end_token": 57,
+        "start_char": 365,
+        "end_char": 383
+      },
+      {
+        "type": "MISC",
+        "text": "information extraction",
+        "start_token": 58,
+        "end_token": 60,
+        "start_char": 385,
+        "end_char": 407
+      },
+      {
+        "type": "MISC",
+        "text": "Named Entity Recognition-ni",
+        "start_token": 61,
+        "end_token": 64,
+        "start_char": 412,
+        "end_char": 439
+      }
+    ]
+  },
+  {
+    "language": "kokborok",
+    "id": "KB_S4",
+    "title": "Kokborok 4: IIT Delhi Joint Research Meeting",
+    "sentence": "22 April 2027-ot New Delhi-ao Indian Institute of Technology Delhi-ao Ministry of Electronics and Information Technology, Google Research, NVIDIA aru AI4Bharat-ni representatives-mani Professor Michael Jamatia, Dr. Anupam Debbarma, Riya Chakma, Rahul Reang aru Nandita Jamatia-ni logot Tripura, Assam, Meghalaya, West Bengal aru Bangladesh-ni low-resource language research-ni karone artificial intelligence aru multilingual NLP project-ni upor alochona khorok.",
+    "expected_count": 19,
+    "predicted_count": 19,
+    "matched_count": 19,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "22 April 2027-ot",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 16
+      },
+      {
+        "type": "LOC",
+        "text": "New Delhi",
+        "start_token": 3,
+        "end_token": 5,
+        "start_char": 17,
+        "end_char": 26
+      },
+      {
+        "type": "ORG",
+        "text": "Indian Institute of Technology Delhi-ao",
+        "start_token": 6,
+        "end_token": 12,
+        "start_char": 30,
+        "end_char": 69
+      },
+      {
+        "type": "ORG",
+        "text": "Ministry of Electronics and Information Technology",
+        "start_token": 12,
+        "end_token": 18,
+        "start_char": 70,
+        "end_char": 120
+      },
+      {
+        "type": "ORG",
+        "text": "Google Research",
+        "start_token": 19,
+        "end_token": 21,
+        "start_char": 122,
+        "end_char": 137
+      },
+      {
+        "type": "ORG",
+        "text": "NVIDIA",
+        "start_token": 22,
+        "end_token": 23,
+        "start_char": 139,
+        "end_char": 145
+      },
+      {
+        "type": "ORG",
+        "text": "AI4Bharat-ni",
+        "start_token": 24,
+        "end_token": 25,
+        "start_char": 150,
+        "end_char": 162
+      },
+      {
+        "type": "PER",
+        "text": "Professor Michael Jamatia",
+        "start_token": 26,
+        "end_token": 29,
+        "start_char": 184,
+        "end_char": 209
+      },
+      {
+        "type": "PER",
+        "text": "Dr. Anupam Debbarma",
+        "start_token": 30,
+        "end_token": 34,
+        "start_char": 211,
+        "end_char": 230
+      },
+      {
+        "type": "PER",
+        "text": "Riya Chakma",
+        "start_token": 35,
+        "end_token": 37,
+        "start_char": 232,
+        "end_char": 243
+      },
+      {
+        "type": "PER",
+        "text": "Rahul Reang",
+        "start_token": 38,
+        "end_token": 40,
+        "start_char": 245,
+        "end_char": 256
+      },
+      {
+        "type": "PER",
+        "text": "Nandita Jamatia",
+        "start_token": 41,
+        "end_token": 43,
+        "start_char": 261,
+        "end_char": 276
+      },
+      {
+        "type": "LOC",
+        "text": "Tripura",
+        "start_token": 45,
+        "end_token": 46,
+        "start_char": 286,
+        "end_char": 293
+      },
+      {
+        "type": "LOC",
+        "text": "Assam",
+        "start_token": 47,
+        "end_token": 48,
+        "start_char": 295,
+        "end_char": 300
+      },
+      {
+        "type": "LOC",
+        "text": "Meghalaya",
+        "start_token": 49,
+        "end_token": 50,
+        "start_char": 302,
+        "end_char": 311
+      },
+      {
+        "type": "LOC",
+        "text": "West Bengal",
+        "start_token": 51,
+        "end_token": 53,
+        "start_char": 313,
+        "end_char": 324
+      },
+      {
+        "type": "LOC",
+        "text": "Bangladesh",
+        "start_token": 54,
+        "end_token": 55,
+        "start_char": 329,
+        "end_char": 339
+      },
+      {
+        "type": "MISC",
+        "text": "artificial intelligence",
+        "start_token": 60,
+        "end_token": 62,
+        "start_char": 384,
+        "end_char": 407
+      },
+      {
+        "type": "MISC",
+        "text": "multilingual NLP",
+        "start_token": 63,
+        "end_token": 65,
+        "start_char": 412,
+        "end_char": 428
+      }
+    ]
+  },
+  {
+    "language": "kokborok",
+    "id": "KB_S5",
+    "title": "Kokborok 5: Agartala Large-Scale Collaborative Project",
+    "sentence": "10 June 2027-ot Agartala-ao Tripura University-ao Professor Debashis Jamatia, Dr. Rina Debbarma, Dr. Anupam Chakma, Professor Michael Das, Suman Reang aru Priya Jamatia-ni Tripura, Assam, Mizoram, Manipur, Meghalaya, Bangladesh aru New Delhi-ni researchers-mani logot AI4Bharat, Google Research, Microsoft Research, University of Dhaka aru Indian Institute of Technology Madras-ni collaboration-ao Kokborok, Assamese, Bengali, Hindi, Tamil aru Telugu language-ni multilingual Named Entity Recognition, Machine Translation, Attention Attribution aru Explainable Artificial Intelligence-ni upor large-scale research project-ni bishoyot discussion khorok.",
+    "expected_count": 31,
+    "predicted_count": 31,
+    "matched_count": 31,
+    "missed": [],
+    "recall": 100.0,
+    "precision": 100.0,
+    "predicted_entities": [
+      {
+        "type": "MISC",
+        "text": "10 June 2027-ot",
+        "start_token": 0,
+        "end_token": 3,
+        "start_char": 0,
+        "end_char": 15
+      },
+      {
+        "type": "LOC",
+        "text": "Agartala",
+        "start_token": 3,
+        "end_token": 4,
+        "start_char": 16,
+        "end_char": 24
+      },
+      {
+        "type": "ORG",
+        "text": "Tripura University",
+        "start_token": 5,
+        "end_token": 7,
+        "start_char": 28,
+        "end_char": 46
+      },
+      {
+        "type": "PER",
+        "text": "Professor Debashis Jamatia",
+        "start_token": 8,
+        "end_token": 11,
+        "start_char": 50,
+        "end_char": 76
+      },
+      {
+        "type": "PER",
+        "text": "Dr. Rina Debbarma",
+        "start_token": 12,
+        "end_token": 16,
+        "start_char": 78,
+        "end_char": 95
+      },
+      {
+        "type": "PER",
+        "text": "Dr. Anupam Chakma",
+        "start_token": 17,
+        "end_token": 21,
+        "start_char": 97,
+        "end_char": 114
+      },
+      {
+        "type": "PER",
+        "text": "Professor Michael Das",
+        "start_token": 22,
+        "end_token": 25,
+        "start_char": 116,
+        "end_char": 137
+      },
+      {
+        "type": "PER",
+        "text": "Suman Reang",
+        "start_token": 26,
+        "end_token": 28,
+        "start_char": 139,
+        "end_char": 150
+      },
+      {
+        "type": "PER",
+        "text": "Priya Jamatia",
+        "start_token": 29,
+        "end_token": 31,
+        "start_char": 155,
+        "end_char": 168
+      },
+      {
+        "type": "LOC",
+        "text": "Tripura",
+        "start_token": 32,
+        "end_token": 33,
+        "start_char": 172,
+        "end_char": 179
+      },
+      {
+        "type": "LOC",
+        "text": "Assam",
+        "start_token": 34,
+        "end_token": 35,
+        "start_char": 181,
+        "end_char": 186
+      },
+      {
+        "type": "LOC",
+        "text": "Mizoram",
+        "start_token": 36,
+        "end_token": 37,
+        "start_char": 188,
+        "end_char": 195
+      },
+      {
+        "type": "LOC",
+        "text": "Manipur",
+        "start_token": 38,
+        "end_token": 39,
+        "start_char": 197,
+        "end_char": 204
+      },
+      {
+        "type": "LOC",
+        "text": "Meghalaya",
+        "start_token": 40,
+        "end_token": 41,
+        "start_char": 206,
+        "end_char": 215
+      },
+      {
+        "type": "LOC",
+        "text": "Bangladesh",
+        "start_token": 42,
+        "end_token": 43,
+        "start_char": 217,
+        "end_char": 227
+      },
+      {
+        "type": "LOC",
+        "text": "New Delhi",
+        "start_token": 44,
+        "end_token": 46,
+        "start_char": 232,
+        "end_char": 241
+      },
+      {
+        "type": "ORG",
+        "text": "AI4Bharat",
+        "start_token": 49,
+        "end_token": 50,
+        "start_char": 268,
+        "end_char": 277
+      },
+      {
+        "type": "ORG",
+        "text": "Google Research",
+        "start_token": 51,
+        "end_token": 53,
+        "start_char": 279,
+        "end_char": 294
+      },
+      {
+        "type": "ORG",
+        "text": "Microsoft Research",
+        "start_token": 54,
+        "end_token": 56,
+        "start_char": 296,
+        "end_char": 314
+      },
+      {
+        "type": "ORG",
+        "text": "University of Dhaka",
+        "start_token": 57,
+        "end_token": 60,
+        "start_char": 316,
+        "end_char": 335
+      },
+      {
+        "type": "ORG",
+        "text": "Indian Institute of Technology Madras-ni",
+        "start_token": 61,
+        "end_token": 66,
+        "start_char": 340,
+        "end_char": 380
+      },
+      {
+        "type": "MISC",
+        "text": "Kokborok",
+        "start_token": 67,
+        "end_token": 68,
+        "start_char": 398,
+        "end_char": 406
+      },
+      {
+        "type": "MISC",
+        "text": "Assamese",
+        "start_token": 69,
+        "end_token": 70,
+        "start_char": 408,
+        "end_char": 416
+      },
+      {
+        "type": "MISC",
+        "text": "Bengali",
+        "start_token": 71,
+        "end_token": 72,
+        "start_char": 418,
+        "end_char": 425
+      },
+      {
+        "type": "MISC",
+        "text": "Hindi",
+        "start_token": 73,
+        "end_token": 74,
+        "start_char": 427,
+        "end_char": 432
+      },
+      {
+        "type": "MISC",
+        "text": "Tamil",
+        "start_token": 75,
+        "end_token": 76,
+        "start_char": 434,
+        "end_char": 439
+      },
+      {
+        "type": "MISC",
+        "text": "Telugu",
+        "start_token": 77,
+        "end_token": 78,
+        "start_char": 444,
+        "end_char": 450
+      },
+      {
+        "type": "MISC",
+        "text": "Named Entity Recognition",
+        "start_token": 81,
+        "end_token": 84,
+        "start_char": 476,
+        "end_char": 500
+      },
+      {
+        "type": "MISC",
+        "text": "Machine Translation",
+        "start_token": 85,
+        "end_token": 87,
+        "start_char": 502,
+        "end_char": 521
+      },
+      {
+        "type": "MISC",
+        "text": "Attention Attribution",
+        "start_token": 88,
+        "end_token": 90,
+        "start_char": 523,
+        "end_char": 544
+      },
+      {
+        "type": "MISC",
+        "text": "Explainable Artificial Intelligence-ni",
+        "start_token": 91,
+        "end_token": 94,
+        "start_char": 549,
+        "end_char": 587
+      }
+    ]
+  }
+]

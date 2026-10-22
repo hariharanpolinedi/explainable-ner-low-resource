@@ -1,0 +1,409 @@
+{
+  "audit_1_dataset_size": {
+    "gold_train": {
+      "num_sentences": 850,
+      "num_tokens": 6711,
+      "total_entities": 30,
+      "by_type": {
+        "PER": {
+          "entity_count": 2,
+          "sentence_count": 2,
+          "pct_total_entities": 6.666666666666667,
+          "unique_surface_forms": 2,
+          "singleton_surface_forms": 2,
+          "repeated_surface_forms": 0,
+          "top_surface_forms": [
+            [
+              "Prasanta Debbarma",
+              1
+            ],
+            [
+              "Sikla Washington",
+              1
+            ]
+          ]
+        },
+        "LOC": {
+          "entity_count": 9,
+          "sentence_count": 8,
+          "pct_total_entities": 30.0,
+          "unique_surface_forms": 7,
+          "singleton_surface_forms": 5,
+          "repeated_surface_forms": 2,
+          "top_surface_forms": [
+            [
+              "Tripurani",
+              2
+            ],
+            [
+              "Tripura",
+              2
+            ],
+            [
+              "Agartala",
+              1
+            ],
+            [
+              "Agartala Station-o",
+              1
+            ],
+            [
+              "Agartalao",
+              1
+            ]
+          ]
+        },
+        "ORG": {
+          "entity_count": 7,
+          "sentence_count": 4,
+          "pct_total_entities": 23.333333333333332,
+          "unique_surface_forms": 6,
+          "singleton_surface_forms": 5,
+          "repeated_surface_forms": 1,
+          "top_surface_forms": [
+            [
+              "Tripura",
+              2
+            ],
+            [
+              "Tata Technoligies",
+              1
+            ],
+            [
+              "Tata",
+              1
+            ],
+            [
+              "ITIs",
+              1
+            ],
+            [
+              "Tripura channel",
+              1
+            ]
+          ]
+        },
+        "MISC": {
+          "entity_count": 12,
+          "sentence_count": 12,
+          "pct_total_entities": 40.0,
+          "unique_surface_forms": 7,
+          "singleton_surface_forms": 4,
+          "repeated_surface_forms": 3,
+          "top_surface_forms": [
+            [
+              "Christmas",
+              4
+            ],
+            [
+              "English",
+              2
+            ],
+            [
+              "Puja",
+              2
+            ],
+            [
+              "MoA",
+              1
+            ],
+            [
+              "Sikla Ter",
+              1
+            ]
+          ]
+        }
+      }
+    },
+    "gold_dev": {
+      "num_sentences": 200,
+      "num_tokens": 1612,
+      "total_entities": 17,
+      "by_type": {
+        "PER": {
+          "entity_count": 2,
+          "sentence_count": 2,
+          "pct_total_entities": 11.76470588235294,
+          "unique_surface_forms": 2,
+          "singleton_surface_forms": 2,
+          "repeated_surface_forms": 0,
+          "top_surface_forms": [
+            [
+              "kanika",
+              1
+            ],
+            [
+              "Parimal Debbarma",
+              1
+            ]
+          ]
+        },
+        "LOC": {
+          "entity_count": 9,
+          "sentence_count": 9,
+          "pct_total_entities": 52.94117647058824,
+          "unique_surface_forms": 7,
+          "singleton_surface_forms": 5,
+          "repeated_surface_forms": 2,
+          "top_surface_forms": [
+            [
+              "Udaipur",
+              2
+            ],
+            [
+              "Tripura",
+              2
+            ],
+            [
+              "Lunglei",
+              1
+            ],
+            [
+              "Tripurao",
+              1
+            ],
+            [
+              "Agartala",
+              1
+            ]
+          ]
+        },
+        "ORG": {
+          "entity_count": 2,
+          "sentence_count": 2,
+          "pct_total_entities": 11.76470588235294,
+          "unique_surface_forms": 2,
+          "singleton_surface_forms": 2,
+          "repeated_surface_forms": 0,
+          "top_surface_forms": [
+            [
+              "Tripura Hukbar Bedek",
+              1
+            ],
+            [
+              "DD news",
+              1
+            ]
+          ]
+        },
+        "MISC": {
+          "entity_count": 4,
+          "sentence_count": 3,
+          "pct_total_entities": 23.52941176470588,
+          "unique_surface_forms": 1,
+          "singleton_surface_forms": 0,
+          "repeated_surface_forms": 1,
+          "top_surface_forms": [
+            [
+              "Christmas",
+              4
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "audit_2_entity_length": {
+    "gold_train": {
+      "LOC": {
+        "1-token": 8,
+        "2-token": 1
+      },
+      "OVERALL": {
+        "1-token": 23,
+        "2-token": 6,
+        "3-token": 1
+      },
+      "MISC": {
+        "1-token": 10,
+        "2-token": 1,
+        "3-token": 1
+      },
+      "ORG": {
+        "2-token": 2,
+        "1-token": 5
+      },
+      "PER": {
+        "2-token": 2
+      }
+    },
+    "gold_dev": {
+      "PER": {
+        "1-token": 1,
+        "2-token": 1
+      },
+      "OVERALL": {
+        "1-token": 14,
+        "2-token": 2,
+        "3-token": 1
+      },
+      "ORG": {
+        "3-token": 1,
+        "2-token": 1
+      },
+      "LOC": {
+        "1-token": 9
+      },
+      "MISC": {
+        "1-token": 4
+      }
+    }
+  },
+  "audit_3_bio_boundaries": {
+    "gold_train": {
+      "tag_counts": {
+        "O": 6673,
+        "B-LOC": 9,
+        "B-MISC": 12,
+        "B-ORG": 7,
+        "I-ORG": 2,
+        "I-MISC": 3,
+        "B-PER": 2,
+        "I-PER": 2,
+        "I-LOC": 1
+      },
+      "clitic_entity_count": 7,
+      "hyphen_entity_count": 2,
+      "english_entity_count": 29,
+      "adjacent_entity_count": 4
+    },
+    "gold_dev": {
+      "tag_counts": {
+        "O": 1591,
+        "B-PER": 2,
+        "I-PER": 1,
+        "B-ORG": 2,
+        "I-ORG": 3,
+        "B-LOC": 9,
+        "B-MISC": 4
+      },
+      "clitic_entity_count": 4,
+      "hyphen_entity_count": 1,
+      "english_entity_count": 16,
+      "adjacent_entity_count": 0
+    }
+  },
+  "audit_4_oov_analysis": {
+    "train_token_vocab_size": 2123,
+    "dev_total_tokens": 1612,
+    "dev_token_oov_count": 344,
+    "dev_token_oov_rate": 0.21339950372208435,
+    "per_type_sf_oov": {
+      "PER": {
+        "total_dev_entities": 2,
+        "oov_entities": 2,
+        "oov_rate": 1.0,
+        "oov_examples": [
+          "kanika",
+          "Parimal Debbarma"
+        ]
+      },
+      "LOC": {
+        "total_dev_entities": 9,
+        "oov_entities": 6,
+        "oov_rate": 0.6666666666666666,
+        "oov_examples": [
+          "Lunglei",
+          "Udaipur",
+          "Tripurao",
+          "Udaipur",
+          "Agratalao",
+          "Kailashahar-o"
+        ]
+      },
+      "ORG": {
+        "total_dev_entities": 2,
+        "oov_entities": 2,
+        "oov_rate": 1.0,
+        "oov_examples": [
+          "Tripura Hukbar Bedek",
+          "DD news"
+        ]
+      },
+      "MISC": {
+        "total_dev_entities": 4,
+        "oov_entities": 0,
+        "oov_rate": 0.0,
+        "oov_examples": []
+      }
+    }
+  },
+  "audit_5_frequency_buckets": {
+    "gold_train": {
+      "LOC": {
+        "low (2-3)": 2,
+        "singleton (1)": 5
+      },
+      "OVERALL": {
+        "low (2-3)": 5,
+        "singleton (1)": 16,
+        "medium (4-10)": 1
+      },
+      "MISC": {
+        "medium (4-10)": 1,
+        "singleton (1)": 4,
+        "low (2-3)": 2
+      },
+      "ORG": {
+        "singleton (1)": 5,
+        "low (2-3)": 1
+      },
+      "PER": {
+        "singleton (1)": 2
+      }
+    }
+  },
+  "audit_6_context_terms_in_train": {
+    "hukbar": 5,
+    "bank": 1,
+    "police": 1,
+    "department": 2,
+    "committee": 4,
+    "channel": 2,
+    "company": 1
+  },
+  "audit_7_loc_org_overlap": {
+    "gold_train_overlap": [
+      "tripura"
+    ],
+    "gold_dev_overlap": []
+  },
+  "audit_10_dev_errors": [
+    {
+      "sentence_index": 7,
+      "error_type": "FP",
+      "entity_span": "agartala",
+      "predicted_type": "LOC",
+      "gold_type": "O",
+      "local_context": "Norok ICEU agartala ni advance Christmas",
+      "error_category": "possible annotation issue (unannotated lowercase toponym in gold)",
+      "full_sentence": "Norok ICEU agartala ni advance Christmas ni swkang pairwikha chanai"
+    },
+    {
+      "sentence_index": 103,
+      "error_type": "FP",
+      "entity_span": "agartala",
+      "predicted_type": "LOC",
+      "gold_type": "O",
+      "local_context": "phai jak already agartala o now",
+      "error_category": "possible annotation issue (unannotated lowercase toponym in gold)",
+      "full_sentence": "Em Mam chung phai jak already agartala o now"
+    }
+  ],
+  "audit_11_data_quality": {
+    "gold_train": {
+      "split": "Gold Train",
+      "total_sentences": 850,
+      "empty_sentences": 0,
+      "duplicate_sentences": 0,
+      "bio_violations": 0
+    },
+    "gold_dev": {
+      "split": "Gold Dev",
+      "total_sentences": 200,
+      "empty_sentences": 0,
+      "duplicate_sentences": 0,
+      "bio_violations": 0
+    }
+  }
+}

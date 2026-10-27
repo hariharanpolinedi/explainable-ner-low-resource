@@ -153,7 +153,7 @@ source_inventory = [
     },
     {
         "source_id": "SRC_7_LOCAL_SPREADSHEETS",
-        "dataset_name": "Local Kokborok Academic Spreadsheets (Kokborok_datasets/*.xlsx)",
+        "dataset_name": "Local Kokborok Academic Spreadsheets (data/raw/kokborok/*.xlsx)",
         "url": "Local Academic Repository",
         "license": "Academic Research License",
         "permitted_use": "Academic research use within project",
@@ -300,7 +300,7 @@ except Exception as e:
 
 # 5. Harvest Local Academic Spreadsheets
 import glob
-for xls in glob.glob(str(PROJECT_ROOT / "Kokborok_datasets/*.xlsx")):
+for xls in glob.glob(str(PROJECT_ROOT / "data/raw/kokborok/*.xlsx")):
     fname = Path(xls).name
     try:
         excel = pd.ExcelFile(xls)
@@ -316,7 +316,7 @@ for xls in glob.glob(str(PROJECT_ROOT / "Kokborok_datasets/*.xlsx")):
                     kok_text = str(row.iloc[0]) if pd.notna(row.iloc[0]) else ""
                 if kok_text and kok_text != "nan":
                     raw_records.append({
-                        "source": f"Kokborok_datasets/{fname}",
+                        "source": f"data/raw/kokborok/{fname}",
                         "source_file": f"{fname}:{sname}",
                         "source_row_id": f"xls_{idx}",
                         "license": "Academic Research License",

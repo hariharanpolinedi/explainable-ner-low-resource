@@ -34,7 +34,7 @@ plt.rcParams.update({
 })
 
 FIG_DIR = Path("figures")
-DATA_DIR = Path("tables_data")
+DATA_DIR = Path("paper/tables_data")
 FIG_DIR.mkdir(exist_ok=True)
 DATA_DIR.mkdir(exist_ok=True)
 

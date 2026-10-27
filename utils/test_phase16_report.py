@@ -56,7 +56,7 @@ def run_tests():
     # Test 2: Transcription-Accuracy Test
     # -------------------------------------------------------------
     print("\n--- Test 2: Transcription-Accuracy Spot-Check Test ---")
-    master_table_path = "paper_assets_v2/results_master_table.md"
+    master_table_path = "paper/assets/results_master_table.md"
     with open(master_table_path, "r", encoding="utf-8") as f:
         master_content = f.read()
         
@@ -94,7 +94,7 @@ def run_tests():
     # Test 3: Stale-vs-Current Labeling Test
     # -------------------------------------------------------------
     print("\n--- Test 3: Stale-vs-Current Labeling Test ---")
-    manifest_path = "paper_assets_v2/MANIFEST_v2.md"
+    manifest_path = "paper/assets/MANIFEST_v2.md"
     with open(manifest_path, "r", encoding="utf-8") as f:
         manifest_content = f.read()
         
@@ -119,7 +119,7 @@ def run_tests():
     # Test 4: Negative-Result Preservation Test
     # -------------------------------------------------------------
     print("\n--- Test 4: Negative-Result Preservation Test ---")
-    interventions_path = "paper_assets_v2/interventions_attempted.md"
+    interventions_path = "paper/assets/interventions_attempted.md"
     with open(interventions_path, "r", encoding="utf-8") as f:
         interventions_content = f.read()
         

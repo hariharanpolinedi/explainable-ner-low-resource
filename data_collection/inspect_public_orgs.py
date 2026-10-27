@@ -93,8 +93,8 @@ try:
 except Exception as e:
     print('smolsent error:', e)
 
-# 4. Local Excel files in Kokborok_datasets
-for xls in glob.glob(str(PROJECT_ROOT / 'Kokborok_datasets/*.xlsx')):
+# 4. Local Excel files in data/raw/kokborok
+for xls in glob.glob(str(PROJECT_ROOT / 'data/raw/kokborok/*.xlsx')):
     fname = Path(xls).name
     try:
         excel = pd.ExcelFile(xls)
@@ -114,7 +114,7 @@ for xls in glob.glob(str(PROJECT_ROOT / 'Kokborok_datasets/*.xlsx')):
                 
                 if kok_text and kok_text != 'nan' and len(kok_text.strip()) > 5:
                     all_records.append({
-                        'source': f"Kokborok_datasets/{fname} [{sname}]",
+                        'source': f"data/raw/kokborok/{fname} [{sname}]",
                         'source_url': 'Local Academic Dataset Repository',
                         'license': 'Academic Research License',
                         'doc_id': f"{fname}_{sname}",

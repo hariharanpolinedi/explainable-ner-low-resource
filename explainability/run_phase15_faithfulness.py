@@ -437,7 +437,7 @@ def generate_consolidated_faithfulness_report(curr_res: dict[str, Any]) -> None:
 
 ## 1. Changelog & Provenance Since Prior Version
 
-This report supersedes all prior faithfulness tables ([`paper_assets/faithfulness_results.md`](file:///c:/Users/harih/Desktop/NLP-MARK-3/paper_assets/faithfulness_results.md) and [`reports/faithfulness_reverification_results.md`](file:///c:/Users/harih/Desktop/NLP-MARK-3/reports/faithfulness_reverification_results.md)) with the final, unified four-language results:
+This report supersedes all prior faithfulness tables ([`paper/assets/faithfulness_results.md`](../paper/assets/faithfulness_results.md) and [`reports/faithfulness_reverification_results.md`](file:///c:/Users/harih/Desktop/NLP-MARK-3/reports/faithfulness_reverification_results.md)) with the final, unified four-language results:
 1. **Incorporation of Reliability Cycle 2 Checkpoints**: Konkani ([`checkpoints/current_best_konkani.pt`](file:///c:/Users/harih/Desktop/NLP-MARK-3/checkpoints/current_best_konkani.pt)) and Assamese ([`checkpoints/current_best_assamese.pt`](file:///c:/Users/harih/Desktop/NLP-MARK-3/checkpoints/current_best_assamese.pt)) were freshly re-evaluated post-Cycle 2.
 2. **First-Ever Kokborok Faithfulness Benchmark**: Evaluated on the final integrated model ([`checkpoints/final_kokborok.pt`](file:///c:/Users/harih/Desktop/NLP-MARK-3/checkpoints/final_kokborok.pt)) across all available gold-dev entity instances ($N=17$).
 3. **Strict Symmetric Protocol Adherence**: Both top-$k$ and random-$k$ erasure pools strictly exclude the target entity token, preventing artificial random-drop inflation.

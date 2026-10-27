@@ -47,10 +47,20 @@ Thumbs.db
 .coverage
 htmlcov/
 
-# Scratch & local experimental scripts
+# Scratch, local experimental scripts, and generated renderings
 scratch/
 backup/
 .agents/
+pdf_pages/
+pdf_pages_sec6/
+pdf_qa_renders/
+
+# Local source-data staging directories (canonical copies live under data/raw/)
+Kokborok_datasets/
+newspapers/
+tables_data/
+paper_assets/
+paper_assets_v2/
 
 # LaTeX build outputs and intermediate crops
 pdf_pages/

@@ -2,10 +2,10 @@
 Phase 9: Kokborok Dataset Ingestion & Inspection Script.
 
 Performs complete, assumption-free structural, statistical, and quality inspection
-of all files in C:\\Users\\harih\\Desktop\\NLP-MARK-3\\Kokborok_datasets.
+of all files in the data/raw/kokborok directory.
 
 Guarantees:
-- Strictly read-only against Kokborok_datasets.
+- Strictly read-only against data/raw/kokborok.
 - Pre- and post-inspection SHA-256 verification.
 - Comprehensive extraction of format, schema, script, vocabulary, lengths, and duplicates.
 """
@@ -29,7 +29,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-DATA_DIR = PROJECT_ROOT / "Kokborok_datasets"
+DATA_DIR = PROJECT_ROOT / "data" / "raw" / "kokborok"
 
 
 def compute_file_sha256(filepath: Path) -> str:

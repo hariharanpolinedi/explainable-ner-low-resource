@@ -440,7 +440,7 @@ def extract_excel_sentences() -> list[str]:
         print("[WARN] openpyxl not installed, skipping Excel extraction")
         return []
 
-    base = PROJECT_ROOT / "Kokborok_datasets"
+    base = PROJECT_ROOT / "data" / "raw" / "kokborok"
     if not base.exists():
         return []
 

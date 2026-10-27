@@ -150,7 +150,7 @@ def extract_all_kokborok_sentences(dataset_dir: Path) -> list[dict[str, str]]:
 
 
 def run_pipeline() -> dict[str, Any]:
-    dataset_dir = PROJECT_ROOT / "Kokborok_datasets"
+    dataset_dir = PROJECT_ROOT / "data" / "raw" / "kokborok"
     output_dir = PROJECT_ROOT / "data" / "processed" / "kokborok"
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -159,7 +159,7 @@ def run_pipeline() -> dict[str, Any]:
     print("=" * 80)
 
     # 1. Extraction
-    print("\n[Step 1] Extracting raw sentences from Kokborok_datasets...")
+    print("\n[Step 1] Extracting raw sentences from data/raw/kokborok...")
     raw_records = extract_all_kokborok_sentences(dataset_dir)
     print(f"  Total records extracted: {len(raw_records)}")
 

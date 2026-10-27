@@ -96,7 +96,7 @@ Evaluated on the cryptographically locked gold-test splits (`data/gold/{lang}/te
 NLP-MARK-3/
 ├── configs/                  # Typed YAML configurations (base_config.yaml, final_{lang}.yaml)
 ├── data/
-│   ├── raw/                  # Cleaned raw corpora (51.5k Konkani, 55.0k Assamese, 67.0k Sinhala)
+│   ├── raw/                  # Corpora, Kokborok sources, and newspaper source material
 │   ├── gazetteers/           # Curated entity registries per language (PER, LOC, ORG)
 │   ├── processed/            # Word and extended grapheme cluster vocabularies
 │   ├── gold/                 # Gold annotated splits (train.conll, dev.conll, test.conll [locked])
@@ -113,7 +113,7 @@ NLP-MARK-3/
 │   └── bundles/              # Self-contained packages (model.pt, vocabs, config, metadata)
 ├── checkpoints/              # Model weights trained from scratch (git-ignored)
 ├── reports/                  # Comprehensive research reports across all phases 0–16
-├── paper/                    # Thesis / Research paper sections (methodology, results, limitations)
+├── paper/                    # Research paper source, assets, tables, and figures
 ├── utils/                    # Pinned config loaders, deterministic seeds, test suites
 ├── requirements.txt          # Minimal pinned dependencies
 ├── NO_PRETRAINED_MODEL_CHECKLIST.md # Running compliance ledger (Phases 0–16 audited)
@@ -271,16 +271,16 @@ curl -X POST http://127.0.0.1:8000/predict \
 
 ## Model Checkpoints
 
-Pre-trained model checkpoints are available for download:
+Model checkpoints are intentionally excluded from Git because the local collection is several gigabytes. Place the required weights in `checkpoints/` before inference; they are distributed separately rather than through the source repository.
 
-| Language | Checkpoint | Entity F1 | Download |
-| :--- | :--- | :---: | :---: |
-| Konkani | `final_konkani.pt` | 96.27% | [Download](checkpoints/final_konkani.pt) |
-| Assamese | `final_assamese.pt` | 97.87% | [Download](checkpoints/final_assamese.pt) |
-| Sinhala | `final_sinhala.pt` | 97.76% | [Download](checkpoints/final_sinhala.pt) |
-| Kokborok | `kokborok_exp4_best.pt` | 82.35% | [Download](checkpoints/kokborok_exp4_best.pt) |
+| Language | Checkpoint | Entity F1 |
+| :--- | :--- | :---: |
+| Konkani | `final_konkani.pt` | 96.27% |
+| Assamese | `final_assamese.pt` | 97.87% |
+| Sinhala | `final_sinhala.pt` | 97.76% |
+| Kokborok | `kokborok_exp4_best.pt` | 82.35% |
 
-> **Note:** Checkpoints are excluded from git due to size. Place downloaded checkpoints in `checkpoints/` directory before running inference.
+> **Note:** Checkpoints are excluded from Git because the local collection is several gigabytes. Place separately obtained checkpoints in `checkpoints/` before running inference.
 
 ---
 

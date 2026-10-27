@@ -3,12 +3,18 @@
 [![No Pretrained Models](https://img.shields.io/badge/Constraint-100%25%20From--Scratch-success.svg)](#absolute-project-wide-constraint)
 [![Test Set Integrity](https://img.shields.io/badge/Gold--Test-Cryptographically%20Locked-blue.svg)](reports/gold_test_lockfile.md)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%20|%203.11%20|%203.12%20|%203.13-blue.svg)](requirements.txt)
-[![Hardware](https://img.shields.io/badge/Hardware-GPU%20(CUDA)%20+%20CPU%20Fallback-orange.svg)](#hardware--runtime)
+[![Hardware](https://img.shields.io/badge/Hardware-GPU%20(CUDA)%20+%20CPU%20Fallback-orange.svg)](#environment-setup-instructions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-An autonomous, research-grade Named Entity Recognition (NER) and attention attribution explainability system engineered strictly from scratch for three low-resource South Asian languages:
+> **A research-grade Named Entity Recognition (NER) and attention attribution explainability system engineered strictly from scratch for low-resource South Asian languages.**
+
+An end-to-end neural sequence labeling pipeline built without any pretrained models, embeddings, or tokenizers—demonstrating that high-performance NER (>96% F1) is achievable for truly low-resource languages using carefully engineered architectures, weak supervision, and explainable attention mechanisms.
+
+### Supported Languages
 - **Konkani** (कोंकणी — Devanagari script)
-- **Assamese** (অসমীয়া — Bengali-Assamese script)
+- **Assamese** (অসমীয়া — Bengali-Assamese script)  
 - **Sinhala** (සිංහල — Sinhala script)
+- **Kokborok** (Roman / Latin — exploratory)
 
 ---
 
@@ -263,13 +269,49 @@ curl -X POST http://127.0.0.1:8000/predict \
 
 ---
 
-## Citation & Authorship
+## Model Checkpoints
+
+Pre-trained model checkpoints are available for download:
+
+| Language | Checkpoint | Entity F1 | Download |
+| :--- | :--- | :---: | :---: |
+| Konkani | `final_konkani.pt` | 96.27% | [Download](checkpoints/final_konkani.pt) |
+| Assamese | `final_assamese.pt` | 97.87% | [Download](checkpoints/final_assamese.pt) |
+| Sinhala | `final_sinhala.pt` | 97.76% | [Download](checkpoints/final_sinhala.pt) |
+| Kokborok | `kokborok_exp4_best.pt` | 82.35% | [Download](checkpoints/kokborok_exp4_best.pt) |
+
+> **Note:** Checkpoints are excluded from git due to size. Place downloaded checkpoints in `checkpoints/` directory before running inference.
+
+---
+
+## Citation
+
+If you use this code or find our work helpful, please cite:
 
 ```bibtex
-@article{explainable_lowresource_ner_2026,
+@article{polinedi2026explainable,
   title={Explainable Named Entity Recognition for Low-Resource Languages Using Attention Attribution},
-  author={NLP Research Team},
+  author={Polinedi, Hariharan},
   year={2026},
-  note={Strict Zero-Pretrained Inductive Learning for Konkani, Assamese, and Sinhala}
+  publisher={GitHub},
+  url={https://github.com/hariharanpolinedi/explainable-ner-low-resource}
 }
 ```
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Acknowledgments
+
+- Wikimedia Foundation for providing corpora through Wikipedia dumps
+- Native speakers who contributed to gold annotation and validation
+- Research community for feedback on faithfulness metrics and attribution methods
+
+---
+
+**Built with ❤️ for low-resource language preservation and NLP accessibility**
